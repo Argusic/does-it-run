@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:15:31.910Z",
+  "generated_at": "2026-10-03T22:27:11.309Z",
   "methodology_version": "1.4",
   "subjects": [
     {
@@ -3781,6 +3781,16 @@
       "argusic_score": 60,
       "project_url": "https://github.com/f3d-app/f3d",
       "evidence_url": "https://argusic.com/subject/f3d"
+    },
+    {
+      "slug": "fable-method",
+      "name": "fable-method",
+      "verdict": "runs",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/Sahir619/fable-method",
+      "evidence_url": "https://argusic.com/subject/fable-method"
     },
     {
       "slug": "fablecut",
@@ -12521,6 +12531,16 @@
       "argusic_score": 100,
       "project_url": "https://github.com/ggml-org/whisper.cpp",
       "evidence_url": "https://argusic.com/subject/whisper-cpp"
+    },
+    {
+      "slug": "whisperjav",
+      "name": "WhisperJAV",
+      "verdict": "runs",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/meizhong986/WhisperJAV",
+      "evidence_url": "https://argusic.com/subject/whisperjav"
     },
     {
       "slug": "whisperlive",

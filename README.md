@@ -1,12 +1,14 @@
 # does-it-run
 
+[Website](https://argusic.com) | [Methodology](https://argusic.com/methodology) | [Failure patterns](FAILURE_PATTERNS.md) | [X](https://x.com/argusiccom) | [YouTube](https://www.youtube.com/@argusiccom) | [Facebook](https://www.facebook.com/argusic) | [LinkedIn](https://www.linkedin.com/company/argusiccom/) | [GitHub](https://github.com/argusic)
+
 Does it run? Argusic installs real open source projects on a clean machine, with no human help, and records what happens. This repository is the public record of the verdicts, generated from the Argusic database. Nothing here is edited by hand.
 
-Last updated 2026-10-03T20:15:31Z · 1303 subjects · methodology 1.4
+Last updated 2026-10-03T22:27:11Z · 1305 subjects · methodology 1.4
 
 ## Verdicts at a glance
 
-- runs: 962
+- runs: 964
 - runs with mocks: 255
 - could not verify: 85
 - not yet verified: 1
@@ -393,6 +395,7 @@ Last updated 2026-10-03T20:15:31Z · 1303 subjects · methodology 1.4
 | [express](subjects/ex/express.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/subject/express) |
 | [express-status-monitor](subjects/ex/express-status-monitor.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/express-status-monitor) |
 | [f3d](subjects/f3/f3d.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/f3d) |
+| [fable-method](subjects/fa/fable-method.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/fable-method) |
 | [FableCut](subjects/fa/fablecut.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/fablecut) |
 | [fabric-video-editor](subjects/fa/fabric-video-editor.md) | could not verify | 2026-09-05 | [argusic.com](https://argusic.com/subject/fabric-video-editor) |
 | [fallow](subjects/fa/fallow.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/fallow) |
@@ -1267,6 +1270,7 @@ Last updated 2026-10-03T20:15:31Z · 1303 subjects · methodology 1.4
 | [wgcf](subjects/wg/wgcf.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/wgcf) |
 | [whisper-asr-webservice](subjects/wh/whisper-asr-webservice.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/whisper-asr-webservice) |
 | [whisper.cpp](subjects/wh/whisper-cpp.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/whisper-cpp) |
+| [WhisperJAV](subjects/wh/whisperjav.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/whisperjav) |
 | [WhisperLive](subjects/wh/whisperlive.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/whisperlive) |
 | [whisperX](subjects/wh/whisperx.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/whisperx) |
 | [whodb](subjects/wh/whodb.md) | runs | 2026-09-05 | [argusic.com](https://argusic.com/subject/whodb) |
@@ -1332,7 +1336,7 @@ If you maintain a project listed here and believe a result is wrong, you can con
 
 Show your verdict with a badge: `[![Tested by Argusic](https://argusic.com/badge/YOUR-PROJECT-NAME.svg)](https://argusic.com/subject/your-project-slug)`. To ask for a re-test or to contest a result, follow the methodology page above.
 
-## Beyond the verdicts
+## More from Argusic
 
 Software that runs still needs somewhere to run. If you are choosing where, Argusic keeps two reference pages next to this benchmark: [https://argusic.com/servers](https://argusic.com/servers) compares GPU cloud and VPS server prices, with a verification state on every row and Argusic's own measured spin-up times, and [https://argusic.com/hardware](https://argusic.com/hardware) helps pick a laptop or desktop for programming, AI and data science by RAM, CPU, screen and weight. Some links on those pages are affiliate links and are marked as such there.
 

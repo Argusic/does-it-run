@@ -1,6 +1,6 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 4967 observed error lines in 2225 valid runs of 1303 tested subjects (generated 2026-10-03).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 4972 observed error lines in 2227 valid runs of 1305 tested subjects (generated 2026-10-03).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
@@ -16,10 +16,10 @@ A line is placed in the first group below whose rule it matches, in the order sh
 | Network, timeout or service unreachable | 88 | 1.8% | 74 |
 | Dependency install or resolution failed | 563 | 11.3% | 381 |
 | Build or compile step failed | 224 | 4.5% | 171 |
-| The project's own tests failed | 597 | 12.0% | 336 |
+| The project's own tests failed | 601 | 12.1% | 337 |
 | Expected file or data not present | 74 | 1.5% | 62 |
 | Error inside the project's code | 51 | 1.0% | 44 |
-| Other | 1466 | 29.5% | 650 |
+| Other | 1467 | 29.5% | 651 |
 
 ## Port already in use
 

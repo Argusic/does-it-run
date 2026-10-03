@@ -377,6 +377,7 @@ explo,Explo,runs,2026-09-18,2,96,https://github.com/LumePart/Explo,https://argus
 express,express,runs,2026-09-21,6,100,https://github.com/expressjs/express,https://argusic.com/subject/express
 express-status-monitor,express-status-monitor,runs,2026-10-01,1,100,https://github.com/RafalWilinski/express-status-monitor,https://argusic.com/subject/express-status-monitor
 f3d,f3d,runs,2026-09-30,2,60,https://github.com/f3d-app/f3d,https://argusic.com/subject/f3d
+fable-method,fable-method,runs,2026-10-03,1,100,https://github.com/Sahir619/fable-method,https://argusic.com/subject/fable-method
 fablecut,FableCut,runs,2026-09-19,2,100,https://github.com/ronak-create/FableCut,https://argusic.com/subject/fablecut
 fabric-video-editor,fabric-video-editor,could not verify,2026-09-05,2,80,https://github.com/AmitDigga/fabric-video-editor,https://argusic.com/subject/fabric-video-editor
 fallow,fallow,runs,2026-09-24,3,100,https://github.com/fallow-rs/fallow,https://argusic.com/subject/fallow
@@ -1251,6 +1252,7 @@ wesnoth,wesnoth,runs,2026-09-05,4,66.7,https://github.com/wesnoth/wesnoth,https:
 wgcf,wgcf,runs,2026-09-27,1,100,https://github.com/ViRb3/wgcf,https://argusic.com/subject/wgcf
 whisper-asr-webservice,whisper-asr-webservice,runs,2026-10-01,1,100,https://github.com/ahmetoner/whisper-asr-webservice,https://argusic.com/subject/whisper-asr-webservice
 whisper-cpp,whisper.cpp,runs,2026-09-25,1,100,https://github.com/ggml-org/whisper.cpp,https://argusic.com/subject/whisper-cpp
+whisperjav,WhisperJAV,runs,2026-10-03,1,92,https://github.com/meizhong986/WhisperJAV,https://argusic.com/subject/whisperjav
 whisperlive,WhisperLive,runs,2026-09-30,1,100,https://github.com/collabora/WhisperLive,https://argusic.com/subject/whisperlive
 whisperx,whisperX,runs,2026-09-25,1,100,https://github.com/m-bain/whisperX,https://argusic.com/subject/whisperx
 whodb,whodb,runs,2026-09-05,3,100,https://github.com/clidey/whodb,https://argusic.com/subject/whodb
