@@ -2,13 +2,13 @@
 
 **Verdict: runs.** Argusic Score 98.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/santifer/career-ops, licensed MIT, written in JavaScript.
+Project: https://github.com/career-ops-hq/career-ops, licensed MIT, written in JavaScript.
 
 Evidence and recordings: https://argusic.com/subject/career-ops
 
 ## Pinned environment
 
-- Project commit: `619a834dd7868092d8faa8a83add3b2c7afc6298`
+- Project commit: `1696bec4d021768e7359f9aad6b329cba883da20`
 - Test commits: `619a834dd7868092d8faa8a83add3b2c7afc6298`, `1696bec4d021768e7359f9aad6b329cba883da20`
 - Worker image digests: `sha256:33ceb71981b602c1a7443a53469e4dba065f7503eab3078a2d7a57a2ab987517`, `sha256:4c3d41857be3a23db294bd830ae20afa2e3aa328c9b1acf1b30add6628aa2c66`, `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu

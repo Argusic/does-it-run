@@ -2,13 +2,13 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/dmmulroy/anti-slop, licensed MIT, written in TypeScript.
+Project: https://github.com/miqdadbadjuber/anti-slop, licensed MIT, written in JavaScript.
 
 Evidence and recordings: https://argusic.com/subject/anti-slop
 
 ## Pinned environment
 
-- Project commit: `c44ef22ca116d0ba62a3ff663a0bd13a3f3fa40b`
+- Project commit: `91f12ec67e9de6043cfd93b846404986ba73c3f4`
 - Test commits: `c44ef22ca116d0ba62a3ff663a0bd13a3f3fa40b`, `91f12ec67e9de6043cfd93b846404986ba73c3f4`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
