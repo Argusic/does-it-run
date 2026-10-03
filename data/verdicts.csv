@@ -554,6 +554,7 @@ hot-updater,hot-updater,runs,2026-09-08,4,95,https://github.com/gronxb/hot-updat
 http,http,runs,2026-10-01,1,100,https://github.com/httprb/http,https://argusic.com/subject/http
 http-kit,http-kit,runs,2026-10-03,1,100,https://github.com/http-kit/http-kit,https://argusic.com/subject/http-kit
 httplug,httplug,runs,2026-10-03,1,100,https://github.com/php-http/httplug,https://argusic.com/subject/httplug
+httpoison,httpoison,runs,2026-10-03,1,100,https://github.com/edgurgel/httpoison,https://argusic.com/subject/httpoison
 httprunner,httprunner,could not verify,2026-09-30,2,20,https://github.com/httprunner/httprunner,https://argusic.com/subject/httprunner
 hucre,hucre,runs,2026-09-18,2,100,https://github.com/productdevbook/hucre,https://argusic.com/subject/hucre
 hugo,hugo,runs,2026-09-25,1,100,https://github.com/gohugoio/hugo,https://argusic.com/subject/hugo
@@ -1085,6 +1086,7 @@ spotifast,spotifast,runs with mocks,2026-09-25,3,92,https://github.com/crmne/spo
 spotify-player,spotify-player,runs,2026-09-24,3,86.2,https://github.com/aome510/spotify-player,https://argusic.com/subject/spotify-player
 spree,spree,runs,2026-09-26,1,100,https://github.com/spree/spree,https://argusic.com/subject/spree
 spring-cloud-gateway,spring-cloud-gateway,runs,2026-09-29,1,100,https://github.com/spring-cloud/spring-cloud-gateway,https://argusic.com/subject/spring-cloud-gateway
+sprite-gen,sprite-gen,not yet verified,2026-10-03,1,20,https://github.com/aldegad/sprite-gen,https://argusic.com/subject/sprite-gen
 sqlancer,sqlancer,runs,2026-09-18,2,100,https://github.com/sqlancer/sqlancer,https://argusic.com/subject/sqlancer
 sqlit,sqlit,runs,2026-09-29,1,100,https://github.com/Maxteabag/sqlit,https://argusic.com/subject/sqlit
 squad,squad,runs,2026-10-01,1,90,https://github.com/bradygaster/squad,https://argusic.com/subject/squad
@@ -1220,6 +1222,7 @@ vike,vike,runs,2026-09-29,1,100,https://github.com/vikejs/vike,https://argusic.c
 vim-anywhere,vim-anywhere,runs with mocks,2026-09-30,1,92,https://github.com/cknadler/vim-anywhere,https://argusic.com/subject/vim-anywhere
 vision-agents,Vision-Agents,runs,2026-09-28,1,100,https://github.com/GetStream/Vision-Agents,https://argusic.com/subject/vision-agents
 viu,viu,runs,2026-10-03,1,100,https://github.com/atanunq/viu,https://argusic.com/subject/viu
+voicemem,VoiceMem,runs with mocks,2026-10-03,1,92,https://github.com/xzf-thu/VoiceMem,https://argusic.com/subject/voicemem
 volkswagen,volkswagen,runs,2026-09-27,1,100,https://github.com/auchenberg/volkswagen,https://argusic.com/subject/volkswagen
 voltagent,voltagent,runs,2026-09-27,1,100,https://github.com/VoltAgent/voltagent,https://argusic.com/subject/voltagent
 vps-audit,vps-audit,runs,2026-10-01,1,100,https://github.com/nuver-labs/vps-audit,https://argusic.com/subject/vps-audit
@@ -1234,6 +1237,7 @@ walk,walk,runs,2026-10-03,1,100,https://github.com/antonmedv/walk,https://argusi
 wan2-2-ti2v-5b,Wan2.2-TI2V-5B,runs,2026-09-11,2,100,https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B,https://argusic.com/subject/wan2-2-ti2v-5b
 warewoolf,warewoolf,runs with mocks,2026-09-20,2,92,https://github.com/brsloan/warewoolf,https://argusic.com/subject/warewoolf
 warzone2100,warzone2100,runs,2026-09-05,3,100,https://github.com/Warzone2100/warzone2100,https://argusic.com/subject/warzone2100
+wasmi,wasmi,runs,2026-10-03,1,100,https://github.com/wasmi-labs/wasmi,https://argusic.com/subject/wasmi
 watermarks-remover,watermarks-remover,runs,2026-09-25,1,100,https://github.com/guillaumemeyer/watermarks-remover,https://argusic.com/subject/watermarks-remover
 watermelondb,WatermelonDB,runs,2026-09-26,1,100,https://github.com/Nozbe/WatermelonDB,https://argusic.com/subject/watermelondb
 watermill,watermill,runs,2026-09-27,1,100,https://github.com/ThreeDotsLabs/watermill,https://argusic.com/subject/watermill

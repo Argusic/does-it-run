@@ -4,14 +4,14 @@
 
 Does it run? Argusic installs real open source projects on a clean machine, with no human help, and records what happens. This repository is the public record of the verdicts, generated from the Argusic database. Nothing here is edited by hand.
 
-Last updated 2026-10-03T22:27:11Z · 1305 subjects · methodology 1.4
+Last updated 2026-10-03T22:38:26Z · 1309 subjects · methodology 1.4
 
 ## Verdicts at a glance
 
-- runs: 964
-- runs with mocks: 255
+- runs: 966
+- runs with mocks: 256
 - could not verify: 85
-- not yet verified: 1
+- not yet verified: 2
 
 ## All verdicts
 
@@ -572,6 +572,7 @@ Last updated 2026-10-03T22:27:11Z · 1305 subjects · methodology 1.4
 | [http](subjects/ht/http.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/http) |
 | [http-kit](subjects/ht/http-kit.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/http-kit) |
 | [httplug](subjects/ht/httplug.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/httplug) |
+| [httpoison](subjects/ht/httpoison.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/httpoison) |
 | [httprunner](subjects/ht/httprunner.md) | could not verify | 2026-09-30 | [argusic.com](https://argusic.com/subject/httprunner) |
 | [hucre](subjects/hu/hucre.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/hucre) |
 | [hugo](subjects/hu/hugo.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/hugo) |
@@ -1103,6 +1104,7 @@ Last updated 2026-10-03T22:27:11Z · 1305 subjects · methodology 1.4
 | [spotify-player](subjects/sp/spotify-player.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/spotify-player) |
 | [spree](subjects/sp/spree.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/spree) |
 | [spring-cloud-gateway](subjects/sp/spring-cloud-gateway.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/spring-cloud-gateway) |
+| [sprite-gen](subjects/sp/sprite-gen.md) | not yet verified | 2026-10-03 | [argusic.com](https://argusic.com/subject/sprite-gen) |
 | [sqlancer](subjects/sq/sqlancer.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/sqlancer) |
 | [sqlit](subjects/sq/sqlit.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/sqlit) |
 | [squad](subjects/sq/squad.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/squad) |
@@ -1238,6 +1240,7 @@ Last updated 2026-10-03T22:27:11Z · 1305 subjects · methodology 1.4
 | [vim-anywhere](subjects/vi/vim-anywhere.md) | runs with mocks | 2026-09-30 | [argusic.com](https://argusic.com/subject/vim-anywhere) |
 | [Vision-Agents](subjects/vi/vision-agents.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/vision-agents) |
 | [viu](subjects/vi/viu.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/viu) |
+| [VoiceMem](subjects/vo/voicemem.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/voicemem) |
 | [volkswagen](subjects/vo/volkswagen.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/volkswagen) |
 | [voltagent](subjects/vo/voltagent.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/voltagent) |
 | [vps-audit](subjects/vp/vps-audit.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/vps-audit) |
@@ -1252,6 +1255,7 @@ Last updated 2026-10-03T22:27:11Z · 1305 subjects · methodology 1.4
 | [Wan2.2-TI2V-5B](subjects/wa/wan2-2-ti2v-5b.md) | runs | 2026-09-11 | [argusic.com](https://argusic.com/subject/wan2-2-ti2v-5b) |
 | [warewoolf](subjects/wa/warewoolf.md) | runs with mocks | 2026-09-20 | [argusic.com](https://argusic.com/subject/warewoolf) |
 | [warzone2100](subjects/wa/warzone2100.md) | runs | 2026-09-05 | [argusic.com](https://argusic.com/subject/warzone2100) |
+| [wasmi](subjects/wa/wasmi.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/wasmi) |
 | [watermarks-remover](subjects/wa/watermarks-remover.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/watermarks-remover) |
 | [WatermelonDB](subjects/wa/watermelondb.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/watermelondb) |
 | [watermill](subjects/wa/watermill.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/watermill) |
@@ -1338,7 +1342,7 @@ Show your verdict with a badge: `[![Tested by Argusic](https://argusic.com/badge
 
 ## More from Argusic
 
-Software that runs still needs somewhere to run. If you are choosing where, Argusic keeps two reference pages next to this benchmark: [https://argusic.com/servers](https://argusic.com/servers) compares GPU cloud and VPS server prices, with a verification state on every row and Argusic's own measured spin-up times, and [https://argusic.com/hardware](https://argusic.com/hardware) helps pick a laptop or desktop for programming, AI and data science by RAM, CPU, screen and weight. Some links on those pages are affiliate links and are marked as such there.
+Software that runs still needs somewhere to run. If you are choosing where, Argusic keeps two reference pages next to this benchmark: [GPU cloud and VPS prices](https://argusic.com/servers) compares server prices, with a verification state on every row and Argusic's own measured spin-up times, and [laptops and desktops for programming and AI](https://argusic.com/hardware) helps pick a machine by RAM, CPU, screen and weight. Some links on those pages are affiliate links and are marked as such there.
 
 Follow Argusic:
 

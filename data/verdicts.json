@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:27:11.309Z",
+  "generated_at": "2026-10-03T22:38:26.683Z",
   "methodology_version": "1.4",
   "subjects": [
     {
@@ -5553,6 +5553,16 @@
       "evidence_url": "https://argusic.com/subject/httplug"
     },
     {
+      "slug": "httpoison",
+      "name": "httpoison",
+      "verdict": "runs",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/edgurgel/httpoison",
+      "evidence_url": "https://argusic.com/subject/httpoison"
+    },
+    {
       "slug": "httprunner",
       "name": "httprunner",
       "verdict": "could not verify",
@@ -10863,6 +10873,16 @@
       "evidence_url": "https://argusic.com/subject/spring-cloud-gateway"
     },
     {
+      "slug": "sprite-gen",
+      "name": "sprite-gen",
+      "verdict": "not yet verified",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 20,
+      "project_url": "https://github.com/aldegad/sprite-gen",
+      "evidence_url": "https://argusic.com/subject/sprite-gen"
+    },
+    {
       "slug": "sqlancer",
       "name": "sqlancer",
       "verdict": "runs",
@@ -12213,6 +12233,16 @@
       "evidence_url": "https://argusic.com/subject/viu"
     },
     {
+      "slug": "voicemem",
+      "name": "VoiceMem",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/xzf-thu/VoiceMem",
+      "evidence_url": "https://argusic.com/subject/voicemem"
+    },
+    {
       "slug": "volkswagen",
       "name": "volkswagen",
       "verdict": "runs",
@@ -12351,6 +12381,16 @@
       "argusic_score": 100,
       "project_url": "https://github.com/Warzone2100/warzone2100",
       "evidence_url": "https://argusic.com/subject/warzone2100"
+    },
+    {
+      "slug": "wasmi",
+      "name": "wasmi",
+      "verdict": "runs",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/wasmi-labs/wasmi",
+      "evidence_url": "https://argusic.com/subject/wasmi"
     },
     {
       "slug": "watermarks-remover",

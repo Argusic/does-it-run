@@ -1,6 +1,6 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 4972 observed error lines in 2227 valid runs of 1305 tested subjects (generated 2026-10-03).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 4981 observed error lines in 2231 valid runs of 1309 tested subjects (generated 2026-10-03).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
@@ -9,17 +9,17 @@ A line is placed in the first group below whose rule it matches, in the order sh
 | Port already in use | 6 | 0.1% | 4 |
 | Permission denied | 44 | 0.9% | 39 |
 | Missing system library or header | 285 | 5.7% | 152 |
-| Tool, runtime or component not installed | 873 | 17.6% | 519 |
-| Version mismatch | 543 | 10.9% | 339 |
+| Tool, runtime or component not installed | 874 | 17.5% | 520 |
+| Version mismatch | 546 | 11.0% | 340 |
 | Missing configuration or secret | 96 | 1.9% | 85 |
-| Source or download problem | 57 | 1.1% | 47 |
+| Source or download problem | 58 | 1.2% | 48 |
 | Network, timeout or service unreachable | 88 | 1.8% | 74 |
-| Dependency install or resolution failed | 563 | 11.3% | 381 |
+| Dependency install or resolution failed | 565 | 11.3% | 382 |
 | Build or compile step failed | 224 | 4.5% | 171 |
 | The project's own tests failed | 601 | 12.1% | 337 |
 | Expected file or data not present | 74 | 1.5% | 62 |
 | Error inside the project's code | 51 | 1.0% | 44 |
-| Other | 1467 | 29.5% | 651 |
+| Other | 1469 | 29.5% | 653 |
 
 ## Port already in use
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
+- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
 - 9router, attempt 1: https://argusic.com/run/6c9de159-ad3b-4e6f-bf1e-43978c798ae8
