@@ -1,14 +1,14 @@
 # wireguard-install
 
-**Verdict: runs with mocks.** Argusic Score 47.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: could not verify.** Argusic Score 47.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Nyr/wireguard-install, licensed MIT, written in Shell.
+Project: https://github.com/angristan/wireguard-install, licensed MIT, written in Shell.
 
 Evidence and recordings: https://argusic.com/subject/wireguard-install
 
 ## Pinned environment
 
-- Project commit: `775238b7f71bdb4f447179452e46eb4208a20b20`
+- Project commit: `832fb9833501a7220e2900cffb61082841dedba8`
 - Test commits: `832fb9833501a7220e2900cffb61082841dedba8`, `775238b7f71bdb4f447179452e46eb4208a20b20`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu

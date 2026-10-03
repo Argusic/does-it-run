@@ -1,14 +1,14 @@
 # coreutils
 
-**Verdict: runs.** Argusic Score 98 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 98 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/uutils/coreutils, licensed MIT, written in Rust.
+Project: https://github.com/microsoft/coreutils, licensed MIT, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/coreutils
 
 ## Pinned environment
 
-- Project commit: `ddc98c2547448e43cb58736048103f4ab6a07f82`
+- Project commit: `09f098d288f08a8071acf6dce9671a63ffb2e575`
 - Test commits: `ddc98c2547448e43cb58736048103f4ab6a07f82`, `09f098d288f08a8071acf6dce9671a63ffb2e575`
 - Worker image digests: `sha256:4c3d41857be3a23db294bd830ae20afa2e3aa328c9b1acf1b30add6628aa2c66`, `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu

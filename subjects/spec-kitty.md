@@ -1,14 +1,14 @@
 # spec-kitty
 
-**Verdict: runs.** Argusic Score 73.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: could not verify.** Argusic Score 73.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Priivacy-ai/spec-kitty, licensed MIT, written in Python.
+Project: https://github.com/spec-kitty/spec-kitty, licensed MIT, written in Python.
 
 Evidence and recordings: https://argusic.com/subject/spec-kitty
 
 ## Pinned environment
 
-- Project commit: `614c52cb382d6bbd4ae8d4daab060320502fc14c`
+- Project commit: `bcb7fe37669ef93f45b21bb08f10faf9032b5c04`
 - Test commits: `614c52cb382d6bbd4ae8d4daab060320502fc14c`, `bcb7fe37669ef93f45b21bb08f10faf9032b5c04`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu

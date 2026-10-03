@@ -1,14 +1,14 @@
 # skills
 
-**Verdict: runs with mocks.** Argusic Score 92.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 92.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/AlphaGBM/skills, licensed MIT, written in Python.
+Project: https://github.com/browser-act/skills, licensed MIT, written in Python.
 
 Evidence and recordings: https://argusic.com/subject/skills
 
 ## Pinned environment
 
-- Project commit: `a25c7851213d0d6a29422409fb1118f49c9f90af`
+- Project commit: `11c057b03f92101642cadc9f840564574120d184`
 - Test commits: `f004524de788065fcfbbdb8b07ee69493c6ec190`, `11c057b03f92101642cadc9f840564574120d184`, `a25c7851213d0d6a29422409fb1118f49c9f90af`, `eb07be67e6d924b958445f706f5ac386243df6b4`, `23d0dac5f83f268166a17f0bc7dc6c73dc348a33`, `a10738f076bedf4683573f896d8dc814f13d3b04`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu

@@ -1,14 +1,14 @@
-# memos
+# MemOS
 
-**Verdict: runs.** Argusic Score 98 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 98 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/usememos/memos, licensed MIT, written in Go.
+Project: https://github.com/MemTensor/MemOS, licensed Apache-2.0, written in TypeScript.
 
 Evidence and recordings: https://argusic.com/subject/memos
 
 ## Pinned environment
 
-- Project commit: `02caf98c7bd038bd03dd7984cdfe51ec2652491e`
+- Project commit: `a7367d07e55db61099f7b4e2c1108bc5831a24f3`
 - Test commits: `02caf98c7bd038bd03dd7984cdfe51ec2652491e`, `a7367d07e55db61099f7b4e2c1108bc5831a24f3`
 - Worker image digests: `sha256:4c3d41857be3a23db294bd830ae20afa2e3aa328c9b1acf1b30add6628aa2c66`, `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu

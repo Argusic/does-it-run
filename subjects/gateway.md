@@ -1,14 +1,14 @@
 # gateway
 
-**Verdict: runs with mocks.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/envoyproxy/gateway, licensed Apache-2.0, written in Go.
+Project: https://github.com/Portkey-AI/gateway, licensed MIT, written in TypeScript.
 
 Evidence and recordings: https://argusic.com/subject/gateway
 
 ## Pinned environment
 
-- Project commit: `1f9a811a5737f63e60925e023c8d634f0b9cf0e6`
+- Project commit: `669825cbe89ee51569918b8f78a9db486fd69dd4`
 - Test commits: `669825cbe89ee51569918b8f78a9db486fd69dd4`, `1f9a811a5737f63e60925e023c8d634f0b9cf0e6`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
