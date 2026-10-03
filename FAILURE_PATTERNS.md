@@ -9,17 +9,17 @@ A line is placed in the first group below whose rule it matches, in the order sh
 | Port already in use | 6 | 0.1% | 4 |
 | Permission denied | 44 | 0.9% | 39 |
 | Missing system library or header | 285 | 5.7% | 152 |
-| Tool, runtime or component not installed | 873 | 17.6% | 515 |
-| Version mismatch | 543 | 10.9% | 335 |
-| Missing configuration or secret | 96 | 1.9% | 84 |
+| Tool, runtime or component not installed | 873 | 17.6% | 519 |
+| Version mismatch | 543 | 10.9% | 339 |
+| Missing configuration or secret | 96 | 1.9% | 85 |
 | Source or download problem | 57 | 1.1% | 47 |
 | Network, timeout or service unreachable | 88 | 1.8% | 74 |
-| Dependency install or resolution failed | 563 | 11.3% | 378 |
+| Dependency install or resolution failed | 563 | 11.3% | 381 |
 | Build or compile step failed | 224 | 4.5% | 171 |
-| The project's own tests failed | 597 | 12.0% | 333 |
+| The project's own tests failed | 597 | 12.0% | 336 |
 | Expected file or data not present | 74 | 1.5% | 62 |
 | Error inside the project's code | 51 | 1.0% | 44 |
-| Other | 1466 | 29.5% | 642 |
+| Other | 1466 | 29.5% | 650 |
 
 ## Port already in use
 
