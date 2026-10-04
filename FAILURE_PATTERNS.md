@@ -1,6 +1,6 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 4988 observed error lines in 2236 valid runs of 1313 tested subjects (generated 2026-10-03).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 5039 observed error lines in 2267 valid runs of 1336 tested subjects (generated 2026-10-04).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
@@ -8,18 +8,18 @@ A line is placed in the first group below whose rule it matches, in the order sh
 |---|---|---|---|
 | Port already in use | 6 | 0.1% | 4 |
 | Permission denied | 44 | 0.9% | 39 |
-| Missing system library or header | 285 | 5.7% | 152 |
-| Tool, runtime or component not installed | 875 | 17.5% | 521 |
-| Version mismatch | 546 | 10.9% | 340 |
-| Missing configuration or secret | 96 | 1.9% | 85 |
+| Missing system library or header | 289 | 5.7% | 155 |
+| Tool, runtime or component not installed | 883 | 17.5% | 527 |
+| Version mismatch | 553 | 11.0% | 347 |
+| Missing configuration or secret | 97 | 1.9% | 86 |
 | Source or download problem | 58 | 1.2% | 48 |
-| Network, timeout or service unreachable | 90 | 1.8% | 76 |
-| Dependency install or resolution failed | 565 | 11.3% | 382 |
-| Build or compile step failed | 224 | 4.5% | 171 |
-| The project's own tests failed | 603 | 12.1% | 339 |
+| Network, timeout or service unreachable | 92 | 1.8% | 78 |
+| Dependency install or resolution failed | 575 | 11.4% | 388 |
+| Build or compile step failed | 226 | 4.5% | 173 |
+| The project's own tests failed | 608 | 12.1% | 343 |
 | Expected file or data not present | 74 | 1.5% | 62 |
-| Error inside the project's code | 51 | 1.0% | 44 |
-| Other | 1471 | 29.5% | 654 |
+| Error inside the project's code | 52 | 1.0% | 45 |
+| Other | 1482 | 29.4% | 660 |
 
 ## Port already in use
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:43:29.675Z",
+  "generated_at": "2026-10-04T06:51:03.153Z",
   "methodology_version": "1.4",
   "subjects": [
     {
@@ -701,6 +701,26 @@
       "argusic_score": 100,
       "project_url": "https://github.com/unicity-aos/aos-ce",
       "evidence_url": "https://argusic.com/subject/aos-ce"
+    },
+    {
+      "slug": "api-umbrella",
+      "name": "api-umbrella",
+      "verdict": "could not verify",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": 20,
+      "project_url": "https://github.com/NatLabRockies/api-umbrella",
+      "evidence_url": "https://argusic.com/subject/api-umbrella"
+    },
+    {
+      "slug": "apiauto",
+      "name": "APIAuto",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/TommyLemon/APIAuto",
+      "evidence_url": "https://argusic.com/subject/apiauto"
     },
     {
       "slug": "apify-mcp-server",
@@ -2005,10 +2025,10 @@
     {
       "slug": "claw3d",
       "name": "Claw3D",
-      "verdict": "not yet verified",
-      "tested_on": "2026-10-03",
-      "valid_runs": 1,
-      "argusic_score": null,
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": 90,
       "project_url": "https://github.com/iamlukethedev/Claw3D",
       "evidence_url": "https://argusic.com/subject/claw3d"
     },
@@ -3083,6 +3103,16 @@
       "evidence_url": "https://argusic.com/subject/dekit"
     },
     {
+      "slug": "delegate-skills",
+      "name": "delegate-skills",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": 100,
+      "project_url": "https://github.com/amElnagdy/delegate-skills",
+      "evidence_url": "https://argusic.com/subject/delegate-skills"
+    },
+    {
       "slug": "demogpt",
       "name": "DemoGPT",
       "verdict": "runs with mocks",
@@ -3621,6 +3651,16 @@
       "argusic_score": 100,
       "project_url": "https://github.com/Gentleman-Programming/engram",
       "evidence_url": "https://argusic.com/subject/engram"
+    },
+    {
+      "slug": "enqueue-dev",
+      "name": "enqueue-dev",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": 56,
+      "project_url": "https://github.com/php-enqueue/enqueue-dev",
+      "evidence_url": "https://argusic.com/subject/enqueue-dev"
     },
     {
       "slug": "enterpriseagentframework",
@@ -4823,6 +4863,16 @@
       "evidence_url": "https://argusic.com/subject/gocd"
     },
     {
+      "slug": "goclone",
+      "name": "goclone",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/goclone-dev/goclone",
+      "evidence_url": "https://argusic.com/subject/goclone"
+    },
+    {
       "slug": "godot-mcp",
       "name": "godot-mcp",
       "verdict": "runs",
@@ -5231,6 +5281,16 @@
       "argusic_score": 60,
       "project_url": "https://github.com/tconbeer/harlequin",
       "evidence_url": "https://argusic.com/subject/harlequin"
+    },
+    {
+      "slug": "harmonist",
+      "name": "harmonist",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/GammaLabTechnologies/harmonist",
+      "evidence_url": "https://argusic.com/subject/harmonist"
     },
     {
       "slug": "harness",
@@ -5813,6 +5873,26 @@
       "evidence_url": "https://argusic.com/subject/intentkit"
     },
     {
+      "slug": "invobook",
+      "name": "invobook",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/Hasnayeen/invobook",
+      "evidence_url": "https://argusic.com/subject/invobook"
+    },
+    {
+      "slug": "ios-simulator-mcp",
+      "name": "ios-simulator-mcp",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": 86,
+      "project_url": "https://github.com/joshuayoes/ios-simulator-mcp",
+      "evidence_url": "https://argusic.com/subject/ios-simulator-mcp"
+    },
+    {
       "slug": "iotdb",
       "name": "iotdb",
       "verdict": "runs",
@@ -5941,6 +6021,16 @@
       "argusic_score": 92,
       "project_url": "https://github.com/browser-use/jev-ultrafast",
       "evidence_url": "https://argusic.com/subject/jev-ultrafast"
+    },
+    {
+      "slug": "jevgrep",
+      "name": "jevgrep",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/dzhng/jevgrep",
+      "evidence_url": "https://argusic.com/subject/jevgrep"
     },
     {
       "slug": "jira-cli",
@@ -6291,6 +6381,16 @@
       "argusic_score": 90,
       "project_url": "https://github.com/txn2/kubefwd",
       "evidence_url": "https://argusic.com/subject/kubefwd"
+    },
+    {
+      "slug": "kuberhealthy",
+      "name": "kuberhealthy",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/kuberhealthy/kuberhealthy",
+      "evidence_url": "https://argusic.com/subject/kuberhealthy"
     },
     {
       "slug": "kubeshark",
@@ -6653,6 +6753,16 @@
       "evidence_url": "https://argusic.com/subject/littlejs"
     },
     {
+      "slug": "liveagent",
+      "name": "LiveAgent",
+      "verdict": "not yet verified",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": null,
+      "project_url": "https://github.com/Stack-Cairn/LiveAgent",
+      "evidence_url": "https://argusic.com/subject/liveagent"
+    },
+    {
       "slug": "liwan",
       "name": "liwan",
       "verdict": "runs",
@@ -6823,6 +6933,16 @@
       "evidence_url": "https://argusic.com/subject/ludusavi"
     },
     {
+      "slug": "lume",
+      "name": "lume",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/lumeland/lume",
+      "evidence_url": "https://argusic.com/subject/lume"
+    },
+    {
       "slug": "lumixengine",
       "name": "LumixEngine",
       "verdict": "runs",
@@ -6931,6 +7051,16 @@
       "argusic_score": 100,
       "project_url": "https://github.com/yetone/magpie",
       "evidence_url": "https://argusic.com/subject/magpie"
+    },
+    {
+      "slug": "maintainerr",
+      "name": "Maintainerr",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/Maintainerr/Maintainerr",
+      "evidence_url": "https://argusic.com/subject/maintainerr"
     },
     {
       "slug": "many-notes",
@@ -7543,6 +7673,16 @@
       "evidence_url": "https://argusic.com/subject/mpb"
     },
     {
+      "slug": "mpegts-js",
+      "name": "mpegts.js",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": 60,
+      "project_url": "https://github.com/xqq/mpegts.js",
+      "evidence_url": "https://argusic.com/subject/mpegts-js"
+    },
+    {
       "slug": "mtab",
       "name": "mtab",
       "verdict": "runs",
@@ -8033,6 +8173,16 @@
       "evidence_url": "https://argusic.com/subject/notion-sdk-js"
     },
     {
+      "slug": "notion-sdk-py",
+      "name": "notion-sdk-py",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/ramnes/notion-sdk-py",
+      "evidence_url": "https://argusic.com/subject/notion-sdk-py"
+    },
+    {
       "slug": "npkill",
       "name": "npkill",
       "verdict": "runs",
@@ -8223,6 +8373,16 @@
       "evidence_url": "https://argusic.com/subject/oh-my-claudecode"
     },
     {
+      "slug": "oh-my-mermaid",
+      "name": "oh-my-mermaid",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/oh-my-mermaid/oh-my-mermaid",
+      "evidence_url": "https://argusic.com/subject/oh-my-mermaid"
+    },
+    {
       "slug": "oh-story-claudecode",
       "name": "oh-story-claudecode",
       "verdict": "runs",
@@ -8401,6 +8561,16 @@
       "argusic_score": null,
       "project_url": "https://github.com/oomol-lab/open-connector",
       "evidence_url": "https://argusic.com/subject/open-connector"
+    },
+    {
+      "slug": "open-cowork",
+      "name": "open-cowork",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/OpenCoworkAI/open-cowork",
+      "evidence_url": "https://argusic.com/subject/open-cowork"
     },
     {
       "slug": "open-multi-agent",
@@ -9153,6 +9323,16 @@
       "evidence_url": "https://argusic.com/subject/pikiwidb"
     },
     {
+      "slug": "piko",
+      "name": "piko",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/andydunstall/piko",
+      "evidence_url": "https://argusic.com/subject/piko"
+    },
+    {
       "slug": "pinchtab",
       "name": "pinchtab",
       "verdict": "runs with mocks",
@@ -9705,10 +9885,10 @@
     {
       "slug": "radian",
       "name": "radian",
-      "verdict": "not yet verified",
-      "tested_on": "2026-10-03",
-      "valid_runs": 1,
-      "argusic_score": null,
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": 92,
       "project_url": "https://github.com/randy3k/radian",
       "evidence_url": "https://argusic.com/subject/radian"
     },
@@ -11083,6 +11263,16 @@
       "evidence_url": "https://argusic.com/subject/supertux"
     },
     {
+      "slug": "supervisor",
+      "name": "supervisor",
+      "verdict": "not yet verified",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": null,
+      "project_url": "https://github.com/home-assistant/supervisor",
+      "evidence_url": "https://argusic.com/subject/supervisor"
+    },
+    {
       "slug": "surge",
       "name": "Surge",
       "verdict": "runs",
@@ -11221,6 +11411,16 @@
       "argusic_score": 100,
       "project_url": "https://github.com/taskiq-python/taskiq",
       "evidence_url": "https://argusic.com/subject/taskiq"
+    },
+    {
+      "slug": "tasks-md",
+      "name": "Tasks.md",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/BaldissaraMatheus/Tasks.md",
+      "evidence_url": "https://argusic.com/subject/tasks-md"
     },
     {
       "slug": "taskwarrior",
@@ -11541,6 +11741,16 @@
       "argusic_score": 100,
       "project_url": "https://github.com/tonbo-io/tonbo",
       "evidence_url": "https://argusic.com/subject/tonbo"
+    },
+    {
+      "slug": "toolhive",
+      "name": "toolhive",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 88,
+      "project_url": "https://github.com/stacklok/toolhive",
+      "evidence_url": "https://argusic.com/subject/toolhive"
     },
     {
       "slug": "torlink",
@@ -11871,6 +12081,26 @@
       "argusic_score": 97.3,
       "project_url": "https://github.com/Egonex-AI/Understand-Anything",
       "evidence_url": "https://argusic.com/subject/understand-anything"
+    },
+    {
+      "slug": "univer-workspace",
+      "name": "univer-workspace",
+      "verdict": "runs",
+      "tested_on": "2026-10-04",
+      "valid_runs": 1,
+      "argusic_score": 100,
+      "project_url": "https://github.com/dream-num/univer-workspace",
+      "evidence_url": "https://argusic.com/subject/univer-workspace"
+    },
+    {
+      "slug": "unla",
+      "name": "Unla",
+      "verdict": "could not verify",
+      "tested_on": "2026-10-04",
+      "valid_runs": 2,
+      "argusic_score": null,
+      "project_url": "https://github.com/AmoyLab/Unla",
+      "evidence_url": "https://argusic.com/subject/unla"
     },
     {
       "slug": "unqlite-python",
