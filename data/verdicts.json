@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:38:26.683Z",
+  "generated_at": "2026-10-03T23:43:29.675Z",
   "methodology_version": "1.4",
   "subjects": [
     {
@@ -171,6 +171,16 @@
       "argusic_score": 90,
       "project_url": "https://github.com/jnMetaCode/agency-agents-zh",
       "evidence_url": "https://argusic.com/subject/agency-agents-zh"
+    },
+    {
+      "slug": "agency-orchestrator",
+      "name": "agency-orchestrator",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/jnMetaCode/agency-orchestrator",
+      "evidence_url": "https://argusic.com/subject/agency-orchestrator"
     },
     {
       "slug": "agent-deck",
@@ -1991,6 +2001,16 @@
       "argusic_score": 96,
       "project_url": "https://github.com/ultraworkers/claw-code",
       "evidence_url": "https://argusic.com/subject/claw-code"
+    },
+    {
+      "slug": "claw3d",
+      "name": "Claw3D",
+      "verdict": "not yet verified",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": null,
+      "project_url": "https://github.com/iamlukethedev/Claw3D",
+      "evidence_url": "https://argusic.com/subject/claw3d"
     },
     {
       "slug": "clawcodex",
@@ -6153,6 +6173,16 @@
       "evidence_url": "https://argusic.com/subject/kicad-mcp-server"
     },
     {
+      "slug": "kilo",
+      "name": "kilo",
+      "verdict": "runs with mocks",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": 92,
+      "project_url": "https://github.com/squat/kilo",
+      "evidence_url": "https://argusic.com/subject/kilo"
+    },
+    {
       "slug": "klavis",
       "name": "klavis",
       "verdict": "runs with mocks",
@@ -9673,6 +9703,16 @@
       "evidence_url": "https://argusic.com/subject/radar"
     },
     {
+      "slug": "radian",
+      "name": "radian",
+      "verdict": "not yet verified",
+      "tested_on": "2026-10-03",
+      "valid_runs": 1,
+      "argusic_score": null,
+      "project_url": "https://github.com/randy3k/radian",
+      "evidence_url": "https://argusic.com/subject/radian"
+    },
+    {
       "slug": "ragflow",
       "name": "ragflow",
       "verdict": "runs",
@@ -10875,10 +10915,10 @@
     {
       "slug": "sprite-gen",
       "name": "sprite-gen",
-      "verdict": "not yet verified",
+      "verdict": "runs",
       "tested_on": "2026-10-03",
-      "valid_runs": 1,
-      "argusic_score": 20,
+      "valid_runs": 2,
+      "argusic_score": 60,
       "project_url": "https://github.com/aldegad/sprite-gen",
       "evidence_url": "https://argusic.com/subject/sprite-gen"
     },

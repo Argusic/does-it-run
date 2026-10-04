@@ -1,6 +1,6 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 4981 observed error lines in 2231 valid runs of 1309 tested subjects (generated 2026-10-03).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 4988 observed error lines in 2236 valid runs of 1313 tested subjects (generated 2026-10-03).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
@@ -9,17 +9,17 @@ A line is placed in the first group below whose rule it matches, in the order sh
 | Port already in use | 6 | 0.1% | 4 |
 | Permission denied | 44 | 0.9% | 39 |
 | Missing system library or header | 285 | 5.7% | 152 |
-| Tool, runtime or component not installed | 874 | 17.5% | 520 |
-| Version mismatch | 546 | 11.0% | 340 |
+| Tool, runtime or component not installed | 875 | 17.5% | 521 |
+| Version mismatch | 546 | 10.9% | 340 |
 | Missing configuration or secret | 96 | 1.9% | 85 |
 | Source or download problem | 58 | 1.2% | 48 |
-| Network, timeout or service unreachable | 88 | 1.8% | 74 |
+| Network, timeout or service unreachable | 90 | 1.8% | 76 |
 | Dependency install or resolution failed | 565 | 11.3% | 382 |
 | Build or compile step failed | 224 | 4.5% | 171 |
-| The project's own tests failed | 601 | 12.1% | 337 |
+| The project's own tests failed | 603 | 12.1% | 339 |
 | Expected file or data not present | 74 | 1.5% | 62 |
 | Error inside the project's code | 51 | 1.0% | 44 |
-| Other | 1469 | 29.5% | 653 |
+| Other | 1471 | 29.5% | 654 |
 
 ## Port already in use
 
@@ -99,7 +99,7 @@ Example runs:
 
 - a-stock-data, attempt 1: https://argusic.com/run/d7dc86f0-383f-42e0-bf4e-8d8dbc1a38fd
 - Acode, attempt 1: https://argusic.com/run/f12291ec-ba07-4e6f-9bd1-af099631ebd1
-- ai-memory, attempt 1: https://argusic.com/run/66b4137f-49a9-4d1f-86f3-fffcbc55cd72
+- agency-orchestrator, attempt 1: https://argusic.com/run/c581b920-ebd6-4cfb-902a-0872bdb359bd
 
 ## Dependency install or resolution failed
 

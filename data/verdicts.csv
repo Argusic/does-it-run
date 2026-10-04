@@ -16,6 +16,7 @@ adhd,adhd,runs with mocks,2026-10-02,1,92,https://github.com/UditAkhourii/adhd,h
 adk-python,adk-python,runs,2026-09-25,2,60,https://github.com/google/adk-python,https://argusic.com/subject/adk-python
 ag-ui,ag-ui,runs,2026-09-26,1,80,https://github.com/ag-ui-protocol/ag-ui,https://argusic.com/subject/ag-ui
 agency-agents-zh,agency-agents-zh,runs,2026-09-25,2,90,https://github.com/jnMetaCode/agency-agents-zh,https://argusic.com/subject/agency-agents-zh
+agency-orchestrator,agency-orchestrator,runs with mocks,2026-10-03,1,92,https://github.com/jnMetaCode/agency-orchestrator,https://argusic.com/subject/agency-orchestrator
 agent-deck,agent-deck,runs,2026-09-19,2,96,https://github.com/asheshgoplani/agent-deck,https://argusic.com/subject/agent-deck
 agent-framework,agent-framework,runs,2026-09-27,1,100,https://github.com/microsoft/agent-framework,https://argusic.com/subject/agent-framework
 agent-governance-toolkit,agent-governance-toolkit,runs,2026-09-29,1,100,https://github.com/microsoft/agent-governance-toolkit,https://argusic.com/subject/agent-governance-toolkit
@@ -198,6 +199,7 @@ claude-video,claude-video,runs,2026-09-26,1,100,https://github.com/bradautomates
 claudexor,claudexor,runs,2026-09-19,2,86,https://github.com/razzant/claudexor,https://argusic.com/subject/claudexor
 claudia,claudia,runs with mocks,2026-09-30,1,92,https://github.com/claudiajs/claudia,https://argusic.com/subject/claudia
 claw-code,claw-code,runs,2026-09-20,4,96,https://github.com/ultraworkers/claw-code,https://argusic.com/subject/claw-code
+claw3d,Claw3D,not yet verified,2026-10-03,1,,https://github.com/iamlukethedev/Claw3D,https://argusic.com/subject/claw3d
 clawcodex,clawcodex,runs,2026-09-19,2,100,https://github.com/agentforce314/clawcodex,https://argusic.com/subject/clawcodex
 cli-agent-orchestrator,cli-agent-orchestrator,runs,2026-09-12,2,96,https://github.com/awslabs/cli-agent-orchestrator,https://argusic.com/subject/cli-agent-orchestrator
 cli-anything,CLI-Anything,runs,2026-09-21,4,94.7,https://github.com/HKUDS/CLI-Anything,https://argusic.com/subject/cli-anything
@@ -614,6 +616,7 @@ kgateway,kgateway,could not verify,2026-09-29,2,,https://github.com/kgateway-dev
 khazix-skills,khazix-skills,runs,2026-09-25,1,100,https://github.com/KKKKhazix/khazix-skills,https://argusic.com/subject/khazix-skills
 kiali,kiali,runs,2026-10-01,1,100,https://github.com/kiali/kiali,https://argusic.com/subject/kiali
 kicad-mcp-server,KiCAD-MCP-Server,runs with mocks,2026-10-03,1,92,https://github.com/mixelpixx/KiCAD-MCP-Server,https://argusic.com/subject/kicad-mcp-server
+kilo,kilo,runs with mocks,2026-10-03,1,92,https://github.com/squat/kilo,https://argusic.com/subject/kilo
 klavis,klavis,runs with mocks,2026-09-29,1,92,https://github.com/Klavis-AI/klavis,https://argusic.com/subject/klavis
 knowledge-catalog,knowledge-catalog,runs,2026-09-27,1,80,https://github.com/GoogleCloudPlatform/knowledge-catalog,https://argusic.com/subject/knowledge-catalog
 koel,koel,runs,2026-09-22,3,98.8,https://github.com/koel/koel,https://argusic.com/subject/koel
@@ -966,6 +969,7 @@ quill,quill,runs,2026-10-02,1,100,https://github.com/odygrd/quill,https://argusi
 quiver,quiver,runs,2026-10-01,1,100,https://github.com/varkor/quiver,https://argusic.com/subject/quiver
 qwen-audio-agent,qwen-audio-agent,runs,2026-09-17,2,96,https://github.com/QwenAudio/qwen-audio-agent,https://argusic.com/subject/qwen-audio-agent
 radar,radar,runs with mocks,2026-09-05,3,92,https://github.com/skyhook-io/radar,https://argusic.com/subject/radar
+radian,radian,not yet verified,2026-10-03,1,,https://github.com/randy3k/radian,https://argusic.com/subject/radian
 ragflow,ragflow,runs,2026-09-25,1,100,https://github.com/infiniflow/ragflow,https://argusic.com/subject/ragflow
 rakazo,rakazo,runs,2026-09-18,2,100,https://github.com/elie222/rakazo,https://argusic.com/subject/rakazo
 ralph-claude-code,ralph-claude-code,runs,2026-09-27,1,90,https://github.com/frankbria/ralph-claude-code,https://argusic.com/subject/ralph-claude-code
@@ -1086,7 +1090,7 @@ spotifast,spotifast,runs with mocks,2026-09-25,3,92,https://github.com/crmne/spo
 spotify-player,spotify-player,runs,2026-09-24,3,86.2,https://github.com/aome510/spotify-player,https://argusic.com/subject/spotify-player
 spree,spree,runs,2026-09-26,1,100,https://github.com/spree/spree,https://argusic.com/subject/spree
 spring-cloud-gateway,spring-cloud-gateway,runs,2026-09-29,1,100,https://github.com/spring-cloud/spring-cloud-gateway,https://argusic.com/subject/spring-cloud-gateway
-sprite-gen,sprite-gen,not yet verified,2026-10-03,1,20,https://github.com/aldegad/sprite-gen,https://argusic.com/subject/sprite-gen
+sprite-gen,sprite-gen,runs,2026-10-03,2,60,https://github.com/aldegad/sprite-gen,https://argusic.com/subject/sprite-gen
 sqlancer,sqlancer,runs,2026-09-18,2,100,https://github.com/sqlancer/sqlancer,https://argusic.com/subject/sqlancer
 sqlit,sqlit,runs,2026-09-29,1,100,https://github.com/Maxteabag/sqlit,https://argusic.com/subject/sqlit
 squad,squad,runs,2026-10-01,1,90,https://github.com/bradygaster/squad,https://argusic.com/subject/squad

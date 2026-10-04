@@ -1,17 +1,17 @@
 # does-it-run
 
-[Website](https://argusic.com) | [Methodology](https://argusic.com/methodology) | [Failure patterns](FAILURE_PATTERNS.md) | [X](https://x.com/argusiccom) | [YouTube](https://www.youtube.com/@argusiccom) | [Facebook](https://www.facebook.com/argusic) | [LinkedIn](https://www.linkedin.com/company/argusiccom/) | [GitHub](https://github.com/argusic)
+[Website](https://argusic.com) | [Methodology](https://argusic.com/methodology) | [Failure patterns](FAILURE_PATTERNS.md) | [X](https://x.com/argusiccom) | [YouTube](https://www.youtube.com/@argusiccom) | [Facebook](https://www.facebook.com/argusic) | [LinkedIn](https://www.linkedin.com/company/argusiccom/) | [GitHub](https://github.com/argusic) | [Hugging Face](https://huggingface.co/argusic)
 
 Does it run? Argusic installs real open source projects on a clean machine, with no human help, and records what happens. This repository is the public record of the verdicts, generated from the Argusic database. Nothing here is edited by hand.
 
-Last updated 2026-10-03T22:38:26Z · 1309 subjects · methodology 1.4
+Last updated 2026-10-03T23:43:29Z · 1313 subjects · methodology 1.4
 
 ## Verdicts at a glance
 
-- runs: 966
-- runs with mocks: 256
+- runs: 967
+- runs with mocks: 258
 - could not verify: 85
-- not yet verified: 2
+- not yet verified: 3
 
 ## All verdicts
 
@@ -34,6 +34,7 @@ Last updated 2026-10-03T22:38:26Z · 1309 subjects · methodology 1.4
 | [adk-python](subjects/ad/adk-python.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/adk-python) |
 | [ag-ui](subjects/ag/ag-ui.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/ag-ui) |
 | [agency-agents-zh](subjects/ag/agency-agents-zh.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/agency-agents-zh) |
+| [agency-orchestrator](subjects/ag/agency-orchestrator.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/agency-orchestrator) |
 | [agent-deck](subjects/ag/agent-deck.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/agent-deck) |
 | [agent-framework](subjects/ag/agent-framework.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/agent-framework) |
 | [agent-governance-toolkit](subjects/ag/agent-governance-toolkit.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/agent-governance-toolkit) |
@@ -216,6 +217,7 @@ Last updated 2026-10-03T22:38:26Z · 1309 subjects · methodology 1.4
 | [claudexor](subjects/cl/claudexor.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/claudexor) |
 | [claudia](subjects/cl/claudia.md) | runs with mocks | 2026-09-30 | [argusic.com](https://argusic.com/subject/claudia) |
 | [claw-code](subjects/cl/claw-code.md) | runs | 2026-09-20 | [argusic.com](https://argusic.com/subject/claw-code) |
+| [Claw3D](subjects/cl/claw3d.md) | not yet verified | 2026-10-03 | [argusic.com](https://argusic.com/subject/claw3d) |
 | [clawcodex](subjects/cl/clawcodex.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/clawcodex) |
 | [cli-agent-orchestrator](subjects/cl/cli-agent-orchestrator.md) | runs | 2026-09-12 | [argusic.com](https://argusic.com/subject/cli-agent-orchestrator) |
 | [CLI-Anything](subjects/cl/cli-anything.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/subject/cli-anything) |
@@ -632,6 +634,7 @@ Last updated 2026-10-03T22:38:26Z · 1309 subjects · methodology 1.4
 | [khazix-skills](subjects/kh/khazix-skills.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/khazix-skills) |
 | [kiali](subjects/ki/kiali.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/kiali) |
 | [KiCAD-MCP-Server](subjects/ki/kicad-mcp-server.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/kicad-mcp-server) |
+| [kilo](subjects/ki/kilo.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/kilo) |
 | [klavis](subjects/kl/klavis.md) | runs with mocks | 2026-09-29 | [argusic.com](https://argusic.com/subject/klavis) |
 | [knowledge-catalog](subjects/kn/knowledge-catalog.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/knowledge-catalog) |
 | [koel](subjects/ko/koel.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/koel) |
@@ -984,6 +987,7 @@ Last updated 2026-10-03T22:38:26Z · 1309 subjects · methodology 1.4
 | [quiver](subjects/qu/quiver.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/quiver) |
 | [qwen-audio-agent](subjects/qw/qwen-audio-agent.md) | runs | 2026-09-17 | [argusic.com](https://argusic.com/subject/qwen-audio-agent) |
 | [radar](subjects/ra/radar.md) | runs with mocks | 2026-09-05 | [argusic.com](https://argusic.com/subject/radar) |
+| [radian](subjects/ra/radian.md) | not yet verified | 2026-10-03 | [argusic.com](https://argusic.com/subject/radian) |
 | [ragflow](subjects/ra/ragflow.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/ragflow) |
 | [rakazo](subjects/ra/rakazo.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/rakazo) |
 | [ralph-claude-code](subjects/ra/ralph-claude-code.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/ralph-claude-code) |
@@ -1104,7 +1108,7 @@ Last updated 2026-10-03T22:38:26Z · 1309 subjects · methodology 1.4
 | [spotify-player](subjects/sp/spotify-player.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/spotify-player) |
 | [spree](subjects/sp/spree.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/spree) |
 | [spring-cloud-gateway](subjects/sp/spring-cloud-gateway.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/spring-cloud-gateway) |
-| [sprite-gen](subjects/sp/sprite-gen.md) | not yet verified | 2026-10-03 | [argusic.com](https://argusic.com/subject/sprite-gen) |
+| [sprite-gen](subjects/sp/sprite-gen.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/sprite-gen) |
 | [sqlancer](subjects/sq/sqlancer.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/sqlancer) |
 | [sqlit](subjects/sq/sqlit.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/sqlit) |
 | [squad](subjects/sq/squad.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/squad) |
@@ -1351,6 +1355,7 @@ Follow Argusic:
 - Facebook: [argusic](https://www.facebook.com/argusic)
 - LinkedIn: [argusiccom](https://www.linkedin.com/company/argusiccom/)
 - GitHub: [argusic](https://github.com/argusic)
+- Hugging Face: [argusic](https://huggingface.co/argusic)
 
 ## License
 
