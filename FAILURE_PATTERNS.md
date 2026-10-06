@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 5327 observed error lines in 2381 valid runs of 1429 tested subjects (generated 2026-10-05).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 5588 observed error lines in 2492 valid runs of 1526 tested subjects (generated 2026-10-06).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 6 | 0.1% | 4 |
-| Permission denied | 46 | 0.9% | 41 |
-| Missing system library or header | 303 | 5.7% | 161 |
-| Tool, runtime or component not installed | 941 | 17.7% | 565 |
-| Version mismatch | 577 | 10.8% | 367 |
-| Missing configuration or secret | 104 | 2.0% | 93 |
+| Permission denied | 47 | 0.8% | 42 |
+| Missing system library or header | 324 | 5.8% | 173 |
+| Tool, runtime or component not installed | 984 | 17.6% | 596 |
+| Version mismatch | 606 | 10.8% | 391 |
+| Missing configuration or secret | 108 | 1.9% | 97 |
 | Source or download problem | 65 | 1.2% | 55 |
-| Network, timeout or service unreachable | 96 | 1.8% | 82 |
-| Dependency install or resolution failed | 611 | 11.5% | 415 |
-| Build or compile step failed | 247 | 4.6% | 185 |
-| The project's own tests failed | 629 | 11.8% | 357 |
-| Expected file or data not present | 75 | 1.4% | 63 |
-| Error inside the project's code | 55 | 1.0% | 48 |
-| Other | 1572 | 29.5% | 705 |
+| Network, timeout or service unreachable | 102 | 1.8% | 88 |
+| Dependency install or resolution failed | 644 | 11.5% | 437 |
+| Build or compile step failed | 265 | 4.7% | 201 |
+| The project's own tests failed | 660 | 11.8% | 376 |
+| Expected file or data not present | 76 | 1.4% | 64 |
+| Error inside the project's code | 61 | 1.1% | 54 |
+| Other | 1640 | 29.3% | 743 |
 
 ## Port already in use
 
@@ -48,8 +48,8 @@ A build or launch step needed a system package that was not installed.
 Example runs:
 
 - 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
-- allgood, attempt 1: https://argusic.com/run/fd4fad73-65a7-45d8-8c19-a62adf5c8545
-- Amphion, attempt 1: https://argusic.com/run/60fe3cb8-a6da-4543-b5fb-c091176947ad
+- ADR, attempt 1: https://argusic.com/run/4cdad965-7d40-43bd-8309-0c026972680d
+- AgentENV, attempt 1: https://argusic.com/run/b4cd6ee8-b90f-4a40-b06b-f50e7a06e8d3
 
 ## Tool, runtime or component not installed
 

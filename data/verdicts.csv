@@ -1,5 +1,6 @@
 slug,name,verdict,tested_on,valid_runs,argusic_score,project_url,evidence_url
 0ad,0ad,could not verify,2026-09-05,4,18.6,https://github.com/0ad/0ad,https://argusic.com/subject/0ad
+12306-mcp,12306-mcp,runs,2026-10-05,1,100,https://github.com/Joooook/12306-mcp,https://argusic.com/subject/12306-mcp
 500-ai-agents-projects,500-AI-Agents-Projects,runs,2026-09-25,1,100,https://github.com/ashishpatel26/500-AI-Agents-Projects,https://argusic.com/subject/500-ai-agents-projects
 9router,9router,runs,2026-09-25,1,100,https://github.com/decolua/9router,https://argusic.com/subject/9router
 a-stock-data,a-stock-data,runs,2026-09-27,1,100,https://github.com/simonlin1212/a-stock-data,https://argusic.com/subject/a-stock-data
@@ -14,9 +15,11 @@ actions-gh-pages,actions-gh-pages,runs with mocks,2026-09-29,1,92,https://github
 active-analytics,active_analytics,runs with mocks,2026-09-03,1,92,https://github.com/BaseSecrete/active_analytics,https://argusic.com/subject/active-analytics
 adhd,adhd,runs with mocks,2026-10-02,1,92,https://github.com/UditAkhourii/adhd,https://argusic.com/subject/adhd
 adk-python,adk-python,runs,2026-09-25,2,60,https://github.com/google/adk-python,https://argusic.com/subject/adk-python
+adr,ADR,runs with mocks,2026-10-06,1,92,https://github.com/uber/ADR,https://argusic.com/subject/adr
 ag-ui,ag-ui,runs,2026-09-26,1,80,https://github.com/ag-ui-protocol/ag-ui,https://argusic.com/subject/ag-ui
 agency-agents-zh,agency-agents-zh,runs,2026-09-25,2,90,https://github.com/jnMetaCode/agency-agents-zh,https://argusic.com/subject/agency-agents-zh
 agency-orchestrator,agency-orchestrator,runs with mocks,2026-10-03,1,92,https://github.com/jnMetaCode/agency-orchestrator,https://argusic.com/subject/agency-orchestrator
+agent-beacon,agent-beacon,runs with mocks,2026-10-06,1,92,https://github.com/Asymptote-Labs/agent-beacon,https://argusic.com/subject/agent-beacon
 agent-deck,agent-deck,runs,2026-09-19,2,96,https://github.com/asheshgoplani/agent-deck,https://argusic.com/subject/agent-deck
 agent-framework,agent-framework,runs,2026-09-27,1,100,https://github.com/microsoft/agent-framework,https://argusic.com/subject/agent-framework
 agent-governance-toolkit,agent-governance-toolkit,runs,2026-09-29,1,100,https://github.com/microsoft/agent-governance-toolkit,https://argusic.com/subject/agent-governance-toolkit
@@ -30,6 +33,8 @@ agent-spec,agent-spec,runs,2026-09-19,2,100,https://github.com/ZhangHanDong/agen
 agent-starter-pack,agent-starter-pack,runs,2026-09-28,2,90,https://github.com/GoogleCloudPlatform/agent-starter-pack,https://argusic.com/subject/agent-starter-pack
 agent-toolkit,agent-toolkit,runs,2026-10-03,1,100,https://github.com/softaworks/agent-toolkit,https://argusic.com/subject/agent-toolkit
 agent-toolkit-for-aws,agent-toolkit-for-aws,runs,2026-10-02,1,80,https://github.com/aws/agent-toolkit-for-aws,https://argusic.com/subject/agent-toolkit-for-aws
+agent-ui,agent-ui,could not verify,2026-10-05,2,80,https://github.com/agno-agi/agent-ui,https://argusic.com/subject/agent-ui
+agentenv,AgentENV,runs,2026-10-05,1,96,https://github.com/kvcache-ai/AgentENV,https://argusic.com/subject/agentenv
 agentgateway,agentgateway,could not verify,2026-09-29,2,,https://github.com/agentgateway/agentgateway,https://argusic.com/subject/agentgateway
 agentic-security,agentic_security,runs,2026-10-04,1,100,https://github.com/msoedov/agentic_security,https://argusic.com/subject/agentic-security
 agentic-awesome-skills,agentic-awesome-skills,runs,2026-09-25,1,100,https://github.com/sickn33/agentic-awesome-skills,https://argusic.com/subject/agentic-awesome-skills
@@ -42,6 +47,7 @@ agno,agno,runs with mocks,2026-09-25,1,92,https://github.com/agno-agi/agno,https
 ai-engineering-coach,AI-Engineering-Coach,runs,2026-10-02,1,100,https://github.com/microsoft/AI-Engineering-Coach,https://argusic.com/subject/ai-engineering-coach
 ai-engineering-from-scratch,ai-engineering-from-scratch,runs,2026-09-21,4,100,https://github.com/rohitg00/ai-engineering-from-scratch,https://argusic.com/subject/ai-engineering-from-scratch
 ai-goofish-monitor,ai-goofish-monitor,runs with mocks,2026-09-22,3,92,https://github.com/Usagi-org/ai-goofish-monitor,https://argusic.com/subject/ai-goofish-monitor
+ai-hedge-fund,ai-hedge-fund,runs,2026-10-05,1,100,https://github.com/virattt/ai-hedge-fund,https://argusic.com/subject/ai-hedge-fund
 ai-job-search,ai-job-search,runs,2026-09-21,4,100,https://github.com/MadsLorentzen/ai-job-search,https://argusic.com/subject/ai-job-search
 ai-memory,ai-memory,runs,2026-09-28,1,100,https://github.com/akitaonrails/ai-memory,https://argusic.com/subject/ai-memory
 ai-powered-video-tutorial-generator,AI-Powered-Video-Tutorial-Generator,runs,2026-09-22,2,98,https://github.com/AkshitIreddy/AI-Powered-Video-Tutorial-Generator,https://argusic.com/subject/ai-powered-video-tutorial-generator
@@ -78,6 +84,7 @@ aos-ce,aos-ce,runs,2026-09-28,1,100,https://github.com/unicity-aos/aos-ce,https:
 api-umbrella,api-umbrella,could not verify,2026-10-04,2,20,https://github.com/NatLabRockies/api-umbrella,https://argusic.com/subject/api-umbrella
 apiauto,APIAuto,runs with mocks,2026-10-04,1,92,https://github.com/TommyLemon/APIAuto,https://argusic.com/subject/apiauto
 apify-mcp-server,apify-mcp-server,runs,2026-09-23,3,73.3,https://github.com/apify/apify-mcp-server,https://argusic.com/subject/apify-mcp-server
+apipark,APIPark,runs with mocks,2026-10-05,1,92,https://github.com/APIParkLab/APIPark,https://argusic.com/subject/apipark
 app-store-connect-cli,App-Store-Connect-CLI,runs with mocks,2026-09-24,3,92,https://github.com/rorkai/App-Store-Connect-CLI,https://argusic.com/subject/app-store-connect-cli
 arcadedb,arcadedb,runs,2026-09-18,2,60,https://github.com/ArcadeData/arcadedb,https://argusic.com/subject/arcadedb
 archify,archify,runs,2026-09-01,1,100,https://github.com/tt-a1i/archify,https://argusic.com/subject/archify
@@ -93,6 +100,7 @@ arscontexta,arscontexta,runs,2026-10-01,1,100,https://github.com/agenticnotetaki
 artemis,artemis,runs with mocks,2026-09-27,1,92,https://github.com/google/artemis,https://argusic.com/subject/artemis
 arxiv-mcp-server,arxiv-mcp-server,runs,2026-10-01,1,100,https://github.com/blazickjp/arxiv-mcp-server,https://argusic.com/subject/arxiv-mcp-server
 asciigraph,asciigraph,runs,2026-10-01,1,100,https://github.com/guptarohit/asciigraph,https://argusic.com/subject/asciigraph
+asd-ste100-skill,asd-ste100-skill,runs,2026-10-05,1,100,https://github.com/danyuchn/asd-ste100-skill,https://argusic.com/subject/asd-ste100-skill
 assetopsbench,AssetOpsBench,runs with mocks,2026-10-03,1,92,https://github.com/IBM/AssetOpsBench,https://argusic.com/subject/assetopsbench
 ast-grep,ast-grep,runs,2026-09-22,3,100,https://github.com/ast-grep/ast-grep,https://argusic.com/subject/ast-grep
 astrid,astrid,could not verify,2026-09-27,2,20,https://github.com/astrid-runtime/astrid,https://argusic.com/subject/astrid
@@ -110,6 +118,7 @@ autoclip,autoclip,runs,2026-09-23,3,90.7,https://github.com/zhouxiaoka/autoclip,
 autoflow,autoflow,could not verify,2026-10-02,2,25,https://github.com/pingcap/autoflow,https://argusic.com/subject/autoflow
 autoharness,autoharness,runs,2026-09-30,1,100,https://github.com/tigerless-labs/autoharness,https://argusic.com/subject/autoharness
 autokuma,AutoKuma,could not verify,2026-09-05,4,80,https://github.com/BigBoot/AutoKuma,https://argusic.com/subject/autokuma
+autorestic,autorestic,runs,2026-10-05,1,100,https://github.com/cupcakearmy/autorestic,https://argusic.com/subject/autorestic
 awesome-agentic-ai-zh,awesome-agentic-ai-zh,runs with mocks,2026-09-04,1,92,https://github.com/WenyuChiou/awesome-agentic-ai-zh,https://argusic.com/subject/awesome-agentic-ai-zh
 awesome-claude-code-subagents,awesome-claude-code-subagents,runs,2026-09-25,1,100,https://github.com/VoltAgent/awesome-claude-code-subagents,https://argusic.com/subject/awesome-claude-code-subagents
 awesome-generative-ai-apps,awesome-generative-ai-apps,runs with mocks,2026-10-01,1,92,https://github.com/Anil-matcha/awesome-generative-ai-apps,https://argusic.com/subject/awesome-generative-ai-apps
@@ -155,6 +164,7 @@ browser-control,browser-control,runs,2026-10-01,1,100,https://github.com/keon/br
 browser-harness,browser-harness,runs,2026-09-26,1,100,https://github.com/browser-use/browser-harness,https://argusic.com/subject/browser-harness
 browser-tools-mcp,browser-tools-mcp,runs,2026-09-28,1,100,https://github.com/AgentDeskAI/browser-tools-mcp,https://argusic.com/subject/browser-tools-mcp
 browser-use,browser-use,runs,2026-09-11,3,100,https://github.com/browser-use/browser-use,https://argusic.com/subject/browser-use
+browserless,browserless,runs,2026-10-05,1,93.3,https://github.com/microlinkhq/browserless,https://argusic.com/subject/browserless
 browserskill,BrowserSkill,runs,2026-09-28,1,100,https://github.com/Tencent/BrowserSkill,https://argusic.com/subject/browserskill
 bruno,bruno,runs,2026-09-25,1,100,https://github.com/usebruno/bruno,https://argusic.com/subject/bruno
 btrace,btrace,runs,2026-09-29,1,100,https://github.com/btraceio/btrace,https://argusic.com/subject/btrace
@@ -217,11 +227,13 @@ claudia,claudia,runs with mocks,2026-09-30,1,92,https://github.com/claudiajs/cla
 claw-code,claw-code,runs,2026-09-20,4,96,https://github.com/ultraworkers/claw-code,https://argusic.com/subject/claw-code
 claw3d,Claw3D,runs,2026-10-04,2,90,https://github.com/iamlukethedev/Claw3D,https://argusic.com/subject/claw3d
 clawcodex,clawcodex,runs,2026-09-19,2,100,https://github.com/agentforce314/clawcodex,https://argusic.com/subject/clawcodex
+cli,cli,runs with mocks,2026-10-05,1,92,https://github.com/hetznercloud/cli,https://argusic.com/subject/cli
 cli-agent-orchestrator,cli-agent-orchestrator,runs,2026-09-12,2,96,https://github.com/awslabs/cli-agent-orchestrator,https://argusic.com/subject/cli-agent-orchestrator
 cli-anything,CLI-Anything,runs,2026-09-21,4,94.7,https://github.com/HKUDS/CLI-Anything,https://argusic.com/subject/cli-anything
 cli-continues,cli-continues,runs,2026-09-18,2,96.7,https://github.com/yigitkonur/cli-continues,https://argusic.com/subject/cli-continues
 cli-printing-press,cli-printing-press,could not verify,2026-09-03,3,,https://github.com/mvanhorn/cli-printing-press,https://argusic.com/subject/cli-printing-press
 cliamp,cliamp,runs,2026-09-25,3,100,https://github.com/bjarneo/cliamp,https://argusic.com/subject/cliamp
+cloudburn,cloudburn,runs,2026-10-05,1,100,https://github.com/towardsthecloud/cloudburn,https://argusic.com/subject/cloudburn
 cloudflare-os,cloudflare-os,runs,2026-09-27,1,100,https://github.com/cloudflare/cloudflare-os,https://argusic.com/subject/cloudflare-os
 cloudflared,cloudflared,runs with mocks,2026-09-28,1,92,https://github.com/cloudflare/cloudflared,https://argusic.com/subject/cloudflared
 cloudnative-pg,cloudnative-pg,runs,2026-09-27,1,100,https://github.com/cloudnative-pg/cloudnative-pg,https://argusic.com/subject/cloudnative-pg
@@ -238,7 +250,8 @@ codegraph,codegraph,runs,2026-10-04,1,100,https://github.com/colbymchenry/codegr
 codegraphcontext,CodeGraphContext,runs,2026-09-30,1,100,https://github.com/CodeGraphContext/CodeGraphContext,https://argusic.com/subject/codegraphcontext
 codejar,codejar,runs,2026-10-05,1,100,https://github.com/antonmedv/codejar,https://argusic.com/subject/codejar
 codemachine-cli,CodeMachine-CLI,could not verify,2026-10-03,2,75,https://github.com/moazbuilds/CodeMachine-CLI,https://argusic.com/subject/codemachine-cli
-codewhale,Codewhale,runs,2026-09-21,3,94.7,https://github.com/Hmbown/Codewhale,https://argusic.com/subject/codewhale
+codewhale--codewhale-hq,Codewhale,could not verify,2026-10-05,2,20,https://github.com/codewhale-hq/Codewhale,https://argusic.com/run/162dfe11-1013-492a-b41f-fe7e1c8ea0eb
+codewhale--hmbown,Codewhale,runs,2026-09-21,3,94.7,https://github.com/Hmbown/Codewhale,https://argusic.com/run/79c046d6-143f-4bc9-8e51-ef46bd55ceb2
 codex-app-mirror,codex-app-mirror,runs,2026-10-04,1,100,https://github.com/Wangnov/codex-app-mirror,https://argusic.com/subject/codex-app-mirror
 codex-chatgpt-web,codex-chatgpt-web,runs with mocks,2026-09-26,1,92,https://github.com/miuuyy/codex-chatgpt-web,https://argusic.com/subject/codex-chatgpt-web
 codex-dream-skin,Codex-Dream-Skin,could not verify,2026-09-26,2,40,https://github.com/Fei-Away/Codex-Dream-Skin,https://argusic.com/subject/codex-dream-skin
@@ -264,6 +277,8 @@ console,console,runs,2026-10-02,1,100,https://github.com/symfony/console,https:/
 content,content,runs,2026-09-30,1,100,https://github.com/nuxt/content,https://argusic.com/subject/content
 context7,context7,runs with mocks,2026-09-21,3,87.7,https://github.com/upstash/context7,https://argusic.com/subject/context7
 contextplus,contextplus,runs,2026-10-05,1,100,https://github.com/forloopcodes/contextplus,https://argusic.com/subject/contextplus
+coolify,coolify,runs,2026-10-05,1,91.4,https://github.com/coollabsio/coolify,https://argusic.com/subject/coolify
+corecoder,CoreCoder,runs,2026-10-05,1,100,https://github.com/he-yufeng/CoreCoder,https://argusic.com/subject/corecoder
 coreutils--microsoft,coreutils,runs with mocks,2026-09-29,1,92,https://github.com/microsoft/coreutils,https://argusic.com/run/4efbff6a-8a1a-4942-9f27-dfbde5e786e4
 coreutils--uutils,coreutils,runs,2026-09-22,3,100,https://github.com/uutils/coreutils,https://argusic.com/run/66c58645-5c16-47e4-957c-ac3de60d9773
 corona,corona,runs with mocks,2026-10-02,1,92,https://github.com/coronalabs/corona,https://argusic.com/subject/corona
@@ -313,6 +328,7 @@ dbx,dbx,could not verify,2026-09-05,3,20,https://github.com/t8y2/dbx,https://arg
 ddgs,ddgs,runs,2026-10-02,1,80,https://github.com/deedy5/ddgs,https://argusic.com/subject/ddgs
 debezium,debezium,runs,2026-09-26,1,100,https://github.com/debezium/debezium,https://argusic.com/subject/debezium
 decap-cms,decap-cms,runs,2026-09-26,1,100,https://github.com/decaporg/decap-cms,https://argusic.com/subject/decap-cms
+deconz-rest-plugin,deconz-rest-plugin,runs,2026-10-05,1,100,https://github.com/dresden-elektronik/deconz-rest-plugin,https://argusic.com/subject/deconz-rest-plugin
 deeix-chat,DEEIX-Chat,runs,2026-09-18,2,100,https://github.com/DEEIX-AI/DEEIX-Chat,https://argusic.com/subject/deeix-chat
 deep-research,deep-research,could not verify,2026-09-30,2,80,https://github.com/u14app/deep-research,https://argusic.com/subject/deep-research
 deep-searcher,deep-searcher,runs with mocks,2026-09-28,2,56,https://github.com/zilliztech/deep-searcher,https://argusic.com/subject/deep-searcher
@@ -333,13 +349,16 @@ demogpt,DemoGPT,runs with mocks,2026-09-18,2,92,https://github.com/melih-unsal/D
 design-md,design.md,runs,2026-09-22,3,100,https://github.com/google-labs-code/design.md,https://argusic.com/subject/design-md
 desktopcommandermcp,DesktopCommanderMCP,runs,2026-09-23,3,60,https://github.com/wonderwhy-er/DesktopCommanderMCP,https://argusic.com/subject/desktopcommandermcp
 devdocs,DevDocs,runs with mocks,2026-10-04,1,92,https://github.com/cyberagiinc/DevDocs,https://argusic.com/subject/devdocs
+devops-basics,devops-basics,could not verify,2026-10-05,2,80,https://github.com/tungbq/devops-basics,https://argusic.com/subject/devops-basics
 devspace--devspace-sh,devspace,runs,2026-09-24,3,87.3,https://github.com/devspace-sh/devspace,https://argusic.com/run/604b5acb-47cd-44e2-9cca-ad48daab3a6f
 devspace--waishnav,devspace,runs,2026-10-01,1,100,https://github.com/Waishnav/devspace,https://argusic.com/run/af907b2a-2b99-4845-af63-9916aca88202
 dexie-js,Dexie.js,runs,2026-09-26,1,100,https://github.com/dexie/Dexie.js,https://argusic.com/subject/dexie-js
 dia,dia,could not verify,2026-09-27,2,50,https://github.com/nari-labs/dia,https://argusic.com/subject/dia
 diagrams,diagrams,runs,2026-09-25,1,100,https://github.com/mingrammer/diagrams,https://argusic.com/subject/diagrams
 director,Director,runs with mocks,2026-09-06,1,92,https://github.com/video-db/Director,https://argusic.com/subject/director
+diskover-community,diskover-community,runs with mocks,2026-10-05,1,92,https://github.com/diskoverdata/diskover-community,https://argusic.com/subject/diskover-community
 distilly,distilly,runs with mocks,2026-09-25,1,92,https://github.com/titanwings/distilly,https://argusic.com/subject/distilly
+dive,Dive,runs with mocks,2026-10-05,1,92,https://github.com/OpenAgentPlatform/Dive,https://argusic.com/subject/dive
 django-crm,Django-CRM,could not verify,2026-10-03,2,20,https://github.com/Django-CRM/Django-CRM,https://argusic.com/subject/django-crm
 django-oscar,django-oscar,runs,2026-09-29,1,80,https://github.com/django-oscar/django-oscar,https://argusic.com/subject/django-oscar
 dlss5-swapper,DLSS5-Swapper,runs with mocks,2026-09-29,1,92,https://github.com/rakanki911/DLSS5-Swapper,https://argusic.com/subject/dlss5-swapper
@@ -350,6 +369,7 @@ dockly,dockly,runs with mocks,2026-09-30,1,92,https://github.com/lirantal/dockly
 docling,docling,runs,2026-10-04,1,100,https://github.com/docling-project/docling,https://argusic.com/subject/docling
 docling-studio,docling-Studio,runs,2026-09-20,2,100,https://github.com/scub-france/docling-Studio,https://argusic.com/subject/docling-studio
 docs,docs,runs with mocks,2026-09-05,3,86,https://github.com/suitenumerique/docs,https://argusic.com/subject/docs
+docs-mcp-server,docs-mcp-server,runs,2026-10-05,1,100,https://github.com/arabold/docs-mcp-server,https://argusic.com/subject/docs-mcp-server
 dograh,dograh,runs,2026-09-29,1,100,https://github.com/dograh-hq/dograh,https://argusic.com/subject/dograh
 doit,doit,runs,2026-10-04,1,100,https://github.com/pydoit/doit,https://argusic.com/subject/doit
 dolt,dolt,runs,2026-09-25,1,100,https://github.com/dolthub/dolt,https://argusic.com/subject/dolt
@@ -369,6 +389,7 @@ dsh-market,dsh-market,runs,2026-10-01,1,100,https://github.com/dsh-market/dsh-ma
 dsh-routing-suite,dsh-routing-suite,runs,2026-09-29,1,100,https://github.com/yjh051108/dsh-routing-suite,https://argusic.com/subject/dsh-routing-suite
 dtm,dtm,runs,2026-09-27,1,100,https://github.com/dtm-labs/dtm,https://argusic.com/subject/dtm
 dumi,dumi,runs,2026-09-30,2,60,https://github.com/umijs/dumi,https://argusic.com/subject/dumi
+durdraw,durdraw,runs,2026-10-05,1,100,https://github.com/durdraw/durdraw,https://argusic.com/subject/durdraw
 dynamodb-toolbox,dynamodb-toolbox,runs,2026-10-04,1,100,https://github.com/dynamodb-toolbox/dynamodb-toolbox,https://argusic.com/subject/dynamodb-toolbox
 e2b,E2B,runs with mocks,2026-09-26,1,92,https://github.com/e2b-dev/E2B,https://argusic.com/subject/e2b
 earthly,earthly,runs,2026-09-26,1,100,https://github.com/earthly/earthly,https://argusic.com/subject/earthly
@@ -379,26 +400,33 @@ edict,edict,runs,2026-09-26,2,60,https://github.com/cft0808/edict,https://argusi
 edit,edit,runs,2026-09-26,1,100,https://github.com/microsoft/edit,https://argusic.com/subject/edit
 ego-lite,ego-lite,runs with mocks,2026-09-26,1,92,https://github.com/citrolabs/ego-lite,https://argusic.com/subject/ego-lite
 eko,eko,runs with mocks,2026-09-29,2,80,https://github.com/FellouAI/eko,https://argusic.com/subject/eko
+elassandra,elassandra,runs,2026-10-06,1,100,https://github.com/strapdata/elassandra,https://argusic.com/subject/elassandra
 elasticsearch-dump,elasticsearch-dump,runs with mocks,2026-09-28,2,56,https://github.com/elasticsearch-dump/elasticsearch-dump,https://argusic.com/subject/elasticsearch-dump
 elevenlabs-python,elevenlabs-python,runs with mocks,2026-10-01,1,92,https://github.com/elevenlabs/elevenlabs-python,https://argusic.com/subject/elevenlabs-python
+email-builder-js,email-builder-js,runs,2026-10-06,1,100,https://github.com/usewaypoint/email-builder-js,https://argusic.com/subject/email-builder-js
 embedded-database-spring-test,embedded-database-spring-test,runs,2026-09-19,2,93.5,https://github.com/zonkyio/embedded-database-spring-test,https://argusic.com/subject/embedded-database-spring-test
 emissary,emissary,runs,2026-09-30,1,90,https://github.com/emissary-ingress/emissary,https://argusic.com/subject/emissary
 encore,encore,runs,2026-09-26,1,100,https://github.com/encoredev/encore,https://argusic.com/subject/encore
 endless-sky,endless-sky,could not verify,2026-09-05,4,50,https://github.com/endless-sky/endless-sky,https://argusic.com/subject/endless-sky
 engine,engine,runs,2026-10-01,1,100,https://github.com/g3n/engine,https://argusic.com/subject/engine
+engo,engo,runs,2026-10-05,1,100,https://github.com/EngoEngine/engo,https://argusic.com/subject/engo
 engram,engram,runs,2026-09-24,3,100,https://github.com/Gentleman-Programming/engram,https://argusic.com/subject/engram
 enqueue-dev,enqueue-dev,runs with mocks,2026-10-04,2,56,https://github.com/php-enqueue/enqueue-dev,https://argusic.com/subject/enqueue-dev
 enterpriseagentframework,EnterpriseAgentFramework,runs,2026-09-19,2,100,https://github.com/w8123/EnterpriseAgentFramework,https://argusic.com/subject/enterpriseagentframework
 entt,entt,runs,2026-09-26,1,100,https://github.com/skypjack/entt,https://argusic.com/subject/entt
+env-cmd,env-cmd,runs,2026-10-05,1,100,https://github.com/toddbluhm/env-cmd,https://argusic.com/subject/env-cmd
 erda,erda,runs with mocks,2026-10-02,1,92,https://github.com/erda-project/erda,https://argusic.com/subject/erda
 erupt,erupt,runs,2026-10-02,1,100,https://github.com/erupts/erupt,https://argusic.com/subject/erupt
 esp32-ai,esp32-ai,runs,2026-10-01,1,100,https://github.com/slvDev/esp32-ai,https://argusic.com/subject/esp32-ai
 espconnect,ESPConnect,runs,2026-10-04,1,100,https://github.com/thelastoutpostworkshop/ESPConnect,https://argusic.com/subject/espconnect
 etcd,etcd,runs,2026-09-21,3,100,https://github.com/etcd-io/etcd,https://argusic.com/subject/etcd
+eva-js,eva.js,runs,2026-10-05,1,100,https://github.com/eva-engine/eva.js,https://argusic.com/subject/eva-js
 evcc,evcc,runs with mocks,2026-09-28,1,92,https://github.com/evcc-io/evcc,https://argusic.com/subject/evcc
 eve,eve,runs,2026-09-30,1,100,https://github.com/vercel/eve,https://argusic.com/subject/eve
 evennia,evennia,runs,2026-10-04,2,100,https://github.com/evennia/evennia,https://argusic.com/subject/evennia
 event-management,event-management,runs,2026-09-10,1,100,https://github.com/PuneethReddyHC/event-management,https://argusic.com/subject/event-management
+evernote-backup,evernote-backup,runs with mocks,2026-10-06,1,92,https://github.com/vzhd1701/evernote-backup,https://argusic.com/subject/evernote-backup
+evlog,evlog,runs,2026-10-05,1,100,https://github.com/evloghq/evlog,https://argusic.com/subject/evlog
 exa-mcp-server,exa-mcp-server,runs with mocks,2026-09-24,3,92,https://github.com/exa-labs/exa-mcp-server,https://argusic.com/subject/exa-mcp-server
 excalidraw,excalidraw,runs,2026-09-20,6,100,https://github.com/excalidraw/excalidraw,https://argusic.com/subject/excalidraw
 excel-mcp-server,excel-mcp-server,runs,2026-09-30,1,100,https://github.com/haris-musa/excel-mcp-server,https://argusic.com/subject/excel-mcp-server
@@ -428,6 +456,7 @@ fd,fd,runs,2026-09-21,3,73.3,https://github.com/sharkdp/fd,https://argusic.com/s
 feign,feign,runs with mocks,2026-09-28,2,92,https://github.com/OpenFeign/feign,https://argusic.com/subject/feign
 ferret,ferret,runs,2026-09-29,1,100,https://github.com/MontFerret/ferret,https://argusic.com/subject/ferret
 ferretdb,FerretDB,could not verify,2026-09-27,2,80,https://github.com/FerretDB/FerretDB,https://argusic.com/subject/ferretdb
+ferrite,Ferrite,runs,2026-10-05,1,100,https://github.com/OlaProeis/Ferrite,https://argusic.com/subject/ferrite
 ferrumc,ferrumc,runs,2026-10-03,1,100,https://github.com/ferrumc-rs/ferrumc,https://argusic.com/subject/ferrumc
 fesod,fesod,runs,2026-09-24,3,100,https://github.com/apache/fesod,https://argusic.com/subject/fesod
 fess,fess,could not verify,2026-09-12,2,47.5,https://github.com/codelibs/fess,https://argusic.com/subject/fess
@@ -436,6 +465,7 @@ figma-context-mcp,Figma-Context-MCP,runs,2026-09-22,3,94.7,https://github.com/GL
 filtmall-shopping-skill,Filtmall-Shopping-Skill,runs,2026-10-03,1,100,https://github.com/filtalgo/Filtmall-Shopping-Skill,https://argusic.com/subject/filtmall-shopping-skill
 financetoolkit,FinanceToolkit,could not verify,2026-09-29,2,50,https://github.com/JerBouma/FinanceToolkit,https://argusic.com/subject/financetoolkit
 financial-api,Financial-API,runs with mocks,2026-10-03,1,87,https://github.com/HiThink-Tech/Financial-API,https://argusic.com/subject/financial-api
+finvizfinance,finvizfinance,runs with mocks,2026-10-06,1,92,https://github.com/lit26/finvizfinance,https://argusic.com/subject/finvizfinance
 firebase-ios-sdk,firebase-ios-sdk,runs,2026-09-28,1,100,https://github.com/firebase/firebase-ios-sdk,https://argusic.com/subject/firebase-ios-sdk
 firecrawl-mcp-server,firecrawl-mcp-server,runs,2026-09-23,3,90.2,https://github.com/firecrawl/firecrawl-mcp-server,https://argusic.com/subject/firecrawl-mcp-server
 firered-openstoryline,FireRed-OpenStoryline,runs with mocks,2026-09-05,3,92,https://github.com/FireRedTeam/FireRed-OpenStoryline,https://argusic.com/subject/firered-openstoryline
@@ -458,6 +488,7 @@ flowgram-ai,flowgram.ai,runs,2026-09-28,1,100,https://github.com/bytedance/flowg
 fluent-bit,fluent-bit,runs,2026-09-28,1,96,https://github.com/fluent/fluent-bit,https://argusic.com/subject/fluent-bit
 fluidity,fluidity,runs,2026-09-05,2,90,https://github.com/PrettyCoffee/fluidity,https://argusic.com/subject/fluidity
 fluvio,fluvio,could not verify,2026-09-29,2,,https://github.com/fluvio-community/fluvio,https://argusic.com/subject/fluvio
+forest,forest,runs,2026-10-05,2,100,https://github.com/dromara/forest,https://argusic.com/subject/forest
 forge,forge,runs,2026-09-05,2,90,https://github.com/antoinezambelli/forge,https://argusic.com/subject/forge
 fortune-sheet,fortune-sheet,runs,2026-09-25,3,100,https://github.com/ruilisi/fortune-sheet,https://argusic.com/subject/fortune-sheet
 framework,framework,runs,2026-09-30,1,80,https://github.com/observablehq/framework,https://argusic.com/subject/framework
@@ -478,6 +509,7 @@ fusio,fusio,runs,2026-10-04,2,60,https://github.com/apioo/fusio,https://argusic.
 future-agi,future-agi,runs with mocks,2026-10-04,1,92,https://github.com/future-agi/future-agi,https://argusic.com/subject/future-agi
 fyrox,Fyrox,runs,2026-09-27,1,100,https://github.com/FyroxEngine/Fyrox,https://argusic.com/subject/fyrox
 gain,gain,runs,2026-10-04,1,100,https://github.com/elliotgao2/gain,https://argusic.com/subject/gain
+gantt,gantt,runs,2026-10-05,1,100,https://github.com/DHTMLX/gantt,https://argusic.com/subject/gantt
 gateway--envoyproxy,gateway,runs with mocks,2026-10-01,1,92,https://github.com/envoyproxy/gateway,https://argusic.com/run/f760fda5-ff59-455f-a2b5-7499032ee92c
 gateway--portkey-ai,gateway,runs,2026-09-26,1,100,https://github.com/Portkey-AI/gateway,https://argusic.com/run/f0da9163-d88c-4c55-a093-60c5c9ab9036
 gatus,gatus,runs,2026-09-23,3,100,https://github.com/TwiN/gatus,https://argusic.com/subject/gatus
@@ -485,6 +517,7 @@ gecco,gecco,runs,2026-10-03,1,100,https://github.com/xtuhcy/gecco,https://argusi
 gel,gel,runs with mocks,2026-09-26,2,86,https://github.com/geldata/gel,https://argusic.com/subject/gel
 gemini-notebook-mcp-cli,gemini-notebook-mcp-cli,runs,2026-09-29,1,100,https://github.com/jacob-bd/gemini-notebook-mcp-cli,https://argusic.com/subject/gemini-notebook-mcp-cli
 genericagent,GenericAgent,runs with mocks,2026-09-26,1,92,https://github.com/lsdefine/GenericAgent,https://argusic.com/subject/genericagent
+genie-tts,Genie-TTS,runs,2026-10-05,1,100,https://github.com/High-Logic/Genie-TTS,https://argusic.com/subject/genie-tts
 genoffice,genoffice,runs,2026-09-23,3,97.3,https://github.com/genspark-ai/genoffice,https://argusic.com/subject/genoffice
 gentle-ai,gentle-ai,runs,2026-09-24,3,93.3,https://github.com/Gentleman-Programming/gentle-ai,https://argusic.com/subject/gentle-ai
 geo-seo-claude,geo-seo-claude,runs,2026-09-23,3,97.3,https://github.com/zubair-trabzada/geo-seo-claude,https://argusic.com/subject/geo-seo-claude
@@ -532,10 +565,12 @@ google-maps-scraper,google-maps-scraper,runs with mocks,2026-09-29,2,86,https://
 google-play-scraper,google-play-scraper,runs,2026-10-02,1,100,https://github.com/facundoolano/google-play-scraper,https://argusic.com/subject/google-play-scraper
 gopass,gopass,runs,2026-09-24,3,95.7,https://github.com/gopasspw/gopass,https://argusic.com/subject/gopass
 goplantuml,goplantuml,runs,2026-10-04,1,100,https://github.com/jfeliu007/goplantuml,https://argusic.com/subject/goplantuml
+gortex,gortex,runs,2026-10-05,1,100,https://github.com/zzet/gortex,https://argusic.com/subject/gortex
 gost,gost,runs,2026-09-28,1,100,https://github.com/go-gost/gost,https://argusic.com/subject/gost
 got,got,runs,2026-09-28,2,60,https://github.com/sindresorhus/got,https://argusic.com/subject/got
 goutoujunshi,goutoujunshi,runs with mocks,2026-09-29,1,92,https://github.com/shengjidaguai-china/goutoujunshi,https://argusic.com/subject/goutoujunshi
 gpa,GPA,runs,2026-10-01,1,100,https://github.com/AutoArk/GPA,https://argusic.com/subject/gpa
+gpg-tui,gpg-tui,runs,2026-10-06,1,100,https://github.com/orhun/gpg-tui,https://argusic.com/subject/gpg-tui
 gpt-image-playground,gpt_image_playground,runs,2026-10-03,1,100,https://github.com/CookSleep/gpt_image_playground,https://argusic.com/subject/gpt-image-playground
 gpt-image2-skill,GPT-Image2-Skill,runs with mocks,2026-09-30,1,92,https://github.com/wuyoscar/GPT-Image2-Skill,https://argusic.com/subject/gpt-image2-skill
 gpt-instruct,gpt-instruct,runs with mocks,2026-09-27,1,92,https://github.com/MDX-Tom/gpt-instruct,https://argusic.com/subject/gpt-instruct
@@ -549,6 +584,8 @@ graphic-walker,graphic-walker,runs,2026-10-01,1,100,https://github.com/Kanaries/
 graphify,graphify,runs,2026-09-20,3,66.7,https://github.com/Graphify-Labs/graphify,https://argusic.com/subject/graphify
 graphql-cli,graphql-cli,runs,2026-10-04,1,100,https://github.com/Urigo/graphql-cli,https://argusic.com/subject/graphql-cli
 grav,grav,runs,2026-09-26,1,100,https://github.com/getgrav/grav,https://argusic.com/subject/grav
+greenmask,greenmask,runs with mocks,2026-10-05,2,86,https://github.com/GreenmaskIO/greenmask,https://argusic.com/subject/greenmask
+grepai,grepai,runs,2026-10-05,1,100,https://github.com/yoanbernabeu/grepai,https://argusic.com/subject/grepai
 greptimedb,greptimedb,runs,2026-09-28,1,100,https://github.com/GreptimeTeam/greptimedb,https://argusic.com/subject/greptimedb
 grex,grex,runs,2026-09-23,3,100,https://github.com/pemistahl/grex,https://argusic.com/subject/grex
 grist-core,grist-core,runs,2026-09-23,3,100,https://github.com/gristlabs/grist-core,https://argusic.com/subject/grist-core
@@ -618,8 +655,10 @@ ida-pro-mcp,ida-pro-mcp,runs with mocks,2026-09-26,1,82,https://github.com/mrexo
 ifixai,iFixAi,runs,2026-09-26,1,100,https://github.com/ifixai-ai/iFixAi,https://argusic.com/subject/ifixai
 illa-builder,illa-builder,could not verify,2026-09-26,2,80,https://github.com/illacloud/illa-builder,https://argusic.com/subject/illa-builder
 im-not-ai,im-not-ai,runs,2026-09-30,1,100,https://github.com/epoko77-ai/im-not-ai,https://argusic.com/subject/im-not-ai
+imap-backup,imap-backup,runs with mocks,2026-10-06,2,56,https://github.com/joeyates/imap-backup,https://argusic.com/subject/imap-backup
 img2threejs,img2threejs,runs,2026-09-26,1,100,https://github.com/img2threejs/img2threejs,https://argusic.com/subject/img2threejs
 imgui,imgui,runs,2026-09-20,3,93.3,https://github.com/ocornut/imgui,https://argusic.com/subject/imgui
+imguicolortextedit,ImGuiColorTextEdit,runs,2026-10-06,1,100,https://github.com/BalazsJako/ImGuiColorTextEdit,https://argusic.com/subject/imguicolortextedit
 impeccable,impeccable,not yet verified,2026-10-04,1,20,https://github.com/pbakaus/impeccable,https://argusic.com/subject/impeccable
 incubator-pegasus,incubator-pegasus,could not verify,2026-10-04,2,20,https://github.com/apache/incubator-pegasus,https://argusic.com/subject/incubator-pegasus
 infinite-canvas,infinite-canvas,runs,2026-09-29,1,100,https://github.com/basketikun/infinite-canvas,https://argusic.com/subject/infinite-canvas
@@ -637,8 +676,10 @@ iotdb,iotdb,runs,2026-09-24,3,100,https://github.com/apache/iotdb,https://argusi
 ipatool,ipatool,runs,2026-09-23,3,97.3,https://github.com/majd/ipatool,https://argusic.com/subject/ipatool
 iredis,iredis,runs,2026-10-02,1,100,https://github.com/laixintao/iredis,https://argusic.com/subject/iredis
 ironcalc,IronCalc,runs,2026-09-25,3,100,https://github.com/ironcalc/IronCalc,https://argusic.com/subject/ironcalc
+ispotify,ISpotify,runs with mocks,2026-10-05,1,92,https://github.com/RubinLabs26/ISpotify,https://argusic.com/subject/ispotify
 issue-status,issue-status,runs,2026-09-19,2,96,https://github.com/tadhglewis/issue-status,https://argusic.com/subject/issue-status
 itshover,itshover,runs,2026-09-08,4,100,https://github.com/itshover/itshover,https://argusic.com/subject/itshover
+iwe,iwe,runs,2026-10-06,1,100,https://github.com/iwe-org/iwe,https://argusic.com/subject/iwe
 jaeger,jaeger,runs,2026-09-25,1,100,https://github.com/jaegertracing/jaeger,https://argusic.com/subject/jaeger
 java,Java,runs,2026-10-04,1,90,https://github.com/TheAlgorithms/Java,https://argusic.com/subject/java
 java-sdk,java-sdk,runs,2026-09-30,1,100,https://github.com/modelcontextprotocol/java-sdk,https://argusic.com/subject/java-sdk
@@ -648,11 +689,14 @@ jeecgboot,JeecgBoot,runs,2026-09-25,1,100,https://github.com/jeecgboot/JeecgBoot
 jenkins,jenkins,runs,2026-09-27,1,100,https://github.com/jenkinsci/jenkins,https://argusic.com/subject/jenkins
 jev-ultrafast,jev-ultrafast,runs with mocks,2026-09-26,1,92,https://github.com/browser-use/jev-ultrafast,https://argusic.com/subject/jev-ultrafast
 jevgrep,jevgrep,runs with mocks,2026-10-04,1,92,https://github.com/dzhng/jevgrep,https://argusic.com/subject/jevgrep
+jido,jido,runs,2026-10-05,1,100,https://github.com/agentjido/jido,https://argusic.com/subject/jido
 jira-cli,jira-cli,runs with mocks,2026-09-24,3,88,https://github.com/ankitpokhrel/jira-cli,https://argusic.com/subject/jira-cli
+jiratui,jiratui,runs with mocks,2026-10-06,1,92,https://github.com/whyisdifficult/jiratui,https://argusic.com/subject/jiratui
 jkvideo,JKVideo,could not verify,2026-09-29,2,80,https://github.com/tiajinsha/JKVideo,https://argusic.com/subject/jkvideo
 jmcomic-crawler-python,JMComic-Crawler-Python,runs,2026-09-28,1,100,https://github.com/hect0x7/JMComic-Crawler-Python,https://argusic.com/subject/jmcomic-crawler-python
 joint,joint,runs,2026-09-29,1,80,https://github.com/clientIO/joint,https://argusic.com/subject/joint
 joltphysics,JoltPhysics,runs,2026-09-27,1,100,https://github.com/jrouwe/JoltPhysics,https://argusic.com/subject/joltphysics
+jquery,jquery,runs,2026-10-05,1,100,https://github.com/jquery/jquery,https://argusic.com/subject/jquery
 js-reverse-mcp,js-reverse-mcp,runs with mocks,2026-10-02,1,92,https://github.com/zhizhuodemao/js-reverse-mcp,https://argusic.com/subject/js-reverse-mcp
 jscpd,jscpd,runs,2026-09-24,3,100,https://github.com/kucherenko/jscpd,https://argusic.com/subject/jscpd
 jsoup,jsoup,runs,2026-09-27,2,60,https://github.com/jhy/jsoup,https://argusic.com/subject/jsoup
@@ -660,7 +704,9 @@ jx,jx,runs,2026-09-30,1,100,https://github.com/jenkins-x/jx,https://argusic.com/
 kakoune,kakoune,runs,2026-09-27,1,100,https://github.com/mawww/kakoune,https://argusic.com/subject/kakoune
 kanboard,kanboard,runs,2026-09-27,1,100,https://github.com/kanboard/kanboard,https://argusic.com/subject/kanboard
 kaneo,kaneo,runs,2026-09-27,1,100,https://github.com/usekaneo/kaneo,https://argusic.com/subject/kaneo
+kaplay,kaplay,runs,2026-10-05,1,100,https://github.com/kaplayjs/kaplay,https://argusic.com/subject/kaplay
 karpathy-llm-wiki,karpathy-llm-wiki,runs,2026-10-03,1,100,https://github.com/Astro-Han/karpathy-llm-wiki,https://argusic.com/subject/karpathy-llm-wiki
+karpor,karpor,runs with mocks,2026-10-06,1,92,https://github.com/KusionStack/karpor,https://argusic.com/subject/karpor
 katana,katana,runs,2026-09-27,1,100,https://github.com/projectdiscovery/katana,https://argusic.com/subject/katana
 kdenlive,kdenlive,runs with mocks,2026-09-05,3,33.3,https://github.com/KDE/kdenlive,https://argusic.com/subject/kdenlive
 kener,kener,runs,2026-09-24,3,100,https://github.com/rajnandan1/kener,https://argusic.com/subject/kener
@@ -688,6 +734,7 @@ kubefwd,kubefwd,runs,2026-09-30,2,90,https://github.com/txn2/kubefwd,https://arg
 kuberhealthy,kuberhealthy,runs with mocks,2026-10-04,1,92,https://github.com/kuberhealthy/kuberhealthy,https://argusic.com/subject/kuberhealthy
 kubernetes-mcp-server,kubernetes-mcp-server,runs with mocks,2026-10-04,1,92,https://github.com/containers/kubernetes-mcp-server,https://argusic.com/subject/kubernetes-mcp-server
 kubeshark,kubeshark,runs with mocks,2026-09-26,2,86,https://github.com/kubeshark/kubeshark,https://argusic.com/subject/kubeshark
+kubetail,kubetail,runs,2026-10-05,1,100,https://github.com/kubetail-org/kubetail,https://argusic.com/subject/kubetail
 ky,ky,could not verify,2026-09-28,2,,https://github.com/sindresorhus/ky,https://argusic.com/subject/ky
 kyanos,kyanos,could not verify,2026-09-29,2,20,https://github.com/hengyoush/kyanos,https://argusic.com/subject/kyanos
 kysely,kysely,runs,2026-09-26,1,100,https://github.com/kysely-org/kysely,https://argusic.com/subject/kysely
@@ -698,6 +745,7 @@ lanhu-mcp,lanhu-mcp,runs with mocks,2026-10-03,1,92,https://github.com/dsphper/l
 lapce,lapce,runs,2026-09-25,2,100,https://github.com/lapce/lapce,https://argusic.com/subject/lapce
 laravel-backup,laravel-backup,runs,2026-09-29,1,100,https://github.com/spatie/laravel-backup,https://argusic.com/subject/laravel-backup
 laravel-uptime-monitor,laravel-uptime-monitor,runs,2026-09-03,1,100,https://github.com/spatie/laravel-uptime-monitor,https://argusic.com/subject/laravel-uptime-monitor
+last30days-skill,last30days-skill,runs,2026-10-05,1,100,https://github.com/mvanhorn/last30days-skill,https://argusic.com/subject/last30days-skill
 launchstack,LaunchStack,runs,2026-09-13,2,90,https://github.com/Deodat-Lawson/LaunchStack,https://argusic.com/subject/launchstack
 lavish-axi,lavish-axi,runs,2026-10-03,1,100,https://github.com/kunchenguid/lavish-axi,https://argusic.com/subject/lavish-axi
 lazycodex,lazycodex,runs with mocks,2026-09-30,1,85.3,https://github.com/code-yeongyu/lazycodex,https://argusic.com/subject/lazycodex
@@ -728,6 +776,7 @@ liwan,liwan,runs,2026-09-03,2,100,https://github.com/explodingcamera/liwan,https
 llamafactory,LlamaFactory,runs,2026-09-20,3,97.3,https://github.com/hiyouga/LlamaFactory,https://argusic.com/subject/llamafactory
 llm-scraper,llm-scraper,runs with mocks,2026-09-28,1,92,https://github.com/mishushakov/llm-scraper,https://argusic.com/subject/llm-scraper
 llm-wiki-agent,llm-wiki-agent,runs,2026-10-01,2,60,https://github.com/SamurAIGPT/llm-wiki-agent,https://argusic.com/subject/llm-wiki-agent
+llphant,LLPhant,runs,2026-10-06,1,100,https://github.com/LLPhant/LLPhant,https://argusic.com/subject/llphant
 lmdbjava,lmdbjava,runs,2026-09-19,2,100,https://github.com/lmdbjava/lmdbjava,https://argusic.com/subject/lmdbjava
 lnav,lnav,runs,2026-09-05,4,100,https://github.com/tstack/lnav,https://argusic.com/subject/lnav
 local-deep-research,local-deep-research,runs,2026-09-27,1,100,https://github.com/LearningCircuit/local-deep-research,https://argusic.com/subject/local-deep-research
@@ -763,6 +812,7 @@ many-notes,many-notes,runs,2026-09-18,2,100,https://github.com/brufdev/many-note
 mapcn,mapcn,runs,2026-09-08,4,100,https://github.com/AnmolSaini16/mapcn,https://argusic.com/subject/mapcn
 maptoposter,maptoposter,runs,2026-09-26,2,60,https://github.com/originalankur/maptoposter,https://argusic.com/subject/maptoposter
 markdownify-mcp,markdownify-mcp,runs,2026-10-02,1,100,https://github.com/zcaceres/markdownify-mcp,https://argusic.com/subject/markdownify-mcp
+marktext,marktext,runs,2026-10-05,1,100,https://github.com/marktext/marktext,https://argusic.com/subject/marktext
 marm-memory,marm-memory,runs,2026-09-19,2,100,https://github.com/Lyellr88/marm-memory,https://argusic.com/subject/marm-memory
 matrixhub,matrixhub,runs,2026-09-19,2,100,https://github.com/matrixhub-ai/matrixhub,https://argusic.com/subject/matrixhub
 matrixone,matrixone,runs,2026-10-04,1,100,https://github.com/matrixorigin/matrixone,https://argusic.com/subject/matrixone
@@ -772,10 +822,12 @@ mcp,mcp,runs,2026-09-23,3,97.1,https://github.com/awslabs/mcp,https://argusic.co
 mcp-excalidraw,mcp_excalidraw,runs,2026-10-03,1,100,https://github.com/yctimlin/mcp_excalidraw,https://argusic.com/subject/mcp-excalidraw
 mcp-agent,mcp-agent,runs with mocks,2026-09-03,1,92,https://github.com/lastmile-ai/mcp-agent,https://argusic.com/subject/mcp-agent
 mcp-atlassian,mcp-atlassian,runs with mocks,2026-09-29,1,92,https://github.com/sooperset/mcp-atlassian,https://argusic.com/subject/mcp-atlassian
+mcp-brasil,mcp-brasil,runs,2026-10-05,1,100,https://github.com/Mcp-Brasil/mcp-brasil,https://argusic.com/subject/mcp-brasil
 mcp-chrome,mcp-chrome,runs with mocks,2026-09-05,3,92,https://github.com/hangwin/mcp-chrome,https://argusic.com/subject/mcp-chrome
 mcp-context-forge,mcp-context-forge,runs,2026-09-05,3,100,https://github.com/IBM/mcp-context-forge,https://argusic.com/subject/mcp-context-forge
 mcp-for-blender,mcp-for-blender,runs,2026-09-22,3,100,https://github.com/ahujasid/mcp-for-blender,https://argusic.com/subject/mcp-for-blender
 mcp-grafana,mcp-grafana,runs,2026-10-01,2,90,https://github.com/grafana/mcp-grafana,https://argusic.com/subject/mcp-grafana
+mcp-gsc,mcp-gsc,runs with mocks,2026-10-05,1,92,https://github.com/AminForou/mcp-gsc,https://argusic.com/subject/mcp-gsc
 mcp-memory-service,mcp-memory-service,runs,2026-10-05,1,100,https://github.com/doobidoo/mcp-memory-service,https://argusic.com/subject/mcp-memory-service
 mcp-obsidian,mcp-obsidian,runs with mocks,2026-09-30,1,92,https://github.com/MarkusPfundstein/mcp-obsidian,https://argusic.com/subject/mcp-obsidian
 mcp-proxy,mcp-proxy,runs,2026-10-02,1,100,https://github.com/sparfenyuk/mcp-proxy,https://argusic.com/subject/mcp-proxy
@@ -786,14 +838,17 @@ mcphub,mcphub,runs with mocks,2026-10-03,1,92,https://github.com/samanhappy/mcph
 mcpo,mcpo,runs,2026-09-30,1,100,https://github.com/open-webui/mcpo,https://argusic.com/subject/mcpo
 media-chrome,media-chrome,runs,2026-10-02,1,100,https://github.com/muxinc/media-chrome,https://argusic.com/subject/media-chrome
 meetily,meetily,runs with mocks,2026-09-05,3,71,https://github.com/Zackriya-Solutions/meetily,https://argusic.com/subject/meetily
+meigen-ai-design-mcp,MeiGen-AI-Design-MCP,runs,2026-10-05,1,100,https://github.com/jau123/MeiGen-AI-Design-MCP,https://argusic.com/subject/meigen-ai-design-mcp
 melonjs,melonJS,could not verify,2026-09-29,2,35.7,https://github.com/melonjs/melonJS,https://argusic.com/subject/melonjs
 mem0,mem0,runs with mocks,2026-09-25,1,92,https://github.com/mem0ai/mem0,https://argusic.com/subject/mem0
 memory-os,memory-os,runs,2026-09-18,2,96,https://github.com/ClaudioDrews/memory-os,https://argusic.com/subject/memory-os
 memos--usememos,memos,runs,2026-09-21,3,100,https://github.com/usememos/memos,https://argusic.com/run/2a836002-ca18-4c2b-9e54-21b4844a77cb
 memos--memtensor,MemOS,runs with mocks,2026-09-27,1,92,https://github.com/MemTensor/MemOS,https://argusic.com/run/a92789ba-3e9a-4bac-9225-2618fcffa7e5
 mempalace,mempalace,runs,2026-09-21,3,100,https://github.com/MemPalace/mempalace,https://argusic.com/subject/mempalace
+mermaid-rs-renderer,mermaid-rs-renderer,runs,2026-10-06,1,100,https://github.com/1jehuang/mermaid-rs-renderer,https://argusic.com/subject/mermaid-rs-renderer
 metalsmith,metalsmith,runs,2026-09-28,1,100,https://github.com/metalsmith/metalsmith,https://argusic.com/subject/metalsmith
 metamcp,metamcp,runs,2026-10-02,1,100,https://github.com/metatool-ai/metamcp,https://argusic.com/subject/metamcp
+mex,mex,runs,2026-10-06,2,60,https://github.com/mex-memory/mex,https://argusic.com/subject/mex
 micro,micro,runs,2026-09-26,1,100,https://github.com/micro-editor/micro,https://argusic.com/subject/micro
 microduck,microduck,runs,2026-09-28,1,100,https://github.com/pollen-robotics/microduck,https://argusic.com/subject/microduck
 micrometer,micrometer,runs,2026-09-30,2,54,https://github.com/micrometer-metrics/micrometer,https://argusic.com/subject/micrometer
@@ -801,7 +856,9 @@ middleman,middleman,runs,2026-09-28,1,100,https://github.com/middleman/middleman
 milvus,milvus,runs,2026-09-25,1,100,https://github.com/milvus-io/milvus,https://argusic.com/subject/milvus
 mimo-code,MiMo-Code,runs,2026-09-26,2,60,https://github.com/XiaomiMiMo/MiMo-Code,https://argusic.com/subject/mimo-code
 minecontext,MineContext,runs with mocks,2026-09-29,1,92,https://github.com/volcengine/MineContext,https://argusic.com/subject/minecontext
+mini-media-player,mini-media-player,could not verify,2026-10-06,2,80,https://github.com/kalkih/mini-media-player,https://argusic.com/subject/mini-media-player
 minimax-code,minimax-code,runs,2026-10-05,1,100,https://github.com/MiniMax-AI/minimax-code,https://argusic.com/subject/minimax-code
+minimind,minimind,runs,2026-10-05,1,100,https://github.com/jingyaogong/minimind,https://argusic.com/subject/minimind
 miniserve,miniserve,runs,2026-09-23,3,100,https://github.com/svenstaro/miniserve,https://argusic.com/subject/miniserve
 mirage,mirage,could not verify,2026-10-03,2,20,https://github.com/strukto-ai/mirage,https://argusic.com/subject/mirage
 miroflow,MiroFlow,runs with mocks,2026-10-01,1,92,https://github.com/MiroMindAI/MiroFlow,https://argusic.com/subject/miroflow
@@ -881,6 +938,7 @@ notion-mcp-server,notion-mcp-server,runs,2026-09-30,1,100,https://github.com/mak
 notion-sdk-js,notion-sdk-js,runs with mocks,2026-09-29,2,56,https://github.com/makenotion/notion-sdk-js,https://argusic.com/subject/notion-sdk-js
 notion-sdk-py,notion-sdk-py,runs with mocks,2026-10-04,1,92,https://github.com/ramnes/notion-sdk-py,https://argusic.com/subject/notion-sdk-py
 npkill,npkill,runs,2026-09-23,3,100,https://github.com/voidcosmos/npkill,https://argusic.com/subject/npkill
+npq,npq,runs,2026-10-05,1,100,https://github.com/lirantal/npq,https://argusic.com/subject/npq
 nsq,nsq,runs,2026-09-25,1,100,https://github.com/nsqio/nsq,https://argusic.com/subject/nsq
 nub,nub,runs,2026-10-01,1,100,https://github.com/nubjs/nub,https://argusic.com/subject/nub
 nunu,nunu,runs,2026-10-03,1,100,https://github.com/go-nunu/nunu,https://argusic.com/subject/nunu
@@ -914,6 +972,7 @@ onenote,onenote,runs,2026-09-18,2,91,https://github.com/patrikx3/onenote,https:/
 online-shopping-system-advanced,online-shopping-system-advanced,runs,2026-09-19,2,96,https://github.com/PuneethReddyHC/online-shopping-system-advanced,https://argusic.com/subject/online-shopping-system-advanced
 onlook,onlook,runs,2026-09-25,1,100,https://github.com/onlook-dev/onlook,https://argusic.com/subject/onlook
 oomwoo,oomwoo,runs,2026-09-27,1,100,https://github.com/makerspet/oomwoo,https://argusic.com/subject/oomwoo
+opc-skills,opc-skills,runs,2026-10-05,1,90,https://github.com/ReScienceLab/opc-skills,https://argusic.com/subject/opc-skills
 open-claude-cowork,open-claude-cowork,runs with mocks,2026-09-30,1,92,https://github.com/composio-community/open-claude-cowork,https://argusic.com/subject/open-claude-cowork
 open-code-review,open-code-review,runs,2026-09-21,3,97.3,https://github.com/alibaba/open-code-review,https://argusic.com/subject/open-code-review
 open-codesign,open-codesign,runs,2026-09-28,1,100,https://github.com/OpenCoworkAI/open-codesign,https://argusic.com/subject/open-codesign
@@ -923,10 +982,15 @@ open-multi-agent,open-multi-agent,runs with mocks,2026-09-24,3,92,https://github
 open-seo-mcp-skills,open-seo-mcp-skills,could not verify,2026-10-02,2,50,https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills,https://argusic.com/subject/open-seo-mcp-skills
 open-slide,open-slide,runs,2026-09-28,2,60,https://github.com/open-slide/open-slide,https://argusic.com/subject/open-slide
 open-terminal,open-terminal,runs,2026-10-01,1,100,https://github.com/open-webui/open-terminal,https://argusic.com/subject/open-terminal
+open-websearch,open-webSearch,runs with mocks,2026-10-05,1,77,https://github.com/Aas-ee/open-webSearch,https://argusic.com/subject/open-websearch
+openadapt,OpenAdapt,runs,2026-10-06,1,80,https://github.com/OpenAdaptAI/OpenAdapt,https://argusic.com/subject/openadapt
 openagent,openagent,runs,2026-09-04,2,100,https://github.com/the-open-agent/openagent,https://argusic.com/subject/openagent
 openbiliclaw,OpenBiliClaw,runs with mocks,2026-09-05,4,92,https://github.com/whiteguo233/OpenBiliClaw,https://argusic.com/subject/openbiliclaw
 openbot,OpenBot,could not verify,2026-09-29,2,77.1,https://github.com/CopilotKit/OpenBot,https://argusic.com/subject/openbot
 openbrowser,openbrowser,runs,2026-09-27,1,100,https://github.com/ntegrals/openbrowser,https://argusic.com/subject/openbrowser
+openccu,OpenCCU,runs with mocks,2026-10-05,2,48.5,https://github.com/OpenCCU/OpenCCU,https://argusic.com/subject/openccu
+openclaw-android--aidanpark,openclaw-android,runs,2026-10-06,2,60,https://github.com/aidanpark/openclaw-android,https://argusic.com/run/89e91933-14e3-4d9a-b02f-5ff2bf7d5155
+openclaw-android--aidanpark-2,openclaw-android,runs with mocks,2026-10-05,1,92,https://github.com/AidanPark/openclaw-android,https://argusic.com/run/dbe0cc9c-1f96-4b05-b462-602826fb290c
 openclaw-nerve,openclaw-nerve,runs with mocks,2026-09-09,1,92,https://github.com/daggerhashimoto/openclaw-nerve,https://argusic.com/subject/openclaw-nerve
 opencli,OpenCLI,runs,2026-09-22,3,100,https://github.com/jackwener/OpenCLI,https://argusic.com/subject/opencli
 opencut,OpenCut,runs,2026-09-20,3,94.7,https://github.com/OpenCut-app/OpenCut,https://argusic.com/subject/opencut
@@ -949,6 +1013,7 @@ opensrc,opensrc,runs,2026-09-07,1,100,https://github.com/vercel-labs/opensrc,htt
 opensre,opensre,runs with mocks,2026-09-27,1,92,https://github.com/Tracer-Cloud/opensre,https://argusic.com/subject/opensre
 opentelemetry-collector,opentelemetry-collector,runs,2026-09-28,1,100,https://github.com/open-telemetry/opentelemetry-collector,https://argusic.com/subject/opentelemetry-collector
 openttd,OpenTTD,runs,2026-09-23,3,100,https://github.com/OpenTTD/OpenTTD,https://argusic.com/subject/openttd
+openvpn-install,openvpn-install,could not verify,2026-10-06,2,20,https://github.com/hwdsl2/openvpn-install,https://argusic.com/subject/openvpn-install
 openwhispr,openwhispr,runs,2026-09-28,1,100,https://github.com/OpenWhispr/openwhispr,https://argusic.com/subject/openwhispr
 openwiki,openwiki,runs,2026-09-26,1,100,https://github.com/langchain-ai/openwiki,https://argusic.com/subject/openwiki
 openworker,openworker,runs,2026-09-26,2,60,https://github.com/andrewyng/openworker,https://argusic.com/subject/openworker
@@ -956,6 +1021,7 @@ optillm,optillm,runs,2026-09-30,2,60,https://github.com/algorithmicsuperintellig
 orbit,orbit,could not verify,2026-09-13,2,20,https://github.com/schmitech/orbit,https://argusic.com/subject/orbit
 orbitdb,orbitdb,runs,2026-09-27,1,100,https://github.com/orbitdb/orbitdb,https://argusic.com/subject/orbitdb
 orca-q,orca-q,runs,2026-09-20,2,100,https://github.com/cin12211/orca-q,https://argusic.com/subject/orca-q
+orcarouter-lite,OrcaRouter-Lite,runs,2026-10-06,1,100,https://github.com/Continuum-AI-Corp/OrcaRouter-Lite,https://argusic.com/subject/orcarouter-lite
 organize,organize,runs,2026-10-01,1,100,https://github.com/tfeldmann/organize,https://argusic.com/subject/organize
 orientdb,orientdb,runs,2026-09-24,3,100,https://github.com/orientechnologies/orientdb,https://argusic.com/subject/orientdb
 osiris,osiris,runs,2026-09-27,1,100,https://github.com/simplifaisoul/osiris,https://argusic.com/subject/osiris
@@ -965,6 +1031,7 @@ ouroboros,ouroboros,runs with mocks,2026-09-24,4,88.7,https://github.com/Q00/our
 ov,ov,runs,2026-10-04,1,100,https://github.com/noborus/ov,https://argusic.com/subject/ov
 overload,Overload,runs with mocks,2026-10-03,2,86,https://github.com/Overload-Technologies/Overload,https://argusic.com/subject/overload
 oxidized,oxidized,runs,2026-10-01,1,100,https://github.com/ytti/oxidized,https://argusic.com/subject/oxidized
+paca,paca,runs with mocks,2026-10-05,1,92,https://github.com/Paca-AI/paca,https://argusic.com/subject/paca
 paddlenlp,PaddleNLP,runs,2026-09-26,1,100,https://github.com/PaddlePaddle/PaddleNLP,https://argusic.com/subject/paddlenlp
 page-agent,page-agent,runs,2026-09-25,1,100,https://github.com/alibaba/page-agent,https://argusic.com/subject/page-agent
 pageindex,PageIndex,runs,2026-09-25,1,100,https://github.com/VectifyAI/PageIndex,https://argusic.com/subject/pageindex
@@ -989,6 +1056,7 @@ perses,perses,runs,2026-10-03,2,100,https://github.com/perses/perses,https://arg
 personal-management-system,personal-management-system,runs,2026-09-25,3,97.3,https://github.com/Volmarg/personal-management-system,https://argusic.com/subject/personal-management-system
 petdex,petdex,runs with mocks,2026-09-30,1,92,https://github.com/crafter-station/petdex,https://argusic.com/subject/petdex
 pezzo,pezzo,runs with mocks,2026-10-01,1,92,https://github.com/pezzolabs/pezzo,https://argusic.com/subject/pezzo
+pg-aiguide,pg-aiguide,runs,2026-10-05,1,90,https://github.com/timescale/pg-aiguide,https://argusic.com/subject/pg-aiguide
 pgcli,pgcli,runs,2026-09-26,1,100,https://github.com/dbcli/pgcli,https://argusic.com/subject/pgcli
 pglite,pglite,runs,2026-09-26,1,100,https://github.com/electric-sql/pglite,https://argusic.com/subject/pglite
 pharosrag,PharosRAG,runs with mocks,2026-09-20,2,92,https://github.com/Laurent00TT/PharosRAG,https://argusic.com/subject/pharosrag
@@ -1010,17 +1078,20 @@ plandex,plandex,runs,2026-09-22,3,98.7,https://github.com/plandex-ai/plandex,htt
 plano,plano,runs,2026-09-28,1,100,https://github.com/katanemo/plano,https://argusic.com/subject/plano
 playwright-go,playwright-go,runs,2026-10-01,1,100,https://github.com/mxschmitt/playwright-go,https://argusic.com/subject/playwright-go
 playwright-mcp,playwright-mcp,runs,2026-09-21,3,100,https://github.com/microsoft/playwright-mcp,https://argusic.com/subject/playwright-mcp
+pocketbase,pocketbase,runs,2026-10-05,1,100,https://github.com/pocketbase/pocketbase,https://argusic.com/subject/pocketbase
 poirot,poirot,runs with mocks,2026-09-13,2,56,https://github.com/HezaoHezao/poirot,https://argusic.com/subject/poirot
 polodb,PoloDB,runs,2026-09-18,2,100,https://github.com/PoloDB/PoloDB,https://argusic.com/subject/polodb
 pomerium,pomerium,runs,2026-09-29,1,100,https://github.com/pomerium/pomerium,https://argusic.com/subject/pomerium
 ponghub,PongHub,runs,2026-09-20,2,100,https://github.com/DevXDojo/PongHub,https://argusic.com/subject/ponghub
 ponytail,ponytail,runs,2026-09-20,4,98,https://github.com/DietrichGebert/ponytail,https://argusic.com/subject/ponytail
 ponzu,ponzu,runs,2026-09-29,1,100,https://github.com/ponzu-cms/ponzu,https://argusic.com/subject/ponzu
+portabase,portabase,runs,2026-10-05,1,100,https://github.com/Portabase/portabase,https://argusic.com/subject/portabase
 postgres,postgres,runs,2026-09-27,1,100,https://github.com/porsager/postgres,https://argusic.com/subject/postgres
 posting,posting,runs,2026-09-23,3,96.7,https://github.com/darrenburns/posting,https://argusic.com/subject/posting
 pouchdb,pouchdb,runs,2026-09-26,1,100,https://github.com/apache/pouchdb,https://argusic.com/subject/pouchdb
 poznote,poznote,runs,2026-09-19,2,86,https://github.com/timothepoznanski/poznote,https://argusic.com/subject/poznote
 ppt-master,ppt-master,runs,2026-09-21,3,73.3,https://github.com/hugohe3/ppt-master,https://argusic.com/subject/ppt-master
+pr-lens,pr-lens,runs,2026-10-05,1,100,https://github.com/coldteadotai/pr-lens,https://argusic.com/subject/pr-lens
 praisonai,PraisonAI,runs with mocks,2026-09-27,1,92,https://github.com/MervinPraison/PraisonAI,https://argusic.com/subject/praisonai
 prefect,prefect,runs,2026-09-25,1,100,https://github.com/PrefectHQ/prefect,https://argusic.com/subject/prefect
 presenterm,presenterm,runs,2026-10-02,1,100,https://github.com/mfontanini/presenterm,https://argusic.com/subject/presenterm
@@ -1053,7 +1124,9 @@ quartz,quartz,runs,2026-09-26,1,100,https://github.com/jackyzha0/quartz,https://
 quickwit,quickwit,runs,2026-09-26,1,100,https://github.com/quickwit-oss/quickwit,https://argusic.com/subject/quickwit
 quill,quill,runs,2026-10-02,1,100,https://github.com/odygrd/quill,https://argusic.com/subject/quill
 quiver,quiver,runs,2026-10-01,1,100,https://github.com/varkor/quiver,https://argusic.com/subject/quiver
+quivr,quivr,runs with mocks,2026-10-05,1,92,https://github.com/The-Vibe-Company/quivr,https://argusic.com/subject/quivr
 qwen-audio-agent,qwen-audio-agent,runs,2026-09-17,2,96,https://github.com/QwenAudio/qwen-audio-agent,https://argusic.com/subject/qwen-audio-agent
+qzoneexport,QZoneExport,runs,2026-10-05,1,100,https://github.com/ShunCai/QZoneExport,https://argusic.com/subject/qzoneexport
 radar,radar,runs with mocks,2026-09-05,3,92,https://github.com/skyhook-io/radar,https://argusic.com/subject/radar
 radian,radian,runs with mocks,2026-10-04,2,92,https://github.com/randy3k/radian,https://argusic.com/subject/radian
 ragflow,ragflow,runs,2026-09-25,1,100,https://github.com/infiniflow/ragflow,https://argusic.com/subject/ragflow
@@ -1063,7 +1136,9 @@ raneto,Raneto,runs,2026-10-02,1,100,https://github.com/ryanlelek/Raneto,https://
 ratatui,ratatui,runs,2026-09-22,3,100,https://github.com/ratatui/ratatui,https://argusic.com/subject/ratatui
 rats-search,rats-search,runs,2026-10-04,1,100,https://github.com/librats/rats-search,https://argusic.com/subject/rats-search
 raven,Raven,runs with mocks,2026-10-01,1,92,https://github.com/EverMind-AI/Raven,https://argusic.com/subject/raven
+rclone,rclone,runs,2026-10-05,1,100,https://github.com/rclone/rclone,https://argusic.com/subject/rclone
 re-start,re-start,runs,2026-09-19,2,96.7,https://github.com/refact0r/re-start,https://argusic.com/subject/re-start
+rea,rea,runs with mocks,2026-10-05,1,92,https://github.com/morluto/rea,https://argusic.com/subject/rea
 react-ace,react-ace,runs,2026-09-30,1,100,https://github.com/securingsincity/react-ace,https://argusic.com/subject/react-ace
 react-datasheet-grid,react-datasheet-grid,runs,2026-09-18,2,100,https://github.com/nick-keller/react-datasheet-grid,https://argusic.com/subject/react-datasheet-grid
 react-email-editor,react-email-editor,runs,2026-09-24,3,94.7,https://github.com/unlayer/react-email-editor,https://argusic.com/subject/react-email-editor
@@ -1072,9 +1147,11 @@ react-lifecycle-methods-diagram,react-lifecycle-methods-diagram,runs,2026-09-30,
 react-native-mmkv,react-native-mmkv,runs with mocks,2026-09-28,1,92,https://github.com/margelo/react-native-mmkv,https://argusic.com/subject/react-native-mmkv
 react-snap,react-snap,runs,2026-09-29,1,100,https://github.com/stereobooster/react-snap,https://argusic.com/subject/react-snap
 react-spreadsheet,react-spreadsheet,runs,2026-09-18,2,100,https://github.com/iddan/react-spreadsheet,https://argusic.com/subject/react-spreadsheet
+read-aloud,read-aloud,runs,2026-10-06,2,90,https://github.com/ken107/read-aloud,https://argusic.com/subject/read-aloud
 readme-ai,readme-ai,runs,2026-10-02,1,100,https://github.com/eli64s/readme-ai,https://argusic.com/subject/readme-ai
 realtimestt,RealtimeSTT,runs,2026-09-27,1,100,https://github.com/KoljaB/RealtimeSTT,https://argusic.com/subject/realtimestt
 realtimetts,RealtimeTTS,runs,2026-09-30,1,100,https://github.com/KoljaB/RealtimeTTS,https://argusic.com/subject/realtimetts
+redux,redux,runs,2026-10-05,1,100,https://github.com/reduxjs/redux,https://argusic.com/subject/redux
 remirror,remirror,runs,2026-10-02,1,100,https://github.com/remirror/remirror,https://argusic.com/subject/remirror
 req,req,runs,2026-09-29,1,100,https://github.com/imroc/req,https://argusic.com/subject/req
 reqwest,reqwest,runs,2026-09-28,2,100,https://github.com/seanmonstar/reqwest,https://argusic.com/subject/reqwest
@@ -1088,14 +1165,17 @@ ripwire,ripwire,runs,2026-09-18,2,90,https://github.com/redhat-et/ripwire,https:
 risingwave,risingwave,runs,2026-09-27,1,100,https://github.com/risingwavelabs/risingwave,https://argusic.com/subject/risingwave
 rmpc,rmpc,runs with mocks,2026-10-01,1,92,https://github.com/mierak/rmpc,https://argusic.com/subject/rmpc
 robusta,robusta,runs with mocks,2026-10-01,1,92,https://github.com/robusta-dev/robusta,https://argusic.com/subject/robusta
+robustmq,robustmq,could not verify,2026-10-05,2,20,https://github.com/robustmq/robustmq,https://argusic.com/subject/robustmq
 rod,rod,runs,2026-09-28,1,96,https://github.com/go-rod/rod,https://argusic.com/subject/rod
 rom--hanakai-rb,rom,runs,2026-10-04,2,60,https://github.com/hanakai-rb/rom,https://argusic.com/run/74014d2b-b854-4b5f-92f5-d551f249936c
 rom--rom-rb,rom,runs,2026-10-04,1,100,https://github.com/rom-rb/rom,https://argusic.com/run/12f257b5-2a5d-4e2f-b845-791e4728fd5e
 router,router,could not verify,2026-09-24,3,40,https://github.com/weave-os/router,https://argusic.com/subject/router
 rqlite,rqlite,runs,2026-09-26,1,100,https://github.com/rqlite/rqlite,https://argusic.com/subject/rqlite
+rsmq,rsmq,runs,2026-10-05,2,60,https://github.com/smrchy/rsmq,https://argusic.com/subject/rsmq
 rspress,rspress,runs,2026-10-03,1,100,https://github.com/web-infra-dev/rspress,https://argusic.com/subject/rspress
 rtk,rtk,runs,2026-09-20,4,80,https://github.com/rtk-ai/rtk,https://argusic.com/subject/rtk
 ruby-openai,ruby-openai,runs with mocks,2026-10-01,1,92,https://github.com/alexrudall/ruby-openai,https://argusic.com/subject/ruby-openai
+ruia,ruia,runs,2026-10-06,1,100,https://github.com/howie6879/ruia,https://argusic.com/subject/ruia
 runjam,runjam,runs,2026-09-20,2,85,https://github.com/peintune/runjam,https://argusic.com/subject/runjam
 rustic,rustic,runs,2026-10-01,1,100,https://github.com/rustic-rs/rustic,https://argusic.com/subject/rustic
 rustlings,rustlings,runs,2026-10-04,1,100,https://github.com/rust-lang/rustlings,https://argusic.com/subject/rustlings
@@ -1133,6 +1213,7 @@ setup-php,setup-php,runs with mocks,2026-10-01,1,92,https://github.com/shivammat
 sh,sh,runs with mocks,2026-10-01,1,80.6,https://github.com/kejilion/sh,https://argusic.com/subject/sh
 shadcn-ui-mcp-server,shadcn-ui-mcp-server,runs,2026-10-02,1,100,https://github.com/Jpisnice/shadcn-ui-mcp-server,https://argusic.com/subject/shadcn-ui-mcp-server
 shardingsphere-elasticjob,shardingsphere-elasticjob,runs,2026-09-28,1,100,https://github.com/apache/shardingsphere-elasticjob,https://argusic.com/subject/shardingsphere-elasticjob
+sharing,sharing,runs,2026-10-05,1,100,https://github.com/parvardegr/sharing,https://argusic.com/subject/sharing
 shattered-pixel-dungeon,shattered-pixel-dungeon,runs,2026-09-24,3,93.3,https://github.com/00-Evan/shattered-pixel-dungeon,https://argusic.com/subject/shattered-pixel-dungeon
 shell-gpt,shell_gpt,runs with mocks,2026-10-02,1,92,https://github.com/TheR1D/shell_gpt,https://argusic.com/subject/shell-gpt
 shelve,shelve,runs,2026-09-19,2,100,https://github.com/HugoRCD/shelve,https://argusic.com/subject/shelve
@@ -1157,6 +1238,7 @@ skills--google,skills,runs with mocks,2026-09-26,1,92,https://github.com/google/
 skills--microsoft,skills,runs with mocks,2026-10-01,1,92,https://github.com/microsoft/skills,https://argusic.com/run/18801799-dce4-4c4c-9b72-e2940b119c91
 skybridge,skybridge,runs,2026-10-04,1,100,https://github.com/alpic-ai/skybridge,https://argusic.com/subject/skybridge
 skywalking,skywalking,runs,2026-09-25,2,60,https://github.com/apache/skywalking,https://argusic.com/subject/skywalking
+slack-mcp-server,slack-mcp-server,runs with mocks,2026-10-05,1,92,https://github.com/korotovsky/slack-mcp-server,https://argusic.com/subject/slack-mcp-server
 slate,slate,runs,2026-09-26,1,100,https://github.com/ianstormtaylor/slate,https://argusic.com/subject/slate
 slatedb,slatedb,runs,2026-09-12,2,60,https://github.com/slatedb/slatedb,https://argusic.com/subject/slatedb
 sled,sled,runs,2026-09-27,1,100,https://github.com/spacejam/sled,https://argusic.com/subject/sled
@@ -1168,6 +1250,7 @@ smoothui,smoothui,runs,2026-09-08,4,100,https://github.com/educlopez/smoothui,ht
 snapai,snapai,runs with mocks,2026-10-05,1,92,https://github.com/Code-with-Beto/snapai,https://argusic.com/subject/snapai
 social-media-research-skills,social-media-research-skills,runs with mocks,2026-10-02,1,92,https://github.com/ScrapeCreators/social-media-research-skills,https://argusic.com/subject/social-media-research-skills
 social-media-skills,social-media-skills,runs with mocks,2026-10-03,2,56,https://github.com/charlie947/social-media-skills,https://argusic.com/subject/social-media-skills
+socket-io,socket.io,runs,2026-10-05,1,100,https://github.com/socketio/socket.io,https://argusic.com/subject/socket-io
 softwarecopyright-skill,SoftwareCopyright-Skill,runs with mocks,2026-09-30,1,92,https://github.com/Fokkyp/SoftwareCopyright-Skill,https://argusic.com/subject/softwarecopyright-skill
 solidus,solidus,runs,2026-09-29,1,100,https://github.com/solidusio/solidus,https://argusic.com/subject/solidus
 solon,solon,runs,2026-10-02,1,100,https://github.com/opensolon/solon,https://argusic.com/subject/solon
@@ -1187,11 +1270,13 @@ spotifast,spotifast,runs with mocks,2026-09-25,3,92,https://github.com/crmne/spo
 spotify-player,spotify-player,runs,2026-09-24,3,86.2,https://github.com/aome510/spotify-player,https://argusic.com/subject/spotify-player
 spree,spree,runs,2026-09-26,1,100,https://github.com/spree/spree,https://argusic.com/subject/spree
 spring-cloud-gateway,spring-cloud-gateway,runs,2026-09-29,1,100,https://github.com/spring-cloud/spring-cloud-gateway,https://argusic.com/subject/spring-cloud-gateway
+spring-framework,spring-framework,runs,2026-10-05,1,100,https://github.com/spring-projects/spring-framework,https://argusic.com/subject/spring-framework
 sprite-gen,sprite-gen,runs,2026-10-03,2,60,https://github.com/aldegad/sprite-gen,https://argusic.com/subject/sprite-gen
 sqlancer,sqlancer,runs,2026-09-18,2,100,https://github.com/sqlancer/sqlancer,https://argusic.com/subject/sqlancer
 sqlit,sqlit,runs,2026-09-29,1,100,https://github.com/Maxteabag/sqlit,https://argusic.com/subject/sqlit
 squad,squad,runs,2026-10-01,1,90,https://github.com/bradygaster/squad,https://argusic.com/subject/squad
 starlight,starlight,runs,2026-09-27,2,60,https://github.com/withastro/starlight,https://argusic.com/subject/starlight
+starship,starship,runs,2026-10-05,1,100,https://github.com/starship/starship,https://argusic.com/subject/starship
 startup-page,startup-page,runs,2026-09-19,2,100,https://github.com/timh-dev/startup-page,https://argusic.com/subject/startup-page
 statuspage,statuspage,runs,2026-09-19,2,96,https://github.com/statsig-io/statuspage,https://argusic.com/subject/statuspage
 stealth-browser-mcp,stealth-browser-mcp,runs,2026-10-04,1,100,https://github.com/vibheksoni/stealth-browser-mcp,https://argusic.com/subject/stealth-browser-mcp
@@ -1211,6 +1296,7 @@ surrealkv,surrealkv,runs,2026-09-19,2,100,https://github.com/surrealdb/surrealkv
 sveltia-cms,sveltia-cms,runs,2026-10-02,1,100,https://github.com/sveltia/sveltia-cms,https://argusic.com/subject/sveltia-cms
 svgbob,svgbob,runs,2026-09-30,1,100,https://github.com/ivanceras/svgbob,https://argusic.com/subject/svgbob
 svix-webhooks,svix-webhooks,runs with mocks,2026-10-01,2,71,https://github.com/svix/svix-webhooks,https://argusic.com/subject/svix-webhooks
+sway,sway,not yet verified,2026-10-05,1,20,https://github.com/FuelLabs/sway,https://argusic.com/subject/sway
 swirl-search,swirl-search,runs,2026-10-01,1,100,https://github.com/swirlai/swirl-search,https://argusic.com/subject/swirl-search
 sylius,Sylius,runs,2026-09-28,1,100,https://github.com/Sylius/Sylius,https://argusic.com/subject/sylius
 tabby,tabby,could not verify,2026-09-20,3,70,https://github.com/Eugeny/tabby,https://argusic.com/subject/tabby
@@ -1228,6 +1314,7 @@ taxhacker,TaxHacker,runs,2026-09-24,3,97.3,https://github.com/vas3k/TaxHacker,ht
 tbls,tbls,runs with mocks,2026-09-30,1,92,https://github.com/k1LoW/tbls,https://argusic.com/subject/tbls
 tdd-guard,tdd-guard,runs with mocks,2026-09-18,2,92,https://github.com/nizos/tdd-guard,https://argusic.com/subject/tdd-guard
 teaql-agent-kit,teaql-agent-kit,runs,2026-09-17,2,100,https://github.com/teaql/teaql-agent-kit,https://argusic.com/subject/teaql-agent-kit
+telegram-mcp,telegram-mcp,runs with mocks,2026-10-05,1,92,https://github.com/chigwell/telegram-mcp,https://argusic.com/subject/telegram-mcp
 television,television,runs,2026-09-24,3,100,https://github.com/alexpasmantier/television,https://argusic.com/subject/television
 tellery,tellery,runs,2026-09-09,1,100,https://github.com/tellery/tellery,https://argusic.com/subject/tellery
 temporal,temporal,runs,2026-09-25,1,100,https://github.com/temporalio/temporal,https://argusic.com/subject/temporal
@@ -1274,6 +1361,7 @@ trieve,trieve,runs with mocks,2026-10-02,1,82,https://github.com/devflowinc/trie
 trino,trino,runs,2026-09-26,1,100,https://github.com/trinodb/trino,https://argusic.com/subject/trino
 trippy,trippy,runs,2026-09-23,3,70.7,https://github.com/fujiapple852/trippy,https://argusic.com/subject/trippy
 trix,trix,runs,2026-09-26,1,100,https://github.com/basecamp/trix,https://argusic.com/subject/trix
+trpc-agent-go,trpc-agent-go,runs,2026-10-05,1,100,https://github.com/trpc-group/trpc-agent-go,https://argusic.com/subject/trpc-agent-go
 trueforge,trueforge,runs,2026-09-29,1,80,https://github.com/truefoundry/trueforge,https://argusic.com/subject/trueforge
 trustgraph,trustgraph,runs with mocks,2026-10-02,1,92,https://github.com/trustgraph-ai/trustgraph,https://argusic.com/subject/trustgraph
 tsink,tsink,runs,2026-09-20,2,100,https://github.com/aidlx/tsink,https://argusic.com/subject/tsink
@@ -1286,6 +1374,7 @@ tuios,tuios,runs,2026-09-30,1,100,https://github.com/Gaurav-Gosain/tuios,https:/
 tun2socks,tun2socks,runs,2026-09-29,1,100,https://github.com/xjasonlyu/tun2socks,https://argusic.com/subject/tun2socks
 turbokv,turbokv,runs,2026-09-20,2,100,https://github.com/kingroryg/turbokv,https://argusic.com/subject/turbokv
 turso,turso,runs,2026-09-22,3,86.7,https://github.com/tursodatabase/turso,https://argusic.com/subject/turso
+tuxedo,tuxedo,runs,2026-10-06,1,100,https://github.com/webstonehq/tuxedo,https://argusic.com/subject/tuxedo
 twill,twill,runs,2026-09-30,1,100,https://github.com/area17/twill,https://argusic.com/subject/twill
 twinny,twinny,runs,2026-09-25,3,100,https://github.com/twinnydotdev/twinny,https://argusic.com/subject/twinny
 twscrape,twscrape,runs with mocks,2026-10-02,1,92,https://github.com/vladkens/twscrape,https://argusic.com/subject/twscrape
@@ -1340,6 +1429,7 @@ vim-anywhere,vim-anywhere,runs with mocks,2026-09-30,1,92,https://github.com/ckn
 vision-agents,Vision-Agents,runs,2026-09-28,1,100,https://github.com/GetStream/Vision-Agents,https://argusic.com/subject/vision-agents
 viu,viu,runs,2026-10-03,1,100,https://github.com/atanunq/viu,https://argusic.com/subject/viu
 voicemem,VoiceMem,runs with mocks,2026-10-03,1,92,https://github.com/xzf-thu/VoiceMem,https://argusic.com/subject/voicemem
+voiden,voiden,runs,2026-10-05,1,100,https://github.com/VoidenHQ/voiden,https://argusic.com/subject/voiden
 volkswagen,volkswagen,runs,2026-09-27,1,100,https://github.com/auchenberg/volkswagen,https://argusic.com/subject/volkswagen
 voltagent,voltagent,runs,2026-09-27,1,100,https://github.com/VoltAgent/voltagent,https://argusic.com/subject/voltagent
 vps-audit,vps-audit,runs,2026-10-01,1,100,https://github.com/nuver-labs/vps-audit,https://argusic.com/subject/vps-audit
@@ -1350,7 +1440,9 @@ vvvebjs,VvvebJs,runs,2026-09-28,2,60,https://github.com/givanz/VvvebJs,https://a
 wacrm,wacrm,runs with mocks,2026-10-03,1,84,https://github.com/ArnasDon/wacrm,https://argusic.com/subject/wacrm
 wagtail,wagtail,runs,2026-09-26,1,100,https://github.com/wagtail/wagtail,https://argusic.com/subject/wagtail
 waha,waha,runs with mocks,2026-09-28,1,92,https://github.com/devlikeapro/waha,https://argusic.com/subject/waha
+waku-agent,waku-agent,runs,2026-10-05,1,100,https://github.com/ShenSeanChen/waku-agent,https://argusic.com/subject/waku-agent
 walk,walk,runs,2026-10-03,1,100,https://github.com/antonmedv/walk,https://argusic.com/subject/walk
+walrus,walrus,runs,2026-10-05,1,96,https://github.com/nubskr/walrus,https://argusic.com/subject/walrus
 wan2-2-ti2v-5b,Wan2.2-TI2V-5B,runs,2026-09-11,2,100,https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B,https://argusic.com/subject/wan2-2-ti2v-5b
 warewoolf,warewoolf,runs with mocks,2026-09-20,2,92,https://github.com/brsloan/warewoolf,https://argusic.com/subject/warewoolf
 warzone2100,warzone2100,runs,2026-09-05,3,100,https://github.com/Warzone2100/warzone2100,https://argusic.com/subject/warzone2100
@@ -1371,6 +1463,7 @@ wechatsogou,WechatSogou,could not verify,2026-09-29,2,80,https://github.com/chyr
 wekan,wekan,runs,2026-09-26,1,100,https://github.com/wekan/wekan,https://argusic.com/subject/wekan
 werf,werf,runs,2026-09-30,1,100,https://github.com/werf/werf,https://argusic.com/subject/werf
 wesnoth,wesnoth,runs,2026-09-05,4,66.7,https://github.com/wesnoth/wesnoth,https://argusic.com/subject/wesnoth
+wg-portal,wg-portal,runs,2026-10-05,1,100,https://github.com/h44z/wg-portal,https://argusic.com/subject/wg-portal
 wgcf,wgcf,runs,2026-09-27,1,100,https://github.com/ViRb3/wgcf,https://argusic.com/subject/wgcf
 whisper-asr-webservice,whisper-asr-webservice,runs,2026-10-01,1,100,https://github.com/ahmetoner/whisper-asr-webservice,https://argusic.com/subject/whisper-asr-webservice
 whisper-cpp,whisper.cpp,runs,2026-09-25,1,100,https://github.com/ggml-org/whisper.cpp,https://argusic.com/subject/whisper-cpp
@@ -1387,8 +1480,10 @@ wireguard-install--nyr,wireguard-install,runs with mocks,2026-09-29,1,92,https:/
 wireproxy,wireproxy,runs,2026-09-29,1,100,https://github.com/windtf/wireproxy,https://argusic.com/subject/wireproxy
 witr,witr,runs,2026-09-22,3,100,https://github.com/pranshuparmar/witr,https://argusic.com/subject/witr
 wizarr,wizarr,runs,2026-09-17,2,100,https://github.com/wizarrrr/wizarr,https://argusic.com/subject/wizarr
+workbuddy2api-panel,workbuddy2api-panel,runs with mocks,2026-10-05,1,92,https://github.com/linguo2625469/workbuddy2api-panel,https://argusic.com/subject/workbuddy2api-panel
 wretch,wretch,runs,2026-09-29,1,100,https://github.com/elbywan/wretch,https://argusic.com/subject/wretch
 wstunnel,wstunnel,runs,2026-09-28,1,100,https://github.com/erebe/wstunnel,https://argusic.com/subject/wstunnel
+x-crawl,x-crawl,runs,2026-10-05,1,100,https://github.com/coder-hxl/x-crawl,https://argusic.com/subject/x-crawl
 xcodebuildmcp,XcodeBuildMCP,runs with mocks,2026-09-24,3,92,https://github.com/getsentry/XcodeBuildMCP,https://argusic.com/subject/xcodebuildmcp
 xerj,xerj,runs,2026-10-03,1,100,https://github.com/xerj-org/xerj,https://argusic.com/subject/xerj
 xgo,xgo,runs,2026-09-27,1,100,https://github.com/goplus/xgo,https://argusic.com/subject/xgo
@@ -1410,7 +1505,9 @@ yii2-fecshop,yii2_fecshop,could not verify,2026-09-29,2,50,https://github.com/fe
 yoopta-editor,Yoopta-Editor,runs,2026-09-03,1,90,https://github.com/yoopta-editor/Yoopta-Editor,https://argusic.com/subject/yoopta-editor
 youdub-webui,YouDub-webui,runs,2026-09-29,1,100,https://github.com/liuzhao1225/YouDub-webui,https://argusic.com/subject/youdub-webui
 youplot,YouPlot,runs,2026-10-02,1,100,https://github.com/red-data-tools/YouPlot,https://argusic.com/subject/youplot
+youtarr,Youtarr,runs,2026-10-06,1,100,https://github.com/DialmasterOrg/Youtarr,https://argusic.com/subject/youtarr
 youtrackdb,youtrackdb,runs,2026-09-10,2,100,https://github.com/JetBrains/youtrackdb,https://argusic.com/subject/youtrackdb
+yt-fts,yt-fts,runs with mocks,2026-10-05,1,92,https://github.com/NotJoeMartinez/yt-fts,https://argusic.com/subject/yt-fts
 yuxi,Yuxi,runs,2026-09-24,3,97.3,https://github.com/xerrors/Yuxi,https://argusic.com/subject/yuxi
 zappa,Zappa,runs with mocks,2026-10-01,2,56,https://github.com/zappa/Zappa,https://argusic.com/subject/zappa
 zcode,ZCode,runs,2026-09-29,2,60,https://github.com/zai-org/ZCode,https://argusic.com/subject/zcode

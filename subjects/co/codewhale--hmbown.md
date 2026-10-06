@@ -4,7 +4,7 @@
 
 Project: https://github.com/Hmbown/Codewhale, licensed MIT, written in Rust.
 
-Evidence and recordings: https://argusic.com/subject/codewhale
+Evidence and recordings: https://argusic.com/run/79c046d6-143f-4bc9-8e51-ef46bd55ceb2
 
 ## Pinned environment
 
