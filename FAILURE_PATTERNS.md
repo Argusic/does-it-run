@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 5588 observed error lines in 2492 valid runs of 1526 tested subjects (generated 2026-10-06).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 5803 observed error lines in 2593 valid runs of 1619 tested subjects (generated 2026-10-07).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 6 | 0.1% | 4 |
-| Permission denied | 47 | 0.8% | 42 |
-| Missing system library or header | 324 | 5.8% | 173 |
-| Tool, runtime or component not installed | 984 | 17.6% | 596 |
-| Version mismatch | 606 | 10.8% | 391 |
-| Missing configuration or secret | 108 | 1.9% | 97 |
-| Source or download problem | 65 | 1.2% | 55 |
-| Network, timeout or service unreachable | 102 | 1.8% | 88 |
-| Dependency install or resolution failed | 644 | 11.5% | 437 |
-| Build or compile step failed | 265 | 4.7% | 201 |
-| The project's own tests failed | 660 | 11.8% | 376 |
-| Expected file or data not present | 76 | 1.4% | 64 |
-| Error inside the project's code | 61 | 1.1% | 54 |
-| Other | 1640 | 29.3% | 743 |
+| Permission denied | 48 | 0.8% | 43 |
+| Missing system library or header | 332 | 5.7% | 179 |
+| Tool, runtime or component not installed | 1018 | 17.5% | 625 |
+| Version mismatch | 632 | 10.9% | 414 |
+| Missing configuration or secret | 115 | 2.0% | 103 |
+| Source or download problem | 68 | 1.2% | 58 |
+| Network, timeout or service unreachable | 106 | 1.8% | 91 |
+| Dependency install or resolution failed | 670 | 11.5% | 457 |
+| Build or compile step failed | 276 | 4.8% | 211 |
+| The project's own tests failed | 683 | 11.8% | 394 |
+| Expected file or data not present | 78 | 1.3% | 66 |
+| Error inside the project's code | 62 | 1.1% | 55 |
+| Other | 1709 | 29.5% | 780 |
 
 ## Port already in use
 
@@ -118,8 +118,8 @@ A build, compile or import step stopped with an error.
 Example runs:
 
 - 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
+- acl, attempt 1: https://argusic.com/run/5d5a6c5b-4a2c-480c-9e88-8a7cb388f8e7
 - agent-scripts, attempt 1: https://argusic.com/run/db72e9e3-9662-4f35-abc3-2326bef4dd10
-- analog, attempt 1: https://argusic.com/run/10d7236e-d3b1-4651-b544-6d6e759089c7
 
 ## The project's own tests failed
 
@@ -129,7 +129,7 @@ Example runs:
 
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
 - Acode, attempt 1: https://argusic.com/run/f12291ec-ba07-4e6f-9bd1-af099631ebd1
-- adk-python, attempt 2: https://argusic.com/run/a33ce9d1-4407-4d89-a357-1749004308af
+- actionbook, attempt 1: https://argusic.com/run/57d3d662-a209-4f9d-8eed-9a8c1ec6adcb
 
 ## Expected file or data not present
 
@@ -139,7 +139,7 @@ Example runs:
 
 - agent-toolkit-for-aws, attempt 1: https://argusic.com/run/273a9e50-3438-4fbc-89f0-ccea6890f0ee
 - ai-job-search, attempt 3: https://argusic.com/run/ea1709f1-2bef-47f0-ac95-92e5e5261b5a
-- Amphion, attempt 1: https://argusic.com/run/60fe3cb8-a6da-4543-b5fb-c091176947ad
+- ai-moive-studio, attempt 1: https://argusic.com/run/3b920d5a-07fe-4be4-b8bd-ac56965ab347
 
 ## Error inside the project's code
 
