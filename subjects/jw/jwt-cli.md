@@ -1,26 +1,26 @@
-# dots
+# jwt-cli
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/feder-cr/dots, licensed MIT, written in TypeScript.
+Project: https://github.com/mike-engel/jwt-cli, licensed MIT, written in Rust.
 
-Evidence and recordings: https://argusic.com/subject/dots
+Evidence and recordings: https://argusic.com/subject/jwt-cli
 
 ## Pinned environment
 
-- Project commit: `2ff9848c1c8a80460d89242d97beacf23dff05ca`
-- Test commit: `2ff9848c1c8a80460d89242d97beacf23dff05ca`
+- Project commit: `dbbbbac15e3ac7ba2c44f78ae5fa49a2c1a22f87`
+- Test commit: `dbbbbac15e3ac7ba2c44f78ae5fa49a2c1a22f87`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 9.3 to 9.3 minutes
+- Test depth: real run
+- Valid runs: 1; wall time 3.9 to 3.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
 
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
-| 1 | pass with mocks | 92 | 0.7 | 9.3 | 0 | 0 | [run](https://argusic.com/run/47c8b8d8-a024-4742-a41b-8bb5faedfbb1) |
+| 1 | pass | 100 | 3 | 3.9 | 0 | 0 | [run](https://argusic.com/run/3b7c12a4-53f5-4bc3-9f87-38632ca636ac) |
 
 ## What was observed on a clean machine
 

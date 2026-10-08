@@ -1,26 +1,26 @@
-# dots
+# openserp
 
 **Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/feder-cr/dots, licensed MIT, written in TypeScript.
+Project: https://github.com/karust/openserp, licensed MIT, written in Go.
 
-Evidence and recordings: https://argusic.com/subject/dots
+Evidence and recordings: https://argusic.com/subject/openserp
 
 ## Pinned environment
 
-- Project commit: `2ff9848c1c8a80460d89242d97beacf23dff05ca`
-- Test commit: `2ff9848c1c8a80460d89242d97beacf23dff05ca`
+- Project commit: `98e48e6a8300fe2b5753d7de5f855afe951583f8`
+- Test commit: `98e48e6a8300fe2b5753d7de5f855afe951583f8`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 9.3 to 9.3 minutes
+- Valid runs: 1; wall time 8.3 to 8.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
 
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
-| 1 | pass with mocks | 92 | 0.7 | 9.3 | 0 | 0 | [run](https://argusic.com/run/47c8b8d8-a024-4742-a41b-8bb5faedfbb1) |
+| 1 | pass with mocks | 92 | 5 | 8.3 | 0 | 0 | [run](https://argusic.com/run/92361b11-85f2-4550-bf98-b290f2cfb0ed) |
 
 ## What was observed on a clean machine
 

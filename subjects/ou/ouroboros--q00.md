@@ -4,7 +4,7 @@
 
 Project: https://github.com/Q00/ouroboros, licensed MIT, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/ouroboros
+Evidence and recordings: https://argusic.com/run/60480488-3353-4b59-956c-9eb20800863a
 
 ## Pinned environment
 
