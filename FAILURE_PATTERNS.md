@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 6042 observed error lines in 2709 valid runs of 1716 tested subjects (generated 2026-10-08).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 6304 observed error lines in 2813 valid runs of 1811 tested subjects (generated 2026-10-09).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 6 | 0.1% | 4 |
-| Permission denied | 50 | 0.8% | 45 |
-| Missing system library or header | 348 | 5.8% | 189 |
-| Tool, runtime or component not installed | 1060 | 17.5% | 657 |
-| Version mismatch | 648 | 10.7% | 428 |
-| Missing configuration or secret | 117 | 1.9% | 105 |
-| Source or download problem | 69 | 1.1% | 59 |
-| Network, timeout or service unreachable | 110 | 1.8% | 95 |
-| Dependency install or resolution failed | 698 | 11.6% | 480 |
-| Build or compile step failed | 284 | 4.7% | 218 |
-| The project's own tests failed | 718 | 11.9% | 416 |
-| Expected file or data not present | 82 | 1.4% | 70 |
-| Error inside the project's code | 67 | 1.1% | 59 |
-| Other | 1785 | 29.5% | 828 |
+| Permission denied | 53 | 0.8% | 48 |
+| Missing system library or header | 360 | 5.7% | 197 |
+| Tool, runtime or component not installed | 1105 | 17.5% | 695 |
+| Version mismatch | 681 | 10.8% | 454 |
+| Missing configuration or secret | 123 | 2.0% | 109 |
+| Source or download problem | 71 | 1.1% | 61 |
+| Network, timeout or service unreachable | 114 | 1.8% | 99 |
+| Dependency install or resolution failed | 733 | 11.6% | 505 |
+| Build or compile step failed | 293 | 4.6% | 226 |
+| The project's own tests failed | 742 | 11.8% | 435 |
+| Expected file or data not present | 86 | 1.4% | 74 |
+| Error inside the project's code | 73 | 1.2% | 64 |
+| Other | 1864 | 29.6% | 872 |
 
 ## Port already in use
 
@@ -58,8 +58,8 @@ A language, tool or component the project needs was not present on the clean mac
 Example runs:
 
 - 0ad, attempt 1: https://argusic.com/run/7c49b658-925d-4dc5-9752-5ad0a54e9d0b
+- 10x, attempt 1: https://argusic.com/run/b1dd685d-6833-46e9-a645-306bfa854f57
 - abtop, attempt 1: https://argusic.com/run/741cba9c-2e37-4d91-a3cd-6bdc76d8ae95
-- aci, attempt 1: https://argusic.com/run/de9b7d61-248b-48b4-a990-3b619e3cdcfe
 
 ## Version mismatch
 
