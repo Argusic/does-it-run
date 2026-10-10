@@ -4,7 +4,7 @@
 
 Project: https://github.com/nubskr/walrus, licensed MIT, written in Rust.
 
-Evidence and recordings: https://argusic.com/subject/walrus
+Evidence and recordings: https://argusic.com/run/f0b94ddf-6ea0-454e-bbb9-4d84eedaaa57
 
 ## Pinned environment
 
