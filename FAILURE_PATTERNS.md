@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 6513 observed error lines in 2915 valid runs of 1895 tested subjects (generated 2026-10-10).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 6763 observed error lines in 3023 valid runs of 1991 tested subjects (generated 2026-10-11).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
-| Port already in use | 6 | 0.1% | 4 |
-| Permission denied | 54 | 0.8% | 49 |
-| Missing system library or header | 365 | 5.6% | 202 |
-| Tool, runtime or component not installed | 1140 | 17.5% | 720 |
-| Version mismatch | 704 | 10.8% | 473 |
-| Missing configuration or secret | 126 | 1.9% | 112 |
-| Source or download problem | 74 | 1.1% | 64 |
-| Network, timeout or service unreachable | 119 | 1.8% | 103 |
-| Dependency install or resolution failed | 759 | 11.7% | 525 |
-| Build or compile step failed | 301 | 4.6% | 233 |
-| The project's own tests failed | 774 | 11.9% | 457 |
-| Expected file or data not present | 91 | 1.4% | 79 |
-| Error inside the project's code | 74 | 1.1% | 65 |
-| Other | 1926 | 29.6% | 900 |
+| Port already in use | 7 | 0.1% | 5 |
+| Permission denied | 57 | 0.8% | 52 |
+| Missing system library or header | 382 | 5.6% | 213 |
+| Tool, runtime or component not installed | 1186 | 17.5% | 758 |
+| Version mismatch | 722 | 10.7% | 490 |
+| Missing configuration or secret | 135 | 2.0% | 120 |
+| Source or download problem | 75 | 1.1% | 65 |
+| Network, timeout or service unreachable | 124 | 1.8% | 108 |
+| Dependency install or resolution failed | 785 | 11.6% | 545 |
+| Build or compile step failed | 314 | 4.6% | 244 |
+| The project's own tests failed | 805 | 11.9% | 479 |
+| Expected file or data not present | 94 | 1.4% | 82 |
+| Error inside the project's code | 75 | 1.1% | 66 |
+| Other | 2002 | 29.6% | 946 |
 
 ## Port already in use
 
@@ -28,8 +28,8 @@ A second process wanted a port that was already taken.
 Example runs:
 
 - express, attempt 2: https://argusic.com/run/4e43cf30-bc87-4838-8e48-9bc64db2f542
+- innovation-lab-examples, attempt 1: https://argusic.com/run/5af619f0-7950-4ca7-a6cf-8320c2f69436
 - offen, attempt 2: https://argusic.com/run/bbe24165-6271-4a91-a006-ba9316769132
-- OpenCut, attempt 2: https://argusic.com/run/91607940-1d49-43dd-bf44-4f7b1373cac7
 
 ## Permission denied
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
+- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
 - 9router, attempt 1: https://argusic.com/run/6c9de159-ad3b-4e6f-bf1e-43978c798ae8
