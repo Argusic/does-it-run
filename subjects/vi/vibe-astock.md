@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/simonlin1212/vibe-astock, licensed Apache-2.0, written in Python.
+Project: https://github.com/simonlin1212/vibe-astock, licensed Apache-2.0, written in TypeScript.
 
 Evidence and recordings: https://argusic.com/subject/vibe-astock
 
