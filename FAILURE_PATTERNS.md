@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 7023 observed error lines in 3132 valid runs of 2086 tested subjects (generated 2026-10-12).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 7255 observed error lines in 3230 valid runs of 2174 tested subjects (generated 2026-10-13).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 8 | 0.1% | 6 |
-| Permission denied | 62 | 0.9% | 56 |
-| Missing system library or header | 392 | 5.6% | 221 |
-| Tool, runtime or component not installed | 1228 | 17.5% | 788 |
-| Version mismatch | 753 | 10.7% | 515 |
-| Missing configuration or secret | 140 | 2.0% | 124 |
-| Source or download problem | 83 | 1.2% | 72 |
-| Network, timeout or service unreachable | 136 | 1.9% | 118 |
-| Dependency install or resolution failed | 811 | 11.5% | 567 |
-| Build or compile step failed | 327 | 4.7% | 256 |
-| The project's own tests failed | 819 | 11.7% | 488 |
-| Expected file or data not present | 97 | 1.4% | 85 |
-| Error inside the project's code | 80 | 1.1% | 71 |
-| Other | 2087 | 29.7% | 992 |
+| Permission denied | 63 | 0.9% | 57 |
+| Missing system library or header | 407 | 5.6% | 232 |
+| Tool, runtime or component not installed | 1265 | 17.4% | 817 |
+| Version mismatch | 768 | 10.6% | 527 |
+| Missing configuration or secret | 145 | 2.0% | 129 |
+| Source or download problem | 86 | 1.2% | 75 |
+| Network, timeout or service unreachable | 138 | 1.9% | 120 |
+| Dependency install or resolution failed | 839 | 11.6% | 590 |
+| Build or compile step failed | 340 | 4.7% | 267 |
+| The project's own tests failed | 831 | 11.5% | 498 |
+| Expected file or data not present | 100 | 1.4% | 88 |
+| Error inside the project's code | 86 | 1.2% | 76 |
+| Other | 2179 | 30.0% | 1042 |
 
 ## Port already in use
 
@@ -78,8 +78,8 @@ The project expected a setting, key or file that a fresh checkout does not carry
 Example runs:
 
 - agent-scan, attempt 1: https://argusic.com/run/49f30766-040f-4153-9f53-70d186bc9a48
+- agent-skills, attempt 1: https://argusic.com/run/ae5b1e9c-34b7-4fff-8c50-e757fdddf988
 - agentset, attempt 2: https://argusic.com/run/0891f4ce-3494-4a09-bce4-0f6d666394fd
-- aimeos, attempt 1: https://argusic.com/run/8e93e50a-7bc9-4131-9dfd-3f43f0c07f2e
 
 ## Source or download problem
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
+- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
 - 9router, attempt 1: https://argusic.com/run/6c9de159-ad3b-4e6f-bf1e-43978c798ae8

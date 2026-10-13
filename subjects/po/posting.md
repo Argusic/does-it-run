@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 96.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/darrenburns/posting, licensed Apache-2.0, written in Python.
+Project: https://github.com/darrenburns/posting, licensed Apache-2.0, written in Go.
 
 Evidence and recordings: https://argusic.com/subject/posting
 
