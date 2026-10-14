@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/tradecatlabs/vibe-coding-cn, licensed MIT, written in Python.
+Project: https://github.com/tradecatlabs/vibe-coding-cn, licensed MIT, written in Makefile.
 
 Evidence and recordings: https://argusic.com/subject/vibe-coding-cn
 
