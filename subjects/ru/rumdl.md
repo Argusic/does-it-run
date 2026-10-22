@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/rvben/rumdl, licensed MIT, written in Rust.
+Project: https://github.com/rvben/rumdl, licensed NOASSERTION, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/rumdl
 

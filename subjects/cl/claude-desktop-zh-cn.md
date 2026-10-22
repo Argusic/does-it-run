@@ -2,7 +2,7 @@
 
 **Verdict: could not verify.** Argusic Score 10 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/javaht/claude-desktop-zh-cn, licensed MIT, written in Python.
+Project: https://github.com/javaht/claude-desktop-zh-cn, licensed MIT, written in PowerShell.
 
 Evidence and recordings: https://argusic.com/subject/claude-desktop-zh-cn
 

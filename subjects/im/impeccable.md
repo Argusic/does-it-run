@@ -2,7 +2,7 @@
 
 **Verdict: not yet verified.** Argusic Score 20 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/pbakaus/impeccable, licensed Apache-2.0, written in JavaScript.
+Project: https://github.com/pbakaus/impeccable, licensed Apache-2.0, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/impeccable
 
