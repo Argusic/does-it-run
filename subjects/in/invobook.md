@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Hasnayeen/invobook, licensed MIT, written in PHP.
+Project: https://github.com/Hasnayeen/invobook, licensed MIT, written in Blade.
 
 Evidence and recordings: https://argusic.com/subject/invobook
 
