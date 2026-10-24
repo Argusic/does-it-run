@@ -2,7 +2,7 @@
 
 **Verdict: could not verify.** Not scored (no completed run has a score).
 
-Project: https://github.com/pacifio/atlas, licensed Apache-2.0, written in Rust.
+Project: https://github.com/pacifio/atlas, licensed Apache-2.0, written in TypeScript.
 
 Evidence and recordings: https://argusic.com/subject/atlas
 
