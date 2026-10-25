@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/pyrosm/pyrosm, licensed MIT, written in Python.
+Project: https://github.com/pyrosm/pyrosm, licensed BSD-3-Clause, written in Python.
 
 Evidence and recordings: https://argusic.com/subject/pyrosm
 

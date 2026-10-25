@@ -4,7 +4,7 @@
 
 Project: https://github.com/outcrawlai/scout, licensed Apache-2.0, written in TypeScript.
 
-Evidence and recordings: https://argusic.com/subject/scout
+Evidence and recordings: https://argusic.com/run/39cf50b5-9cbc-4914-a4aa-cc753b538680
 
 ## Pinned environment
 

@@ -4,7 +4,7 @@
 
 Project: https://github.com/sneako/finch, licensed MIT, written in Elixir.
 
-Evidence and recordings: https://argusic.com/subject/finch
+Evidence and recordings: https://argusic.com/run/6c3c10df-4b46-4f86-8c3a-03d412d1b46e
 
 ## Pinned environment
 

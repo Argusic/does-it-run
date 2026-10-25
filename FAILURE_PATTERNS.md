@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 9629 observed error lines in 4280 valid runs of 3063 tested subjects (generated 2026-10-24).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 9866 observed error lines in 4382 valid runs of 3153 tested subjects (generated 2026-10-25).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 10 | 0.1% | 8 |
-| Permission denied | 88 | 0.9% | 80 |
-| Missing system library or header | 497 | 5.2% | 302 |
-| Tool, runtime or component not installed | 1612 | 16.7% | 1088 |
-| Version mismatch | 1005 | 10.4% | 732 |
-| Missing configuration or secret | 208 | 2.2% | 187 |
-| Source or download problem | 117 | 1.2% | 103 |
-| Network, timeout or service unreachable | 189 | 2.0% | 168 |
-| Dependency install or resolution failed | 1148 | 11.9% | 835 |
-| Build or compile step failed | 419 | 4.4% | 334 |
-| The project's own tests failed | 1067 | 11.1% | 663 |
-| Expected file or data not present | 138 | 1.4% | 124 |
-| Error inside the project's code | 118 | 1.2% | 107 |
-| Other | 3013 | 31.3% | 1474 |
+| Permission denied | 91 | 0.9% | 83 |
+| Missing system library or header | 517 | 5.2% | 313 |
+| Tool, runtime or component not installed | 1658 | 16.8% | 1120 |
+| Version mismatch | 1029 | 10.4% | 753 |
+| Missing configuration or secret | 212 | 2.1% | 191 |
+| Source or download problem | 118 | 1.2% | 104 |
+| Network, timeout or service unreachable | 190 | 1.9% | 169 |
+| Dependency install or resolution failed | 1172 | 11.9% | 852 |
+| Build or compile step failed | 433 | 4.4% | 346 |
+| The project's own tests failed | 1089 | 11.0% | 676 |
+| Expected file or data not present | 143 | 1.4% | 129 |
+| Error inside the project's code | 120 | 1.2% | 109 |
+| Other | 3084 | 31.3% | 1515 |
 
 ## Port already in use
 
