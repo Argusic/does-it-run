@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/tt-a1i/archify, licensed MIT, written in JavaScript.
+Project: https://github.com/tt-a1i/archify, licensed Apache-2.0, written in JavaScript.
 
 Evidence and recordings: https://argusic.com/subject/archify
 
