@@ -4,7 +4,7 @@
 
 Project: https://github.com/Ch1rpy2613/Mirrai, licensed MIT, written in TypeScript.
 
-Evidence and recordings: https://argusic.com/subject/mirrai
+Evidence and recordings: https://argusic.com/run/b903a4b9-799e-4ced-9073-1bb8059ade73
 
 ## Pinned environment
 

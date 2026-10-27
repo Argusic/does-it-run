@@ -4,7 +4,7 @@
 
 Project: https://github.com/fluxninja/aperture, licensed Apache-2.0, written in Go.
 
-Evidence and recordings: https://argusic.com/subject/aperture
+Evidence and recordings: https://argusic.com/run/9fcac26b-c7ea-4113-bfb0-96ed906a9b1a
 
 ## Pinned environment
 
