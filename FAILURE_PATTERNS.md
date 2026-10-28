@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 10342 observed error lines in 4580 valid runs of 3333 tested subjects (generated 2026-10-27).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 10498 observed error lines in 4649 valid runs of 3393 tested subjects (generated 2026-10-28).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 10 | 0.1% | 8 |
-| Permission denied | 93 | 0.9% | 85 |
-| Missing system library or header | 539 | 5.2% | 331 |
-| Tool, runtime or component not installed | 1723 | 16.7% | 1173 |
-| Version mismatch | 1083 | 10.5% | 799 |
-| Missing configuration or secret | 221 | 2.1% | 200 |
+| Permission denied | 94 | 0.9% | 86 |
+| Missing system library or header | 542 | 5.2% | 333 |
+| Tool, runtime or component not installed | 1742 | 16.6% | 1188 |
+| Version mismatch | 1100 | 10.5% | 813 |
+| Missing configuration or secret | 225 | 2.1% | 204 |
 | Source or download problem | 121 | 1.2% | 107 |
-| Network, timeout or service unreachable | 200 | 1.9% | 178 |
-| Dependency install or resolution failed | 1233 | 11.9% | 901 |
-| Build or compile step failed | 455 | 4.4% | 367 |
-| The project's own tests failed | 1137 | 11.0% | 709 |
-| Expected file or data not present | 150 | 1.5% | 136 |
+| Network, timeout or service unreachable | 203 | 1.9% | 181 |
+| Dependency install or resolution failed | 1255 | 12.0% | 918 |
+| Build or compile step failed | 459 | 4.4% | 371 |
+| The project's own tests failed | 1153 | 11.0% | 719 |
+| Expected file or data not present | 151 | 1.4% | 137 |
 | Error inside the project's code | 126 | 1.2% | 114 |
-| Other | 3251 | 31.4% | 1599 |
+| Other | 3317 | 31.6% | 1634 |
 
 ## Port already in use
 
@@ -39,7 +39,7 @@ Example runs:
 
 - agent-browser, attempt 1: https://argusic.com/run/5084027b-e339-48b7-8129-f7b2ed9cef9a
 - agent-browser-cli, attempt 1: https://argusic.com/run/7afa98a3-8241-4f21-8f69-ff5adcf2854f
-- agnix, attempt 2: https://argusic.com/run/666f100e-cd99-4ed7-881b-cbbfce5a6335
+- agent-purge, attempt 1: https://argusic.com/run/b2372950-4bb7-4d1e-8c1a-9ea339b5fced
 
 ## Missing system library or header
 
@@ -137,9 +137,9 @@ A file, build output or data set the instructions rely on was not there.
 
 Example runs:
 
+- agent-purge, attempt 1: https://argusic.com/run/b2372950-4bb7-4d1e-8c1a-9ea339b5fced
 - agent-toolkit-for-aws, attempt 1: https://argusic.com/run/273a9e50-3438-4fbc-89f0-ccea6890f0ee
 - ai-job-search, attempt 3: https://argusic.com/run/ea1709f1-2bef-47f0-ac95-92e5e5261b5a
-- ai-moive-studio, attempt 1: https://argusic.com/run/3b920d5a-07fe-4be4-b8bd-ac56965ab347
 
 ## Error inside the project's code
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
+- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
 - 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b

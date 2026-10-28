@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 75 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/gaopengbin/geo-downloader, licensed MIT, written in TypeScript.
+Project: https://github.com/gaopengbin/geo-downloader, licensed MIT, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/geo-downloader
 

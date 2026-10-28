@@ -4,7 +4,7 @@
 
 Project: https://github.com/YuJunZhiXue/dsh-purge, licensed Apache-2.0, written in JavaScript.
 
-Evidence and recordings: https://argusic.com/subject/dsh-purge
+Evidence and recordings: https://argusic.com/run/6d203f0f-aea5-4404-a164-379bf6735622
 
 ## Pinned environment
 

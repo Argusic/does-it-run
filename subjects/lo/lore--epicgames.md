@@ -4,7 +4,7 @@
 
 Project: https://github.com/EpicGames/lore, licensed MIT, written in Rust.
 
-Evidence and recordings: https://argusic.com/subject/lore
+Evidence and recordings: https://argusic.com/run/952fc6b5-e0d2-4a7f-bf9e-c0760cfd5846
 
 ## Pinned environment
 

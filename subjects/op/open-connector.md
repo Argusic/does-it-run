@@ -2,7 +2,7 @@
 
 **Verdict: could not verify.** Not scored (no completed run has a score).
 
-Project: https://github.com/oomol-lab/open-connector, licensed Apache-2.0, written in TypeScript.
+Project: https://github.com/oomol-lab/open-connector, licensed NOASSERTION, written in TypeScript.
 
 Evidence and recordings: https://argusic.com/subject/open-connector
 
