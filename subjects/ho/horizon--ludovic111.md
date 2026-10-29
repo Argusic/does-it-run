@@ -4,7 +4,7 @@
 
 Project: https://github.com/ludovic111/horizon, licensed MIT, written in Rust.
 
-Evidence and recordings: https://argusic.com/subject/horizon
+Evidence and recordings: https://argusic.com/run/9a497bfd-3cde-4e76-9dc6-65c3dcbd689e
 
 ## Pinned environment
 

@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 10498 observed error lines in 4649 valid runs of 3393 tested subjects (generated 2026-10-28).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 10629 observed error lines in 4706 valid runs of 3444 tested subjects (generated 2026-10-29).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 10 | 0.1% | 8 |
-| Permission denied | 94 | 0.9% | 86 |
-| Missing system library or header | 542 | 5.2% | 333 |
-| Tool, runtime or component not installed | 1742 | 16.6% | 1188 |
-| Version mismatch | 1100 | 10.5% | 813 |
-| Missing configuration or secret | 225 | 2.1% | 204 |
-| Source or download problem | 121 | 1.2% | 107 |
-| Network, timeout or service unreachable | 203 | 1.9% | 181 |
-| Dependency install or resolution failed | 1255 | 12.0% | 918 |
-| Build or compile step failed | 459 | 4.4% | 371 |
-| The project's own tests failed | 1153 | 11.0% | 719 |
+| Permission denied | 99 | 0.9% | 91 |
+| Missing system library or header | 544 | 5.1% | 334 |
+| Tool, runtime or component not installed | 1764 | 16.6% | 1206 |
+| Version mismatch | 1113 | 10.5% | 825 |
+| Missing configuration or secret | 228 | 2.1% | 207 |
+| Source or download problem | 123 | 1.2% | 109 |
+| Network, timeout or service unreachable | 205 | 1.9% | 183 |
+| Dependency install or resolution failed | 1275 | 12.0% | 933 |
+| Build or compile step failed | 464 | 4.4% | 376 |
+| The project's own tests failed | 1162 | 10.9% | 728 |
 | Expected file or data not present | 151 | 1.4% | 137 |
 | Error inside the project's code | 126 | 1.2% | 114 |
-| Other | 3317 | 31.6% | 1634 |
+| Other | 3365 | 31.7% | 1660 |
 
 ## Port already in use
 
@@ -119,7 +119,7 @@ Example runs:
 
 - 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
 - acl, attempt 1: https://argusic.com/run/5d5a6c5b-4a2c-480c-9e88-8a7cb388f8e7
-- agent-landing-zone, attempt 1: https://argusic.com/run/8c255909-4f2c-4fae-aaa3-bb0bf1b2f330
+- act, attempt 1: https://argusic.com/run/b2232403-8fee-4f2d-98b0-11a4e1aa752b
 
 ## The project's own tests failed
 
@@ -129,7 +129,7 @@ Example runs:
 
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
 - Acode, attempt 1: https://argusic.com/run/f12291ec-ba07-4e6f-9bd1-af099631ebd1
-- action, attempt 1: https://argusic.com/run/5e4717b2-00cb-4af4-901c-1e3d5ffd8fb2
+- act, attempt 1: https://argusic.com/run/b2232403-8fee-4f2d-98b0-11a4e1aa752b
 
 ## Expected file or data not present
 

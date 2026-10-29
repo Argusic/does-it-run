@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Mertcikla/tld, licensed Apache-2.0, written in Go.
+Project: https://github.com/Mertcikla/tld, licensed Apache-2.0, written in TypeScript.
 
 Evidence and recordings: https://argusic.com/subject/tld
 

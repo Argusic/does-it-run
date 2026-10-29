@@ -4,7 +4,7 @@
 
 Project: https://github.com/awslabs/mcp, licensed Apache-2.0, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/mcp
+Evidence and recordings: https://argusic.com/run/913b0900-ea9c-4f85-9253-fd469cf270e1
 
 ## Pinned environment
 
