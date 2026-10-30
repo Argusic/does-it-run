@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 10629 observed error lines in 4706 valid runs of 3444 tested subjects (generated 2026-10-29).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 10885 observed error lines in 4803 valid runs of 3531 tested subjects (generated 2026-10-30).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
-| Port already in use | 10 | 0.1% | 8 |
-| Permission denied | 99 | 0.9% | 91 |
-| Missing system library or header | 544 | 5.1% | 334 |
-| Tool, runtime or component not installed | 1764 | 16.6% | 1206 |
-| Version mismatch | 1113 | 10.5% | 825 |
-| Missing configuration or secret | 228 | 2.1% | 207 |
-| Source or download problem | 123 | 1.2% | 109 |
-| Network, timeout or service unreachable | 205 | 1.9% | 183 |
-| Dependency install or resolution failed | 1275 | 12.0% | 933 |
-| Build or compile step failed | 464 | 4.4% | 376 |
-| The project's own tests failed | 1162 | 10.9% | 728 |
-| Expected file or data not present | 151 | 1.4% | 137 |
-| Error inside the project's code | 126 | 1.2% | 114 |
-| Other | 3365 | 31.7% | 1660 |
+| Port already in use | 11 | 0.1% | 9 |
+| Permission denied | 102 | 0.9% | 94 |
+| Missing system library or header | 555 | 5.1% | 341 |
+| Tool, runtime or component not installed | 1808 | 16.6% | 1240 |
+| Version mismatch | 1129 | 10.4% | 840 |
+| Missing configuration or secret | 234 | 2.1% | 212 |
+| Source or download problem | 126 | 1.2% | 112 |
+| Network, timeout or service unreachable | 209 | 1.9% | 186 |
+| Dependency install or resolution failed | 1311 | 12.0% | 963 |
+| Build or compile step failed | 474 | 4.4% | 384 |
+| The project's own tests failed | 1189 | 10.9% | 745 |
+| Expected file or data not present | 158 | 1.5% | 144 |
+| Error inside the project's code | 130 | 1.2% | 117 |
+| Other | 3449 | 31.7% | 1698 |
 
 ## Port already in use
 
@@ -28,8 +28,8 @@ A second process wanted a port that was already taken.
 Example runs:
 
 - bramble, attempt 1: https://argusic.com/run/86fee78c-2eeb-46ef-b0ac-e79d42644964
+- CaddyProxyManager, attempt 1: https://argusic.com/run/05414b07-cac1-4717-a638-70535be860c3
 - express, attempt 2: https://argusic.com/run/4e43cf30-bc87-4838-8e48-9bc64db2f542
-- gpt-image-canvas, attempt 1: https://argusic.com/run/d8d25e0d-d4ea-4810-a398-e3a7d32ae455
 
 ## Permission denied
 
@@ -87,9 +87,9 @@ A repository, submodule or file could not be fetched as the instructions describ
 
 Example runs:
 
+- 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
 - Acode, attempt 1: https://argusic.com/run/f12291ec-ba07-4e6f-9bd1-af099631ebd1
 - across, attempt 1: https://argusic.com/run/958a29d8-b4cd-486c-9440-3ea46fa473bb
-- agents-universe, attempt 1: https://argusic.com/run/57845659-6dff-4f84-9779-a8f490ddfeef
 
 ## Network, timeout or service unreachable
 
@@ -107,9 +107,9 @@ Installing or resolving the project's dependencies did not finish cleanly.
 
 Example runs:
 
+- 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
 - 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
-- 9router, attempt 1: https://argusic.com/run/6c9de159-ad3b-4e6f-bf1e-43978c798ae8
 
 ## Build or compile step failed
 
@@ -158,5 +158,5 @@ Error lines that fit none of the groups above.
 Example runs:
 
 - 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
+- 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
 - 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645
-- 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
