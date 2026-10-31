@@ -4,7 +4,7 @@
 
 Project: https://github.com/zhouxiaoka/autoclip, licensed MIT, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/autoclip
+Evidence and recordings: https://argusic.com/run/260e7e15-9703-491d-bf1d-594d0b76a38f
 
 ## Pinned environment
 

@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 10885 observed error lines in 4803 valid runs of 3531 tested subjects (generated 2026-10-30).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 11078 observed error lines in 4880 valid runs of 3604 tested subjects (generated 2026-10-31).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
-| Port already in use | 11 | 0.1% | 9 |
-| Permission denied | 102 | 0.9% | 94 |
-| Missing system library or header | 555 | 5.1% | 341 |
-| Tool, runtime or component not installed | 1808 | 16.6% | 1240 |
-| Version mismatch | 1129 | 10.4% | 840 |
-| Missing configuration or secret | 234 | 2.1% | 212 |
-| Source or download problem | 126 | 1.2% | 112 |
-| Network, timeout or service unreachable | 209 | 1.9% | 186 |
-| Dependency install or resolution failed | 1311 | 12.0% | 963 |
-| Build or compile step failed | 474 | 4.4% | 384 |
-| The project's own tests failed | 1189 | 10.9% | 745 |
-| Expected file or data not present | 158 | 1.5% | 144 |
-| Error inside the project's code | 130 | 1.2% | 117 |
-| Other | 3449 | 31.7% | 1698 |
+| Port already in use | 12 | 0.1% | 10 |
+| Permission denied | 104 | 0.9% | 95 |
+| Missing system library or header | 564 | 5.1% | 348 |
+| Tool, runtime or component not installed | 1833 | 16.5% | 1261 |
+| Version mismatch | 1154 | 10.4% | 860 |
+| Missing configuration or secret | 238 | 2.1% | 216 |
+| Source or download problem | 133 | 1.2% | 117 |
+| Network, timeout or service unreachable | 212 | 1.9% | 189 |
+| Dependency install or resolution failed | 1327 | 12.0% | 978 |
+| Build or compile step failed | 481 | 4.3% | 391 |
+| The project's own tests failed | 1212 | 10.9% | 758 |
+| Expected file or data not present | 163 | 1.5% | 149 |
+| Error inside the project's code | 136 | 1.2% | 123 |
+| Other | 3509 | 31.7% | 1734 |
 
 ## Port already in use
 
@@ -48,8 +48,8 @@ A build or launch step needed a system package that was not installed.
 Example runs:
 
 - 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
+- actsasindexed, attempt 1: https://argusic.com/run/36daae6d-2ae3-42d9-b136-bf1252f43773
 - addok, attempt 1: https://argusic.com/run/3ce89028-aef1-4fd5-840a-9a0c5bfebb20
-- ADR, attempt 1: https://argusic.com/run/4cdad965-7d40-43bd-8309-0c026972680d
 
 ## Tool, runtime or component not installed
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
+- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
 - 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
 - 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645
