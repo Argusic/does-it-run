@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rclone
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 19.1 to 19.1 minutes
+- Valid runs: 2; wall time 10.6 to 19.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rclone
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 19.1 | 5 | 5 | [run](https://argusic.com/run/5a76970b-a781-40a2-8614-d2783b799209) |
+| 2 | pass | 100 | 8 | 10.6 | 5 | 5 | [run](https://argusic.com/run/896f6bf6-deaf-4e0c-aff9-30807fa287e5) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,13 @@ Attempt 1:
 - 3 min: `Mount/docker tests needed FUSE (fusermount3 not found; fuse device absent)`
 - 4 min: `cmd/serve/nfs TestCache/symlink failed: name_to_handle_at returns EOPNOTSUPP on overlayfs`
 - 1 min: `serve http and rcd background servers were reaped between exec calls; first attempt transiently showed 000`
+
+Attempt 2:
+
+- 3 min: `Missing go binary`
+- `FUSE not available - fusermount3 not found`
+- `Docker daemon not available`
+- `rsync not available`
+- `NFS test symlink support missing in container fs`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/crawl4ai
 - Test commit: `e5d2e786d1a101225f3f6a3e6fd344d76eeb13af`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 14.2 to 14.2 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 14.2 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/crawl4ai
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 91.43 | 25 | 14.2 | 14 | 8 | [run](https://argusic.com/run/2677f1e7-2578-439c-a405-42bbf0afa12c) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/6d99f0e8-bafe-43f2-b700-d7daa1213e38) |
 
 ## What was observed on a clean machine
 

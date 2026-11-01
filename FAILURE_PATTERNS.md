@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 11078 observed error lines in 4880 valid runs of 3604 tested subjects (generated 2026-10-31).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 11217 observed error lines in 4935 valid runs of 3621 tested subjects (generated 2026-11-01).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
-| Port already in use | 12 | 0.1% | 10 |
+| Port already in use | 13 | 0.1% | 11 |
 | Permission denied | 104 | 0.9% | 95 |
-| Missing system library or header | 564 | 5.1% | 348 |
-| Tool, runtime or component not installed | 1833 | 16.5% | 1261 |
-| Version mismatch | 1154 | 10.4% | 860 |
-| Missing configuration or secret | 238 | 2.1% | 216 |
-| Source or download problem | 133 | 1.2% | 117 |
-| Network, timeout or service unreachable | 212 | 1.9% | 189 |
-| Dependency install or resolution failed | 1327 | 12.0% | 978 |
-| Build or compile step failed | 481 | 4.3% | 391 |
-| The project's own tests failed | 1212 | 10.9% | 758 |
-| Expected file or data not present | 163 | 1.5% | 149 |
+| Missing system library or header | 568 | 5.1% | 350 |
+| Tool, runtime or component not installed | 1856 | 16.5% | 1274 |
+| Version mismatch | 1175 | 10.5% | 874 |
+| Missing configuration or secret | 242 | 2.2% | 219 |
+| Source or download problem | 134 | 1.2% | 118 |
+| Network, timeout or service unreachable | 215 | 1.9% | 192 |
+| Dependency install or resolution failed | 1339 | 11.9% | 987 |
+| Build or compile step failed | 483 | 4.3% | 392 |
+| The project's own tests failed | 1233 | 11.0% | 765 |
+| Expected file or data not present | 167 | 1.5% | 152 |
 | Error inside the project's code | 136 | 1.2% | 123 |
-| Other | 3509 | 31.7% | 1734 |
+| Other | 3552 | 31.7% | 1752 |
 
 ## Port already in use
 
@@ -77,9 +77,9 @@ The project expected a setting, key or file that a fresh checkout does not carry
 
 Example runs:
 
+- act, attempt 2: https://argusic.com/run/dccb25c2-4bdf-47c0-9fd1-3739327b1e3a
 - agent-browser, attempt 1: https://argusic.com/run/5084027b-e339-48b7-8129-f7b2ed9cef9a
 - agent-scan, attempt 1: https://argusic.com/run/49f30766-040f-4153-9f53-70d186bc9a48
-- agent-skills, attempt 1: https://argusic.com/run/ae5b1e9c-34b7-4fff-8c50-e757fdddf988
 
 ## Source or download problem
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
+- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
 - 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
 - 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645

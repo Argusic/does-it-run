@@ -1,6 +1,6 @@
 # RuView
 
-**Verdict: runs.** Argusic Score 94.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 97.1 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ruvnet/RuView, licensed MIT, written in Rust.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ruview
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 35.8 to 35.8 minutes
+- Valid runs: 2; wall time 6.2 to 35.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ruview
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 94.29 | 32 | 35.8 | 7 | 5 | [run](https://argusic.com/run/722c21f2-8b8c-48c3-bb88-09b6f0784aae) |
+| 2 | pass | 100 | 10 | 6.2 | 2 | 2 | [run](https://argusic.com/run/28ece27f-3e56-4048-97fb-d797a730c381) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,10 @@ Attempt 1:
 - 1 min: `pytest-asyncio missing: async tests fail`
 - `Rust workspace build fails on glib-sys system library dependency (sensing-server crate chain)`
 - `wifi-densepose-signal and dependent crates hang during compilation (heavy nalgebra/simba dep)`
+
+Attempt 2:
+
+- `bcrypt 5.x incompatible with passlib , UserManager.hash_password/verify_password fail with ValueError`
+- `test_metrics.py TestMetricsService.test_init fails , missing prometheus_client`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rustlings
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.5 to 3.5 minutes
+- Valid runs: 2; wall time 1.3 to 3.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rustlings
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.5 | 3.5 | 1 | 1 | [run](https://argusic.com/run/25d324ee-87cf-44ac-8940-60a0dc494fb7) |
+| 2 | pass | 100 | 0.7 | 1.3 | 0 | 0 | [run](https://argusic.com/run/e82d49c0-6109-461e-a60d-9a116f50518d) |
 
 ## What was observed on a clean machine
 

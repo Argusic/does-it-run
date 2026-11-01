@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/rails
 - Test commit: `4658033fa3b391ab8a928994e12a30257a0afa22`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 53.7 to 53.7 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 53.7 to 88.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rails
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 35 | 53.7 | 6 | 6 | [run](https://argusic.com/run/a0766516-675b-43fe-8c8e-cb04b9d5b764) |
+| 2 | timeout | none | 22 | 88.3 | 5 | 5 | [run](https://argusic.com/run/d6aae8d1-a814-42a3-b742-6bff505a620e) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,13 @@ Attempt 1:
 - 10 min: `Libxml-ruby gem failed to build native extension due to GCC -Wimplicit-function-declaration warning treated as error`
 - 5 min: `Bundled psych 5.2.6 failed extconf despite system yaml being available`
 - 2 min: `mysql2, pg, trilogy gems require database server connections`
+
+Attempt 2:
+
+- 18 min: `Ruby not installed in container`
+- 5 min: `bundle install failed on libxml-ruby native extension build (missing libxml2 headers)`
+- 2 min: `bundle install failed on mysql2 native extension build (missing MySQL client libs)`
+- `US/Eastern timezone not found in system tzdata`
+- `ActiveStorage missing service config file`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

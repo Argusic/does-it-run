@@ -1,6 +1,6 @@
 # formualizer
 
-**Verdict: not yet verified.** Argusic Score 20 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: could not verify.** Argusic Score 20 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/PSU3D0/formualizer, licensed Apache-2.0, written in Rust.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/formualizer
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: no run possible
-- Valid runs: 1; wall time 55.7 to 55.7 minutes
+- Valid runs: 2; wall time 50.9 to 55.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/formualizer
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | fail | 20 | n/a | 55.7 | 0 | 0 | [run](https://argusic.com/run/5fc3a823-1269-4846-936b-f4399cc8a13b) |
+| 2 | fail | 20 | n/a | 50.9 | 0 | 0 | [run](https://argusic.com/run/bb1b081d-d2c7-4ac3-bb1e-5d1ee4a1a846) |
 
 ## What was observed on a clean machine
 
