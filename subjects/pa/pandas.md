@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pandas
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.1 to 15.1 minutes
+- Valid runs: 2; wall time 15.1 to 27.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pandas
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 14 | 15.1 | 6 | 6 | [run](https://argusic.com/run/e98edd8e-df57-42f0-bb5d-c0781e0af861) |
+| 2 | pass | 100 | 32 | 27.1 | 2 | 2 | [run](https://argusic.com/run/dc3b7c1a-e035-4175-ba3f-19a4bd074e7c) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,10 @@ Attempt 1:
 - 1 min: `fatal error: x86_64-linux-gnu/python3.12/pyconfig.h not found`
 - 2 min: `cannot find -lpython3.12 / libpython3.12.a cannot make shared object`
 - 0.5 min: `ZoneInfoNotFoundError 'No time zone found with key US/Pacific' (tzdata-legacy missing)`
+
+Attempt 2:
+
+- 8 min: `Missing python3.12-dev headers (Python.h, pyconfig.h) needed by Meson build system for Cython compilation`
+- 2 min: `Cython sanity check failed because pyconfig.h includes a multiarch sub-path (x86_64-linux-gnu/python3.12/pyconfig.h) that wasn't on the include path`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

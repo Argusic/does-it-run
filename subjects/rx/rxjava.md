@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rxjava
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 35 to 35 minutes
+- Valid runs: 2; wall time 13.4 to 35 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rxjava
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 35 | 2 | 2 | [run](https://argusic.com/run/f82a7fde-65c3-40ac-a7de-de76e0c29c25) |
+| 2 | pass | 100 | 10 | 13.4 | 1 | 1 | [run](https://argusic.com/run/ed6c9a29-44c4-4aa0-8ca2-d2751eaf7628) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 3 min: `No Java JDK available in the container (no apt root, no pre-installed JDK)`
 - 1 min: `Gradle requires Java 26 for compilation, Gradle itself needs a Java runtime`
+
+Attempt 2:
+
+- 1 min: `Java not found in PATH (no JDK installed in container)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

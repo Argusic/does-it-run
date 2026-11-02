@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/copyparty
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.2 to 2.2 minutes
+- Valid runs: 2; wall time 1.8 to 2.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/copyparty
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.25 | 2.2 | 0 | 0 | [run](https://argusic.com/run/e0ca210b-d71d-4234-a516-c423422a6c47) |
+| 2 | pass | 100 | 0.5 | 1.8 | 0 | 0 | [run](https://argusic.com/run/9572c0ee-211d-4666-ad67-d91b26ab2954) |
 
 ## What was observed on a clean machine
 

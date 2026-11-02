@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agent-browser
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.6 to 18.6 minutes
+- Valid runs: 2; wall time 18.6 to 32.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agent-browser
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 18.6 | 3 | 3 | [run](https://argusic.com/run/5084027b-e339-48b7-8129-f7b2ed9cef9a) |
+| 2 | pass | 100 | 5 | 32.2 | 6 | 6 | [run](https://argusic.com/run/da330632-ba91-44ee-be80-b97d61e89590) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,14 @@ Attempt 1:
 - 3 min: `Node.js v18.19.1 too old (requires 24+), pnpm not installed, Rust not installed, npm --prefix needed due to EACCES in /usr/local`
 - 1 min: `e2e tests: e2e_material_checkbox_check_uncheck stack overflow under concurrent test runner`
 - `e2e tests: 2 Obscura E2E tests fail , OBSCURA_BIN env var not set (expected, documented behavior)`
+
+Attempt 2:
+
+- 0.5 min: `Node.js v18 installed, requires v24`
+- 0.5 min: `pnpm not installed`
+- 1 min: `Rust toolchain not installed`
+- 0.5 min: `Chrome not installed`
+- `e2e_material_checkbox_check_uncheck stack overflow with default 2MB stack`
+- `e2e_inspect test fails: xdg-open not available in container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ruff
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 46.2 to 46.2 minutes
+- Valid runs: 2; wall time 41 to 46.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ruff
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 31 | 46.2 | 0 | 0 | [run](https://argusic.com/run/7c04e6cc-b5ad-49fa-b8a7-d7f2e6eadcc9) |
+| 2 | pass | 100 | 5.4 | 41 | 0 | 0 | [run](https://argusic.com/run/455ec14e-d5a1-45ad-aa2d-95679849cf15) |
 
 ## What was observed on a clean machine
 

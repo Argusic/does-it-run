@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/conductor
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13.4 to 13.4 minutes
+- Valid runs: 2; wall time 13.4 to 18.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/conductor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 28 | 13.4 | 4 | 4 | [run](https://argusic.com/run/ef0e7464-de0c-4f50-9c19-64b68ffa8221) |
+| 2 | pass | 100 | 18 | 18.6 | 2 | 2 | [run](https://argusic.com/run/f45fec83-c918-4259-bc3c-249a9c597823) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,10 @@ Attempt 1:
 - 1 min: `npm install -g failed: EACCES writing to /usr/local/lib/node_modules (no root).`
 - 1 min: `conductor workflow create failed: no server configured (CONDUCTOR_SERVER_URL not set by conductor server start).`
 - 3 min: `2 failing tests in conductor-ai module: MongoVectorDBTest and JDBCEndToEndTest require Docker, which is unavailable in this container.`
+
+Attempt 2:
+
+- 1 min: `Java 21 not pre-installed on system`
+- `Docker not available - 7 Testcontainers tests fail across 4 modules (conductor-ai, conductor-http-task, conductor-kafka, conductor-workflow-event-listener)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

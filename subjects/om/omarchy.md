@@ -1,6 +1,6 @@
 # omarchy
 
-**Verdict: runs.** Argusic Score 89.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 88 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/omacom/omarchy, licensed MIT, written in Shell.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/omarchy
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 73.8 to 73.8 minutes
+- Valid runs: 2; wall time 64.4 to 73.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/omarchy
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 89.33 | 0 | 73.8 | 15 | 7 | [run](https://argusic.com/run/6fa724c2-dba9-4618-aebe-51c0b4184ecd) |
+| 2 | pass | 86.67 | 62 | 64.4 | 6 | 2 | [run](https://argusic.com/run/abefe539-fc3b-4607-bb16-72df1e719628) |
 
 ## What was observed on a clean machine
 
@@ -41,5 +42,14 @@ Attempt 1:
 - 1 min: `neovim migration uses vercmp which is not installed`
 - 1 min: `omarchy-sudo test needs root-like environment`
 - 1 min: `omarchy-provision-user needs mise and update-desktop-database`
+
+Attempt 2:
+
+- 15 min: `omarchy-theme-set-templates uses awk RT (gawk extension) but mawk is the default awk`
+- 5 min: `test/cli calls 'python' which does not exist in this container (python3 is available)`
+- 30 min: `46 shell test files fail because required commands are absent (mise, lua, gio, magick, socat, visudo, updatedb) , no root access to install them`
+- 5 min: `ascii-test.sh fails: 'Hi' renders at 30 columns but test expects 18 (font metric difference in container)`
+- 5 min: `2 shell tests hang (clipboard-test.sh, hermes-desktop-install-test.sh) , exceed 30s timeout`
+- `Quickshell binary not available; all compositor-dependent shell tests skip. Cannot launch the desktop shell.`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

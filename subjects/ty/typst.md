@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/typst
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 21.7 to 21.7 minutes
+- Valid runs: 2; wall time 17.5 to 21.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/typst
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10.5 | 21.7 | 0 | 0 | [run](https://argusic.com/run/616b11ef-8c78-427f-a9d6-12f9d987fa4b) |
+| 2 | pass | 100 | 17 | 17.5 | 0 | 0 | [run](https://argusic.com/run/baa6ebee-1c49-4f1f-95a8-fdc4f595f7c5) |
 
 ## What was observed on a clean machine
 

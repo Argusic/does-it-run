@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/diagrams
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.3 to 3.3 minutes
+- Valid runs: 2; wall time 3.3 to 7.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/diagrams
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 3.3 | 3 | 3 | [run](https://argusic.com/run/cb62943f-1cde-48ff-a567-4ef6a16f948a) |
+| 2 | pass | 100 | 12 | 7.7 | 2 | 2 | [run](https://argusic.com/run/b054c335-d60a-4a73-a5a2-42f0c58c835d) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,10 @@ Attempt 1:
 - 1 min: `PEP 668 prevents global pip installs (Ubuntu 24.04)`
 - 1 min: `Graphviz system binary not installed`
 - 0.5 min: `pytest not installed in the environment`
+
+Attempt 2:
+
+- 10 min: `Graphviz binary (dot) not found on system - required for rendering diagrams`
+- 2 min: `Graphviz PNG plugin (libgvplugin_gd) missing libgd dependency`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

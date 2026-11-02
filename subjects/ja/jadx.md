@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jadx
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.5 to 9.5 minutes
+- Valid runs: 2; wall time 9.5 to 12.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,12 @@ Evidence and recordings: https://argusic.com/subject/jadx
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 9.5 | 0 | 0 | [run](https://argusic.com/run/7b243176-f47e-480f-a30d-26eef3cd79bb) |
+| 2 | pass | 100 | 12 | 12.1 | 1 | 1 | [run](https://argusic.com/run/bda41b6d-6b04-4f7a-829a-27292e27239c) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 2 min: `Java runtime not installed in container environment`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

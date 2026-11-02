@@ -4,7 +4,7 @@
 
 Project: https://github.com/335234131/agent-browser-mcp, licensed MIT, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/agent-browser-mcp
+Evidence and recordings: https://argusic.com/run/a45f43d8-6b75-4e8f-af25-471e06de2c81
 
 ## Pinned environment
 

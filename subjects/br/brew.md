@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/brew
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 51 to 51 minutes
+- Valid runs: 2; wall time 49.9 to 51 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/brew
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 51 | 3 | 3 | [run](https://argusic.com/run/17fce041-f905-408b-a974-d0c72c3b6f47) |
+| 2 | pass | 100 | 4 | 49.9 | 1 | 1 | [run](https://argusic.com/run/f9c868ad-3aa1-4c68-9a17-8405b9c1a674) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 5 min: `service_spec.rb: 6 tests fail due to umask 0002 creating group-writable env files`
 - 2 min: `trust_spec.rb: 1 test fails due to target dir being group-writable`
 - 2 min: `cmd/untrust_spec.rb: 1 test fails due to trust_home dir being group-writable`
+
+Attempt 2:
+
+- `pr-pull_spec.rb:111 flaky failure - unzip not installed during that test run`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

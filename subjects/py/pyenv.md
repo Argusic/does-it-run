@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pyenv
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.9 to 5.9 minutes
+- Valid runs: 2; wall time 5.1 to 5.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pyenv
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 5.9 | 0 | 0 | [run](https://argusic.com/run/12e3b99f-3162-4a96-86c8-d1e1b71ea96e) |
+| 2 | pass | 100 | 1 | 5.1 | 0 | 0 | [run](https://argusic.com/run/25996a79-f968-4f7b-aa8f-008bf125775b) |
 
 ## What was observed on a clean machine
 

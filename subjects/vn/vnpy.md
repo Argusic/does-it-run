@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/vnpy
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7 to 7 minutes
+- Valid runs: 2; wall time 4.6 to 7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/vnpy
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4.5 | 7 | 4 | 4 | [run](https://argusic.com/run/dbae8635-8909-4fd4-ba59-fe1c97975c37) |
+| 2 | pass | 100 | 8 | 4.6 | 3 | 3 | [run](https://argusic.com/run/131d3180-ad5d-4a72-8917-60e3defed743) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 0.2 min: `Missing dependency: vnpy-sqlite (imported by test_data_services.py)`
 - 0.2 min: `Missing dependency: pytest (needed for test runner)`
 - 0.3 min: `xcb platform plugin fails: missing libxcb-cursor0 system package (not installable without root)`
+
+Attempt 2:
+
+- 2 min: `Missing alpha deps (polars, scipy, scikit-learn, pyarrow)`
+- 1 min: `Missing statsmodels`
+- 1 min: `Missing vnpy_sqlite`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

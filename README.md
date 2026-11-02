@@ -4,12 +4,12 @@
 
 Does it run? Argusic installs real open source projects on a clean machine, with no human help, and records what happens. This repository is the public record of the verdicts, generated from the Argusic database. Nothing here is edited by hand.
 
-Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
+Last updated 2026-11-02T06:00:59Z · 3635 subjects · methodology 1.4
 
 ## Verdicts at a glance
 
-- runs: 2510
-- runs with mocks: 861
+- runs: 2528
+- runs with mocks: 857
 - could not verify: 227
 - not yet verified: 23
 
@@ -25,7 +25,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [2fa](subjects/2f/2fa.md) | runs with mocks | 2026-10-20 | [argusic.com](https://argusic.com/subject/2fa) |
 | [4chan-downloader](subjects/4c/4chan-downloader.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/4chan-downloader) |
 | [4gaBoards](subjects/4g/4gaboards.md) | runs | 2026-10-14 | [argusic.com](https://argusic.com/subject/4gaboards) |
-| [500-AI-Agents-Projects](subjects/50/500-ai-agents-projects.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/500-ai-agents-projects) |
+| [500-AI-Agents-Projects](subjects/50/500-ai-agents-projects.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/500-ai-agents-projects) |
 | [9router](subjects/9r/9router.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/9router) |
 | [a-stock-data](subjects/a-/a-stock-data.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/a-stock-data) |
 | [abell](subjects/ab/abell.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/abell) |
@@ -69,9 +69,10 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [agency-orchestrator](subjects/ag/agency-orchestrator.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/agency-orchestrator) |
 | [agent](subjects/ag/agent.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/agent) |
 | [agent-beacon](subjects/ag/agent-beacon.md) | runs with mocks | 2026-10-06 | [argusic.com](https://argusic.com/subject/agent-beacon) |
-| [agent-browser](subjects/ag/agent-browser.md) | runs | 2026-10-20 | [argusic.com](https://argusic.com/subject/agent-browser) |
+| [agent-browser](subjects/ag/agent-browser.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/agent-browser) |
 | [agent-browser-cli](subjects/ag/agent-browser-cli.md) | runs with mocks | 2026-10-19 | [argusic.com](https://argusic.com/subject/agent-browser-cli) |
-| [agent-browser-mcp](subjects/ag/agent-browser-mcp.md) | runs with mocks | 2026-10-28 | [argusic.com](https://argusic.com/subject/agent-browser-mcp) |
+| [agent-browser-mcp](subjects/ag/agent-browser-mcp--335234131.md) | runs with mocks | 2026-10-28 | [argusic.com](https://argusic.com/run/a45f43d8-6b75-4e8f-af25-471e06de2c81) |
+| [agent-browser-mcp](subjects/ag/agent-browser-mcp--azheyc.md) | runs with mocks | 2026-11-01 | [argusic.com](https://argusic.com/run/a172ad66-1c8a-4f8e-b951-4be3aea6348f) |
 | [agent-chrome-relay](subjects/ag/agent-chrome-relay.md) | runs | 2026-10-26 | [argusic.com](https://argusic.com/subject/agent-chrome-relay) |
 | [agent-deck](subjects/ag/agent-deck.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/agent-deck) |
 | [agent-fetch](subjects/ag/agent-fetch.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/agent-fetch) |
@@ -109,7 +110,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [agentfs-claude](subjects/ag/agentfs-claude.md) | runs | 2026-10-24 | [argusic.com](https://argusic.com/subject/agentfs-claude) |
 | [agentgateway](subjects/ag/agentgateway.md) | could not verify | 2026-09-29 | [argusic.com](https://argusic.com/subject/agentgateway) |
 | [agenticsecurity](subjects/ag/agentic-security.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/subject/agentic-security) |
-| [agentic-awesome-skills](subjects/ag/agentic-awesome-skills.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/agentic-awesome-skills) |
+| [agentic-awesome-skills](subjects/ag/agentic-awesome-skills.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/agentic-awesome-skills) |
 | [agentic-os](subjects/ag/agentic-os.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/agentic-os) |
 | [AgenticX](subjects/ag/agenticx.md) | could not verify | 2026-10-19 | [argusic.com](https://argusic.com/subject/agenticx) |
 | [Agentlas-OS](subjects/ag/agentlas-os.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/agentlas-os) |
@@ -131,7 +132,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [agentty](subjects/ag/agentty--agentty-org.md) | could not verify | 2026-10-18 | [argusic.com](https://argusic.com/run/85ac14ff-3d43-4470-a834-ac2c3eb423f7) |
 | [agmsg](subjects/ag/agmsg.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/agmsg) |
 | [agnix](subjects/ag/agnix.md) | runs | 2026-09-10 | [argusic.com](https://argusic.com/subject/agnix) |
-| [agno](subjects/ag/agno.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/agno) |
+| [agno](subjects/ag/agno.md) | runs with mocks | 2026-11-01 | [argusic.com](https://argusic.com/subject/agno) |
 | [ai-agent-skills](subjects/ai/ai-agent-skills.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/ai-agent-skills) |
 | [ai-avatar-system](subjects/ai/ai-avatar-system.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/ai-avatar-system) |
 | [AI-company](subjects/ai/ai-company.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/ai-company) |
@@ -154,7 +155,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [ai-skills](subjects/ai/ai-skills.md) | runs with mocks | 2026-10-21 | [argusic.com](https://argusic.com/subject/ai-skills) |
 | [ai-trend-studio](subjects/ai/ai-trend-studio.md) | runs | 2026-10-28 | [argusic.com](https://argusic.com/subject/ai-trend-studio) |
 | [ai-video-editor](subjects/ai/ai-video-editor.md) | could not verify | 2026-09-05 | [argusic.com](https://argusic.com/subject/ai-video-editor) |
-| [ai-website-cloner-template](subjects/ai/ai-website-cloner-template.md) | runs | 2026-08-31 | [argusic.com](https://argusic.com/subject/ai-website-cloner-template) |
+| [ai-website-cloner-template](subjects/ai/ai-website-cloner-template.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/ai-website-cloner-template) |
 | [AI-Youtube-Shorts-Generator](subjects/ai/ai-youtube-shorts-generator.md) | runs with mocks | 2026-09-24 | [argusic.com](https://argusic.com/subject/ai-youtube-shorts-generator) |
 | [ai4j](subjects/ai/ai4j.md) | runs with mocks | 2026-10-21 | [argusic.com](https://argusic.com/subject/ai4j) |
 | [aichat](subjects/ai/aichat.md) | runs with mocks | 2026-09-27 | [argusic.com](https://argusic.com/subject/aichat) |
@@ -400,7 +401,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [brain0](subjects/br/brain0.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/brain0) |
 | [bramble](subjects/br/bramble.md) | runs | 2026-10-19 | [argusic.com](https://argusic.com/subject/bramble) |
 | [brave-search-mcp-server](subjects/br/brave-search-mcp-server.md) | could not verify | 2026-10-07 | [argusic.com](https://argusic.com/subject/brave-search-mcp-server) |
-| [brew](subjects/br/brew.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/brew) |
+| [brew](subjects/br/brew.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/brew) |
 | [bridgetown](subjects/br/bridgetown.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/bridgetown) |
 | [brigade](subjects/br/brigade.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/brigade) |
 | [brightdata-mcp](subjects/br/brightdata-mcp.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/brightdata-mcp) |
@@ -417,13 +418,13 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [browser-use](subjects/br/browser-use.md) | runs | 2026-09-11 | [argusic.com](https://argusic.com/subject/browser-use) |
 | [browserless](subjects/br/browserless.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/browserless) |
 | [BrowserSkill](subjects/br/browserskill.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/browserskill) |
-| [bruno](subjects/br/bruno.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/bruno) |
+| [bruno](subjects/br/bruno.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/bruno) |
 | [btrace](subjects/bt/btrace.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/btrace) |
 | [bub](subjects/bu/bub.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/bub) |
 | [Bubble-Card](subjects/bu/bubble-card.md) | could not verify | 2026-09-30 | [argusic.com](https://argusic.com/subject/bubble-card) |
 | [BubbleLab](subjects/bu/bubblelab.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/bubblelab) |
 | [bubbles](subjects/bu/bubbles.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/bubbles) |
-| [bubbletea](subjects/bu/bubbletea.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/bubbletea) |
+| [bubbletea](subjects/bu/bubbletea.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/bubbletea) |
 | [bug-hunter](subjects/bu/bug-hunter.md) | could not verify | 2026-10-19 | [argusic.com](https://argusic.com/subject/bug-hunter) |
 | [build-monitor-plugin](subjects/bu/build-monitor-plugin.md) | runs with mocks | 2026-10-14 | [argusic.com](https://argusic.com/subject/build-monitor-plugin) |
 | [buildawesome](subjects/bu/buildawesome.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/buildawesome) |
@@ -458,7 +459,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [CarConnectivity](subjects/ca/carconnectivity.md) | runs with mocks | 2026-10-30 | [argusic.com](https://argusic.com/subject/carconnectivity) |
 | [career-ops](subjects/ca/career-ops--career-ops-hq.md) | runs | 2026-09-20 | [argusic.com](https://argusic.com/run/e281ae56-cdbd-4a0a-b25d-2cd386f5f41b) |
 | [career-ops](subjects/ca/career-ops--santifer.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/run/f62d82dd-eba5-43bf-8bc7-1995e90a6c57) |
-| [CasaOS](subjects/ca/casaos.md) | runs with mocks | 2026-09-29 | [argusic.com](https://argusic.com/subject/casaos) |
+| [CasaOS](subjects/ca/casaos.md) | runs with mocks | 2026-11-02 | [argusic.com](https://argusic.com/subject/casaos) |
 | [casbin-gateway](subjects/ca/casbin-gateway.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/casbin-gateway) |
 | [casdoor](subjects/ca/casdoor.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/casdoor) |
 | [cassandra](subjects/ca/cassandra.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/cassandra) |
@@ -519,7 +520,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [claude-brain](subjects/cl/claude-brain.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/claude-brain) |
 | [claude-canvas](subjects/cl/claude-canvas.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/claude-canvas) |
 | [claude-chat-exporter](subjects/cl/claude-chat-exporter.md) | runs with mocks | 2026-10-15 | [argusic.com](https://argusic.com/subject/claude-chat-exporter) |
-| [Claude-Code-Game-Studios](subjects/cl/claude-code-game-studios.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/claude-code-game-studios) |
+| [Claude-Code-Game-Studios](subjects/cl/claude-code-game-studios.md) | runs with mocks | 2026-11-02 | [argusic.com](https://argusic.com/subject/claude-code-game-studios) |
 | [claude-code-history-viewer](subjects/cl/claude-code-history-viewer.md) | runs | 2026-10-14 | [argusic.com](https://argusic.com/subject/claude-code-history-viewer) |
 | [claude-code-hooks](subjects/cl/claude-code-hooks.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/claude-code-hooks) |
 | [claude-code-memory-setup](subjects/cl/claude-code-memory-setup.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/claude-code-memory-setup) |
@@ -530,7 +531,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [claude-context](subjects/cl/claude-context.md) | runs with mocks | 2026-09-23 | [argusic.com](https://argusic.com/subject/claude-context) |
 | [claude-desktop-zh-cn](subjects/cl/claude-desktop-zh-cn.md) | could not verify | 2026-09-28 | [argusic.com](https://argusic.com/subject/claude-desktop-zh-cn) |
 | [claude-for-legal](subjects/cl/claude-for-legal.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/claude-for-legal) |
-| [claude-howto](subjects/cl/claude-howto.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/claude-howto) |
+| [claude-howto](subjects/cl/claude-howto.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/claude-howto) |
 | [claude-obsidian](subjects/cl/claude-obsidian.md) | runs | 2026-09-03 | [argusic.com](https://argusic.com/subject/claude-obsidian) |
 | [claude-ops](subjects/cl/claude-ops.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/claude-ops) |
 | [claude-plugins-official](subjects/cl/claude-plugins-official.md) | runs | 2026-10-24 | [argusic.com](https://argusic.com/subject/claude-plugins-official) |
@@ -637,7 +638,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [cog](subjects/co/cog.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/cog) |
 | [COG-second-brain](subjects/co/cog-second-brain.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/cog-second-brain) |
 | [cogent](subjects/co/cogent.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/cogent) |
-| [cognee](subjects/co/cognee.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/cognee) |
+| [cognee](subjects/co/cognee.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/cognee) |
 | [coi](subjects/co/coi.md) | runs with mocks | 2026-10-14 | [argusic.com](https://argusic.com/subject/coi) |
 | [colanode](subjects/co/colanode.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/colanode) |
 | [colibri](subjects/co/colibri.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/subject/colibri) |
@@ -668,7 +669,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [concord-mcp](subjects/co/concord-mcp.md) | runs with mocks | 2026-10-18 | [argusic.com](https://argusic.com/subject/concord-mcp) |
 | [concourse](subjects/co/concourse.md) | runs with mocks | 2026-09-28 | [argusic.com](https://argusic.com/subject/concourse) |
 | [concretecms](subjects/co/concretecms.md) | runs with mocks | 2026-10-13 | [argusic.com](https://argusic.com/subject/concretecms) |
-| [conductor](subjects/co/conductor.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/conductor) |
+| [conductor](subjects/co/conductor.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/conductor) |
 | [Conduit](subjects/co/conduit.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/conduit) |
 | [confluence-cli](subjects/co/confluence-cli.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/confluence-cli) |
 | [connet](subjects/co/connet.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/connet) |
@@ -682,11 +683,11 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [coolify-mcp](subjects/co/coolify-mcp.md) | runs with mocks | 2026-10-17 | [argusic.com](https://argusic.com/subject/coolify-mcp) |
 | [coop-anything](subjects/co/coop-anything.md) | runs | 2026-10-30 | [argusic.com](https://argusic.com/subject/coop-anything) |
 | [copilot-api](subjects/co/copilot-api.md) | runs with mocks | 2026-10-10 | [argusic.com](https://argusic.com/subject/copilot-api) |
-| [copyparty](subjects/co/copyparty.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/copyparty) |
+| [copyparty](subjects/co/copyparty.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/copyparty) |
 | [CORAL](subjects/co/coral.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/coral) |
 | [core](subjects/co/core--chaibuilder.md) | runs | 2026-10-19 | [argusic.com](https://argusic.com/run/4a3f8131-39ad-45bf-9dd8-5e0a4beacce3) |
 | [core](subjects/co/core--gazette.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/run/5b2aee7a-ada5-4cfd-ab84-1b144063b958) |
-| [core](subjects/co/core--vuejs.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/run/04f7133f-ac38-43ee-b80a-e938f6fdb440) |
+| [core](subjects/co/core--vuejs.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/run/04f7133f-ac38-43ee-b80a-e938f6fdb440) |
 | [CoreCoder](subjects/co/corecoder.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/corecoder) |
 | [coreutils](subjects/co/coreutils--microsoft.md) | runs with mocks | 2026-09-29 | [argusic.com](https://argusic.com/run/4efbff6a-8a1a-4942-9f27-dfbde5e786e4) |
 | [coreutils](subjects/co/coreutils--uutils.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/run/66c58645-5c16-47e4-957c-ac3de60d9773) |
@@ -699,7 +700,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [cost-xray](subjects/co/cost-xray.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/cost-xray) |
 | [Cotal](subjects/co/cotal.md) | runs | 2026-10-24 | [argusic.com](https://argusic.com/subject/cotal) |
 | [CovenantSQL](subjects/co/covenantsql.md) | runs with mocks | 2026-10-30 | [argusic.com](https://argusic.com/subject/covenantsql) |
-| [CowAgent](subjects/co/cowagent.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/cowagent) |
+| [CowAgent](subjects/co/cowagent.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/cowagent) |
 | [Cowart](subjects/co/cowart.md) | runs with mocks | 2026-09-29 | [argusic.com](https://argusic.com/subject/cowart) |
 | [CoWork-OS](subjects/co/cowork-os.md) | runs | 2026-10-19 | [argusic.com](https://argusic.com/subject/cowork-os) |
 | [coze-loop](subjects/co/coze-loop.md) | could not verify | 2026-09-29 | [argusic.com](https://argusic.com/subject/coze-loop) |
@@ -762,6 +763,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [dataCompare](subjects/da/datacompare.md) | runs with mocks | 2026-10-26 | [argusic.com](https://argusic.com/subject/datacompare) |
 | [datagouv-mcp](subjects/da/datagouv-mcp.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/datagouv-mcp) |
 | [davinci-resolve-mcp](subjects/da/davinci-resolve-mcp.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/davinci-resolve-mcp) |
+| [day-trader-skill](subjects/da/day-trader-skill.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/day-trader-skill) |
 | [daydreams](subjects/da/daydreams.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/daydreams) |
 | [db](subjects/db/db.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/db) |
 | [DB-GPT](subjects/db/db-gpt.md) | runs with mocks | 2026-09-26 | [argusic.com](https://argusic.com/subject/db-gpt) |
@@ -797,7 +799,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [deepseek-php-client](subjects/de/deepseek-php-client.md) | runs with mocks | 2026-10-20 | [argusic.com](https://argusic.com/subject/deepseek-php-client) |
 | [DeepSeek-Reasonix](subjects/de/deepseek-reasonix.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/subject/deepseek-reasonix) |
 | [deeptide](subjects/de/deeptide.md) | runs with mocks | 2026-10-10 | [argusic.com](https://argusic.com/subject/deeptide) |
-| [DeepTutor](subjects/de/deeptutor.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/deeptutor) |
+| [DeepTutor](subjects/de/deeptutor.md) | runs with mocks | 2026-11-01 | [argusic.com](https://argusic.com/subject/deeptutor) |
 | [deepwiki-mcp](subjects/de/deepwiki-mcp.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/deepwiki-mcp) |
 | [deepwiki-open](subjects/de/deepwiki-open.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/deepwiki-open) |
 | [deepx-code](subjects/de/deepx-code.md) | not yet verified | 2026-10-22 | [argusic.com](https://argusic.com/subject/deepx-code) |
@@ -817,6 +819,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [DesktopCommanderMCP](subjects/de/desktopcommandermcp.md) | runs | 2026-09-23 | [argusic.com](https://argusic.com/subject/desktopcommandermcp) |
 | [Deuz-SDK](subjects/de/deuz-sdk.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/deuz-sdk) |
 | [Dev-Janitor](subjects/de/dev-janitor.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/dev-janitor) |
+| [devbox](subjects/de/devbox.md) | runs with mocks | 2026-11-01 | [argusic.com](https://argusic.com/subject/devbox) |
 | [DevDocs](subjects/de/devdocs.md) | runs with mocks | 2026-10-04 | [argusic.com](https://argusic.com/subject/devdocs) |
 | [developer-kit](subjects/de/developer-kit.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/developer-kit) |
 | [devopness](subjects/de/devopness.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/devopness) |
@@ -830,7 +833,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [dia](subjects/di/dia.md) | could not verify | 2026-09-27 | [argusic.com](https://argusic.com/subject/dia) |
 | [dia2](subjects/di/dia2.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/dia2) |
 | [diagram](subjects/di/diagram.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/diagram) |
-| [diagrams](subjects/di/diagrams.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/diagrams) |
+| [diagrams](subjects/di/diagrams.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/diagrams) |
 | [diboot](subjects/di/diboot.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/diboot) |
 | [digarr](subjects/di/digarr.md) | runs with mocks | 2026-10-25 | [argusic.com](https://argusic.com/subject/digarr) |
 | [digiRunner-Open-Source](subjects/di/digirunner-open-source.md) | could not verify | 2026-10-25 | [argusic.com](https://argusic.com/subject/digirunner-open-source) |
@@ -886,7 +889,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [doska](subjects/do/doska.md) | runs | 2026-10-26 | [argusic.com](https://argusic.com/subject/doska) |
 | [dot-hugo](subjects/do/dot-hugo.md) | runs | 2026-10-27 | [argusic.com](https://argusic.com/subject/dot-hugo) |
 | [dotfiles](subjects/do/dotfiles.md) | could not verify | 2026-10-02 | [argusic.com](https://argusic.com/subject/dotfiles) |
-| [dots](subjects/do/dots.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/dots) |
+| [dots](subjects/do/dots.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/dots) |
 | [douban-backup](subjects/do/douban-backup.md) | runs with mocks | 2026-10-22 | [argusic.com](https://argusic.com/subject/douban-backup) |
 | [DouyinTikTokDownloadAPI](subjects/do/douyin-tiktok-download-api.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/douyin-tiktok-download-api) |
 | [doxx](subjects/do/doxx.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/doxx) |
@@ -912,7 +915,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [dsh-industry-research](subjects/ds/dsh-industry-research.md) | runs | 2026-10-30 | [argusic.com](https://argusic.com/subject/dsh-industry-research) |
 | [dsh-market](subjects/ds/dsh-market.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/dsh-market) |
 | [dsh-ops](subjects/ds/dsh-ops.md) | runs | 2026-10-22 | [argusic.com](https://argusic.com/subject/dsh-ops) |
-| [dsh-our-free-model](subjects/ds/dsh-our-free-model.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/dsh-our-free-model) |
+| [dsh-our-free-model](subjects/ds/dsh-our-free-model.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/dsh-our-free-model) |
 | [dsh-purge](subjects/ds/dsh-purge--kingcharleslzy-ai.md) | runs with mocks | 2026-10-27 | [argusic.com](https://argusic.com/run/89c1e2dd-c7ab-4615-b4bb-967ae43c179f) |
 | [dsh-purge](subjects/ds/dsh-purge--yujunzhixue.md) | runs with mocks | 2026-10-08 | [argusic.com](https://argusic.com/run/6d203f0f-aea5-4404-a164-379bf6735622) |
 | [dsh-research-report](subjects/ds/dsh-research-report.md) | runs | 2026-10-30 | [argusic.com](https://argusic.com/subject/dsh-research-report) |
@@ -979,6 +982,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [emissary](subjects/em/emissary.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/emissary) |
 | [encore](subjects/en/encore.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/encore) |
 | [endless-sky](subjects/en/endless-sky.md) | could not verify | 2026-09-05 | [argusic.com](https://argusic.com/subject/endless-sky) |
+| [Endoplexity](subjects/en/endoplexity.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/endoplexity) |
 | [engine](subjects/en/engine.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/engine) |
 | [engo](subjects/en/engo.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/engo) |
 | [engram](subjects/en/engram.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/engram) |
@@ -1022,7 +1026,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [excel-mcp-server](subjects/ex/excel-mcp-server.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/excel-mcp-server) |
 | [excelize](subjects/ex/excelize.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/excelize) |
 | [excelize-wasm](subjects/ex/excelize-wasm.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/excelize-wasm) |
-| [exo](subjects/ex/exo.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/exo) |
+| [exo](subjects/ex/exo.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/exo) |
 | [experiential](subjects/ex/experiential.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/experiential) |
 | [explainroo](subjects/ex/explainroo.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/explainroo) |
 | [Explo](subjects/ex/explo.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/explo) |
@@ -1040,7 +1044,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [fable-method](subjects/fa/fable-method.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/fable-method) |
 | [fable51-worlds](subjects/fa/fable51-worlds.md) | runs | 2026-10-19 | [argusic.com](https://argusic.com/subject/fable51-worlds) |
 | [FableCut](subjects/fa/fablecut.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/fablecut) |
-| [Fabric](subjects/fa/fabric.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/subject/fabric) |
+| [Fabric](subjects/fa/fabric.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/fabric) |
 | [fabric-video-editor](subjects/fa/fabric-video-editor.md) | could not verify | 2026-09-05 | [argusic.com](https://argusic.com/subject/fabric-video-editor) |
 | [facebook-ads-library-mcp](subjects/fa/facebook-ads-library-mcp.md) | runs | 2026-10-26 | [argusic.com](https://argusic.com/subject/facebook-ads-library-mcp) |
 | [fae](subjects/fa/fae.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/subject/fae) |
@@ -1166,7 +1170,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [freshlytics](subjects/fr/freshlytics.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/freshlytics) |
 | [freyr-js](subjects/fr/freyr-js.md) | could not verify | 2026-09-12 | [argusic.com](https://argusic.com/subject/freyr-js) |
 | [FridayOS1.0](subjects/fr/fridayos1-0.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/fridayos1-0) |
-| [front-end-interview-handbook](subjects/fr/front-end-interview-handbook.md) | runs | 2026-10-22 | [argusic.com](https://argusic.com/subject/front-end-interview-handbook) |
+| [front-end-interview-handbook](subjects/fr/front-end-interview-handbook.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/front-end-interview-handbook) |
 | [frontends](subjects/fr/frontends.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/frontends) |
 | [frontier](subjects/fr/frontier.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/frontier) |
 | [FrontierAgent](subjects/fr/frontieragent.md) | runs with mocks | 2026-10-01 | [argusic.com](https://argusic.com/subject/frontieragent) |
@@ -1175,7 +1179,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [fscrawler](subjects/fs/fscrawler.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/fscrawler) |
 | [FTP-Deploy-Action](subjects/ft/ftp-deploy-action.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/ftp-deploy-action) |
 | [full-stack-ai-agent-template](subjects/fu/full-stack-ai-agent-template.md) | runs with mocks | 2026-10-05 | [argusic.com](https://argusic.com/subject/full-stack-ai-agent-template) |
-| [full-stack-fastapi-template](subjects/fu/full-stack-fastapi-template.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/full-stack-fastapi-template) |
+| [full-stack-fastapi-template](subjects/fu/full-stack-fastapi-template.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/full-stack-fastapi-template) |
 | [FunClip](subjects/fu/funclip.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/funclip) |
 | [function-mesh](subjects/fu/function-mesh.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/function-mesh) |
 | [fundus](subjects/fu/fundus.md) | runs | 2026-10-20 | [argusic.com](https://argusic.com/subject/fundus) |
@@ -1392,7 +1396,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [harlequin](subjects/ha/harlequin.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/harlequin) |
 | [harmonist](subjects/ha/harmonist.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/subject/harmonist) |
 | [harmonyos-ai-skill](subjects/ha/harmonyos-ai-skill.md) | could not verify | 2026-10-26 | [argusic.com](https://argusic.com/subject/harmonyos-ai-skill) |
-| [harness](subjects/ha/harness.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/harness) |
+| [harness](subjects/ha/harness.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/harness) |
 | [harness-anything](subjects/ha/harness-anything.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/harness-anything) |
 | [harness-remote](subjects/ha/harness-remote.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/harness-remote) |
 | [harness-score](subjects/ha/harness-score.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/harness-score) |
@@ -1409,13 +1413,13 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [haystack](subjects/ha/haystack.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/haystack) |
 | [hcom](subjects/hc/hcom.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/hcom) |
 | [headroom](subjects/he/headroom.md) | runs | 2026-09-03 | [argusic.com](https://argusic.com/subject/headroom) |
-| [headscale](subjects/he/headscale.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/headscale) |
+| [headscale](subjects/he/headscale.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/headscale) |
 | [headway](subjects/he/headway.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/headway) |
 | [heh](subjects/he/heh.md) | runs | 2026-10-19 | [argusic.com](https://argusic.com/subject/heh) |
 | [heimdall](subjects/he/heimdall--dadrus.md) | runs | 2026-10-27 | [argusic.com](https://argusic.com/run/fd3872a7-74ee-46fb-bb66-7c3dd0d6586e) |
 | [Heimdall](subjects/he/heimdall--linuxserver.md) | runs | 2026-09-23 | [argusic.com](https://argusic.com/run/491ff3f0-0f7c-4360-8823-3f9b2e8872ab) |
 | [helium](subjects/he/helium.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/helium) |
-| [helix](subjects/he/helix.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/helix) |
+| [helix](subjects/he/helix.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/helix) |
 | [helix-db](subjects/he/helix-db.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/helix-db) |
 | [helmor](subjects/he/helmor.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/helmor) |
 | [herdr](subjects/he/herdr.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/subject/herdr) |
@@ -1430,7 +1434,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [hertzbeat](subjects/he/hertzbeat.md) | runs | 2026-09-23 | [argusic.com](https://argusic.com/subject/hertzbeat) |
 | [hestia-core](subjects/he/hestia-core.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/hestia-core) |
 | [hex](subjects/he/hex.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/hex) |
-| [hexo](subjects/he/hexo.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/hexo) |
+| [hexo](subjects/he/hexo.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/hexo) |
 | [hexo-theme-stellar](subjects/he/hexo-theme-stellar.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/subject/hexo-theme-stellar) |
 | [hexstrike-ai](subjects/he/hexstrike-ai.md) | runs | 2026-09-23 | [argusic.com](https://argusic.com/subject/hexstrike-ai) |
 | [HGM](subjects/hg/hgm.md) | runs with mocks | 2026-10-21 | [argusic.com](https://argusic.com/subject/hgm) |
@@ -1440,7 +1444,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [himalaya](subjects/hi/himalaya.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/himalaya) |
 | [hipocampus](subjects/hi/hipocampus.md) | runs with mocks | 2026-10-30 | [argusic.com](https://argusic.com/subject/hipocampus) |
 | [hippo-memory](subjects/hi/hippo-memory.md) | runs | 2026-10-14 | [argusic.com](https://argusic.com/subject/hippo-memory) |
-| [hiring-without-whiteboards](subjects/hi/hiring-without-whiteboards.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/hiring-without-whiteboards) |
+| [hiring-without-whiteboards](subjects/hi/hiring-without-whiteboards.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/hiring-without-whiteboards) |
 | [hive](subjects/hi/hive.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/hive) |
 | [hivepaas](subjects/hi/hivepaas.md) | runs | 2026-10-26 | [argusic.com](https://argusic.com/subject/hivepaas) |
 | [hl](subjects/hl/hl.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/hl) |
@@ -1489,7 +1493,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [hucre](subjects/hu/hucre.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/hucre) |
 | [huddol](subjects/hu/huddol.md) | runs with mocks | 2026-10-25 | [argusic.com](https://argusic.com/subject/huddol) |
 | [hue](subjects/hu/hue.md) | runs with mocks | 2026-10-13 | [argusic.com](https://argusic.com/subject/hue) |
-| [huginn](subjects/hu/huginn.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/huginn) |
+| [huginn](subjects/hu/huginn.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/huginn) |
 | [hugo](subjects/hu/hugo.md) | runs | 2026-10-31 | [argusic.com](https://argusic.com/subject/hugo) |
 | [hugoplate](subjects/hu/hugoplate.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/hugoplate) |
 | [humanize](subjects/hu/humanize.md) | runs with mocks | 2026-10-24 | [argusic.com](https://argusic.com/subject/humanize) |
@@ -1514,7 +1518,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [ID-V2V](subjects/id/id-v2v.md) | runs with mocks | 2026-10-26 | [argusic.com](https://argusic.com/subject/id-v2v) |
 | [ida-pro-mcp](subjects/id/ida-pro-mcp.md) | runs with mocks | 2026-09-26 | [argusic.com](https://argusic.com/subject/ida-pro-mcp) |
 | [ide](subjects/id/ide.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/ide) |
-| [iFixAi](subjects/if/ifixai.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/ifixai) |
+| [iFixAi](subjects/if/ifixai.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/ifixai) |
 | [illa-builder](subjects/il/illa-builder.md) | could not verify | 2026-09-26 | [argusic.com](https://argusic.com/subject/illa-builder) |
 | [im-not-ai](subjects/im/im-not-ai.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/im-not-ai) |
 | [imap-backup](subjects/im/imap-backup.md) | runs with mocks | 2026-10-06 | [argusic.com](https://argusic.com/subject/imap-backup) |
@@ -1546,7 +1550,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [intelligent-terminal](subjects/in/intelligent-terminal.md) | could not verify | 2026-10-04 | [argusic.com](https://argusic.com/subject/intelligent-terminal) |
 | [intentkit](subjects/in/intentkit.md) | runs with mocks | 2026-09-28 | [argusic.com](https://argusic.com/subject/intentkit) |
 | [IntuneCD](subjects/in/intunecd.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/intunecd) |
-| [invisibledots](subjects/in/invisible-dots.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/invisible-dots) |
+| [invisibledots](subjects/in/invisible-dots.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/invisible-dots) |
 | [invisiblepuppeteer](subjects/in/invisible-puppeteer.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/invisible-puppeteer) |
 | [invobook](subjects/in/invobook.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/subject/invobook) |
 | [invoiceprinter](subjects/in/invoice-printer.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/invoice-printer) |
@@ -1577,7 +1581,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [iwf](subjects/iw/iwf.md) | runs with mocks | 2026-10-15 | [argusic.com](https://argusic.com/subject/iwf) |
 | [Ix](subjects/ix/ix.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/ix) |
 | [izwi](subjects/iz/izwi.md) | runs with mocks | 2026-10-22 | [argusic.com](https://argusic.com/subject/izwi) |
-| [jadx](subjects/ja/jadx.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/jadx) |
+| [jadx](subjects/ja/jadx.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/jadx) |
 | [jadx-mcp-server](subjects/ja/jadx-mcp-server.md) | runs with mocks | 2026-10-13 | [argusic.com](https://argusic.com/subject/jadx-mcp-server) |
 | [jaeger](subjects/ja/jaeger.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/jaeger) |
 | [jafka](subjects/ja/jafka.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/jafka) |
@@ -1593,7 +1597,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [jc](subjects/jc/jc.md) | runs | 2026-09-23 | [argusic.com](https://argusic.com/subject/jc) |
 | [jcode](subjects/jc/jcode.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/jcode) |
 | [jeddict-modeler](subjects/je/jeddict-modeler.md) | could not verify | 2026-10-22 | [argusic.com](https://argusic.com/subject/jeddict-modeler) |
-| [JeecgBoot](subjects/je/jeecgboot.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/jeecgboot) |
+| [JeecgBoot](subjects/je/jeecgboot.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/jeecgboot) |
 | [jelly-app](subjects/je/jelly-app.md) | could not verify | 2026-10-27 | [argusic.com](https://argusic.com/subject/jelly-app) |
 | [jellyfin-audio-player](subjects/je/jellyfin-audio-player.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/jellyfin-audio-player) |
 | [Jellyfin-Auto-Collections](subjects/je/jellyfin-auto-collections.md) | not yet verified | 2026-10-26 | [argusic.com](https://argusic.com/subject/jellyfin-auto-collections) |
@@ -1632,7 +1636,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [js-reverse-mcp](subjects/js/js-reverse-mcp.md) | runs with mocks | 2026-10-02 | [argusic.com](https://argusic.com/subject/js-reverse-mcp) |
 | [js-webflow-api](subjects/js/js-webflow-api.md) | runs with mocks | 2026-10-23 | [argusic.com](https://argusic.com/subject/js-webflow-api) |
 | [jscpd](subjects/js/jscpd.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/jscpd) |
-| [json](subjects/js/json.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/json) |
+| [json](subjects/js/json.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/json) |
 | [json-machine](subjects/js/json-machine.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/json-machine) |
 | [jsongrep](subjects/js/jsongrep.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/jsongrep) |
 | [jsoup](subjects/js/jsoup.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/jsoup) |
@@ -1667,7 +1671,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [kener](subjects/ke/kener.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/kener) |
 | [kensaku](subjects/ke/kensaku.md) | runs | 2026-10-30 | [argusic.com](https://argusic.com/subject/kensaku) |
 | [kepubify](subjects/ke/kepubify.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/kepubify) |
-| [kestra](subjects/ke/kestra.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/kestra) |
+| [kestra](subjects/ke/kestra.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/kestra) |
 | [kev](subjects/ke/kev.md) | runs with mocks | 2026-09-28 | [argusic.com](https://argusic.com/subject/kev) |
 | [keycloak-config-cli](subjects/ke/keycloak-config-cli.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/keycloak-config-cli) |
 | [keystatic](subjects/ke/keystatic.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/keystatic) |
@@ -1753,7 +1757,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [lazyspotify](subjects/la/lazyspotify.md) | runs with mocks | 2026-10-21 | [argusic.com](https://argusic.com/subject/lazyspotify) |
 | [lazywarden](subjects/la/lazywarden.md) | runs with mocks | 2026-10-13 | [argusic.com](https://argusic.com/subject/lazywarden) |
 | [lcu](subjects/lc/lcu.md) | runs with mocks | 2026-10-12 | [argusic.com](https://argusic.com/subject/lcu) |
-| [Leaflet](subjects/le/leaflet.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/leaflet) |
+| [Leaflet](subjects/le/leaflet.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/leaflet) |
 | [leafwiki](subjects/le/leafwiki.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/leafwiki) |
 | [lean-ctx](subjects/le/lean-ctx.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/lean-ctx) |
 | [LEANN](subjects/le/leann.md) | runs with mocks | 2026-09-26 | [argusic.com](https://argusic.com/subject/leann) |
@@ -1990,7 +1994,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [MFCMouseEffect](subjects/mf/mfcmouseeffect.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/mfcmouseeffect) |
 | [mg](subjects/mg/mg.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/mg) |
 | [mianshiya](subjects/mi/mianshiya.md) | runs | 2026-10-30 | [argusic.com](https://argusic.com/subject/mianshiya) |
-| [micro](subjects/mi/micro.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/micro) |
+| [micro](subjects/mi/micro.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/micro) |
 | [microduck](subjects/mi/microduck.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/microduck) |
 | [micrometer](subjects/mi/micrometer.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/micrometer) |
 | [microstudio](subjects/mi/microstudio.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/microstudio) |
@@ -1999,7 +2003,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [middleman-blog](subjects/mi/middleman-blog.md) | runs | 2026-10-24 | [argusic.com](https://argusic.com/subject/middleman-blog) |
 | [mideaautocloud](subjects/mi/midea-auto-cloud.md) | could not verify | 2026-10-25 | [argusic.com](https://argusic.com/subject/midea-auto-cloud) |
 | [MikroDash](subjects/mi/mikrodash.md) | runs with mocks | 2026-10-17 | [argusic.com](https://argusic.com/subject/mikrodash) |
-| [milvus](subjects/mi/milvus.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/milvus) |
+| [milvus](subjects/mi/milvus.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/milvus) |
 | [mimi](subjects/mi/mimi--yuxino.md) | runs with mocks | 2026-10-15 | [argusic.com](https://argusic.com/run/c9f8c2e6-78e0-4014-ad11-0611c30837db) |
 | [Mimi](subjects/mi/mimi--yuxino-2.md) | runs with mocks | 2026-10-16 | [argusic.com](https://argusic.com/run/2c2a0102-20d8-40a6-9f5e-e7badbd6169d) |
 | [MiMo-Code](subjects/mi/mimo-code.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/mimo-code) |
@@ -2032,6 +2036,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [mle](subjects/ml/mle.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/mle) |
 | [mlx-audio](subjects/ml/mlx-audio.md) | runs with mocks | 2026-09-28 | [argusic.com](https://argusic.com/subject/mlx-audio) |
 | [mm-wiki](subjects/mm/mm-wiki.md) | runs with mocks | 2026-09-30 | [argusic.com](https://argusic.com/subject/mm-wiki) |
+| [mneme](subjects/mn/mneme.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/mneme) |
 | [mnemon](subjects/mn/mnemon.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/mnemon) |
 | [moai-adk](subjects/mo/moai-adk.md) | runs | 2026-09-10 | [argusic.com](https://argusic.com/subject/moai-adk) |
 | [moai-cowork](subjects/mo/moai-cowork.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/moai-cowork) |
@@ -2042,8 +2047,8 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [models](subjects/mo/models.md) | runs | 2026-10-19 | [argusic.com](https://argusic.com/subject/models) |
 | [moleculer-web](subjects/mo/moleculer-web.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/moleculer-web) |
 | [moltis](subjects/mo/moltis.md) | runs with mocks | 2026-09-17 | [argusic.com](https://argusic.com/subject/moltis) |
-| [moment](subjects/mo/moment.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/moment) |
-| [monaco-editor](subjects/mo/monaco-editor.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/monaco-editor) |
+| [moment](subjects/mo/moment.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/moment) |
+| [monaco-editor](subjects/mo/monaco-editor.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/monaco-editor) |
 | [mongo-c-driver](subjects/mo/mongo-c-driver.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/mongo-c-driver) |
 | [mongo-cxx-driver](subjects/mo/mongo-cxx-driver.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/mongo-cxx-driver) |
 | [mongo-go-driver](subjects/mo/mongo-go-driver.md) | runs with mocks | 2026-09-28 | [argusic.com](https://argusic.com/subject/mongo-go-driver) |
@@ -2085,6 +2090,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [mycart](subjects/my/mycart.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/mycart) |
 | [mycli](subjects/my/mycli.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/mycli) |
 | [mycompany](subjects/my/mycompany.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/mycompany) |
+| [mygo](subjects/my/mygo.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/mygo) |
 | [MyPerf4J](subjects/my/myperf4j.md) | runs with mocks | 2026-10-01 | [argusic.com](https://argusic.com/subject/myperf4j) |
 | [myPKA](subjects/my/mypka.md) | runs with mocks | 2026-10-25 | [argusic.com](https://argusic.com/subject/mypka) |
 | [mysql](subjects/my/mysql.md) | runs with mocks | 2026-09-26 | [argusic.com](https://argusic.com/subject/mysql) |
@@ -2097,10 +2103,10 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [Nameless](subjects/na/nameless.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/nameless) |
 | [Nano-SQL](subjects/na/nano-sql.md) | runs | 2026-10-14 | [argusic.com](https://argusic.com/subject/nano-sql) |
 | [nano-vectordb](subjects/na/nano-vectordb.md) | runs | 2026-10-31 | [argusic.com](https://argusic.com/subject/nano-vectordb) |
-| [nanobot](subjects/na/nanobot.md) | runs with mocks | 2026-09-03 | [argusic.com](https://argusic.com/subject/nanobot) |
+| [nanobot](subjects/na/nanobot.md) | runs with mocks | 2026-11-01 | [argusic.com](https://argusic.com/subject/nanobot) |
 | [nanobrowser](subjects/na/nanobrowser.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/nanobrowser) |
 | [nanoc](subjects/na/nanoc.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/subject/nanoc) |
-| [nanoclaw](subjects/na/nanoclaw.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/nanoclaw) |
+| [nanoclaw](subjects/na/nanoclaw.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/nanoclaw) |
 | [nanogen](subjects/na/nanogen.md) | runs | 2026-10-31 | [argusic.com](https://argusic.com/subject/nanogen) |
 | [nanzi-ai-agent-platform](subjects/na/nanzi-ai-agent-platform.md) | runs with mocks | 2026-10-30 | [argusic.com](https://argusic.com/subject/nanzi-ai-agent-platform) |
 | [Naomi](subjects/na/naomi.md) | runs with mocks | 2026-10-25 | [argusic.com](https://argusic.com/subject/naomi) |
@@ -2133,7 +2139,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [news-please](subjects/ne/news-please.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/news-please) |
 | [newspaper](subjects/ne/newspaper.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/newspaper) |
 | [newspaper4k](subjects/ne/newspaper4k.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/newspaper4k) |
-| [next-ai-draw-io](subjects/ne/next-ai-draw-io.md) | runs with mocks | 2026-10-16 | [argusic.com](https://argusic.com/subject/next-ai-draw-io) |
+| [next-ai-draw-io](subjects/ne/next-ai-draw-io.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/next-ai-draw-io) |
 | [next-ecommerce](subjects/ne/next-ecommerce.md) | runs | 2026-10-20 | [argusic.com](https://argusic.com/subject/next-ecommerce) |
 | [next-plaid](subjects/ne/next-plaid.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/next-plaid) |
 | [next-video](subjects/ne/next-video.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/next-video) |
@@ -2141,7 +2147,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [nextplate](subjects/ne/nextplate.md) | could not verify | 2026-10-19 | [argusic.com](https://argusic.com/subject/nextplate) |
 | [nextra](subjects/ne/nextra.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/nextra) |
 | [ng-diagram](subjects/ng/ng-diagram.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/ng-diagram) |
-| [nginx](subjects/ng/nginx.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/nginx) |
+| [nginx](subjects/ng/nginx.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/nginx) |
 | [nginx-proxy](subjects/ng/nginx-proxy.md) | could not verify | 2026-09-28 | [argusic.com](https://argusic.com/subject/nginx-proxy) |
 | [ngrok-operator](subjects/ng/ngrok-operator.md) | runs with mocks | 2026-10-26 | [argusic.com](https://argusic.com/subject/ngrok-operator) |
 | [ngrok-rust](subjects/ng/ngrok-rust.md) | runs with mocks | 2026-10-22 | [argusic.com](https://argusic.com/subject/ngrok-rust) |
@@ -2177,6 +2183,8 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [node-zendesk](subjects/no/node-zendesk.md) | runs with mocks | 2026-10-23 | [argusic.com](https://argusic.com/subject/node-zendesk) |
 | [nodepress](subjects/no/nodepress.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/nodepress) |
 | [nomnoml](subjects/no/nomnoml.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/nomnoml) |
+| [nonecap-js](subjects/no/nonecap-js.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/nonecap-js) |
+| [nonecap-py](subjects/no/nonecap-py.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/nonecap-py) |
 | [noodle](subjects/no/noodle.md) | runs | 2026-10-22 | [argusic.com](https://argusic.com/subject/noodle) |
 | [nopus](subjects/no/nopus.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/nopus) |
 | [Nora](subjects/no/nora.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/nora) |
@@ -2246,7 +2254,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [olla](subjects/ol/olla.md) | runs with mocks | 2026-10-24 | [argusic.com](https://argusic.com/subject/olla) |
 | [ollama-gui](subjects/ol/ollama-gui.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/ollama-gui) |
 | [olric](subjects/ol/olric.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/olric) |
-| [omarchy](subjects/om/omarchy.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/omarchy) |
+| [omarchy](subjects/om/omarchy.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/omarchy) |
 | [omg.dev](subjects/om/omg-dev.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/omg-dev) |
 | [Ominis-OSINT](subjects/om/ominis-osint.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/ominis-osint) |
 | [omm](subjects/om/omm.md) | runs | 2026-10-24 | [argusic.com](https://argusic.com/subject/omm) |
@@ -2255,7 +2263,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [omnigent](subjects/om/omnigent.md) | runs | 2026-09-23 | [argusic.com](https://argusic.com/subject/omnigent) |
 | [OmniVoice](subjects/om/omnivoice.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/omnivoice) |
 | [onchain-dex-cli](subjects/on/onchain-dex-cli.md) | runs with mocks | 2026-10-17 | [argusic.com](https://argusic.com/subject/onchain-dex-cli) |
-| [one-api](subjects/on/one-api.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/one-api) |
+| [one-api](subjects/on/one-api.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/one-api) |
 | [onedev](subjects/on/onedev.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/onedev) |
 | [onedump](subjects/on/onedump.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/onedump) |
 | [onenote](subjects/on/onenote.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/onenote) |
@@ -2412,12 +2420,12 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [paca](subjects/pa/paca.md) | runs with mocks | 2026-10-05 | [argusic.com](https://argusic.com/subject/paca) |
 | [packmind](subjects/pa/packmind.md) | runs | 2026-10-24 | [argusic.com](https://argusic.com/subject/packmind) |
 | [PaddleNLP](subjects/pa/paddlenlp.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/paddlenlp) |
-| [page-agent](subjects/pa/page-agent.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/page-agent) |
-| [PageIndex](subjects/pa/pageindex.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/pageindex) |
+| [page-agent](subjects/pa/page-agent.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/page-agent) |
+| [PageIndex](subjects/pa/pageindex.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/pageindex) |
 | [pagescms](subjects/pa/pagescms.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/pagescms) |
 | [pagible](subjects/pa/pagible.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/pagible) |
 | [paint-board](subjects/pa/paint-board.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/paint-board) |
-| [pandas](subjects/pa/pandas.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/pandas) |
+| [pandas](subjects/pa/pandas.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/pandas) |
 | [panel](subjects/pa/panel.md) | runs with mocks | 2026-10-19 | [argusic.com](https://argusic.com/subject/panel) |
 | [panel-graphic-walker](subjects/pa/panel-graphic-walker.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/panel-graphic-walker) |
 | [PanWatch](subjects/pa/panwatch.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/panwatch) |
@@ -2449,7 +2457,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [paul](subjects/pa/paul.md) | could not verify | 2026-10-09 | [argusic.com](https://argusic.com/subject/paul) |
 | [payload](subjects/pa/payload.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/subject/payload) |
 | [Paymenter](subjects/pa/paymenter.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/paymenter) |
-| [pdf.js](subjects/pd/pdf-js.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/pdf-js) |
+| [pdf.js](subjects/pd/pdf-js.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/pdf-js) |
 | [pdfcraft](subjects/pd/pdfcraft.md) | could not verify | 2026-10-09 | [argusic.com](https://argusic.com/subject/pdfcraft) |
 | [pear-desktop](subjects/pe/pear-desktop.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/subject/pear-desktop) |
 | [peddler](subjects/pe/peddler.md) | runs with mocks | 2026-10-24 | [argusic.com](https://argusic.com/subject/peddler) |
@@ -2560,7 +2568,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [presenterm](subjects/pr/presenterm.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/presenterm) |
 | [presskit.html](subjects/pr/presskit-html.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/presskit-html) |
 | [prest](subjects/pr/prest.md) | runs with mocks | 2026-09-04 | [argusic.com](https://argusic.com/subject/prest) |
-| [prettier](subjects/pr/prettier.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/prettier) |
+| [prettier](subjects/pr/prettier.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/prettier) |
 | [prime-agent](subjects/pr/prime-agent.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/prime-agent) |
 | [primp](subjects/pr/primp.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/primp) |
 | [printfilm](subjects/pr/printfilm.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/printfilm) |
@@ -2619,7 +2627,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [pydantic-ai](subjects/py/pydantic-ai.md) | runs with mocks | 2026-09-26 | [argusic.com](https://argusic.com/subject/pydantic-ai) |
 | [pydantic-ai-skills](subjects/py/pydantic-ai-skills.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/pydantic-ai-skills) |
 | [pydantic-deepagents](subjects/py/pydantic-deepagents.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/pydantic-deepagents) |
-| [pyenv](subjects/py/pyenv.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/pyenv) |
+| [pyenv](subjects/py/pyenv.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/pyenv) |
 | [pyJianYingDraft](subjects/py/pyjianyingdraft.md) | runs with mocks | 2026-09-08 | [argusic.com](https://argusic.com/subject/pyjianyingdraft) |
 | [pylips](subjects/py/pylips.md) | runs with mocks | 2026-10-22 | [argusic.com](https://argusic.com/subject/pylips) |
 | [pymilvus](subjects/py/pymilvus.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/pymilvus) |
@@ -2667,7 +2675,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [quill](subjects/qu/quill.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/quill) |
 | [quillman](subjects/qu/quillman.md) | runs with mocks | 2026-10-09 | [argusic.com](https://argusic.com/subject/quillman) |
 | [quiver](subjects/qu/quiver.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/quiver) |
-| [quivr](subjects/qu/quivr.md) | runs with mocks | 2026-10-05 | [argusic.com](https://argusic.com/subject/quivr) |
+| [quivr](subjects/qu/quivr.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/quivr) |
 | [quotio](subjects/qu/quotio.md) | runs with mocks | 2026-10-15 | [argusic.com](https://argusic.com/subject/quotio) |
 | [qwen-audio-agent](subjects/qw/qwen-audio-agent.md) | runs | 2026-09-17 | [argusic.com](https://argusic.com/subject/qwen-audio-agent) |
 | [qwen21-nsfw-pose-skill](subjects/qw/qwen21-nsfw-pose-skill.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/qwen21-nsfw-pose-skill) |
@@ -2703,22 +2711,23 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [react-email-editor](subjects/re/react-email-editor.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/react-email-editor) |
 | [react-gantt](subjects/re/react-gantt.md) | runs | 2026-10-30 | [argusic.com](https://argusic.com/subject/react-gantt) |
 | [react-h5-audio-player](subjects/re/react-h5-audio-player.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/react-h5-audio-player) |
-| [react-hook-form](subjects/re/react-hook-form.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/react-hook-form) |
+| [react-hook-form](subjects/re/react-hook-form.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/react-hook-form) |
 | [react-konva](subjects/re/react-konva.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/react-konva) |
 | [react-lifecycle-methods-diagram](subjects/re/react-lifecycle-methods-diagram.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/react-lifecycle-methods-diagram) |
 | [react-native-media-console](subjects/re/react-native-media-console.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/react-native-media-console) |
 | [react-native-mmkv](subjects/re/react-native-mmkv.md) | runs with mocks | 2026-09-28 | [argusic.com](https://argusic.com/subject/react-native-mmkv) |
 | [react-native-vlc-media-player](subjects/re/react-native-vlc-media-player.md) | could not verify | 2026-10-20 | [argusic.com](https://argusic.com/subject/react-native-vlc-media-player) |
 | [react-reader](subjects/re/react-reader.md) | runs with mocks | 2026-10-12 | [argusic.com](https://argusic.com/subject/react-reader) |
-| [react-router](subjects/re/react-router.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/react-router) |
+| [react-router](subjects/re/react-router.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/react-router) |
 | [react-snap](subjects/re/react-snap.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/react-snap) |
 | [react-spreadsheet](subjects/re/react-spreadsheet.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/react-spreadsheet) |
 | [react-textarea-code-editor](subjects/re/react-textarea-code-editor.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/react-textarea-code-editor) |
 | [reactive-interaction-gateway](subjects/re/reactive-interaction-gateway.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/reactive-interaction-gateway) |
 | [reactivesearch-api](subjects/re/reactivesearch-api.md) | runs with mocks | 2026-10-30 | [argusic.com](https://argusic.com/subject/reactivesearch-api) |
-| [reactjs-interview-questions](subjects/re/reactjs-interview-questions.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/reactjs-interview-questions) |
+| [reactjs-interview-questions](subjects/re/reactjs-interview-questions.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/reactjs-interview-questions) |
 | [reactpress](subjects/re/reactpress.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/reactpress) |
-| [read-aloud](subjects/re/read-aloud.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/read-aloud) |
+| [read-aloud](subjects/re/read-aloud--ken107.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/run/6c7a50a5-64a8-41d2-9310-0affba557754) |
+| [read-aloud](subjects/re/read-aloud--read-aloud.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/run/1262f42f-f713-4cfa-b9ae-53816be2c37b) |
 | [reader](subjects/re/reader.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/reader) |
 | [readme-ai](subjects/re/readme-ai.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/readme-ai) |
 | [readmeX](subjects/re/readmex.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/readmex) |
@@ -2757,7 +2766,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [req](subjects/re/req--wojtekmach.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/run/03030714-6697-4bb0-91f4-83b7f76c9287) |
 | [Requester](subjects/re/requester.md) | runs with mocks | 2026-10-25 | [argusic.com](https://argusic.com/subject/requester) |
 | [requests](subjects/re/requests--earthboundkid.md) | runs with mocks | 2026-10-06 | [argusic.com](https://argusic.com/run/8c34c7d7-c931-473b-9997-3b11b6a7617c) |
-| [requests](subjects/re/requests--psf.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/run/f5b764b0-e8e9-4fbb-b3d9-5213a56a8bfe) |
+| [requests](subjects/re/requests--psf.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/run/f5b764b0-e8e9-4fbb-b3d9-5213a56a8bfe) |
 | [reqwest](subjects/re/reqwest.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/reqwest) |
 | [res](subjects/re/res.md) | runs with mocks | 2026-10-29 | [argusic.com](https://argusic.com/subject/res) |
 | [research-claw](subjects/re/research-claw.md) | runs | 2026-10-31 | [argusic.com](https://argusic.com/subject/research-claw) |
@@ -2767,7 +2776,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [RESTer](subjects/re/rester.md) | runs | 2026-10-22 | [argusic.com](https://argusic.com/subject/rester) |
 | [resterm](subjects/re/resterm.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/resterm) |
 | [Restfox](subjects/re/restfox.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/restfox) |
-| [restic](subjects/re/restic.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/restic) |
+| [restic](subjects/re/restic.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/restic) |
 | [restic-automatic-backup-scheduler](subjects/re/restic-automatic-backup-scheduler.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/restic-automatic-backup-scheduler) |
 | [restic-backup-docker](subjects/re/restic-backup-docker.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/restic-backup-docker) |
 | [resty](subjects/re/resty.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/resty) |
@@ -2809,7 +2818,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [rtm](subjects/rt/rtm.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/subject/rtm) |
 | [ruby-openai](subjects/ru/ruby-openai.md) | runs with mocks | 2026-10-01 | [argusic.com](https://argusic.com/subject/ruby-openai) |
 | [ruby-progressbar](subjects/ru/ruby-progressbar.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/ruby-progressbar) |
-| [ruff](subjects/ru/ruff.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/ruff) |
+| [ruff](subjects/ru/ruff.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/ruff) |
 | [ruia](subjects/ru/ruia.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/ruia) |
 | [rulego](subjects/ru/rulego.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/rulego) |
 | [rumdl](subjects/ru/rumdl.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/rumdl) |
@@ -2825,7 +2834,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [rustwright](subjects/ru/rustwright.md) | runs | 2026-10-12 | [argusic.com](https://argusic.com/subject/rustwright) |
 | [rusty-req](subjects/ru/rusty-req.md) | runs | 2026-10-25 | [argusic.com](https://argusic.com/subject/rusty-req) |
 | [RuView](subjects/ru/ruview.md) | runs | 2026-10-31 | [argusic.com](https://argusic.com/subject/ruview) |
-| [RxJava](subjects/rx/rxjava.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/rxjava) |
+| [RxJava](subjects/rx/rxjava.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/rxjava) |
 | [rxRust](subjects/rx/rxrust.md) | runs | 2026-10-10 | [argusic.com](https://argusic.com/subject/rxrust) |
 | [Rythe-Engine](subjects/ry/rythe-engine.md) | could not verify | 2026-10-19 | [argusic.com](https://argusic.com/subject/rythe-engine) |
 | [s3-proxy](subjects/s3/s3-proxy.md) | runs with mocks | 2026-10-19 | [argusic.com](https://argusic.com/subject/s3-proxy) |
@@ -2842,7 +2851,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [scalecube-services](subjects/sc/scalecube-services.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/scalecube-services) |
 | [Scavenger](subjects/sc/scavenger.md) | runs with mocks | 2026-10-13 | [argusic.com](https://argusic.com/subject/scavenger) |
 | [scholar-skill](subjects/sc/scholar-skill.md) | runs with mocks | 2026-10-29 | [argusic.com](https://argusic.com/subject/scholar-skill) |
-| [scientific-agent-skills](subjects/sc/scientific-agent-skills.md) | runs with mocks | 2026-10-08 | [argusic.com](https://argusic.com/subject/scientific-agent-skills) |
+| [scientific-agent-skills](subjects/sc/scientific-agent-skills.md) | runs with mocks | 2026-11-01 | [argusic.com](https://argusic.com/subject/scientific-agent-skills) |
 | [scipio-erp](subjects/sc/scipio-erp.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/scipio-erp) |
 | [scira-mcp-chat](subjects/sc/scira-mcp-chat.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/subject/scira-mcp-chat) |
 | [scoold](subjects/sc/scoold.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/scoold) |
@@ -2878,13 +2887,14 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [SearchCLI](subjects/se/searchcli.md) | runs with mocks | 2026-10-10 | [argusic.com](https://argusic.com/subject/searchcli) |
 | [second-brain](subjects/se/second-brain.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/second-brain) |
 | [second-brain-cloudflare](subjects/se/second-brain-cloudflare.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/subject/second-brain-cloudflare) |
-| [security-audit-skill](subjects/se/security-audit-skill.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/security-audit-skill) |
+| [security-audit-skill](subjects/se/security-audit-skill.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/security-audit-skill) |
 | [SeeCode](subjects/se/seecode.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/seecode) |
 | [seekdb](subjects/se/seekdb.md) | could not verify | 2026-09-12 | [argusic.com](https://argusic.com/subject/seekdb) |
 | [SeekStorm](subjects/se/seekstorm.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/seekstorm) |
 | [seerr](subjects/se/seerr.md) | runs | 2026-09-23 | [argusic.com](https://argusic.com/subject/seerr) |
 | [selectolax](subjects/se/selectolax.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/selectolax) |
 | [SeleniumBase](subjects/se/seleniumbase.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/seleniumbase) |
+| [self-host](subjects/se/self-host.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/self-host) |
 | [selfhost-ai](subjects/se/selfhost-ai.md) | could not verify | 2026-09-12 | [argusic.com](https://argusic.com/subject/selfhost-ai) |
 | [sem](subjects/se/sem.md) | runs | 2026-09-07 | [argusic.com](https://argusic.com/subject/sem) |
 | [semantix](subjects/se/semantix.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/subject/semantix) |
@@ -2953,6 +2963,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [site-for-developers](subjects/si/site-for-developers.md) | runs | 2026-10-28 | [argusic.com](https://argusic.com/subject/site-for-developers) |
 | [siteone-crawler](subjects/si/siteone-crawler.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/siteone-crawler) |
 | [SkillSeekers](subjects/sk/skill-seekers.md) | runs | 2026-09-22 | [argusic.com](https://argusic.com/subject/skill-seekers) |
+| [skill-conductor](subjects/sk/skill-conductor.md) | runs with mocks | 2026-11-01 | [argusic.com](https://argusic.com/subject/skill-conductor) |
 | [skill-recorder](subjects/sk/skill-recorder.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/skill-recorder) |
 | [skill-validator](subjects/sk/skill-validator.md) | runs | 2026-10-27 | [argusic.com](https://argusic.com/subject/skill-validator) |
 | [skillhub](subjects/sk/skillhub.md) | could not verify | 2026-09-29 | [argusic.com](https://argusic.com/subject/skillhub) |
@@ -2973,12 +2984,12 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [skywalking](subjects/sk/skywalking.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/skywalking) |
 | [skywalking-java](subjects/sk/skywalking-java.md) | runs with mocks | 2026-10-12 | [argusic.com](https://argusic.com/subject/skywalking-java) |
 | [slack-mcp-server](subjects/sl/slack-mcp-server.md) | runs with mocks | 2026-10-05 | [argusic.com](https://argusic.com/subject/slack-mcp-server) |
-| [slate](subjects/sl/slate.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/slate) |
+| [slate](subjects/sl/slate.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/slate) |
 | [slatedb](subjects/sl/slatedb.md) | runs | 2026-09-12 | [argusic.com](https://argusic.com/subject/slatedb) |
 | [sled](subjects/sl/sled.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/sled) |
 | [SleekDB](subjects/sl/sleekdb.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/sleekdb) |
 | [sleepless-agent](subjects/sl/sleepless-agent.md) | runs with mocks | 2026-10-13 | [argusic.com](https://argusic.com/subject/sleepless-agent) |
-| [slidev](subjects/sl/slidev.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/slidev) |
+| [slidev](subjects/sl/slidev.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/slidev) |
 | [sloth](subjects/sl/sloth.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/sloth) |
 | [slothdb](subjects/sl/slothdb.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/slothdb) |
 | [slumber](subjects/sl/slumber.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/slumber) |
@@ -3071,7 +3082,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [stemdeck](subjects/st/stemdeck.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/stemdeck) |
 | [stk-code](subjects/st/stk-code.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/stk-code) |
 | [stormcrawler](subjects/st/stormcrawler.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/stormcrawler) |
-| [Strata](subjects/st/strata.md) | runs with mocks | 2026-10-02 | [argusic.com](https://argusic.com/subject/strata) |
+| [Strata](subjects/st/strata.md) | runs with mocks | 2026-11-02 | [argusic.com](https://argusic.com/subject/strata) |
 | [streama](subjects/st/streama.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/streama) |
 | [streamcore-server](subjects/st/streamcore-server.md) | runs with mocks | 2026-10-28 | [argusic.com](https://argusic.com/subject/streamcore-server) |
 | [streampipes](subjects/st/streampipes.md) | runs | 2026-10-14 | [argusic.com](https://argusic.com/subject/streampipes) |
@@ -3122,7 +3133,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [tabulate](subjects/ta/tabulate.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/subject/tabulate) |
 | [tach](subjects/ta/tach.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/tach) |
 | [tagref](subjects/ta/tagref.md) | runs | 2026-10-28 | [argusic.com](https://argusic.com/subject/tagref) |
-| [tailscale](subjects/ta/tailscale.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/tailscale) |
+| [tailscale](subjects/ta/tailscale.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/tailscale) |
 | [takumi](subjects/ta/takumi.md) | runs | 2026-09-08 | [argusic.com](https://argusic.com/subject/takumi) |
 | [talivia](subjects/ta/talivia.md) | runs | 2026-09-05 | [argusic.com](https://argusic.com/subject/talivia) |
 | [talkcody](subjects/ta/talkcody.md) | runs with mocks | 2026-10-20 | [argusic.com](https://argusic.com/subject/talkcody) |
@@ -3207,7 +3218,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [tld](subjects/tl/tld.md) | runs | 2026-10-26 | [argusic.com](https://argusic.com/subject/tld) |
 | [tldx](subjects/tl/tldx.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/tldx) |
 | [tms](subjects/tm/tms.md) | runs | 2026-10-22 | [argusic.com](https://argusic.com/subject/tms) |
-| [tmux](subjects/tm/tmux.md) | runs | 2026-10-07 | [argusic.com](https://argusic.com/subject/tmux) |
+| [tmux](subjects/tm/tmux.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/tmux) |
 | [tmux-ide](subjects/tm/tmux-ide.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/tmux-ide) |
 | [tmuxp](subjects/tm/tmuxp.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/tmuxp) |
 | [tntsearch](subjects/tn/tntsearch.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/tntsearch) |
@@ -3215,6 +3226,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [toast](subjects/to/toast.md) | runs with mocks | 2026-10-26 | [argusic.com](https://argusic.com/subject/toast) |
 | [token-monitor](subjects/to/token-monitor.md) | runs | 2026-09-06 | [argusic.com](https://argusic.com/subject/token-monitor) |
 | [token-tracker](subjects/to/token-tracker.md) | runs | 2026-10-18 | [argusic.com](https://argusic.com/subject/token-tracker) |
+| [TokenEconomizer](subjects/to/tokeneconomizer.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/tokeneconomizer) |
 | [TokenHub](subjects/to/tokenhub.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/tokenhub) |
 | [tokentap](subjects/to/tokentap.md) | runs | 2026-10-13 | [argusic.com](https://argusic.com/subject/tokentap) |
 | [TokenTracker](subjects/to/tokentracker.md) | runs | 2026-10-05 | [argusic.com](https://argusic.com/subject/tokentracker) |
@@ -3292,7 +3304,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [twscrape](subjects/tw/twscrape.md) | runs with mocks | 2026-10-02 | [argusic.com](https://argusic.com/subject/twscrape) |
 | [twurple](subjects/tw/twurple.md) | runs with mocks | 2026-10-14 | [argusic.com](https://argusic.com/subject/twurple) |
 | [txtai](subjects/tx/txtai.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/txtai) |
-| [type-challenges](subjects/ty/type-challenges.md) | runs | 2026-10-26 | [argusic.com](https://argusic.com/subject/type-challenges) |
+| [type-challenges](subjects/ty/type-challenges.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/type-challenges) |
 | [typemill](subjects/ty/typemill.md) | runs | 2026-10-16 | [argusic.com](https://argusic.com/subject/typemill) |
 | [typeorm](subjects/ty/typeorm--nestjs.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/run/8c9a40fc-6053-46e4-927a-b74762ca0287) |
 | [typeorm](subjects/ty/typeorm--typeorm.md) | runs | 2026-09-21 | [argusic.com](https://argusic.com/run/8400c6f7-5400-4308-8104-396161f0e19c) |
@@ -3302,7 +3314,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [typikon](subjects/ty/typikon.md) | runs | 2026-10-26 | [argusic.com](https://argusic.com/subject/typikon) |
 | [typist](subjects/ty/typist.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/typist) |
 | [typsite](subjects/ty/typsite.md) | runs | 2026-10-30 | [argusic.com](https://argusic.com/subject/typsite) |
-| [typst](subjects/ty/typst.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/typst) |
+| [typst](subjects/ty/typst.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/typst) |
 | [U3D](subjects/u3/u3d.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/u3d) |
 | [ubi](subjects/ub/ubi.md) | runs | 2026-10-17 | [argusic.com](https://argusic.com/subject/ubi) |
 | [ublacklist](subjects/ub/ublacklist.md) | runs | 2026-09-28 | [argusic.com](https://argusic.com/subject/ublacklist) |
@@ -3326,7 +3338,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [unigit-ecosystem](subjects/un/unigit-ecosystem.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/unigit-ecosystem) |
 | [univer-workspace](subjects/un/univer-workspace.md) | runs | 2026-10-04 | [argusic.com](https://argusic.com/subject/univer-workspace) |
 | [Unla](subjects/un/unla.md) | could not verify | 2026-10-04 | [argusic.com](https://argusic.com/subject/unla) |
-| [Unlimited-OCR](subjects/un/unlimited-ocr.md) | runs with mocks | 2026-10-13 | [argusic.com](https://argusic.com/subject/unlimited-ocr) |
+| [Unlimited-OCR](subjects/un/unlimited-ocr.md) | runs with mocks | 2026-11-02 | [argusic.com](https://argusic.com/subject/unlimited-ocr) |
 | [unqlite-python](subjects/un/unqlite-python.md) | runs | 2026-09-19 | [argusic.com](https://argusic.com/subject/unqlite-python) |
 | [unsnooze](subjects/un/unsnooze.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/unsnooze) |
 | [Upsonic](subjects/up/upsonic.md) | runs | 2026-09-05 | [argusic.com](https://argusic.com/subject/upsonic) |
@@ -3386,7 +3398,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [vibecode-pro-max-kit](subjects/vi/vibecode-pro-max-kit.md) | runs | 2026-09-18 | [argusic.com](https://argusic.com/subject/vibecode-pro-max-kit) |
 | [vibesdk](subjects/vi/vibesdk.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/vibesdk) |
 | [VibeUE](subjects/vi/vibeue.md) | not yet verified | 2026-10-14 | [argusic.com](https://argusic.com/subject/vibeue) |
-| [VibeVoice](subjects/vi/vibevoice.md) | runs with mocks | 2026-10-09 | [argusic.com](https://argusic.com/subject/vibevoice) |
+| [VibeVoice](subjects/vi/vibevoice.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/vibevoice) |
 | [VibeVoice-ComfyUI](subjects/vi/vibevoice-comfyui.md) | runs with mocks | 2026-10-07 | [argusic.com](https://argusic.com/subject/vibevoice-comfyui) |
 | [vibeyard](subjects/vi/vibeyard.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/vibeyard) |
 | [vicinity](subjects/vi/vicinity.md) | runs | 2026-10-23 | [argusic.com](https://argusic.com/subject/vicinity) |
@@ -3396,7 +3408,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [viddy](subjects/vi/viddy.md) | runs | 2026-10-02 | [argusic.com](https://argusic.com/subject/viddy) |
 | [video-podcast-maker](subjects/vi/video-podcast-maker.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/subject/video-podcast-maker) |
 | [video-react](subjects/vi/video-react.md) | runs | 2026-10-09 | [argusic.com](https://argusic.com/subject/video-react) |
-| [video-use](subjects/vi/video-use.md) | runs with mocks | 2026-09-25 | [argusic.com](https://argusic.com/subject/video-use) |
+| [video-use](subjects/vi/video-use.md) | runs | 2026-11-02 | [argusic.com](https://argusic.com/subject/video-use) |
 | [VideoCoF](subjects/vi/videocof.md) | runs with mocks | 2026-10-31 | [argusic.com](https://argusic.com/subject/videocof) |
 | [vike](subjects/vi/vike.md) | runs | 2026-09-29 | [argusic.com](https://argusic.com/subject/vike) |
 | [vim-anywhere](subjects/vi/vim-anywhere.md) | runs with mocks | 2026-09-30 | [argusic.com](https://argusic.com/subject/vim-anywhere) |
@@ -3408,7 +3420,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [vizra-adk](subjects/vi/vizra-adk.md) | runs with mocks | 2026-10-25 | [argusic.com](https://argusic.com/subject/vizra-adk) |
 | [vllm-mlx](subjects/vl/vllm-mlx.md) | runs with mocks | 2026-10-06 | [argusic.com](https://argusic.com/subject/vllm-mlx) |
 | [vmprint](subjects/vm/vmprint.md) | runs | 2026-10-15 | [argusic.com](https://argusic.com/subject/vmprint) |
-| [vnpy](subjects/vn/vnpy.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/vnpy) |
+| [vnpy](subjects/vn/vnpy.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/vnpy) |
 | [Vocello](subjects/vo/vocello.md) | runs | 2026-10-22 | [argusic.com](https://argusic.com/subject/vocello) |
 | [VoiceFlow](subjects/vo/voiceflow.md) | runs | 2026-10-21 | [argusic.com](https://argusic.com/subject/voiceflow) |
 | [VoiceMem](subjects/vo/voicemem.md) | runs with mocks | 2026-10-03 | [argusic.com](https://argusic.com/subject/voicemem) |
@@ -3488,13 +3500,14 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [wgcf](subjects/wg/wgcf.md) | runs | 2026-09-27 | [argusic.com](https://argusic.com/subject/wgcf) |
 | [wgrest](subjects/wg/wgrest.md) | runs | 2026-10-29 | [argusic.com](https://argusic.com/subject/wgrest) |
 | [Whale](subjects/wh/whale.md) | runs with mocks | 2026-10-11 | [argusic.com](https://argusic.com/subject/whale) |
+| [whatsapp-ai-agent-sdk](subjects/wh/whatsapp-ai-agent-sdk.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/whatsapp-ai-agent-sdk) |
 | [whirl](subjects/wh/whirl.md) | runs with mocks | 2026-10-19 | [argusic.com](https://argusic.com/subject/whirl) |
 | [whisper-asr-webservice](subjects/wh/whisper-asr-webservice.md) | runs | 2026-10-01 | [argusic.com](https://argusic.com/subject/whisper-asr-webservice) |
 | [whisper-ctranslate2](subjects/wh/whisper-ctranslate2.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/whisper-ctranslate2) |
 | [whisper-flow](subjects/wh/whisper-flow.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/whisper-flow) |
 | [whisper-obsidian-plugin](subjects/wh/whisper-obsidian-plugin.md) | runs | 2026-10-22 | [argusic.com](https://argusic.com/subject/whisper-obsidian-plugin) |
 | [Whisper-TikTok](subjects/wh/whisper-tiktok.md) | runs with mocks | 2026-10-24 | [argusic.com](https://argusic.com/subject/whisper-tiktok) |
-| [whisper.cpp](subjects/wh/whisper-cpp.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/whisper-cpp) |
+| [whisper.cpp](subjects/wh/whisper-cpp.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/whisper-cpp) |
 | [WhisperJAV](subjects/wh/whisperjav.md) | runs | 2026-10-03 | [argusic.com](https://argusic.com/subject/whisperjav) |
 | [WhisperLive](subjects/wh/whisperlive.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/whisperlive) |
 | [whisperX](subjects/wh/whisperx.md) | runs | 2026-09-25 | [argusic.com](https://argusic.com/subject/whisperx) |
@@ -3613,6 +3626,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [zeppelin](subjects/ze/zeppelin.md) | runs | 2026-09-24 | [argusic.com](https://argusic.com/subject/zeppelin) |
 | [zero](subjects/ze/zero--gitlawb.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/run/cd553535-ed67-4bc1-8e87-50b55f4694f9) |
 | [zero](subjects/ze/zero--twigpine.md) | runs | 2026-10-06 | [argusic.com](https://argusic.com/run/7283309d-68ef-49b5-b173-eaf58c94ff0d) |
+| [Zero-Breach-Toolkit](subjects/ze/zero-breach-toolkit.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/zero-breach-toolkit) |
 | [zero2Agent](subjects/ze/zero2agent.md) | runs | 2026-10-14 | [argusic.com](https://argusic.com/subject/zero2agent) |
 | [zerocode](subjects/ze/zerocode.md) | runs | 2026-10-11 | [argusic.com](https://argusic.com/subject/zerocode) |
 | [zerolang](subjects/ze/zerolang.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/zerolang) |
@@ -3637,7 +3651,7 @@ Last updated 2026-11-01T06:26:45Z · 3621 subjects · methodology 1.4
 | [zustand](subjects/zu/zustand.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/zustand) |
 | [zvec](subjects/zv/zvec.md) | runs | 2026-09-26 | [argusic.com](https://argusic.com/subject/zvec) |
 | [zvec-grep](subjects/zv/zvec-grep.md) | runs | 2026-09-30 | [argusic.com](https://argusic.com/subject/zvec-grep) |
-| [zx](subjects/zx/zx.md) | runs | 2026-10-08 | [argusic.com](https://argusic.com/subject/zx) |
+| [zx](subjects/zx/zx.md) | runs | 2026-11-01 | [argusic.com](https://argusic.com/subject/zx) |
 
 ## More
 

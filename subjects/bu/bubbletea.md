@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/bubbletea
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.5 to 9.5 minutes
+- Valid runs: 2; wall time 9.5 to 9.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,12 @@ Evidence and recordings: https://argusic.com/subject/bubbletea
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 9.5 | 0 | 0 | [run](https://argusic.com/run/38ad2919-8551-4d62-b347-a3cf26e2235d) |
+| 2 | pass | 100 | 7 | 9.7 | 1 | 1 | [run](https://argusic.com/run/c1db4d88-4602-4a3f-ba58-60611d7b4dc1) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 2 min: `Go toolchain not installed in container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

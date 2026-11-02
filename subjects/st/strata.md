@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/strata
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 27.4 to 27.4 minutes
+- Valid runs: 2; wall time 27.4 to 39.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/strata
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0 | 27.4 | 2 | 2 | [run](https://argusic.com/run/9e14c2a0-9bcf-4b05-a162-f24e3a8c2a57) |
+| 2 | pass with mocks | 92 | 5 | 39.3 | 3 | 3 | [run](https://argusic.com/run/04c2fb51-a8c3-4094-9a46-ce3e817d41f7) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - `AMD test hardcoded 'strata.exe' which fails on Linux where setup.EXE='strata'`
 - `Golden tests failed: normalize() replaced setup.EXE in log paths changing 'strata-iq3_xxs.log' to '<EXE>-iq3_xxs.log', and Enter-only test hit risk warnings for Unsloth UD-Q4_K_XL on low-RAM PCs`
+
+Attempt 2:
+
+- 1 min: `Golden baseline stale after setup.py changes: 'log' field changed from 'strata-<model>.log' to '<EXE>-<model>.log' on Linux where EXE='strata' not 'strata.exe'`
+- 1 min: `test_enter_for_every_question failed for Unsloth UD-Q4_K_XL on low-RAM profiles (32GB, 47GB): confirm_risk() asked 'Install it anyway?' and Enter defaulted to 'n' (fail)`
+- 1 min: `test_prebuilt_hip_zip failed on Linux: zip only contained strata.exe but EXE='strata', so (tmp/EXE).exists() failed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

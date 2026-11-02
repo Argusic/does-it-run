@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/security-audit-skill
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.2 to 1.2 minutes
+- Valid runs: 2; wall time 1.2 to 1.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/security-audit-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0 | 1.2 | 0 | 0 | [run](https://argusic.com/run/189cb7a5-4433-409e-94b2-877e77d87a7c) |
+| 2 | pass | 100 | 0 | 1.3 | 0 | 0 | [run](https://argusic.com/run/62ab86f6-b2ac-4d6f-853a-d95b97743319) |
 
 ## What was observed on a clean machine
 

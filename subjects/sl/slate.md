@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/slate
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.5 to 4.5 minutes
+- Valid runs: 2; wall time 4.5 to 4.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/slate
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 4.5 | 0 | 0 | [run](https://argusic.com/run/a4de3bd8-36aa-47ad-b444-76add99719ae) |
+| 2 | pass | 100 | 0.5 | 4.8 | 0 | 0 | [run](https://argusic.com/run/669335a6-8cce-465f-ad53-5dc5d6b0cacb) |
 
 ## What was observed on a clean machine
 

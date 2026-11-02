@@ -1,6 +1,6 @@
 # whisper.cpp
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 98 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ggml-org/whisper.cpp, licensed MIT, written in C++.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/whisper-cpp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.2 to 5.2 minutes
+- Valid runs: 2; wall time 4.8 to 5.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,16 @@ Evidence and recordings: https://argusic.com/subject/whisper-cpp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 5.2 | 0 | 0 | [run](https://argusic.com/run/90bfdd5d-7133-4946-87f6-05944edf386b) |
+| 2 | pass | 96 | 3 | 4.8 | 5 | 4 | [run](https://argusic.com/run/9f5d4721-10de-43b3-a88c-2c87ae256823) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 0.5 min: `test-vad-full failed: missing model file ggml-base.en.bin`
+- 1 min: `make -j samples failed: wget not installed`
+- `test-parakeet-full-jfk failed: model ggml-parakeet-tdt-0.6b-v3-f32.bin not bundled`
+- 0.5 min: `test-parakeet-full-gb1 failed: missing sample gb1.wav and parakeet model file`
+- 0.5 min: `test-parakeet-full-diffusion failed: missing sample and parakeet model`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

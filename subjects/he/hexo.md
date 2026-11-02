@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/hexo
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.2 to 18.2 minutes
+- Valid runs: 2; wall time 18.2 to 35.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hexo
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 18.2 | 2 | 2 | [run](https://argusic.com/run/71e2b51f-4fbd-4500-adaa-f3600681f770) |
+| 2 | pass | 100 | 33 | 35.1 | 3 | 3 | [run](https://argusic.com/run/0425c463-48e3-4a03-91f2-b2246208b59f) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 0.5 min: `Node v18.19.1 pre-installed, project requires >=20.19.0`
 - 1 min: `4 test failures in test/scripts/processors/asset.ts (page - type: create-exist, update, delete, delete-not-exist)`
+
+Attempt 2:
+
+- 10 min: `Node 18.19.1 in container is below engines (node >=20.19.0); npm test crashed with ERR_UNKNOWN_FILE_EXTENSION on .ts and ERR_REQUIRE_ESM on tildify/nanoid`
+- 12 min: `4 tests in test/scripts/processors/asset.ts failed (ANSI color assertion, cuid id mismatch, delete tests) on first run`
+- 3 min: `hexo server process exited when its exec session ended (no listener on port)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

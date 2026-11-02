@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/react-router
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 84.7 to 84.7 minutes
+- Valid runs: 2; wall time 8.8 to 84.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/react-router
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 44 | 84.7 | 2 | 2 | [run](https://argusic.com/run/0c9cbc8e-b613-4fe2-9f32-cc8ee3ff3745) |
+| 2 | pass | 100 | 15 | 8.8 | 2 | 2 | [run](https://argusic.com/run/eb005541-8658-4fab-8397-d0288bb5a60a) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 3 min: `Node.js 18.19.1 is below the required >=22.22.0`
 - `Flaky timeout in special-characters-test.tsx when run in full suite (2 tests failed once)`
+
+Attempt 2:
+
+- 2 min: `Node.js v18.19.1 is below the required >=22.22.0`
+- 1 min: `rolldown native binding missing (optional dependency not pulled)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

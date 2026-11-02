@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/react-hook-form
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 20.3 to 20.3 minutes
+- Valid runs: 2; wall time 1.8 to 20.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/react-hook-form
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 20 | 20.3 | 4 | 4 | [run](https://argusic.com/run/ea0367aa-9d5f-4d9e-8127-3a81d79d9003) |
+| 2 | pass | 100 | 0.2 | 1.8 | 0 | 0 | [run](https://argusic.com/run/790f129a-fb3c-457d-8fb3-0e626759d8d0) |
 
 ## What was observed on a clean machine
 

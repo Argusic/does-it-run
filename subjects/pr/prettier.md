@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/prettier
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.1 to 7.1 minutes
+- Valid runs: 2; wall time 7.1 to 17.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/prettier
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.2 | 7.1 | 0 | 0 | [run](https://argusic.com/run/7fea0a6d-d0fc-4e62-b6ea-911c9cbde322) |
+| 2 | pass | 100 | 1.36 | 17.5 | 0 | 0 | [run](https://argusic.com/run/f95c7719-dfa2-4799-8f84-b4bc00824c71) |
 
 ## What was observed on a clean machine
 

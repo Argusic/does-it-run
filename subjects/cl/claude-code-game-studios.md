@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/claude-code-game-studios
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 7 to 7 minutes
+- Valid runs: 2; wall time 4.4 to 7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/claude-code-game-studios
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 6.5 | 7 | 3 | 3 | [run](https://argusic.com/run/16dc82ca-9d2b-48f2-a7d3-435fcd875227) |
+| 2 | pass with mocks | 92 | 4 | 4.4 | 0 | 0 | [run](https://argusic.com/run/8bf13cfb-9019-4fce-b1d0-e7efeac45699) |
 
 ## What was observed on a clean machine
 

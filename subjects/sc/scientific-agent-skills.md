@@ -1,6 +1,6 @@
 # scientific-agent-skills
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/K-Dense-AI/scientific-agent-skills, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/scientific-agent-skills
 - Test commit: `92ace75ac21efe19a620434e0ca4e356081fe807`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 16.8 to 16.8 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 16.8 to 65.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/scientific-agent-skills
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2.5 | 16.8 | 6 | 6 | [run](https://argusic.com/run/0a6cce34-944e-4545-8f81-420efb63a290) |
+| 2 | fail | 20 | n/a | 65.7 | 0 | 0 | [run](https://argusic.com/run/85aa2ba5-b807-421c-bc7a-a6c3cc65dc6f) |
 
 ## What was observed on a clean machine
 

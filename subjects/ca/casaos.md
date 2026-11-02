@@ -1,6 +1,6 @@
 # CasaOS
 
-**Verdict: runs with mocks.** Argusic Score 87 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 89.5 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/IceWhaleTech/CasaOS, licensed Apache-2.0, written in Go.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/casaos
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 12.7 to 12.7 minutes
+- Valid runs: 2; wall time 9.2 to 12.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/casaos
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 87 | 15 | 12.7 | 8 | 6 | [run](https://argusic.com/run/ab1fd228-6143-4633-9f14-02a543bcabc9) |
+| 2 | pass with mocks | 92 | 10 | 9.2 | 3 | 3 | [run](https://argusic.com/run/c20c7d32-bd82-4e3d-8e84-219a86f2cb8e) |
 
 ## What was observed on a clean machine
 
@@ -34,5 +35,11 @@ Attempt 1:
 - 2 min: `No gateway service for management address`
 - `TestPorts fails (empty port list in container)`
 - `UI private npm packages return 404`
+
+Attempt 2:
+
+- 2 min: `Go (Golang) compiler not installed in container`
+- 2 min: `Codegen packages missing (codegen/casaos_api.go and codegen/message_bus/api.go)`
+- 3 min: `Gateway and message-bus external services unreachable at startup`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

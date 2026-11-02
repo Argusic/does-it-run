@@ -4,7 +4,7 @@
 
 Project: https://github.com/ken107/read-aloud, licensed MIT, written in JavaScript.
 
-Evidence and recordings: https://argusic.com/subject/read-aloud
+Evidence and recordings: https://argusic.com/run/6c7a50a5-64a8-41d2-9310-0affba557754
 
 ## Pinned environment
 
