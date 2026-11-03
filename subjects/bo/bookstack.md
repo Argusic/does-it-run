@@ -1,6 +1,6 @@
 # BookStack
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/BookStackApp/BookStack, licensed MIT, written in PHP.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/bookstack
 - Test commit: `1633b3ab281b2df34a1c03e9370a2b756ba4d894`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 32.8 to 32.8 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 2.9 to 32.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/bookstack
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 31 | 32.8 | 6 | 6 | [run](https://argusic.com/run/ccefd565-d911-4326-8a0c-faa5f62f384b) |
+| 2 | fail | 20 | n/a | 2.9 | 0 | 0 | [run](https://argusic.com/run/b644aa44-65b4-4ea2-825d-6391b944d993) |
 
 ## What was observed on a clean machine
 

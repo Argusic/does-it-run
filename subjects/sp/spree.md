@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/spree
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.9 to 6.9 minutes
+- Valid runs: 2; wall time 5.6 to 6.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/spree
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 6.9 | 1 | 1 | [run](https://argusic.com/run/f047d831-7933-4f62-8eb9-95b5aba4bed5) |
+| 2 | pass | 100 | 2 | 5.6 | 0 | 0 | [run](https://argusic.com/run/cf27468f-6c6f-4dcf-8a93-381683f25589) |
 
 ## What was observed on a clean machine
 

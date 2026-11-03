@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aiohttp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 14 to 14 minutes
+- Valid runs: 2; wall time 6.7 to 14 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aiohttp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 14 | 6 | 6 | [run](https://argusic.com/run/53427ea4-8d8e-4775-9b61-b00a216af5f3) |
+| 2 | pass | 100 | 5 | 6.7 | 5 | 5 | [run](https://argusic.com/run/0b1515d3-55f0-437d-aa83-28e9de2c1960) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,13 @@ Attempt 1:
 - 1 min: `pytest_cov and pytest_aiohttp plugins not found`
 - 0.5 min: `ModuleNotFoundError for Brotli and gunicorn in test suite`
 - 2 min: `test_body_part_reader_payload_write fails: mock.create_autospec(write=write, spec_set=True) ignores the write kwarg in Python 3.12`
+
+Attempt 2:
+
+- 3 min: `Python.h not found (python3-dev not installed) , C extensions could not compile`
+- 1 min: `test_no_warnings[aiohttp.worker] , missing optional dependency gunicorn`
+- 1 min: `test_feed_eof_no_err_brotli , Brotli library not installed`
+- 1 min: `test_run_app_preexisting_inet6_socket and test_test_server_hostnames[::1-::1] , IPv6 not available in container`
+- 1 min: `test_body_part_reader_payload_write , multipart mock test assertion error`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

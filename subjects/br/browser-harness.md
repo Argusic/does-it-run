@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/browser-harness
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.8 to 4.8 minutes
+- Valid runs: 2; wall time 4.8 to 11.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/browser-harness
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 4.8 | 2 | 2 | [run](https://argusic.com/run/a26c8481-60d9-4618-a699-86448782281b) |
+| 2 | pass | 100 | 8 | 11.7 | 0 | 0 | [run](https://argusic.com/run/2aa15dad-dc4a-4217-87f9-c680ce42c740) |
 
 ## What was observed on a clean machine
 

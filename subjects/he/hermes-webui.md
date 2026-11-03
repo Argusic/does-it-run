@@ -1,6 +1,6 @@
 # hermes-webui
 
-**Verdict: runs.** Argusic Score 80 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/nesquena/hermes-webui, licensed MIT, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/hermes-webui
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 32.9 to 32.9 minutes
+- Valid runs: 2; wall time 32.9 to 38.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hermes-webui
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 3 | 32.9 | 5 | 0 | [run](https://argusic.com/run/7deb98ea-170a-4463-94ae-b688b5fd5f7d) |
+| 2 | pass | 100 | 7 | 38.3 | 4 | 4 | [run](https://argusic.com/run/d8c4b92a-1c35-467a-a730-46e3ac686a8b) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,12 @@ Attempt 1:
 - `Test shard 3: 3 test_real_smd_parser_* errors from same Node.js ES module import issue`
 - `Test shard 1: test_lmstudio_has_key_true_via_config_yaml fails in sharded run due to test isolation ordering (passes individually)`
 - `Test shard 2: test_openrouter_group_uses_live_fetch_when_available fails in sharded run due to test isolation ordering (passes individually)`
+
+Attempt 2:
+
+- `6 failures in test_live_prose_fade_cursor_source_space.py due to Node.js v18.19.1 not loading ES module export syntax in static/vendor/smd.min.js`
+- `1 failure in test_remote_terminal_workspace.py: /etc/ssh path does not exist in this container`
+- `1 failure in test_streaming_markdown.py: same Node.js ES module loading issue with smd.min.js`
+- `6 errors in test_smd_media_in_stream.py: same Node.js ES module loading issue with smd.min.js`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

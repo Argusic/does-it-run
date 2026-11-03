@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/img2threejs
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 28.7 to 28.7 minutes
+- Valid runs: 2; wall time 7.5 to 28.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/img2threejs
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0 | 28.7 | 1 | 1 | [run](https://argusic.com/run/10f2e903-8c77-41d2-be67-728c6a2f9744) |
+| 2 | pass | 100 | 0 | 7.5 | 1 | 1 | [run](https://argusic.com/run/bfd20c3e-8f58-4ea5-98bc-2b703cf48202) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 5 min: `test_vertex_paint.TypeScriptParity.test_python_and_typescript_agree_on_every_sample_point failed because Node 18 does not support --experimental-strip-types (requires Node >=22)`
+
+Attempt 2:
+
+- 7 min: `Test test_python_and_typescript_agree_on_every_sample_point failed because node --experimental-strip-types requires Node 22+ but container has Node 18`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

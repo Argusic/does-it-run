@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/anydoc
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.1 to 8.1 minutes
+- Valid runs: 2; wall time 5.7 to 8.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/anydoc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 16 | 8.1 | 0 | 0 | [run](https://argusic.com/run/5115706f-b629-4600-9415-61731cac32ba) |
+| 2 | pass | 100 | 6 | 5.7 | 0 | 0 | [run](https://argusic.com/run/5f0f1ddc-18ab-45d7-a29d-81e9913348c7) |
 
 ## What was observed on a clean machine
 

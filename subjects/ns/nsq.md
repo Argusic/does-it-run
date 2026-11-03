@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/nsq
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.3 to 6.3 minutes
+- Valid runs: 2; wall time 5.9 to 6.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/nsq
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 6.3 | 2 | 2 | [run](https://argusic.com/run/657ab80b-6783-4903-92e2-72b34e285593) |
+| 2 | pass | 100 | 6 | 5.9 | 0 | 0 | [run](https://argusic.com/run/cf3dcdd7-83f0-4bd3-8277-84cc734ee9ce) |
 
 ## What was observed on a clean machine
 

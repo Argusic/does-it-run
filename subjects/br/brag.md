@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/brag
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 14.6 to 14.6 minutes
+- Valid runs: 2; wall time 5.5 to 14.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/brag
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 14 | 14.6 | 5 | 5 | [run](https://argusic.com/run/d1a3c207-c427-4e0b-b1b6-76965287823f) |
+| 2 | pass | 100 | 5.17 | 5.5 | 2 | 2 | [run](https://argusic.com/run/aa8c078d-6b0a-4e8a-bcc5-e7b52839e623) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,10 @@ Attempt 1:
 - 2 min: `unzip not available and no root for apt install`
 - 3 min: `Hyperframes browser ensure download hung on progress spinner`
 - 2 min: `Hyperframes doctor still reported Chrome missing after cache placement`
+
+Attempt 2:
+
+- 2 min: `Node.js v18 (system) too old for skills CLI and Hyperframes (require >=22)`
+- 0.5 min: `System Python 3.12 externally managed (PEP 668), can't pip install librosa system-wide`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

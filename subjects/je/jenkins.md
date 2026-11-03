@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jenkins
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.2 to 16.2 minutes
+- Valid runs: 2; wall time 16.2 to 17.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,12 @@ Evidence and recordings: https://argusic.com/subject/jenkins
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 16.2 | 0 | 0 | [run](https://argusic.com/run/612c8f4e-242d-41d7-95c7-039297ec0430) |
+| 2 | pass | 100 | 16 | 17.1 | 1 | 1 | [run](https://argusic.com/run/79abf214-9324-43e3-95e1-ee4ee12e31e0) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 3 min: `Maven frontend-maven-plugin downloaded corrupted Node v24.21.0 archive from repo.jenkins-ci.org (EOFException during extraction)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

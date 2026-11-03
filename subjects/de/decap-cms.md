@@ -1,6 +1,6 @@
 # decap-cms
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/decaporg/decap-cms, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/decap-cms
 - Test commit: `1d5868347d3d8648d7d5f7f59fc1b46595881b29`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 18 to 18 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 15.2 to 18 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/decap-cms
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 25 | 18 | 2 | 2 | [run](https://argusic.com/run/ff7bcca3-25be-4ccb-aeb5-36326ba3aec6) |
+| 2 | fail | 20 | n/a | 15.2 | 0 | 0 | [run](https://argusic.com/run/a042ccff-537d-4c6c-b82c-862657957deb) |
 
 ## What was observed on a clean machine
 

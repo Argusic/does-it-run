@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/watermarks-remover
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 41.2 to 41.2 minutes
+- Valid runs: 2; wall time 15.2 to 41.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/watermarks-remover
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 41.2 | 0 | 0 | [run](https://argusic.com/run/a1615b86-cd63-42e4-9ade-95ca4e338180) |
+| 2 | pass | 100 | 0.5 | 15.2 | 0 | 0 | [run](https://argusic.com/run/c5f22c17-17ed-4d05-a28e-01fd80fae21b) |
 
 ## What was observed on a clean machine
 

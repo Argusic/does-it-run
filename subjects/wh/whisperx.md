@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/whisperx
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10 to 10 minutes
+- Valid runs: 2; wall time 3.2 to 10 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/whisperx
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 10 | 0 | 0 | [run](https://argusic.com/run/ca209120-6010-4c06-98af-848a5918e363) |
+| 2 | pass | 100 | 3.5 | 3.2 | 0 | 0 | [run](https://argusic.com/run/08113635-0736-4c31-9a67-5642402cb105) |
 
 ## What was observed on a clean machine
 

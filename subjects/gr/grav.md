@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/grav
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.7 to 6.7 minutes
+- Valid runs: 2; wall time 4.3 to 6.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/grav
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7.5 | 6.7 | 3 | 3 | [run](https://argusic.com/run/25adb46b-6d31-4a60-a18d-12862ed47514) |
+| 2 | pass | 100 | 6 | 4.3 | 7 | 7 | [run](https://argusic.com/run/e897eabf-3a87-487a-a019-4fe5bf841a26) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,15 @@ Attempt 1:
 - 5 min: `GLOB_BRACE undefined in AssetsTest.php on static PHP 8.3.0`
 - 1.5 min: `ComposerTest::testGetComposerLocation failed: command -v composer returned empty`
 - 1 min: `Static PHP 8.3.0 lacked GD JPEG and WebP support`
+
+Attempt 2:
+
+- 1 min: `The container had no PHP or Composer installation.`
+- 1 min: `PHP gd and zip extensions could not load because libgd.so.3 and libzip.so.4 were absent.`
+- 0.5 min: `bin/grav install reported PHP's phar extension missing inside child PHP processes.`
+- 0.5 min: `bin/grav install removed all 48 development packages, including Codeception and PHPUnit.`
+- 1 min: `ComposerTest failed because Composer was not on PATH and expected an absolute executable location.`
+- 2 min: `Every page displayed 'Session corruption detected, restarting session...' because PHP's default session path /var/lib/php/sessions did not exist.`
+- 0.5 min: `The first test run had 1 failure: expected Composer path starting with '/', received 'b'.`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

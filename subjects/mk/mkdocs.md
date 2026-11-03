@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mkdocs
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.4 to 4.4 minutes
+- Valid runs: 2; wall time 4.4 to 7.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/mkdocs
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 4.4 | 1 | 1 | [run](https://argusic.com/run/4032bd93-c255-4f50-a6f9-88c26f7d801c) |
+| 2 | pass | 100 | 0.5 | 7.7 | 1 | 1 | [run](https://argusic.com/run/1d44d634-da34-4e2a-8b5d-edb719e0fd84) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 5 min: `2 test failures in test_draft_docs_with_comments_from_user_guide: PathSpec lines with leading whitespace caused pathspec to produce a no-op pattern set`
+
+Attempt 2:
+
+- 1 min: `PathSpec.run_validation passed splitlines() with leading whitespace to GitIgnoreSpec, causing all patterns to silently fail to match`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/victoriametrics
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.6 to 8.6 minutes
+- Valid runs: 2; wall time 8.6 to 16.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/victoriametrics
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.5 | 8.6 | 0 | 0 | [run](https://argusic.com/run/874322fb-7993-4113-bbfe-80121e596b39) |
+| 2 | pass | 100 | 13 | 16.9 | 0 | 0 | [run](https://argusic.com/run/e4db74ac-46bf-4ce4-8133-c93a1549fa30) |
 
 ## What was observed on a clean machine
 
