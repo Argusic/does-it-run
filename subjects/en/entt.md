@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/entt
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.3 to 5.3 minutes
+- Valid runs: 2; wall time 2.3 to 5.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/entt
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 5.3 | 0 | 0 | [run](https://argusic.com/run/7c927175-5368-42b6-bcfa-2fcfc6eb7e57) |
+| 2 | pass | 100 | 5 | 2.3 | 0 | 0 | [run](https://argusic.com/run/da71fc34-c0bc-4cce-bac1-d6b2d199a93c) |
 
 ## What was observed on a clean machine
 

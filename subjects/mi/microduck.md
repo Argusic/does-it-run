@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/microduck
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 37.6 to 37.6 minutes
+- Valid runs: 2; wall time 22.8 to 37.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/microduck
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 45 | 37.6 | 4 | 4 | [run](https://argusic.com/run/8da552ca-fd02-4f42-9a6a-fb4916f757e2) |
+| 2 | pass | 100 | 22 | 22.8 | 3 | 3 | [run](https://argusic.com/run/49d396df-ff79-474b-a1df-be686ebefe80) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 20 min: `Missing -dev packages: libudev-dev, libglib2.0-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer-plugins-bad1.0-dev - no root access to apt`
 - 5 min: `Linker could not find -ludev (broken symlinks in extracted -dev packages)`
 - 3 min: `mediad test failed at runtime: missing libdw.so.1, liborc-0.4.so.0`
+
+Attempt 2:
+
+- 1 min: `Rust toolchain not found in PATH`
+- 3 min: `C library dev packages missing (libudev-dev, glib-2.0-dev, gstreamer-1.0-dev, and transitive deps) , no root for apt-get install`
+- 2 min: `Dangling .so dev symlinks in sysroot pointing to runtime sonames not present`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

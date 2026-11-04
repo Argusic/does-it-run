@@ -1,6 +1,6 @@
 # kysely
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/kysely-org/kysely, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/kysely
 - Test commit: `cd479e295aaf13eb9e2140efdae7e57d6b2e412e`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 6.9 to 6.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 6.9 to 9.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/kysely
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 6.9 | 2 | 2 | [run](https://argusic.com/run/fabf55f1-58fb-4232-a7ae-94a9339f3aba) |
+| 2 | fail | 20 | n/a | 9.9 | 0 | 0 | [run](https://argusic.com/run/c8de5b3e-4805-4a12-81f9-f4a9df2e1240) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/cangjie-skill
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.9 to 4.9 minutes
+- Valid runs: 2; wall time 1.6 to 4.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,13 @@ Evidence and recordings: https://argusic.com/subject/cangjie-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 4.9 | 0 | 0 | [run](https://argusic.com/run/967a58d9-fed2-47f3-bb51-ea68a2fca210) |
+| 2 | pass | 100 | 5 | 1.6 | 2 | 2 | [run](https://argusic.com/run/e5523631-32d0-44a8-8f3b-d7ee3295260b) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 2 min: `pyyaml and jsonschema missing in Python environment`
+- 1 min: `Node.js v18.19.1 too old for Astro 7 website (requires >=22.12.0)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/joltphysics
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.5 to 2.5 minutes
+- Valid runs: 2; wall time 2.5 to 6.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/joltphysics
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 2.5 | 0 | 0 | [run](https://argusic.com/run/22ff500b-90cd-43bb-9d52-b1f263635120) |
+| 2 | pass | 100 | 2 | 6.6 | 0 | 0 | [run](https://argusic.com/run/07945955-61e2-4c4d-bdca-391be1131c9e) |
 
 ## What was observed on a clean machine
 

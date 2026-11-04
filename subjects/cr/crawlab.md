@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/crawlab
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 17.3 to 17.3 minutes
+- Valid runs: 2; wall time 17.3 to 67 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/crawlab
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 17.3 | 4 | 4 | [run](https://argusic.com/run/37b06031-8945-4e93-8122-4746c3660ffa) |
+| 2 | pass | 100 | 66 | 67 | 14 | 14 | [run](https://argusic.com/run/4abbafe0-c242-4291-aa9d-88e4fa11f62c) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,22 @@ Attempt 1:
 - 1 min: `Vet error: fmt.Sprintf %%s used with int port args in 6 db utility files`
 - 2 min: `No MongoDB available for tests requiring DB`
 - 1 min: `Persisted config.json had is_master:false blocking master mode`
+
+Attempt 2:
+
+- 5 min: `Go not installed in environment`
+- 3 min: `pnpm not installed`
+- 3 min: `MongoDB not installed`
+- 1 min: `db/redis/client.go missing backoff import`
+- 1 min: `db/mongo/col_test.go wrong GetMongoColWithDb arg type`
+- 1 min: `db/mongo/db_test.go undefined InitMongo`
+- 1 min: `core/config/config_test.go undefined InitConfig`
+- 1 min: `core/task/log/file_driver_test.go wrong newFileLogDriver arity`
+- 3 min: `core/task/handler/runner_test.go undefined Runner type and fields`
+- 2 min: `core/utils/*.go fmt.Sprintf uses %%s for int port arg`
+- 3 min: `core/node/config/config.go DefaultConfigOptions evaluated at package init before viper loads config`
+- 1 min: `core/node/service/master_service_v2.go references removed DefaultConfigOptions.MaxRunners`
+- 2 min: `backend/conf/config.yml missing node.master: Y`
+- 1 min: `Persisted ~/.crawlab/config.json had is_master:false from prior run`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

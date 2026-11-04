@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ebiten
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.4 to 11.4 minutes
+- Valid runs: 2; wall time 11.4 to 25 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ebiten
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 11.4 | 2 | 2 | [run](https://argusic.com/run/a308f074-5147-47f1-8741-4026c70ddd10) |
+| 2 | pass | 100 | 0.5 | 25 | 2 | 2 | [run](https://argusic.com/run/4fe921fc-1e03-44f6-a0b4-e073734cb20f) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 1 min: `Go binary not found in container (no go version)`
 - 5 min: `TestPrograms/issue2737.go failed: panic due to no audio device (PulseAudio missing, ALSA no cards)`
+
+Attempt 2:
+
+- 0.5 min: `Go compiler not installed in container`
+- 0.2 min: `internal/processtest issue2737.go failed: no audio driver (PulseAudio/ALSA) available`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

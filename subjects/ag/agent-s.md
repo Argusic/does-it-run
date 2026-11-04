@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agent-s
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 4.5 to 4.5 minutes
+- Valid runs: 2; wall time 4.5 to 8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agent-s
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 10 | 4.5 | 2 | 2 | [run](https://argusic.com/run/c9254293-85fe-4333-94be-8c523a51c536) |
+| 2 | pass with mocks | 92 | 5 | 8 | 1 | 1 | [run](https://argusic.com/run/10e3d3ed-ffa6-43e5-8809-27bb87a794b7) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1 min: `setup.py python_requires '<=3.12' incompatible with Python 3.12.3`
 - 3 min: `mouseinfo requires system package python3-tk on Linux (no root access)`
+
+Attempt 2:
+
+- 1 min: `python_requires constraint in setup.py excludes Python 3.12.3, causing pip install to fail`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

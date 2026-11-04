@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/solidcraft
 - Test commit: `6422ef84d513343ae46434a6053fc530b44e17fb`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 62.8 to 62.8 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 62.8 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/solidcraft
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 90 | 61 | 62.8 | 2 | 1 | [run](https://argusic.com/run/ff06b09a-047b-4ba5-a801-d6fc1200370f) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/08f92454-212b-4da0-a0bd-b882867a3ee7) |
 
 ## What was observed on a clean machine
 

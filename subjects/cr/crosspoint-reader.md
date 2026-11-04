@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/crosspoint-reader/crosspoint-reader, licensed NOASSERTION, written in C.
+Project: https://github.com/crosspoint-reader/crosspoint-reader, licensed NOASSERTION, written in C++.
 
 Evidence and recordings: https://argusic.com/subject/crosspoint-reader
 

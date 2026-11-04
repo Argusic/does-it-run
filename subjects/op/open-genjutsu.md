@@ -2,7 +2,7 @@
 
 **Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Anil-matcha/open-genjutsu, licensed MIT, written in JavaScript.
+Project: https://github.com/Anil-matcha/open-genjutsu, licensed MIT, written in Python.
 
 Evidence and recordings: https://argusic.com/subject/open-genjutsu
 

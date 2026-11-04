@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/txtai
 - Test commit: `483dbd3b3bd8d50bb7939bc75b11ef967543acdc`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 83 to 83 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 83 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/txtai
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 94.74 | 2 | 83 | 19 | 14 | [run](https://argusic.com/run/9e16211b-2cee-4b4c-a12b-caad2d4101db) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/a4f055c2-b873-44c4-adaf-32ba83231c01) |
 
 ## What was observed on a clean machine
 

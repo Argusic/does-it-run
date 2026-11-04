@@ -1,6 +1,6 @@
 # gh-dash
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 86 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/dlvhdr/gh-dash, licensed MIT, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/gh-dash
 - Test commit: `1b14dd961ea47e2ad53eae5fed7fc942219bcc01`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 16 to 16 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 2.7 to 16 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gh-dash
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 5 | 16 | 0 | 0 | [run](https://argusic.com/run/d690a611-5bdd-4194-9acc-6cef95acd58d) |
+| 2 | fail | 80 | 2 | 2.7 | 0 | 0 | [run](https://argusic.com/run/db16c0bb-e37e-41d0-b3dd-196fb374ca27) |
 
 ## What was observed on a clean machine
 

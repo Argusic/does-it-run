@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/oomwoo
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.5 to 2.5 minutes
+- Valid runs: 2; wall time 1.8 to 2.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/oomwoo
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 2.5 | 1 | 1 | [run](https://argusic.com/run/ee3ab72d-33c7-4434-961b-e9458f02f31e) |
+| 2 | pass | 100 | 6 | 1.8 | 1 | 1 | [run](https://argusic.com/run/90ec33bc-9846-4485-9615-68164d85eece) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.1 min: `pytest not available (PEP 668 blocks system pip)`
+
+Attempt 2:
+
+- 3 min: `No module named pytest when running the recovery-safety test suite`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

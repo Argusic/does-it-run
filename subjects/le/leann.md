@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/leann
 - Test commit: `f84dec41db5b0b7026a1f8dd18baafa55aa3d4a7`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 86.8 to 86.8 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 86.8 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/leann
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 89.5 | 85 | 86.8 | 8 | 7 | [run](https://argusic.com/run/62ac26cb-addf-401a-823a-9c49ece21739) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/091cfc43-fd80-4dbe-aa95-400729649302) |
 
 ## What was observed on a clean machine
 

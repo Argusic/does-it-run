@@ -1,6 +1,6 @@
 # gollum
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/gollum/gollum, licensed MIT, written in Ruby.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/gollum
 - Test commit: `d00fefc89be0ab22ab862a51299120a55ccd9280`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 16.2 to 16.2 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 7.5 to 16.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gollum
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 17 | 16.2 | 3 | 3 | [run](https://argusic.com/run/20cc72b0-0290-4fad-8666-30a4d7d8ab72) |
+| 2 | fail | 20 | n/a | 7.5 | 0 | 0 | [run](https://argusic.com/run/4c97520b-a138-483a-9b8b-ebbd9625a231) |
 
 ## What was observed on a clean machine
 

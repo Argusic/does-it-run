@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/nextra
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.3 to 16.3 minutes
+- Valid runs: 2; wall time 10.2 to 16.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/nextra
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 16.3 | 4 | 4 | [run](https://argusic.com/run/4686814f-f9ad-4015-8335-af141bdb84c8) |
+| 2 | pass | 100 | 8 | 10.2 | 3 | 3 | [run](https://argusic.com/run/60779abd-0c71-41b3-adb9-3835c93da50a) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 1 min: `nextra DTS build failed with JS heap out of memory (Worker OOM)`
 - 1 min: `3 vitest tests timed out at default 17000ms timeout`
 - `snapshot mismatch in to-page-map test: new typesense/page.mdx file in docs/ example`
+
+Attempt 2:
+
+- 1 min: `pnpm not found , npm install -g failed with EACCES to /usr/local/lib/node_modules`
+- 1 min: `JS heap OOM during nextra build (tsup DTS phase) with default heap`
+- 1 min: `Snapshot test failed: new doc file app/docs/guide/search/typesense/page.mdx not in expected inline snapshot`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

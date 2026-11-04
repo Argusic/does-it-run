@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mitosis
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 30.3 to 30.3 minutes
+- Valid runs: 2; wall time 25 to 30.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mitosis
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 0.87 | 30.3 | 5 | 0 | [run](https://argusic.com/run/8073f39a-b46c-4a0e-a3a4-3e82afea388a) |
+| 2 | pass | 80 | 1.6 | 25 | 1 | 0 | [run](https://argusic.com/run/65c1d999-fc2f-4a41-80cb-2169b1ddf95a) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,9 @@ Attempt 1:
 - `@builder.io/mitosis-fiddle build: Node.js OOM during Next.js SSR build`
 - `@builder.io/mitosis-site build: Node.js OOM during Qwik SSR build`
 - `core test: 32 snapshot mismatches (31x signalsOnUpdate, 1x findSignals)`
+
+Attempt 2:
+
+- `Yarn 4.1.1 peer dependency warnings (12 packages with version mismatches: prettier 2.8.8 vs ^3.0.0, vite 4.5.0 vs ^5.0.0, react 18.2.0 vs ^16.8.0 etc.) , non-fatal`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.
