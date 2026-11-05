@@ -1,6 +1,6 @@
 # elephant-goldfish-model
 
-**Verdict: runs with mocks.** Argusic Score 72 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 82 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/google/elephant-goldfish-model, licensed Apache-2.0, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/elephant-goldfish-model
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 3 to 3 minutes
+- Valid runs: 2; wall time 1.1 to 3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/elephant-goldfish-model
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 72 | 1 | 3 | 1 | 0 | [run](https://argusic.com/run/1188ee8a-65cc-476c-a072-021f8b994e3a) |
+| 2 | pass with mocks | 92 | 1 | 1.1 | 0 | 0 | [run](https://argusic.com/run/f87803ab-0660-4589-8a49-5bb0cf8a9e52) |
 
 ## What was observed on a clean machine
 

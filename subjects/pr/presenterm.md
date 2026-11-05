@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/presenterm
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.6 to 6.6 minutes
+- Valid runs: 2; wall time 6.3 to 6.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/presenterm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 6.6 | 2 | 2 | [run](https://argusic.com/run/2188946c-efb3-4032-89e2-9708d14c723e) |
+| 2 | pass | 100 | 0.5 | 6.3 | 0 | 0 | [run](https://argusic.com/run/14379d78-a33b-49a4-b047-784aec24d429) |
 
 ## What was observed on a clean machine
 

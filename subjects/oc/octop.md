@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/octop
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 44.7 to 44.7 minutes
+- Valid runs: 2; wall time 15.9 to 44.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/octop
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 37 | 44.7 | 2 | 2 | [run](https://argusic.com/run/ef3b9dc0-13a5-487e-a0b2-e2228ba66aa9) |
+| 2 | pass | 100 | 12 | 15.9 | 1 | 1 | [run](https://argusic.com/run/c9210ef6-004f-47da-811e-ffffb95b6012) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1 min: `uv package manager not found in PATH`
 - 8 min: `evdev build failure: Python.h missing (no python3-dev, no root)`
+
+Attempt 2:
+
+- 5 min: `python3-dev package not installed , missing Python.h and cpython/* headers needed to compile evdev (dependency of pynput→octop-harness[all])`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # knowledge-catalog
 
-**Verdict: runs.** Argusic Score 80 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/GoogleCloudPlatform/knowledge-catalog, licensed Apache-2.0, written in TypeScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/knowledge-catalog
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.1 to 10.1 minutes
+- Valid runs: 2; wall time 1.6 to 10.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/knowledge-catalog
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 9.5 | 10.1 | 2 | 0 | [run](https://argusic.com/run/3a13feb0-385c-4da6-b551-aa00d410c467) |
+| 2 | pass | 100 | 0.5 | 1.6 | 0 | 0 | [run](https://argusic.com/run/95313f1e-abd8-44b6-977f-b87979d8e01c) |
 
 ## What was observed on a clean machine
 

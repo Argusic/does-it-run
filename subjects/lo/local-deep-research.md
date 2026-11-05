@@ -1,6 +1,6 @@
 # local-deep-research
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/LearningCircuit/local-deep-research, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/local-deep-research
 - Test commit: `2704df0e116bb7cbeb029b64964e01983999ecb2`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 31.7 to 31.7 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 31.7 to 34.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/local-deep-research
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 32 | 31.7 | 1 | 1 | [run](https://argusic.com/run/f7c2ab64-8fa9-44ed-8ebe-c6a26749c88d) |
+| 2 | fail | 20 | n/a | 34.7 | 0 | 0 | [run](https://argusic.com/run/0ceaf393-f1ec-46a7-aadc-4f50b671f085) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/cloudnative-pg
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.9 to 15.9 minutes
+- Valid runs: 2; wall time 15.9 to 16.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/cloudnative-pg
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10.2 | 15.9 | 1 | 1 | [run](https://argusic.com/run/353bad74-b891-4309-8f34-b222a852c5e9) |
+| 2 | pass | 100 | 12 | 16.8 | 1 | 1 | [run](https://argusic.com/run/f5194957-3e5a-47ab-a711-86db54fd833e) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 3.5 min: `Missing kubebuilder binaries (kube-apiserver, etcd) for envtest in internal/cmd/plugin`
+
+Attempt 2:
+
+- 2 min: `Go compiler not installed in container; downloaded Go 1.27.3 tarball manually`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

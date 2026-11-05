@@ -4,7 +4,7 @@
 
 Project: https://github.com/Blaizzy/mlx-audio, licensed MIT, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/mlx-audio
+Evidence and recordings: https://argusic.com/run/f3da1484-bf49-4b16-8d52-452be46ab0e4
 
 ## Pinned environment
 

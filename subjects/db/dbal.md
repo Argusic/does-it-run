@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/dbal
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.4 to 10.4 minutes
+- Valid runs: 2; wall time 3.7 to 10.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/dbal
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4.3 | 10.4 | 2 | 2 | [run](https://argusic.com/run/c5f9210e-3380-4314-8457-e91ba404d178) |
+| 2 | pass | 100 | 8.5 | 3.7 | 0 | 0 | [run](https://argusic.com/run/ad0ed829-955a-4c8c-866d-55d22f1b2e76) |
 
 ## What was observed on a clean machine
 

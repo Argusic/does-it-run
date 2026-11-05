@@ -1,6 +1,6 @@
 # quickwit
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/quickwit-oss/quickwit, licensed Apache-2.0, written in Rust.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/quickwit
 - Test commit: `af0591a36e16831af9a2ad9484e12465f511ef84`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 35.9 to 35.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 35.9 to 77.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/quickwit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 35.9 | 6 | 6 | [run](https://argusic.com/run/e221a32c-34d0-4ff8-bd2d-e4396d0402a6) |
+| 2 | fail | 20 | n/a | 77.1 | 0 | 0 | [run](https://argusic.com/run/cf266882-2b96-4475-945f-ccff1990eb28) |
 
 ## What was observed on a clean machine
 

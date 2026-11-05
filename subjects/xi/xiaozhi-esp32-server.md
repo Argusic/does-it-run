@@ -1,6 +1,6 @@
 # xiaozhi-esp32-server
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 89.5 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/xinnan-tech/xiaozhi-esp32-server, licensed MIT, written in JavaScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/xiaozhi-esp32-server
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 7.2 to 7.2 minutes
+- Valid runs: 2; wall time 7.2 to 11.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/xiaozhi-esp32-server
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 7 | 7.2 | 3 | 3 | [run](https://argusic.com/run/c06bfd40-162f-42b8-b8ae-34ef20f06550) |
+| 2 | pass with mocks | 87 | 11 | 11.7 | 4 | 3 | [run](https://argusic.com/run/5ffc9112-710b-41c8-8043-1a045b220af0) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,12 @@ Attempt 1:
 - 1 min: `anyio pytest plugin conflicts with pytest-asyncio, causing AttributeError on async test collection`
 - 1 min: `Empty data/.config.yaml causes NoneType error when loader calls .get() on yaml.safe_load result`
 - `Java 21 and Maven not installed; manager-api Java component cannot build`
+
+Attempt 2:
+
+- 3 min: `Python externally-managed environment blocked pip install`
+- 4 min: `edge_tts installed in venv bypassed conftest mock layer, made real websocket call to Microsoft`
+- 1 min: `pytest-asyncio/anyio conflict caused collection error on test_current_time.py (freezegun markers not parsed)`
+- `Java/Maven not available - cannot run manager-api tests`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

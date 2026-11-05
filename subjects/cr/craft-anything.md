@@ -1,6 +1,6 @@
 # craft-anything
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/storytold/craft-anything, licensed Apache-2.0, written in Rust.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/craft-anything
 - Test commit: `5a45b3cd781110ece57c16f369fdf6fd4684d0e4`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 48.6 to 48.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 46.3 to 48.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/craft-anything
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3.4 | 48.6 | 4 | 4 | [run](https://argusic.com/run/299a9520-e23b-4d87-8d9a-5758bef70607) |
+| 2 | fail | 20 | n/a | 46.3 | 0 | 0 | [run](https://argusic.com/run/e3686afc-5879-4fe8-9b23-a6227c889d85) |
 
 ## What was observed on a clean machine
 
