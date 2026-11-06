@@ -1,6 +1,6 @@
 # AiSOC
 
-**Verdict: runs with mocks.** Argusic Score 88 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 94 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/beenuar/AiSOC, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/aisoc
 - Test commit: `f0e8fec9db8ebe56751bc9ddcd7d0bb997a7e8af`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 11.2 to 11.2 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 11.2 to 13.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aisoc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 88 | 28 | 11.2 | 5 | 4 | [run](https://argusic.com/run/c44bcbde-de75-4924-af72-ce4010c9664f) |
+| 2 | pass | 100 | 31 | 13.6 | 4 | 4 | [run](https://argusic.com/run/a6a42336-1986-4745-831a-ebe814143fdb) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,12 @@ Attempt 1:
 - 2 min: `Python PEP 668 blocks system-wide pip install - needed venv workaround`
 - 1 min: `pnpm not pre-installed (npm -g install needed)`
 - `aisoc-ueba service hatchling metadata generation fails (missing packages directive)`
+
+Attempt 2:
+
+- 1 min: `Missing aiosqlite dependency in API service`
+- 1 min: `Missing cryptography dependency in fusion service`
+- 1 min: `Missing respx dependency in actions service`
+- 5 min: `_lucene_match in rule_engine.py doesn't handle wildcards from pySigma`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

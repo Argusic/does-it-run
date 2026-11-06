@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/3595bcb3-e4d6-4cf8-931a-0780eac
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11 to 11 minutes
+- Valid runs: 2; wall time 3.1 to 11 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/run/3595bcb3-e4d6-4cf8-931a-0780eac
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 11 | 1 | 1 | [run](https://argusic.com/run/3595bcb3-e4d6-4cf8-931a-0780eacb376e) |
+| 2 | pass | 100 | 4 | 3.1 | 1 | 1 | [run](https://argusic.com/run/bf1f94dc-6816-477e-93f0-cc5834167460) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 8 min: `@clack/prompts@1.7.0 uses import { styleText } from 'node:util' which requires Node >= 20.12.0, but container has Node 18.19.1`
+
+Attempt 2:
+
+- 4 min: `CLI crashed with SyntaxError: node:util does not provide 'styleText' on Node 18 , @clack/prompts ^1.7.0 pulls @clack/core 1.4.3 which requires Node >= 20.12`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

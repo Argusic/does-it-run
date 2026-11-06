@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/waha
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 61.7 to 61.7 minutes
+- Valid runs: 2; wall time 24.8 to 61.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/waha
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 15 | 61.7 | 7 | 7 | [run](https://argusic.com/run/72e203bc-d527-4039-b8e6-d903b85163cc) |
+| 2 | pass with mocks | 92 | 24 | 24.8 | 4 | 4 | [run](https://argusic.com/run/d88afa7c-83be-4ea3-8970-770981a329cc) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,12 @@ Attempt 1:
 - 8 min: `2 test suites (PixMessage, message.ack.utils) fail to load: @adiwajshing/baileys is ESM-only, Jest won't transform it through transformIgnorePatterns`
 - 5 min: `dist/vendor/esm.js compiled await import() to require() which cannot load ESM Baileys`
 - 2 min: `All other source files import @adiwajshing/baileys directly; compiled require() calls fail on ESM module`
+
+Attempt 2:
+
+- 2 min: `Node.js v18.19.1 in container but .nvmrc requires v24.11`
+- 3 min: `Missing media config in session.abc.test.ts buildSession() , TypeError: Cannot read properties of undefined (reading 'events')`
+- 5 min: `PhoneNumbersCacheRepository Date handling broken with SQLite , date comparisons produced wrong results and NaN dates`
+- 4 min: `@adiwajshing/baileys is ESM-only, Jest could not parse it , 4 test suites failed with SyntaxError`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

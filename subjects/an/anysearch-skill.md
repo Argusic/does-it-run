@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/anysearch-skill
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.8 to 1.8 minutes
+- Valid runs: 2; wall time 0.8 to 1.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/anysearch-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.2 | 1.8 | 0 | 0 | [run](https://argusic.com/run/e4fd31ca-ddb8-43fb-9678-a02b83e40e19) |
+| 2 | pass | 100 | 3 | 0.8 | 0 | 0 | [run](https://argusic.com/run/e685a4a2-2437-4e57-b35a-6afff9891004) |
 
 ## What was observed on a clean machine
 

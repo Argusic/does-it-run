@@ -1,6 +1,6 @@
 # codex-ppt-skill
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ningzimu/codex-ppt-skill, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/codex-ppt-skill
 - Test commit: `445b1780c85cec72da7a2c87b80a1d7cbaf726ee`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 2.5 to 2.5 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 2.5 to 2.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/codex-ppt-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 1.2 | 2.5 | 0 | 0 | [run](https://argusic.com/run/01f4b8b1-da9a-4ec9-b90f-066907aaa36c) |
+| 2 | pass | 100 | 0.5 | 2.6 | 0 | 0 | [run](https://argusic.com/run/86d03bc1-fa51-4341-85e0-3d8844d84b71) |
 
 ## What was observed on a clean machine
 

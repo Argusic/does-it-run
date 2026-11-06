@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/curl-cffi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 38.1 to 38.1 minutes
+- Valid runs: 2; wall time 6.6 to 38.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/curl-cffi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 38.1 | 4 | 4 | [run](https://argusic.com/run/bcf43944-77dd-4a5d-a398-e0e4d8cd6bd8) |
+| 2 | pass | 100 | 1.2 | 6.6 | 1 | 1 | [run](https://argusic.com/run/70b9ca4a-4c89-4937-b392-fd383f744013) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,9 @@ Attempt 1:
 - 3 min: `test_sync_websockets.py failed at collection: WebSocket._MAX_CURL_FRAME_SIZE attribute mismatch between installed wheel and source tree`
 - 5 min: `Background /tmp/or-proxy.py process occupied ports needed by test fixtures, causing hangs`
 - 10 min: `Several stress/performance tests hang due to resource constraints in container (test_high_parallel, test_high_concurrency, test_huge_payload, test_high_frequency_ping_pong, test_multithreaded_event_loops)`
+
+Attempt 2:
+
+- 1.5 min: `Cannot build from source: pyconfig.h missing (python3-dev not installed, no root)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

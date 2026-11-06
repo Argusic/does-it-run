@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/openllmetry
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.8 to 11.8 minutes
+- Valid runs: 2; wall time 2.3 to 11.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/openllmetry
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 11.8 | 0 | 0 | [run](https://argusic.com/run/17accc50-3955-4d51-bbbd-20d4162f3621) |
+| 2 | pass | 100 | 12 | 2.3 | 0 | 0 | [run](https://argusic.com/run/6e41a557-9ed3-402b-bb10-06f24ee1571f) |
 
 ## What was observed on a clean machine
 

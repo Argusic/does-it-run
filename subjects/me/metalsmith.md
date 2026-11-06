@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/metalsmith
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.2 to 3.2 minutes
+- Valid runs: 2; wall time 3.2 to 4.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/metalsmith
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 3.2 | 1 | 1 | [run](https://argusic.com/run/bc08cce0-2f61-4e10-a32d-784e87e2881d) |
+| 2 | pass | 100 | 0.5 | 4.3 | 1 | 1 | [run](https://argusic.com/run/7190b995-d62a-42ec-b74e-c021a46f8e44) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.5 min: `Test 'CLI > init > should error when git is not in $PATH' fails because node and git share /usr/bin in this container, so restricting PATH to node's dir never removes git`
+
+Attempt 2:
+
+- `Test 'should error when git is not in $PATH' fails because git and node share /usr/bin, so restricting PATH to nodeExecDir does not hide git`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

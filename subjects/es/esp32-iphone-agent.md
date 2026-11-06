@@ -2,7 +2,7 @@
 
 **Verdict: runs with mocks.** Argusic Score 72 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/onehumanbeing/esp32-iphone-agent, licensed MIT, written in C.
+Project: https://github.com/onehumanbeing/esp32-iphone-agent, licensed MIT, written in Swift.
 
 Evidence and recordings: https://argusic.com/subject/esp32-iphone-agent
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/backlog-md
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 58 to 58 minutes
+- Valid runs: 2; wall time 31.9 to 58 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/backlog-md
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 58 | 3 | 3 | [run](https://argusic.com/run/c1e7973d-6540-406e-bb23-a4eca794c36e) |
+| 2 | pass | 100 | 25 | 31.9 | 2 | 2 | [run](https://argusic.com/run/a29cf491-9463-4a60-ba83-8843add6aa47) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,10 @@ Attempt 1:
 - 2 min: `bun not installed`
 - 2 min: `ssh-keygen not found - test 'preserves commit.gpgSign' requires it`
 - 3 min: `Bun YAML parser rejects tab characters - config test 'reads the config key at column 0' failed`
+
+Attempt 2:
+
+- 2 min: `npm global install EACCES on /usr/local/lib/node_modules (no root in container)`
+- 15 min: `test 'preserves commit.gpgSign for selected-path auto-commits' failed: ssh-keygen binary missing in container (no root to install openssh-client)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

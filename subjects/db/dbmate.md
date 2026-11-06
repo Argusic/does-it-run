@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/dbmate
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.6 to 10.6 minutes
+- Valid runs: 2; wall time 5.9 to 10.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/dbmate
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 10.6 | 1 | 1 | [run](https://argusic.com/run/c978936e-a654-4947-8dbb-2afdcf8c9e03) |
+| 2 | pass | 100 | 6 | 5.9 | 2 | 2 | [run](https://argusic.com/run/247d8765-f7c5-469e-a2ae-d2398812d290) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `sqlite3 CLI binary not installed on system; tests that invoke 'sqlite3' CLI for dump/load failed`
+
+Attempt 2:
+
+- 2 min: `go binary not found in PATH; missing Go toolchain`
+- 1 min: `sqlite3 CLI not found; TestSQLiteDumpSchema failed with 'exec: sqlite3: executable file not found'`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

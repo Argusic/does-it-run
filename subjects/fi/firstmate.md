@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/firstmate
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 44.9 to 44.9 minutes
+- Valid runs: 2; wall time 40 to 44.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/firstmate
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 44.9 | 2 | 2 | [run](https://argusic.com/run/c30f687b-e606-455d-a4b7-e63be8f6f09e) |
+| 2 | pass | 100 | 0 | 40 | 3 | 3 | [run](https://argusic.com/run/0a3f37d3-724b-4568-89c3-d7c964541de3) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 10 min: `fm-pi-branch-extension.test.sh: Node 18 cannot load .ts files as ESM without package.json type:module marker`
 - 2 min: `fm-lint.test.sh: ShellCheck and actionlint not on PATH`
+
+Attempt 2:
+
+- `ci-workflow test requires ruby to parse .github/workflows/ci.yml YAML`
+- `tmux not available (hampered session-bootstrap and backend tests)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.
