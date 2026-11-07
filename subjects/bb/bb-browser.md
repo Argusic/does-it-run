@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/bb-browser
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 21.9 to 21.9 minutes
+- Valid runs: 2; wall time 4.2 to 21.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/bb-browser
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 21.9 | 3 | 3 | [run](https://argusic.com/run/c811c7ea-44af-497d-9464-4a3c04150f0e) |
+| 2 | pass | 100 | 2.5 | 4.2 | 1 | 1 | [run](https://argusic.com/run/0a22ef7f-f1fc-4045-8e61-a9483ef37ab2) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 1 min: `Node.js 18 lacks import.meta.dirname (added in Node 20) - CLI daemon-startup tests crash`
 - 2 min: `unzip not installed in container - Chrome auto-download fails to extract`
 - 2 min: `Chrome 149 crashpad_handler segfault - Chrome fails to start (Permission denied on spawn)`
+
+Attempt 2:
+
+- 2 min: `CLI daemon-startup tests failed: import.meta.dirname requires Node.js 22+, but Node.js 18 is installed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

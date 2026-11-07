@@ -1,6 +1,6 @@
 # Fast-Android-Networking
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/amitshekhariitbhu/Fast-Android-Networking, licensed Apache-2.0, written in Java.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/fast-android-networking
 - Test commit: `508e7c5b4338591b2f42bb6e526cfd3f0b8f8ed7`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 23.9 to 23.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 7 to 23.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/fast-android-networking
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 23 | 23.9 | 4 | 4 | [run](https://argusic.com/run/4a6b0d59-f946-4e81-93c8-6571f3d8eaf3) |
+| 2 | fail | 80 | 15 | 7 | 3 | 3 | [run](https://argusic.com/run/e3ca2c5f-fcba-4d59-97c1-50fa69d9c85a) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 3 min: `No Android SDK available`
 - 5 min: `No KVM hardware acceleration available`
 - `ARM system images not supported by QEMU2 emulator`
+
+Attempt 2:
+
+- 2 min: `Java not installed`
+- `unzip not installed and cannot install system packages (no root)`
+- 5 min: `Android SDK not installed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

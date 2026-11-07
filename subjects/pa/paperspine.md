@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/paperspine
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.5 to 9.5 minutes
+- Valid runs: 2; wall time 5.9 to 9.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/paperspine
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 9.5 | 5 | 5 | [run](https://argusic.com/run/9878de95-a414-4072-97f9-b000489e7eeb) |
+| 2 | pass | 100 | 12 | 5.9 | 3 | 3 | [run](https://argusic.com/run/207ddabd-5856-48b5-afa1-005504569d0d) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,11 @@ Attempt 1:
 - 0.2 min: `test_workspace context manager is collected as a pytest test function`
 - 0.2 min: `.venv directory pollutes scan for private paths in source files`
 - 0.5 min: `lxml module missing for word_guard font-repair tests`
+
+Attempt 2:
+
+- 2 min: `Pillow (PIL) not installed`
+- 1 min: `lxml not installed`
+- 3 min: `Hardcoded /work/90_临时工作/test-temp directory not creatable (no root)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/cost-xray
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.8 to 4.8 minutes
+- Valid runs: 2; wall time 4.8 to 8.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/cost-xray
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 4.8 | 0 | 0 | [run](https://argusic.com/run/e6337884-7058-461d-a585-480794db536d) |
+| 2 | pass | 100 | 2 | 8.5 | 0 | 0 | [run](https://argusic.com/run/a225940f-de7e-4798-a19f-669e0705db89) |
 
 ## What was observed on a clean machine
 

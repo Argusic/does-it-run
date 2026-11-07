@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/godot-mcp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.5 to 11.5 minutes
+- Valid runs: 2; wall time 3.8 to 11.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/godot-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 11.5 | 2 | 2 | [run](https://argusic.com/run/de560115-1373-4645-834b-8cc8d5bd0c5a) |
+| 2 | pass | 100 | 5 | 3.8 | 0 | 0 | [run](https://argusic.com/run/56e26d6c-3e87-4cac-8004-3ec8507edb0a) |
 
 ## What was observed on a clean machine
 

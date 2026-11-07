@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/bfe
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.2 to 6.2 minutes
+- Valid runs: 2; wall time 6.2 to 6.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/bfe
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 6.2 | 1 | 1 | [run](https://argusic.com/run/95c38d98-4ed5-460e-bff6-6f637fbdfd74) |
+| 2 | pass | 100 | 7 | 6.9 | 1 | 1 | [run](https://argusic.com/run/5fb34040-2261-4950-99f2-a8d1eae6294b) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.5 min: `Go 1.22.9 not pre-installed in container`
+
+Attempt 2:
+
+- 1 min: `Initial launch with './bfe -c ./conf' failed because TLS paths in the sample cluster_conf.data use '../conf/' relative to the working directory instead of the conf_root`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

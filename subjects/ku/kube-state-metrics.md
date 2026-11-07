@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/kube-state-metrics
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 8.8 to 8.8 minutes
+- Valid runs: 2; wall time 8.8 to 11.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/kube-state-metrics
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 7.5 | 8.8 | 2 | 2 | [run](https://argusic.com/run/5e857899-fdf0-4199-a66d-4e7bc067af5b) |
+| 2 | pass with mocks | 92 | 8 | 11.8 | 2 | 2 | [run](https://argusic.com/run/fc824e9d-bc98-4f4e-8a80-692e343add29) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 2 min: `Go compiler not found in container`
 - 3 min: `e2e tests (TestAuthFilter, TestCRDInformerUpdateFuncHandler) need a real Kubernetes cluster with kubectl`
+
+Attempt 2:
+
+- 1 min: `Go not installed in container. 'go' command not found.`
+- 2 min: `kube-state-metrics requires a Kubernetes API server to serve kube_ metrics. Minimal mock stub doesn't handle client-go protobuf watch protocol, so main /metrics returns 0 bytes (200 OK).`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

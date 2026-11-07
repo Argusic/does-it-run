@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/huashu-art-motion
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15 to 15 minutes
+- Valid runs: 2; wall time 9.3 to 15 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/huashu-art-motion
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 15 | 3 | 3 | [run](https://argusic.com/run/f8620401-51ec-4cd4-b42a-a8dabfc5322a) |
+| 2 | pass | 100 | 2 | 9.3 | 3 | 3 | [run](https://argusic.com/run/cc1e5689-7eaf-4ddd-962b-cb8892b0caab) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 2 min: `uv not pre-installed in container`
 - 4 min: `Playwright Chromium browser not installed`
 - 3 min: `Python dependencies missing for test suite (requests, Pillow, numpy, opencv-python-headless)`
+
+Attempt 2:
+
+- 0.5 min: `Missing Python packages: requests, Pillow`
+- 1 min: `Missing Python packages: numpy, opencv-python, playwright`
+- 0.5 min: `Missing Playwright Chromium browser`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

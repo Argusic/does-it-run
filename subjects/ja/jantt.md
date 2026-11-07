@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jantt
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13.6 to 13.6 minutes
+- Valid runs: 2; wall time 13.6 to 15 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jantt
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 13.6 | 3 | 3 | [run](https://argusic.com/run/e6e87853-81fc-4c31-bacf-8819e7d06e4b) |
+| 2 | pass | 100 | 12 | 15 | 1 | 1 | [run](https://argusic.com/run/4accb922-d354-41e5-9a00-c81c0fbd4bea) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 1 min: `reconciler test: 'cleanly prunes dangling dependencies when predecessor tasks are deleted' failed , tombstone not found due to automated 30-day purge cutting tombstone with date 2026-09-05 on current date 2026-10-18`
 - 1 min: `reconciler test: 'performs autonomous JSON maintenance: prunes expired tombstones, caps bloat, strips empty timestamps' failed , fresh tombstone not retained because date 2026-09-05 was >30 days before current date`
 - 1 min: `reconciler test: 'handles tombstone lifecycle: resurrection on post-deletion edit and clean tombstone purging' failed , tombstone with date 2026-10-01 at 12:00 vs edit at 2026-10-01 12:15 both pruned by 30-day cutoff`
+
+Attempt 2:
+
+- 4 min: `2 failing reconciler tests: tombstone dates older than 30-day auto-prune window vs 2026-11-06 clock`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/loopx
 - Test commit: `d42adb874d042a039e5846ea19c4e3acba04b655`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 59.1 to 59.1 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 59.1 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/loopx
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 59.1 | 3 | 3 | [run](https://argusic.com/run/7c1f4362-ec28-42e4-a6c1-2e7d2565840b) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/7b7c7ef1-b57b-47fe-a8f2-4458717c8a71) |
 
 ## What was observed on a clean machine
 

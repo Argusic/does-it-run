@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/greptimedb
 - Test commit: `194bc2fb3c48ea1c55cff8fdd5886daa8b60d8ad`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 82.3 to 82.3 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 82.3 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/greptimedb
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 80 | 82.3 | 6 | 6 | [run](https://argusic.com/run/8a97e404-4b26-48c5-b3d3-3dd1600bd6f8) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/44a79b60-3ca3-4862-acca-e0c52d6b7154) |
 
 ## What was observed on a clean machine
 

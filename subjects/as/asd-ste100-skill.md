@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/asd-ste100-skill
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 0.8 to 0.8 minutes
+- Valid runs: 2; wall time 0.8 to 1.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/asd-ste100-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0 | 0.8 | 0 | 0 | [run](https://argusic.com/run/0c2f646b-0d11-4201-9ffc-09b3874807a2) |
+| 2 | pass | 100 | 0 | 1.6 | 0 | 0 | [run](https://argusic.com/run/7aeb499c-9c1e-4034-b352-f53944ed90de) |
 
 ## What was observed on a clean machine
 

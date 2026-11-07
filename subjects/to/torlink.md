@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/torlink
 - Test commit: `467c0e4c6c87e1977814e9d83649968ef7d8f088`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 4.9 to 4.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 4.9 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/torlink
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 4.9 | 1 | 1 | [run](https://argusic.com/run/8b260e93-95ec-42df-a79e-f0a8abcc2ae6) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/5953a688-749f-4360-b1bc-54567f05cb8f) |
 
 ## What was observed on a clean machine
 

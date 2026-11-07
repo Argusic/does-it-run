@@ -1,6 +1,6 @@
 # aws-sam-cli
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/aws/aws-sam-cli, licensed Apache-2.0, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aws-sam-cli
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.9 to 11.9 minutes
+- Valid runs: 2; wall time 7 to 11.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/aws-sam-cli
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 11.9 | 1 | 1 | [run](https://argusic.com/run/14fe025c-72e7-405c-bc3b-49d03ed94564) |
+| 2 | pass | 80 | 0.4 | 7 | 1 | 0 | [run](https://argusic.com/run/d1026551-b03b-4099-90b1-d43aa3f55039) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `test_updates_imageuri_when_pointing_to_local_archive wrote to path escaping /work/repo (PermissionError)`
+
+Attempt 2:
+
+- `Test test_updates_imageuri_when_pointing_to_local_archive fails with PermissionError , tries to write to a path outside the repo directory (/work/repo/../../my-image.tar.gz)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

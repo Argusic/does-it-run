@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/shuohao-skills
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 0.8 to 0.8 minutes
+- Valid runs: 2; wall time 0.8 to 1.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/shuohao-skills
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 0.8 | 0 | 0 | [run](https://argusic.com/run/7b6a6242-a291-4715-9b81-d3ddecad580d) |
+| 2 | pass | 100 | 1 | 1.7 | 0 | 0 | [run](https://argusic.com/run/f03b2f04-3886-4c76-a21d-2323db499305) |
 
 ## What was observed on a clean machine
 

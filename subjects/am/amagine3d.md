@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/amagine3d
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.4 to 6.4 minutes
+- Valid runs: 2; wall time 6.4 to 51.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,13 @@ Evidence and recordings: https://argusic.com/subject/amagine3d
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3.9 | 6.4 | 0 | 0 | [run](https://argusic.com/run/624b3ea4-b997-414a-a0da-50c0fa13bbd1) |
+| 2 | pass | 100 | 5 | 51.1 | 2 | 2 | [run](https://argusic.com/run/3ffc64a1-e100-4a5c-bca3-351722034eeb) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 2 min: `System Node v18.19.1 below required >=22.19.0; npm ci refused the engine`
+- 5 min: `a3d compile failed with CONTRACT.INTENT_MUTATED and invalid intent when the intent JSON path was passed as the scene argument`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

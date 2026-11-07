@@ -1,6 +1,6 @@
 # im-not-ai
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/epoko77-ai/im-not-ai, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/im-not-ai
 - Test commit: `2f3d943d08056b612a92e12bfb72ea94dd2acd18`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 9.3 to 9.3 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 1.7 to 9.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/im-not-ai
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 9.3 | 0 | 0 | [run](https://argusic.com/run/634e61a1-9856-4c38-ac78-2afae725f979) |
+| 2 | pass with mocks | 92 | 1 | 1.7 | 0 | 0 | [run](https://argusic.com/run/52b3785c-125e-469a-bc90-1e98967caa50) |
 
 ## What was observed on a clean machine
 

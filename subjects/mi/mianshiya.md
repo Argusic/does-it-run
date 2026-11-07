@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mianshiya
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.9 to 12.9 minutes
+- Valid runs: 2; wall time 7.7 to 12.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mianshiya
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 12.9 | 5 | 5 | [run](https://argusic.com/run/01fc5b1e-7c9f-470e-83ae-2a6f70acdaf0) |
+| 2 | pass | 100 | 2 | 7.7 | 4 | 4 | [run](https://argusic.com/run/2221614a-6865-477f-9dae-b78139974b40) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,12 @@ Attempt 1:
 - 3 min: `Backend server crashed at startup with 'ReferenceError: File is not defined' from undici 7.30.1 (pulled transitively by cheerio 1.2.0, which requires Node 20 globals that Node 18.19 lacks)`
 - 2 min: `Backend crashed on any request without an Origin header: ERR_HTTP_INVALID_HEADER_VALUE 'undefined' for Access-Control-Allow-Origin in server/src/server.js CORS middleware`
 - `Database/auth-backed endpoints (question search, login, etc.) need real Tencent CloudBase env/secretId/secretKey plus Redis/MongoDB; the shipped config uses placeholder values (env 'mianshiya-xxx', secretId/secretKey 'xxx')`
+
+Attempt 2:
+
+- 1 min: `OpenSSL unsupported in Node 18 for webpack 5 hashing`
+- 2 min: `undici v7 (cheerio dep) crashes at require time because globalThis.File is missing in Node 18`
+- 5 min: `Redis unreachable (no redis-server) causes server crash at startup`
+- 1 min: `CORS setHeader fails when no Origin header sent (e.g., curl) because req.get('Origin') returns undefined`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/abogen
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 22.4 to 22.4 minutes
+- Valid runs: 2; wall time 13 to 22.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/abogen
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11.2 | 22.4 | 3 | 3 | [run](https://argusic.com/run/3b4118e7-21ae-4ff5-8f6a-62b1d9747a56) |
+| 2 | pass | 100 | 18 | 13 | 0 | 0 | [run](https://argusic.com/run/5c0ad248-a983-4b59-80d2-57bc53ac45ac) |
 
 ## What was observed on a clean machine
 
