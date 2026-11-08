@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jobspy
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.3 to 4.3 minutes
+- Valid runs: 2; wall time 4.3 to 4.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jobspy
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 4.3 | 0 | 0 | [run](https://argusic.com/run/bcad95ca-0460-4395-b87f-736b4f39ba77) |
+| 2 | pass | 100 | 5 | 4.4 | 0 | 0 | [run](https://argusic.com/run/74c856d4-059e-4bde-8ea8-1c90f92f49a8) |
 
 ## What was observed on a clean machine
 

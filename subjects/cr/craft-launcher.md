@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/craft-launcher
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.2 to 18.2 minutes
+- Valid runs: 2; wall time 18.2 to 20 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,13 @@ Evidence and recordings: https://argusic.com/subject/craft-launcher
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 18.2 | 0 | 0 | [run](https://argusic.com/run/78c36ce1-6be3-4b49-b2c3-fbca70632302) |
+| 2 | pass | 100 | 19 | 20 | 2 | 2 | [run](https://argusic.com/run/3aca5075-488c-4884-9004-fca15807fac1) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 3 min: `rustc not found in PATH`
+- 2 min: `rustc 1.90 does not support egui 0.36 (requires 1.95+)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

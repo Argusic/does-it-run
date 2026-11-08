@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/animal-island-ui
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 19.3 to 19.3 minutes
+- Valid runs: 2; wall time 12 to 19.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/animal-island-ui
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 19.3 | 2 | 2 | [run](https://argusic.com/run/7ba07b93-9125-40b2-9dfc-bd7259a55abf) |
+| 2 | pass | 100 | 3.5 | 12 | 2 | 2 | [run](https://argusic.com/run/5337564c-752d-4530-a3b6-509cd7c891bf) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 5 min: `jsdom@29.1.1, vitest@4, and vite@7 require Node >=20.19.0 but container provides Node 18.19.1 , fork-pool workers fail with ERR_REQUIRE_ESM and threads-pool segfaults`
 - 2 min: `Vite 7 build segfaults on Node 18.19.1`
+
+Attempt 2:
+
+- 5 min: `vite 7 and vitest 4 require Node.js >=20, but container has Node 18`
+- 2 min: `jsdom 29 requires Node >=20 (ERR_REQUIRE_ESM fork worker crash)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

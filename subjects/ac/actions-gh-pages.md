@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/actions-gh-pages
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 2.5 to 2.5 minutes
+- Valid runs: 2; wall time 1.7 to 2.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,12 @@ Evidence and recordings: https://argusic.com/subject/actions-gh-pages
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 15 | 2.5 | 0 | 0 | [run](https://argusic.com/run/b8c95ce7-e392-47d6-ae28-381cd3b07194) |
+| 2 | pass with mocks | 92 | 2 | 1.7 | 1 | 1 | [run](https://argusic.com/run/41c17588-ef01-4c57-89d6-ee43dfb46f54) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 2 min: `Container has Node 18.19.1 but project requires >=24.0.0`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

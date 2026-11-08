@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/skill-recorder
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.9 to 2.9 minutes
+- Valid runs: 2; wall time 2.9 to 4.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/skill-recorder
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 2.9 | 2 | 2 | [run](https://argusic.com/run/370b164d-2058-48a4-86a4-59febb4e1a40) |
+| 2 | pass | 100 | 1.5 | 4.8 | 1 | 1 | [run](https://argusic.com/run/230ef19e-ceba-46a9-ac40-e1040811da2c) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1 min: `System Node.js was v18 but project requires >=24.19.0`
 - `Electron SUID sandbox helper not running as root (expected in container)`
+
+Attempt 2:
+
+- 0.5 min: `Electron chrome-sandbox SUID sandbox helper not configured correctly (cannot chown to root without privileges)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

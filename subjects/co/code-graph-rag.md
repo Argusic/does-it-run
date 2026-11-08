@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/code-graph-rag
 - Test commit: `511d6f6aecdcb55bef1a639220eee70780bfbf4b`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 55.5 to 55.5 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 55.5 to 117 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/code-graph-rag
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 86.67 | 52 | 55.5 | 3 | 1 | [run](https://argusic.com/run/d9610942-f0ae-4843-b4fe-62aa7a2940b1) |
+| 2 | timeout | none | n/a | 117 | 0 | 0 | [run](https://argusic.com/run/567ad454-5a38-4907-9d99-ecd0df88e69e) |
 
 ## What was observed on a clean machine
 

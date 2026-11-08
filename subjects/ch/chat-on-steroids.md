@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/chat-on-steroids
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 23 to 23 minutes
+- Valid runs: 2; wall time 23 to 47.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,18 @@ Evidence and recordings: https://argusic.com/subject/chat-on-steroids
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.3 | 23 | 1 | 1 | [run](https://argusic.com/run/e6c43d23-491f-4be7-8389-a02971f37a3e) |
+| 2 | pass | 100 | 2.5 | 47.9 | 3 | 3 | [run](https://argusic.com/run/48986d1f-e5b2-4d9d-91ab-8f71c5f8db6a) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.3 min: `Node.js v18.19.1 too old , the project requires ^22.12.0 || ^24.0.0 || >=26.0.0 (vitest, vite, jsdom, undici and others all reject v18)`
+
+Attempt 2:
+
+- 1 min: `Node.js 18.19.1 too old , project requires >=20`
+- 0.3 min: `GPU not available in container , Electron crashes without --no-sandbox`
+- `3 JSDOM test files hang/timeout in container (content-script.test.ts 21k lines, input-delivery-integration.test.ts, renderer-timeline.test.ts 4k lines)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

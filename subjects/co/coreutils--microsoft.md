@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/4efbff6a-8a1a-4942-9f27-dfbde5e
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 27.4 to 27.4 minutes
+- Valid runs: 2; wall time 9.2 to 27.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/4efbff6a-8a1a-4942-9f27-dfbde5e
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 15 | 27.4 | 10 | 10 | [run](https://argusic.com/run/4efbff6a-8a1a-4942-9f27-dfbde5e786e4) |
+| 2 | pass with mocks | 92 | 8 | 9.2 | 2 | 2 | [run](https://argusic.com/run/3c3e0d84-a688-4f3a-971b-b2d02b1a4576) |
 
 ## What was observed on a clean machine
 
@@ -36,5 +37,10 @@ Attempt 1:
 - 1 min: `stat.rs missing metadata_get_time import on Linux (was only imported on Windows)`
 - 1 min: `stat.rs used entries::gid2grp/uid2usr without importing uucore::entries`
 - 1 min: `binary_path/name functions from upstream coreutils crate not available`
+
+Attempt 2:
+
+- 8 min: `Cross-compilation to Windows targets (x86_64-pc-windows-msvc, x86_64-pc-windows-gnu) failed: missing MSVC compiler toolchain and mingw-w64 cross-compiler. No root access to install system packages.`
+- 2 min: `uu_stat crate had compile errors on Linux: metadata_get_time was imported from uucore::nt (Windows-only) instead of uucore::fsext, and entries module was not imported on unix.`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

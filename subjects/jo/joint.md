@@ -1,6 +1,6 @@
 # joint
 
-**Verdict: runs.** Argusic Score 80 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/clientIO/joint, licensed MPL-2.0, written in JavaScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/joint
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.8 to 8.8 minutes
+- Valid runs: 2; wall time 8.8 to 21.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/joint
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 7 | 8.8 | 2 | 0 | [run](https://argusic.com/run/cacb4760-64b4-424f-b4c5-96b190b0b4dd) |
+| 2 | pass | 100 | 2.1 | 21.9 | 4 | 4 | [run](https://argusic.com/run/02767486-6d42-4b83-89e2-c585e37436e6) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,12 @@ Attempt 1:
 
 - `Core test suite: util.breakText international character test fails due to Chrome font rendering differences in this container`
 - `Node.js v18 cannot build @joint/layout-directed-graph due to 'import ... with' ESM syntax (requires Node 20+). Core library is unaffected.`
+
+Attempt 2:
+
+- 2 min: `Rollup configs use 'import ... with { type: 'json' }' syntax requiring Node 22+, but Node 18.19.1 is available. The syntax causes 'SyntaxError: Unexpected token 'with'' in 4 packages: @joint/layout-directed-graph, @joint/layout-msagl, @join`
+- 1 min: `Server tests failed because 'build/joint.js' did not exist yet , the project requires building before testing.`
+- `1 pre-existing test failure in @joint/core: 'util > util.breakText takes in account international characters' fails due to font-metric differences in Chrome 140 , CJK characters break at different positions than the expected values. 2112/21`
+- `@joint/react Jest tests: 31 suites failed (113 tests) out of 100 suites (1065 tests) , likely Node 18 incompatibility with React 19's renderToPipeableStream. Not investigated further as it requires Node 22.`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

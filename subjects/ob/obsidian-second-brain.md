@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/obsidian-second-brain
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.8 to 9.8 minutes
+- Valid runs: 2; wall time 9.8 to 25.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/obsidian-second-brain
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 30 | 9.8 | 0 | 0 | [run](https://argusic.com/run/90ea6ff1-d1b7-4444-bfcd-8b1154016e98) |
+| 2 | pass | 100 | 2 | 25.5 | 0 | 0 | [run](https://argusic.com/run/089a37fe-1d74-4fb8-9cc2-549212f00f41) |
 
 ## What was observed on a clean machine
 

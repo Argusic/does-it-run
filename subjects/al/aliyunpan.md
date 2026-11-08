@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aliyunpan
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 10.9 to 10.9 minutes
+- Valid runs: 2; wall time 8.8 to 10.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aliyunpan
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.5 | 10.9 | 4 | 4 | [run](https://argusic.com/run/2fe6e3ff-8a36-4cc9-8221-4f09940015de) |
+| 2 | pass with mocks | 92 | 2 | 8.8 | 6 | 6 | [run](https://argusic.com/run/fe336253-e72b-4452-9484-d53b737756ae) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,14 @@ Attempt 1:
 - 3 min: `panlogin tests crashed with nil pointer dereference connecting to localhost:8977`
 - 2 min: `bolt_db_test.go TestBoltUltraFiles: nil pointer dereference walking non-existent hardcoded path`
 - 2 min: `sync_db_test.go: multiple tests (TestLocalSyncDb, TestLocalGet, TestSyncDbAdd) crashed on hardcoded paths`
+
+Attempt 2:
+
+- 2 min: `Go compiler not found in container`
+- `interactive mode panics with nil pointer dereference in cmdliner.Pause() when no real TTY available`
+- 2 min: `TestGetQRCodeLoginResult loops infinitely and panics because GetQRCodeLoginResult returns (nil, error) when localhost:8977 is unreachable, then dereferences nil r.QrCodeStatus`
+- 2 min: `TestBoltUltraFiles uses /Volumes/Downloads which doesn't exist; WalkAllFileFunc passes nil FileInfo on Lstat failure leading to nil pointer panic`
+- 2 min: `TestLocalSyncDb uses D:\smb\feny\... path and WalkAllFile passes nil fi to walkFunc when Lstat fails causing nil dereference`
+- 1 min: `sync_db_test.go TestLocalGet/TestGet/TestGetFileList/TestLocalGetFileList/TestSyncDbAdd/TestSyncDbClear open local-only DB paths and panic on nil db pointer`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aci
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 37.2 to 37.2 minutes
+- Valid runs: 2; wall time 14 to 37.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aci
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 8 | 37.2 | 6 | 6 | [run](https://argusic.com/run/de9b7d61-248b-48b4-a990-3b619e3cdcfe) |
+| 2 | pass with mocks | 92 | 13 | 14 | 3 | 3 | [run](https://argusic.com/run/9f4330ab-b26b-4d60-8855-48a081002ad8) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 5 min: `test-db hostname not resolvable without Docker`
 - 5 min: `Propelauth mock server required for auth`
 - 5 min: `AWS KMS not available without Docker/LocalStack`
+
+Attempt 2:
+
+- 13 min: `PostgreSQL with pgvector extension is not available in this container , no docker, no postgres binaries, no root to apt install.`
+- `Frontend npm run build ran out of memory (OOM during Next.js production build).`
+- `Backend server startup fails without LocalStack , check_dependencies() calls check_aws_kms_dependency() which needs a running AWS KMS mock.`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

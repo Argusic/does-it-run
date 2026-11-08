@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/obsidian-mind
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.4 to 3.4 minutes
+- Valid runs: 2; wall time 3.4 to 71.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/obsidian-mind
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 3.4 | 1 | 1 | [run](https://argusic.com/run/f0749bb9-7368-4b0d-8ad4-e44acdff44f2) |
+| 2 | pass | 100 | 45 | 71.3 | 2 | 2 | [run](https://argusic.com/run/0653c479-0e75-4734-88c7-1b784eb897d0) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `Node v18.19.1 lacks --experimental-strip-types required by TypeScript hook scripts`
+
+Attempt 2:
+
+- 30 min: `npm root -g subprocess took 3+ seconds to fail, causing integration test timeouts in subprocess-based hook tests`
+- 10 min: `@tobilu/qmd v2.8.3 exports-only package.json causes require.resolve() to fail for ./dist/cli/qmd.js subpath and for the package root (no exports main)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

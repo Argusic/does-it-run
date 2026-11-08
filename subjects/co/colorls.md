@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/colorls
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.7 to 18.7 minutes
+- Valid runs: 2; wall time 5 to 18.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/colorls
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 18.7 | 4 | 4 | [run](https://argusic.com/run/b80e7c63-8837-4f1b-8b2a-b252377a2c61) |
+| 2 | pass | 100 | 5 | 5 | 2 | 2 | [run](https://argusic.com/run/ff4bc5de-67e7-4f8e-9725-4ad1a2a60f15) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,10 @@ Attempt 1:
 - 2 min: `zlib Ruby extension failed to build (missing headers)`
 - 3 min: `psych (YAML) Ruby extension failed to build (missing libyaml)`
 - 2 min: `Bundler dependency resolution failed on version constraints`
+
+Attempt 2:
+
+- 1 min: `No Ruby runtime in container`
+- 1 min: `RSpec test failure: regex expected trailing space after directories but --indicator-style=none emits none`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # dsh-wallpaper-engine
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/elysia395/dsh-wallpaper-engine, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/dsh-wallpaper-engine
 - Test commit: `7ba44b2424e55b70fe28fea753a7abf27ae7cdb3`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 72.3 to 72.3 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 9.4 to 72.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/dsh-wallpaper-engine
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 72.3 | 5 | 5 | [run](https://argusic.com/run/21cb6e1a-abf6-40a5-87aa-c50a7c8aa17b) |
+| 2 | pass with mocks | 92 | 8 | 9.4 | 3 | 3 | [run](https://argusic.com/run/764d1583-d8d2-4cfa-b2f0-9b0c1e5e7e27) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,10 @@ Attempt 1:
 - 4 min: `No system Chromium; the container lacks user namespaces so Chromium needs --no-sandbox`
 - 1 min: `Full verify chain hung under Node 24 at test/verify-upload-store.mjs after printing ALL UPLOAD-STORE CHECKS PASSED (35)`
 - 1 min: `dsh web exited right after printing the token URL when it tried to open the default browser`
+
+Attempt 2:
+
+- 1 min: `Node.js v18.19.1 installed but project requires >=22.12.0`
+- `verify-glass-runtime-browser.mjs requires a DSH desktop host running (WebSocket routes, spec API contracts)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

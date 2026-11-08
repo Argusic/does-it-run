@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/workbuddy2api-panel
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 27.1 to 27.1 minutes
+- Valid runs: 2; wall time 2.8 to 27.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/workbuddy2api-panel
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 26 | 27.1 | 2 | 2 | [run](https://argusic.com/run/3727641b-48d7-45c1-a69b-78cd22c062b8) |
+| 2 | pass with mocks | 92 | 13 | 2.8 | 1 | 1 | [run](https://argusic.com/run/5050070b-edc1-4bf6-876c-48d92db47cb6) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 20 min: `V compiler does not support .go extension (golang backend removed)`
 - 5 min: `Real CodeBuddy OAuth credentials required for upstream API calls`
+
+Attempt 2:
+
+- 2 min: `Go 1.22.5 not found in container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

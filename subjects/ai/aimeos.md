@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aimeos
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 68 to 68 minutes
+- Valid runs: 2; wall time 22.4 to 68 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aimeos
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 38 | 68 | 9 | 9 | [run](https://argusic.com/run/8e93e50a-7bc9-4131-9dfd-3f43f0c07f2e) |
+| 2 | pass with mocks | 92 | 16 | 22.4 | 7 | 7 | [run](https://argusic.com/run/b04a684e-4c5d-481e-824b-a12d9087aa3b) |
 
 ## What was observed on a clean machine
 
@@ -35,5 +36,15 @@ Attempt 1:
 - 3 min: `LAST_INSERT_ID() is MySQL function, unsupported by SQLite`
 - 1 min: `DO GET_LOCK/RELEASE_LOCK is MySQL-specific, unsupported by SQLite`
 - 3 min: `Aimeos DB tables not created in testing database`
+
+Attempt 2:
+
+- 2 min: `PHP and Composer not available in container`
+- 3 min: `Aimeos vendor SQL uses SQL Server syntax (OFFSET ... ROWS FETCH NEXT ... ROWS ONLY) incompatible with SQLite`
+- 1 min: `Laravel config/database.php used 'sqlite' driver but Upscheme connect macro in vendor/aimeos/aimeos-core/Setup.php didn't map 'sqlite' to 'pdo_sqlite'`
+- 3 min: `Doctrine PDO SQLite driver expects 'path' parameter not 'dbname'`
+- 1 min: `Shop resource config passed relative 'laravel.sqlite' path which Doctrine/SQLite couldn't resolve`
+- 1 min: `The 'newid' SQL config (for getting last insert ID) lacked SQLite entry`
+- 2 min: `PHP built-in server hangs on real requests (timeout on curl)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # phone-harness
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/phone-harness/phone-harness, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/run/a63e40e6-9540-4e95-a72b-f44a3f7
 - Test commit: `ddf2a744666a9629b705d8a91cd4b53010feadfc`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 25.7 to 25.7 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 25.7 to 47.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/a63e40e6-9540-4e95-a72b-f44a3f7
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 4 | 25.7 | 3 | 3 | [run](https://argusic.com/run/a63e40e6-9540-4e95-a72b-f44a3f768a5c) |
+| 2 | fail | 20 | n/a | 47.5 | 0 | 0 | [run](https://argusic.com/run/7d808d32-dded-4b5d-902d-851f913c3c9a) |
 
 ## What was observed on a clean machine
 

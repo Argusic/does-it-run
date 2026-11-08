@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/designcraft
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 31 to 31 minutes
+- Valid runs: 2; wall time 31 to 73.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/designcraft
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 31 | 0 | 0 | [run](https://argusic.com/run/477b6ebd-ead4-4d54-8d85-07dd6447fb22) |
+| 2 | pass | 100 | 10 | 73.2 | 0 | 0 | [run](https://argusic.com/run/70fad3cb-dd85-4c25-9671-c04326ee81d0) |
 
 ## What was observed on a clean machine
 

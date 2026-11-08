@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/spring-cloud-gateway
 - Test commit: `88a92c065767a20a5d37753437d15975a8c06c28`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 68.6 to 68.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 68.6 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/spring-cloud-gateway
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 68.6 | 3 | 3 | [run](https://argusic.com/run/4265adc7-0d18-4625-94be-04161fbe1970) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/8123f2e7-7f3f-4ef7-b6de-64272ed084a4) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aya
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.1 to 6.1 minutes
+- Valid runs: 2; wall time 6.1 to 11 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/aya
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.2 | 6.1 | 1 | 1 | [run](https://argusic.com/run/5e15fb57-fdc2-443a-8ed6-812745fd53dd) |
+| 2 | pass | 100 | 9.8 | 11 | 2 | 2 | [run](https://argusic.com/run/e8ae38a0-46a3-400a-870d-212fb1968804) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.5 min: `Tests failed: ProcMapEntry inode field overflowed on overlayfs (inode 16648323018 > u32::MAX)`
+
+Attempt 2:
+
+- 4 min: `cargo test failed: uprobe test panicked parsing /proc/pid/maps; overlayfs inode 9680888223 exceeds u32::MAX so ProcMapEntry::parse failed`
+- 2 min: `eBPF/integration build path unavailable: bpftool, bindgen, clang, llvm-objcopy, bpf-linker not installed and not installable without root; nightly has no prebuilt bpfel-unknown-none target`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

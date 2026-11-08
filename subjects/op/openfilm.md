@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/openfilm
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 20.9 to 20.9 minutes
+- Valid runs: 2; wall time 6.3 to 20.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/openfilm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 20.9 | 5 | 5 | [run](https://argusic.com/run/020d6225-0dcc-484c-b98f-92515133a554) |
+| 2 | pass | 100 | 3 | 6.3 | 3 | 3 | [run](https://argusic.com/run/021239b4-03ca-4d06-aebb-078bc9a207bc) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,11 @@ Attempt 1:
 - 2 min: `Playwright browsers not installed`
 - 1 min: `tsx (--import tsx) not resolvable from workspace packages`
 - 1 min: `Test command missing --import tsx flag for .ts test files`
+
+Attempt 2:
+
+- 1 min: `Node.js v18.19.1 below the required >=22.18`
+- 1 min: `pnpm not installed and corepack unavailable`
+- 1 min: `Playwright browser binary missing`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

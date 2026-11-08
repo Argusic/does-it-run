@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/b
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 28.4 to 28.4 minutes
+- Valid runs: 2; wall time 22.1 to 28.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/b
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 23 | 28.4 | 8 | 8 | [run](https://argusic.com/run/10b66630-1ad4-4a89-8f46-a6f92654b534) |
+| 2 | pass with mocks | 92 | 7 | 22.1 | 5 | 5 | [run](https://argusic.com/run/038920e0-728e-4a31-85e6-4d6581812643) |
 
 ## What was observed on a clean machine
 
@@ -34,5 +35,13 @@ Attempt 1:
 - 2 min: `auto.uiautomation.SetGlobalSearchTimeout missing`
 - 1 min: `winocr has no recognize_pil`
 - 2 min: `OCR result has no .lines attribute`
+
+Attempt 2:
+
+- 1 min: `pywin32>=306 not available on Linux - pip install failed for the full requirements.txt`
+- 2 min: `PortAudio library not found - sounddevice could not initialize`
+- 2 min: `ctypes has no windll attribute on Linux - blocks physics, window_tracker, hotkeys, UI`
+- 0.5 min: `Missing import sys in brain/llm.py`
+- 0.5 min: `Missing ctypes.wintypes on Linux (physically present in stdlib, just not imported properly)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

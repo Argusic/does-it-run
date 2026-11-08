@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sqlit
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.5 to 18.5 minutes
+- Valid runs: 2; wall time 18.5 to 27.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/sqlit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 18.5 | 1 | 1 | [run](https://argusic.com/run/d9bc7e38-929a-4bc3-b646-75c511826015) |
+| 2 | pass | 100 | 0.5 | 27.9 | 2 | 2 | [run](https://argusic.com/run/e5354aee-345f-44a7-816c-5d0cf540fb18) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.5 min: `test_detect_strategy_pip_user_fallback failed because SystemProbe picked up real system stdlib EXTERNALLY-MANAGED marker, causing the probe to return 'externally-managed' instead of 'pip-user'`
+
+Attempt 2:
+
+- 2 min: `test_detect_strategy_pip_user_fallback failed: system EXTERNALLY-MANAGED marker caused pep668 detection to return True instead of pip-user`
+- `test_decimal_incremental_backend_stringifies_binary_column failed intermittently: Textual widget mount-timing race`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

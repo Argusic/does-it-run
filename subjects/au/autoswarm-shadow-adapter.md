@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/autoswarm-shadow-adapter
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.2 to 3.2 minutes
+- Valid runs: 2; wall time 1.7 to 3.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/autoswarm-shadow-adapter
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 3.2 | 1 | 1 | [run](https://argusic.com/run/b24030ab-a137-4ddf-904c-8427b86eae5d) |
+| 2 | pass | 100 | 0.2 | 1.7 | 0 | 0 | [run](https://argusic.com/run/80dbdbd4-7052-4ccf-b60e-b818157829d6) |
 
 ## What was observed on a clean machine
 

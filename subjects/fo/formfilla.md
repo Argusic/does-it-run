@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/formfilla
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.7 to 1.7 minutes
+- Valid runs: 2; wall time 1.7 to 2.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/formfilla
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 1.7 | 0 | 0 | [run](https://argusic.com/run/793dbbac-7d75-45c1-9550-94c6e82c72e7) |
+| 2 | pass | 100 | 1 | 2.5 | 0 | 0 | [run](https://argusic.com/run/bb2dba24-c94e-4608-9798-d62120a7e1aa) |
 
 ## What was observed on a clean machine
 

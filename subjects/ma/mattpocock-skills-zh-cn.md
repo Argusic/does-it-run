@@ -1,6 +1,6 @@
 # mattpocock-skills-zh-CN
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/vinvcn/mattpocock-skills-zh-CN, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/mattpocock-skills-zh-cn
 - Test commit: `3f92a83668ef8f303e6278f31c49fed9543cbc51`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 15.2 to 15.2 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 4.1 to 15.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mattpocock-skills-zh-cn
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.3 | 15.2 | 5 | 5 | [run](https://argusic.com/run/31a68a29-817f-4d8d-814a-8bcf23cf1e66) |
+| 2 | fail | 20 | n/a | 4.1 | 0 | 0 | [run](https://argusic.com/run/9918d00c-3fce-4df0-8b65-84d4ce43a842) |
 
 ## What was observed on a clean machine
 
