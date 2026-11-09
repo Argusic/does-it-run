@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tox
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 39 to 39 minutes
+- Valid runs: 2; wall time 24.8 to 39 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tox
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.2 | 39 | 6 | 6 | [run](https://argusic.com/run/be513147-5775-4cde-a824-03fdc39d83ed) |
+| 2 | pass | 100 | 3 | 24.8 | 5 | 5 | [run](https://argusic.com/run/9acfd6b2-6ab4-41be-97f1-db2492dd7866) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,13 @@ Attempt 1:
 - 1 min: `test_manpage_renders_sections, test_manpage_name_not_empty, test_manpage_header_shows_tox: man command is a stub in container printing 'minimized' instead of rendering`
 - 1 min: `test_schema_tombi_lint: shutil.which('tombi') returns None because .venv/bin not on PATH`
 - 1 min: `test_provision_acquires_file_lock: tox<4.14 doesn't trigger provisioning for dev version 0.1.dev1`
+
+Attempt 2:
+
+- 1 min: `pip install blocked by externally-managed-environment`
+- 3 min: `missing test dependencies (pytest-timeout, argcomplete, psutil, etc.)`
+- 1 min: `test_config_requires fails: version 0.1.dev1 doesn't satisfy tox>=4`
+- 1 min: `test_schema_tombi_lint errors: tombi binary not in PATH inside test subprocess`
+- `3 manpage rendering tests fail in minimized container (no man-db)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

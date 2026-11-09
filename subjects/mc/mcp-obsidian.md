@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-obsidian
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 3.7 to 3.7 minutes
+- Valid runs: 2; wall time 3.7 to 4.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-obsidian
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.1 | 3.7 | 0 | 0 | [run](https://argusic.com/run/f67cd02c-e372-47ac-8a57-8a1c95b2acba) |
+| 2 | pass with mocks | 92 | 2 | 4.1 | 0 | 0 | [run](https://argusic.com/run/5097d80b-d63f-454c-b7cf-7d00fcb8f185) |
 
 ## What was observed on a clean machine
 

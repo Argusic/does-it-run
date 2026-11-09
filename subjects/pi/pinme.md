@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pinme
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.3 to 16.3 minutes
+- Valid runs: 2; wall time 2.9 to 16.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pinme
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.6 | 16.3 | 0 | 0 | [run](https://argusic.com/run/249e5c45-d604-4f40-a7a8-bb27274b5633) |
+| 2 | pass | 100 | 0.5 | 2.9 | 0 | 0 | [run](https://argusic.com/run/2ab12575-2284-4ed2-aef4-139ab6c0c1ab) |
 
 ## What was observed on a clean machine
 

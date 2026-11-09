@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/content
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.7 to 9.7 minutes
+- Valid runs: 2; wall time 9.7 to 15 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/content
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.5 | 9.7 | 2 | 2 | [run](https://argusic.com/run/d2eb6a8e-f0ca-4245-9289-3db4650f4a96) |
+| 2 | pass | 100 | 3.5 | 15 | 3 | 3 | [run](https://argusic.com/run/7072a5ee-2261-434c-9278-a8a35a36facb) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 0.5 min: `pnpm not in PATH; npm lacked permission to install globally`
 - 1 min: `System Node.js v18 does not meet project requirement >=20.19.0`
+
+Attempt 2:
+
+- 1.5 min: `Node.js v18.19.1 too old (requires >=20.19.0); pnpm not found`
+- 0.5 min: `npm install -g failed due to EACCES on /usr/local/lib/node_modules`
+- `test/multi-collection-hmr.test.ts afterAll timed out at 10s under full suite`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

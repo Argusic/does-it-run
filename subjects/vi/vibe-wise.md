@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/vibe-wise
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.5 to 1.5 minutes
+- Valid runs: 2; wall time 1.5 to 5.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/vibe-wise
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 1.5 | 0 | 0 | [run](https://argusic.com/run/23aaaffd-775b-415c-8827-350ddb473fe5) |
+| 2 | pass | 100 | 2 | 5.7 | 0 | 0 | [run](https://argusic.com/run/cd9f80f7-fa57-49af-a2d4-8e1c52697632) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # github-pages-deploy-action
 
-**Verdict: runs with mocks.** Argusic Score 82 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 91 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/JamesIves/github-pages-deploy-action, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/github-pages-deploy-action
 - Test commit: `8fd6702fce085de3b0afba6ffc90602776d25e80`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 5.2 to 5.2 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 5.2 to 9.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/github-pages-deploy-action
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 82 | 3 | 5.2 | 2 | 1 | [run](https://argusic.com/run/d0c43d59-e3b4-416a-8ce6-781bcdc057d0) |
+| 2 | pass | 100 | 12 | 9.7 | 2 | 2 | [run](https://argusic.com/run/82930407-ff81-41fd-b651-e498df1de56f) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 1 min: `Node.js v18.19.1 present but project requires v24.13.0`
 - `rsync not found (no root to install package)`
+
+Attempt 2:
+
+- 2 min: `Node.js version mismatch , package requires v24.13.0 but container had v18.19.1`
+- 4 min: `rsync binary not found , the action depends on rsync for deployment, and /usr/bin/rsync is not available in the container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

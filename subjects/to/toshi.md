@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/toshi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.2 to 7.2 minutes
+- Valid runs: 2; wall time 7.2 to 10.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/toshi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 7.2 | 1 | 1 | [run](https://argusic.com/run/c05cdd3b-a5c9-4a1d-b7b6-def07481efb2) |
+| 2 | pass | 100 | 7 | 10.7 | 0 | 0 | [run](https://argusic.com/run/4f475a1d-913c-4fc6-8942-37b444094e84) |
 
 ## What was observed on a clean machine
 

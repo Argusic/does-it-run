@@ -4,7 +4,7 @@
 
 Project: https://github.com/timothepoznanski/poznote, licensed MIT, written in JavaScript.
 
-Evidence and recordings: https://argusic.com/subject/poznote
+Evidence and recordings: https://argusic.com/run/84f565a5-8b80-4142-9ef7-8f5a83797d64
 
 ## Pinned environment
 

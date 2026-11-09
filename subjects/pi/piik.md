@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/piik
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.2 to 7.2 minutes
+- Valid runs: 2; wall time 7.2 to 12.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/piik
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 7.2 | 3 | 3 | [run](https://argusic.com/run/55cbde01-1432-4d89-8e2e-41348217ad4d) |
+| 2 | pass | 100 | 8 | 12.3 | 3 | 3 | [run](https://argusic.com/run/02aea0ba-d96f-48fa-bde1-91ca1fe18338) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 2 min: `Node.js v18.19.1 installed but v24.19.0 required (>=24.0.0 <27)`
 - 2 min: `Go compiler not found, required for server binary`
 - 3 min: `zip/unzip commands not installed, causing test failure: spawnSync zip ENOENT`
+
+Attempt 2:
+
+- 1 min: `Missing Go 1.27.3 compiler`
+- 1 min: `Missing Node.js >=24.0.0 (had 18.19.1)`
+- 4 min: `Missing zip and unzip system commands`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

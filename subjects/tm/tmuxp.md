@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tmuxp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.6 to 10.6 minutes
+- Valid runs: 2; wall time 7.7 to 10.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tmuxp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 10.6 | 8 | 8 | [run](https://argusic.com/run/90e4b4c3-2d88-4257-9166-f2351684454f) |
+| 2 | pass | 100 | 7 | 7.7 | 5 | 5 | [run](https://argusic.com/run/393149a0-80aa-482f-9722-095296aee48c) |
 
 ## What was observed on a clean machine
 
@@ -34,5 +35,13 @@ Attempt 1:
 - 2 min: `tests/test_docs_tmux_layout.py ImportError: No module named docutils/sphinx`
 - 1 min: `test_search_no_args_shows_help - tmuxp not on PATH for subprocess calls`
 - 1 min: `test_highlight_matches_with_colors/test_highlight_matches_multiple fail due to NO_COLOR=1 env var`
+
+Attempt 2:
+
+- 2 min: `tmux binary missing in container; no root to apt install`
+- 5 min: `pip install -e '.[dev]' fails: package has no dev extra (uv dependency-groups)`
+- 4 min: `tmuxp CLI --help crashed: template HOME in tmux wrapper broke under pytest HOME monkeypatch`
+- 3 min: `2 color tests fail only because harness exports NO_COLOR=1, which the app honors`
+- 2 min: `test_search_no_args_shows_help FileNotFoundError: 'tmuxp' not on subprocess PATH`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

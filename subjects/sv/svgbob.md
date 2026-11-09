@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/svgbob
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.5 to 2.5 minutes
+- Valid runs: 2; wall time 2.5 to 2.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/svgbob
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 2.5 | 0 | 0 | [run](https://argusic.com/run/5fffebf3-0fbd-4b09-a0c9-53e79c3e5c10) |
+| 2 | pass | 100 | 1 | 2.8 | 0 | 0 | [run](https://argusic.com/run/bd03ef3d-16d9-4c45-8e4a-ff2fbf9008cb) |
 
 ## What was observed on a clean machine
 

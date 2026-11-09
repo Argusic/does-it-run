@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/obsidian-tasks
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.6 to 4.6 minutes
+- Valid runs: 2; wall time 2.3 to 4.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/obsidian-tasks
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 4.6 | 0 | 0 | [run](https://argusic.com/run/a8f33c40-380b-446e-be92-8e644c456a69) |
+| 2 | pass | 100 | 1 | 2.3 | 0 | 0 | [run](https://argusic.com/run/33a04151-720a-4209-b9b7-1e3618badc05) |
 
 ## What was observed on a clean machine
 

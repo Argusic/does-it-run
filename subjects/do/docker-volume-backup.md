@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/docker-volume-backup
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6 to 6 minutes
+- Valid runs: 2; wall time 2.5 to 6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/docker-volume-backup
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 6 | 0 | 0 | [run](https://argusic.com/run/9d86090b-2921-4a0b-aeba-6ba6872e8992) |
+| 2 | pass | 100 | 2 | 2.5 | 0 | 0 | [run](https://argusic.com/run/4962607d-64a3-4bff-ba96-48dd61aecf97) |
 
 ## What was observed on a clean machine
 

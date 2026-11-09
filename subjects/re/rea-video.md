@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rea-video
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.3 to 9.3 minutes
+- Valid runs: 2; wall time 9.3 to 25.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,14 @@ Evidence and recordings: https://argusic.com/subject/rea-video
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 9.3 | 0 | 0 | [run](https://argusic.com/run/6472638e-51fd-4fb7-a460-8318fac3f0b1) |
+| 2 | pass | 100 | 5 | 25.4 | 3 | 3 | [run](https://argusic.com/run/b44d76c7-3ec5-4ce1-a72d-52d82bf94f27) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 3 min: `Externally managed Python environment blocked direct pip install`
+- 2 min: `pytest not installed`
+- 1 min: `jsonschema not installed, causing test_capabilities_valid failure`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

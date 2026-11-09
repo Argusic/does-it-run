@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/bradygaster/squad, licensed MIT, written in TypeScript.
+Project: https://github.com/bradygaster/squad, licensed MIT.
 
 Evidence and recordings: https://argusic.com/subject/squad
 

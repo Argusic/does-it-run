@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/usearch
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.1 to 18.1 minutes
+- Valid runs: 2; wall time 7.4 to 18.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/usearch
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 18.1 | 2 | 2 | [run](https://argusic.com/run/0fd3d717-8a1c-4f00-aba3-cddfd782f93f) |
+| 2 | pass | 100 | 3.5 | 7.4 | 2 | 2 | [run](https://argusic.com/run/0c60f7ff-a682-4d6b-9e30-7954fe7aa499) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 5 min: `Python.h not found (python3-dev not installed) preventing C++ extension build from source`
 - 4 min: `usearch.sqlite_path() referenced non-existent binary for SQLite extension`
+
+Attempt 2:
+
+- 2.5 min: `Python.h: No such file or directory during pip install`
+- `test_sqlite_minimal_json_cosine_vector_search FAILED - sqlite3.OperationalError: libsqlite3.so cannot open shared object file`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agent-memory
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.8 to 2.8 minutes
+- Valid runs: 2; wall time 1.4 to 2.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agent-memory
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 2.8 | 0 | 0 | [run](https://argusic.com/run/900c9a18-b14f-473d-98a5-dcec2032052c) |
+| 2 | pass | 100 | 0.3 | 1.4 | 0 | 0 | [run](https://argusic.com/run/f5a42b21-3ef6-46a9-a248-f2b78a4221f0) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/workbuddy2api-hub
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.8 to 1.8 minutes
+- Valid runs: 2; wall time 1.1 to 1.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/workbuddy2api-hub
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0 | 1.8 | 0 | 0 | [run](https://argusic.com/run/98a767d1-ab9a-4818-a051-f5704965f254) |
+| 2 | pass | 100 | 0.1 | 1.1 | 0 | 0 | [run](https://argusic.com/run/76b93b7d-92e9-40ee-9d1f-9f0f531fee66) |
 
 ## What was observed on a clean machine
 

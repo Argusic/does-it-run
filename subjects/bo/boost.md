@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/boost
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.6 to 7.6 minutes
+- Valid runs: 2; wall time 7.6 to 15.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/boost
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 7.6 | 2 | 2 | [run](https://argusic.com/run/50a41fcc-6713-47ed-8487-5ba0622fafa1) |
+| 2 | pass | 100 | 15 | 15.6 | 3 | 3 | [run](https://argusic.com/run/08041b55-bf1c-4d2d-bf3f-bc6badac3f38) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 2 min: `PHP and Composer not pre-installed in container`
 - 1 min: `Static PHP binary memory limit (128M) too low for ArchTest when run in full suite`
+
+Attempt 2:
+
+- 2 min: `PHP and Composer not installed in the container`
+- 1 min: `SearchDocsTest failed: toArray()['annotations'] now includes 'title' field from updated laravel/mcp library`
+- 1 min: `UpdateCommandTest afterEach cleanup: rmdir fails when .ai/skills directory is non-empty`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

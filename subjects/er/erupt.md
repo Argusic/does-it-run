@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/erupt
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 25.4 to 25.4 minutes
+- Valid runs: 2; wall time 7.8 to 25.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/erupt
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 25.4 | 2 | 2 | [run](https://argusic.com/run/9f75d07a-9f8a-49e7-8689-88aa9ec419d0) |
+| 2 | pass | 100 | 6 | 7.8 | 3 | 3 | [run](https://argusic.com/run/037aa7f6-2291-4df2-82d5-5bb886816719) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 2 min: `Java cacerts keystore was in PKCS12 format but JVM TLS layer requires JKS format`
 - 1 min: `spring-boot-maven-plugin was commented out in erupt-sample/pom.xml, blocking mvn spring-boot:run`
+
+Attempt 2:
+
+- 2 min: `Java 17 JDK and Maven not pre-installed in the container`
+- 1 min: `spring-boot:run fails because spring-boot-maven-plugin is commented out in erupt-sample/pom.xml`
+- `Login returns 500 'Last unit does not have enough valid bits' with raw password`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

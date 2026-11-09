@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/codegraphcontext
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 36.2 to 36.2 minutes
+- Valid runs: 2; wall time 28.5 to 36.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,12 @@ Evidence and recordings: https://argusic.com/subject/codegraphcontext
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 36.2 | 0 | 0 | [run](https://argusic.com/run/30f33dbc-150f-413f-b30d-8c015ef7956c) |
+| 2 | pass | 100 | 2.5 | 28.5 | 1 | 1 | [run](https://argusic.com/run/6576bf07-46ea-429c-bb5a-f5969136b18f) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 0.5 min: `Unit test failures: 2 Haskell parser tests failing due to tree-sitter-haskell grammar drift - the node name was misspelled 'type_synomym' in an older grammar but is now 'type_synonym' in the current grammar, causing the entire classes query`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

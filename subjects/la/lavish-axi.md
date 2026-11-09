@@ -1,6 +1,6 @@
 # lavish-axi
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/kunchenguid/lavish-axi, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/lavish-axi
 - Test commit: `5f0be78ff9efa0e25a1bdc1bebd4bdce2aae047d`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 4.8 to 4.8 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 4.8 to 15.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/lavish-axi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3.5 | 4.8 | 2 | 2 | [run](https://argusic.com/run/47688e51-4ce7-42e7-9b0f-fa172de4a7e2) |
+| 2 | fail | 20 | n/a | 15.2 | 0 | 0 | [run](https://argusic.com/run/d70037e5-7628-44fc-85bf-cbec990e6033) |
 
 ## What was observed on a clean machine
 

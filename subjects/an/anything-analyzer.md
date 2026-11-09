@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/anything-analyzer
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.1 to 9.1 minutes
+- Valid runs: 2; wall time 7.6 to 9.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/anything-analyzer
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 16 | 9.1 | 4 | 4 | [run](https://argusic.com/run/e4c4eb03-8d41-4728-bc8d-361630bf7a89) |
+| 2 | pass | 100 | 7 | 7.6 | 2 | 2 | [run](https://argusic.com/run/0279a7a4-83b6-40c8-b472-5920d59e2044) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,10 @@ Attempt 1:
 - 1 min: `vitest 3.x incompatible with Node 18.19.1 (ESM/CJS error)`
 - 1 min: `Electron binary absent , build scripts blocked by pnpm`
 - 1 min: `mcp-server-listen.test.ts failed , electron import not available in vitest node environment`
+
+Attempt 2:
+
+- 2 min: `ESM-only vite 7 not loadable by Node 18 via vitest's CJS config loader`
+- 4 min: `Electron binary not downloaded due to postinstall script being ignored`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

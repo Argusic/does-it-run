@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 12692 observed error lines in 5533 valid runs of 3706 tested subjects (generated 2026-11-08).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 12890 observed error lines in 5629 valid runs of 3715 tested subjects (generated 2026-11-09).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 15 | 0.1% | 13 |
-| Permission denied | 120 | 0.9% | 109 |
-| Missing system library or header | 634 | 5.0% | 368 |
-| Tool, runtime or component not installed | 2093 | 16.5% | 1393 |
-| Version mismatch | 1309 | 10.3% | 950 |
-| Missing configuration or secret | 263 | 2.1% | 235 |
-| Source or download problem | 158 | 1.2% | 137 |
-| Network, timeout or service unreachable | 260 | 2.0% | 231 |
-| Dependency install or resolution failed | 1527 | 12.0% | 1086 |
-| Build or compile step failed | 531 | 4.2% | 430 |
-| The project's own tests failed | 1437 | 11.3% | 847 |
-| Expected file or data not present | 190 | 1.5% | 174 |
-| Error inside the project's code | 152 | 1.2% | 134 |
-| Other | 4003 | 31.5% | 1897 |
+| Permission denied | 122 | 0.9% | 110 |
+| Missing system library or header | 647 | 5.0% | 371 |
+| Tool, runtime or component not installed | 2128 | 16.5% | 1405 |
+| Version mismatch | 1327 | 10.3% | 959 |
+| Missing configuration or secret | 266 | 2.1% | 238 |
+| Source or download problem | 161 | 1.2% | 138 |
+| Network, timeout or service unreachable | 267 | 2.1% | 238 |
+| Dependency install or resolution failed | 1547 | 12.0% | 1098 |
+| Build or compile step failed | 537 | 4.2% | 434 |
+| The project's own tests failed | 1461 | 11.3% | 858 |
+| Expected file or data not present | 193 | 1.5% | 176 |
+| Error inside the project's code | 154 | 1.2% | 135 |
+| Other | 4065 | 31.5% | 1917 |
 
 ## Port already in use
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
+- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
 - 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
 - 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645

@@ -1,6 +1,6 @@
 # nub
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/nubjs/nub, licensed MIT, written in Rust.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/nub
 - Test commit: `e283bac7611a071da24214b248c3b1cba830990b`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 32.6 to 32.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 32.6 to 37.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/nub
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 32 | 32.6 | 2 | 2 | [run](https://argusic.com/run/4f355fc2-6652-4caf-8c1e-90b933bdee1c) |
+| 2 | fail | 20 | n/a | 37.5 | 0 | 0 | [run](https://argusic.com/run/edeeab21-0381-4cdd-8624-91cefcc6274c) |
 
 ## What was observed on a clean machine
 

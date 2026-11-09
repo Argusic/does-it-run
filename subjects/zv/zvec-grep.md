@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/zvec-grep
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 53.7 to 53.7 minutes
+- Valid runs: 2; wall time 20.6 to 53.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/zvec-grep
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 53.7 | 2 | 2 | [run](https://argusic.com/run/05ab1ef5-aef7-42fd-b516-ae8324056376) |
+| 2 | pass | 100 | 2 | 20.6 | 1 | 1 | [run](https://argusic.com/run/a9fe7b95-4ef7-405d-9cfb-55533dfa1587) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 0.5 min: `Node.js v18.19.1 installed but project requires >=22`
 - `2 shutdown origin tests fail for IPv6 ::1 loopback`
+
+Attempt 2:
+
+- `2 tests fail on IPv6 EADDRNOTAVAIL for ::1 in container without IPv6 loopback (shutdown-origin.test.mjs)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/flint-chart
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 14 to 14 minutes
+- Valid runs: 2; wall time 8.4 to 14 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/flint-chart
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 14 | 4 | 4 | [run](https://argusic.com/run/2478592b-a61d-4c80-97a1-e2dc089879a3) |
+| 2 | pass | 100 | 8 | 8.4 | 6 | 6 | [run](https://argusic.com/run/e7d60045-e20b-49d1-8288-2a0987ce95ae) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,14 @@ Attempt 1:
 - 4 min: `tsup DTS worker runs out of memory with default 512MB heap on Node 18`
 - 3 min: `vite@8 uses rolldown which requires Node 20+, blocks MCP UI build`
 - 2 min: `vite-plugin-singlefile@2 depends on rolldown transitively via vite 8`
+
+Attempt 2:
+
+- 2 min: `tsup DTS worker OOM (ERR_WORKER_OUT_OF_MEMORY) during flint-js build`
+- 2 min: `Vite 8/rolldown and vitest 4 require Node >=20; container has Node 18 (node:util.styleText missing)`
+- 1 min: `vitest/rolldown: Cannot find module rolldown-binding.linux-x64-gnu.node (native binding not installed)`
+- 2 min: `site build crashed in vite worker without heap flag`
+- 1 min: `flint-js dist/index.cjs require("vega") throws ERR_REQUIRE_ESM (upstream packaging limitation)`
+- `render_chart options.format=svg returns a PNG artifact, not SVG, in this build`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

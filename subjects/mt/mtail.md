@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mtail
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.1 to 6.1 minutes
+- Valid runs: 2; wall time 2.6 to 6.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mtail
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 6.1 | 0 | 0 | [run](https://argusic.com/run/b39431a1-b158-4360-b7b1-08310a729a6c) |
+| 2 | pass | 100 | 1.5 | 2.6 | 0 | 0 | [run](https://argusic.com/run/bd8f8fbc-5be5-4c25-9bb8-52246bb639b1) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tradingagents-astock
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 12.6 to 12.6 minutes
+- Valid runs: 2; wall time 4.2 to 12.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tradingagents-astock
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 8 | 12.6 | 3 | 3 | [run](https://argusic.com/run/6cfc7ee4-114e-4e76-94ab-491cad36943e) |
+| 2 | pass with mocks | 92 | 3 | 4.2 | 1 | 1 | [run](https://argusic.com/run/d15d7bba-5ffd-4a06-bb16-b5926f4fd82f) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 2 min: `pip install failed due to externally-managed-environment (PEP 668) , system Python blocks global pip install`
 - 1 min: `pytest not installed in the venv`
 - 15 min: `3 test_streaming_keeps_usage_stats tests failed due to test pollution: test_cli_default_command.py imports cli.main which calls load_dotenv() at module level, reading .env (from .env.example) and setting API keys to empty strings. conftest`
+
+Attempt 2:
+
+- 2 min: `3 tests failed due to timezone mismatch: test_is_historical[TODAY], test_fund_flow_keeps_realtime_for_today, test_fundamentals_silent_for_today`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

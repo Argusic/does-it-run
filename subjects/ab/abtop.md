@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/abtop
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.8 to 8.8 minutes
+- Valid runs: 2; wall time 1.6 to 8.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/abtop
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.5 | 8.8 | 3 | 3 | [run](https://argusic.com/run/741cba9c-2e37-4d91-a3cd-6bdc76d8ae95) |
+| 2 | pass | 100 | 2 | 1.6 | 0 | 0 | [run](https://argusic.com/run/a7b5f38d-2027-4f4d-89a4-28beb4e860b4) |
 
 ## What was observed on a clean machine
 
