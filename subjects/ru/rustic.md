@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rustic
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 27.2 to 27.2 minutes
+- Valid runs: 2; wall time 12.4 to 27.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rustic
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10.5 | 27.2 | 0 | 0 | [run](https://argusic.com/run/ef83a820-640a-4906-ac5e-4dfbbb0e9fd7) |
+| 2 | pass | 100 | 0.17 | 12.4 | 0 | 0 | [run](https://argusic.com/run/0072a21d-04c6-43c2-8b46-cd497912d380) |
 
 ## What was observed on a clean machine
 

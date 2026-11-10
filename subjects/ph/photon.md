@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/photon
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.1 to 9.1 minutes
+- Valid runs: 2; wall time 6.1 to 9.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/photon
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 9 | 9.1 | 0 | 0 | [run](https://argusic.com/run/a2044caa-f39e-4221-901c-82e42ce4669a) |
+| 2 | pass | 100 | 3.3 | 6.1 | 0 | 0 | [run](https://argusic.com/run/e6a58182-6008-4042-bc33-a2b87a5104ae) |
 
 ## What was observed on a clean machine
 

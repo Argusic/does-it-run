@@ -2,7 +2,7 @@
 
 **Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Edge0-AI/Edge0, licensed Apache-2.0, written in Python.
+Project: https://github.com/Edge0-AI/Edge0, licensed Apache-2.0, written in C++.
 
 Evidence and recordings: https://argusic.com/subject/edge0
 

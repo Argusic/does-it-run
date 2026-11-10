@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/surge
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 20.5 to 20.5 minutes
+- Valid runs: 2; wall time 4.2 to 20.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/surge
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 20.5 | 0 | 0 | [run](https://argusic.com/run/9459cc84-2e3b-410a-b5e0-f7721908ad78) |
+| 2 | pass | 100 | 1.5 | 4.2 | 0 | 0 | [run](https://argusic.com/run/96782805-3d4d-4351-b712-01fa502f7679) |
 
 ## What was observed on a clean machine
 

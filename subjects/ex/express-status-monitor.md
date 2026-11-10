@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/express-status-monitor
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.1 to 5.1 minutes
+- Valid runs: 2; wall time 3 to 5.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/express-status-monitor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 5.1 | 0 | 0 | [run](https://argusic.com/run/4300c7f0-a0bd-4cbb-9a46-c234c628c918) |
+| 2 | pass | 100 | 0.1 | 3 | 0 | 0 | [run](https://argusic.com/run/c619617b-53e0-49c6-a30b-fb1966e3f0e4) |
 
 ## What was observed on a clean machine
 

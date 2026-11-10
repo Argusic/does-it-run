@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/miroflow
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 9.5 to 9.5 minutes
+- Valid runs: 2; wall time 9.5 to 33.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/miroflow
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.1 | 9.5 | 0 | 0 | [run](https://argusic.com/run/b9711b31-d513-4160-8f40-38faa3f17e17) |
+| 2 | pass with mocks | 92 | 0.12 | 33.5 | 0 | 0 | [run](https://argusic.com/run/6270cf78-6489-423c-abea-231414d172f6) |
 
 ## What was observed on a clean machine
 

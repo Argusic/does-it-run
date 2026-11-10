@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/magnetissimo
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.7 to 4.7 minutes
+- Valid runs: 2; wall time 4.7 to 8.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/magnetissimo
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3.5 | 4.7 | 0 | 0 | [run](https://argusic.com/run/25ac8f0c-87db-40c8-bf6b-08eda9d50955) |
+| 2 | pass | 100 | 12 | 8.7 | 0 | 0 | [run](https://argusic.com/run/7a1ef030-10e8-4793-9ecd-a06cfe5e5b1b) |
 
 ## What was observed on a clean machine
 

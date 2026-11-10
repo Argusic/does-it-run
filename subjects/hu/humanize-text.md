@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/humanize-text
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 10.3 to 10.3 minutes
+- Valid runs: 2; wall time 7.1 to 10.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/humanize-text
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 1.5 | 10.3 | 2 | 2 | [run](https://argusic.com/run/a2f775de-44c1-414c-aca4-e8cea783ac80) |
+| 2 | pass with mocks | 92 | 1 | 7.1 | 3 | 3 | [run](https://argusic.com/run/f2f06ec9-fcd5-4126-8d00-619a09fd0582) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 1 min: `pip install fails due to externally-managed-environment (PEP 668) in container`
 - 1 min: `test_openrouter_provider failed because pre-existing OPENROUTER_API_KEY env var overrode test config value per code design`
+
+Attempt 2:
+
+- 1 min: `test_openrouter_provider failed because OPENROUTER_API_KEY env var was set in the environment, causing the test's expected key assertion to pick up the real key instead of the test value`
+- 1 min: `Google Translate API returned TooManyRequests (rate limited from this container's IP)`
+- 1 min: `Niutrans API called but real key not available`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # google_workspace_mcp
 
-**Verdict: runs with mocks.** Argusic Score 72 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 86 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/taylorwilsdon/google_workspace_mcp, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/google-workspace-mcp
 - Test commit: `ed70fb9068231ee13484bc2d53bdde2451e34d31`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 30.8 to 30.8 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 4.6 to 30.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/google-workspace-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 72 | 2 | 30.8 | 1 | 0 | [run](https://argusic.com/run/15676ab7-82a8-4653-a25d-ada5d944ff82) |
+| 2 | pass | 100 | 0.5 | 4.6 | 0 | 0 | [run](https://argusic.com/run/b5467bf5-afe9-4961-8eb7-c3bf07bbb693) |
 
 ## What was observed on a clean machine
 

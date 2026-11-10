@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/kiali
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 32.3 to 32.3 minutes
+- Valid runs: 2; wall time 32.3 to 36.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/kiali
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 29 | 32.3 | 4 | 4 | [run](https://argusic.com/run/6781ce49-8f72-40f2-9ddc-2afea92884af) |
+| 2 | pass | 100 | 27 | 36.5 | 3 | 3 | [run](https://argusic.com/run/79e91b50-6870-4e34-ba83-90dc8783b2e1) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 11 min: `Node.js 18 lacks corepack support and yarn 4 at packageManager version`
 - `npm install --legacy-peer-deps with Node 18 failed on peer dependency conflict (monaco-editor)`
 - 3 min: `yarn 4.12.0 (packageManager field) is not published to npm; only yarn 1.22.22 and 2.4.3 available`
+
+Attempt 2:
+
+- 2 min: `Missing Go compiler (Go 1.26.3+ required)`
+- 1 min: `Node.js v18 installed but project requires >=24`
+- 1 min: `yarn not available via corepack (corepack not in PATH)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 12890 observed error lines in 5629 valid runs of 3715 tested subjects (generated 2026-11-09).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 13083 observed error lines in 5726 valid runs of 3728 tested subjects (generated 2026-11-10).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
@@ -8,18 +8,18 @@ A line is placed in the first group below whose rule it matches, in the order sh
 |---|---|---|---|
 | Port already in use | 15 | 0.1% | 13 |
 | Permission denied | 122 | 0.9% | 110 |
-| Missing system library or header | 647 | 5.0% | 371 |
-| Tool, runtime or component not installed | 2128 | 16.5% | 1405 |
-| Version mismatch | 1327 | 10.3% | 959 |
-| Missing configuration or secret | 266 | 2.1% | 238 |
+| Missing system library or header | 657 | 5.0% | 376 |
+| Tool, runtime or component not installed | 2158 | 16.5% | 1419 |
+| Version mismatch | 1353 | 10.3% | 970 |
+| Missing configuration or secret | 270 | 2.1% | 239 |
 | Source or download problem | 161 | 1.2% | 138 |
-| Network, timeout or service unreachable | 267 | 2.1% | 238 |
-| Dependency install or resolution failed | 1547 | 12.0% | 1098 |
-| Build or compile step failed | 537 | 4.2% | 434 |
-| The project's own tests failed | 1461 | 11.3% | 858 |
-| Expected file or data not present | 193 | 1.5% | 176 |
-| Error inside the project's code | 154 | 1.2% | 135 |
-| Other | 4065 | 31.5% | 1917 |
+| Network, timeout or service unreachable | 278 | 2.1% | 247 |
+| Dependency install or resolution failed | 1565 | 12.0% | 1110 |
+| Build or compile step failed | 545 | 4.2% | 438 |
+| The project's own tests failed | 1490 | 11.4% | 868 |
+| Expected file or data not present | 195 | 1.5% | 177 |
+| Error inside the project's code | 156 | 1.2% | 137 |
+| Other | 4118 | 31.5% | 1930 |
 
 ## Port already in use
 

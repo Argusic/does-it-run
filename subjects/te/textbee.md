@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/textbee
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 24.1 to 24.1 minutes
+- Valid runs: 2; wall time 23.6 to 24.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/textbee
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 24.1 | 5 | 5 | [run](https://argusic.com/run/a18a6ffc-560b-417a-808a-3bd8db876bf2) |
+| 2 | pass | 100 | 20 | 23.6 | 4 | 4 | [run](https://argusic.com/run/b7473d9c-43e2-479b-b4a5-3754e3d68ed0) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,12 @@ Attempt 1:
 - 3 min: `Web postcss tailwindcss native binding missing (requires Node>=20)`
 - 1 min: `Next.js web build requires Node>=20.9.0 (system has 18.19.1)`
 - 1 min: `API NestJS build does not copy mail template assets to dist`
+
+Attempt 2:
+
+- 10 min: `Polar SDK v1.0.0 webhook signature verification uses globalThis.crypto.subtle which is not available as an own property in Jest's vm context (Node 18), causing 2 tests to fail with 'Cannot read properties of undefined (reading 'subtle')'`
+- 5 min: `Web project tests fail because @tailwindcss/oxide requires native binary @tailwindcss/oxide-linux-x64-gnu which is an optional dependency not auto-installed by pnpm`
+- `Next.js 16 requires Node >=20.9.0 but container has Node 18.19.1, so 'pnpm build' fails`
+- 3 min: `PostCSS/Tailwind native module lightningcss-linux-x64-gnu not hoisted by pnpm strict mode, causing Vite to fail loading PostCSS config`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/wavedrom
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.2 to 3.2 minutes
+- Valid runs: 2; wall time 2.2 to 3.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/wavedrom
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 3.2 | 1 | 1 | [run](https://argusic.com/run/0c999566-fc46-4a12-a5b5-70ee99165b03) |
+| 2 | pass | 100 | 2.5 | 2.2 | 1 | 1 | [run](https://argusic.com/run/09a7ab8e-07f1-4671-842e-1edf1e1ff467) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 3 min: `Container Node v18.19.1 does not satisfy package.json engines requirement >=20; c8@12.0.0 needs >=20.19 and mocha@12.0.0 needs >=20.19`
+
+Attempt 2:
+
+- 1.5 min: `system Node.js v18.19.1 is below project minimum >=20; npm install fails at runtime with ESM import errors`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

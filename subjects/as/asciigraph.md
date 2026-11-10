@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/asciigraph
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.6 to 6.6 minutes
+- Valid runs: 2; wall time 1.1 to 6.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/asciigraph
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 6.6 | 1 | 1 | [run](https://argusic.com/run/14f8f67c-0c56-418b-88b9-506b97fdc820) |
+| 2 | pass | 100 | 1 | 1.1 | 0 | 0 | [run](https://argusic.com/run/d37a4a82-9387-4b42-b605-b919ec927680) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/php-curl-class
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 43.1 to 43.1 minutes
+- Valid runs: 2; wall time 43.1 to 73.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/php-curl-class
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 43.1 | 3 | 3 | [run](https://argusic.com/run/08ef042e-bb1e-4cf3-88e8-60ffaf27d4d0) |
+| 2 | pass | 100 | 3 | 73.9 | 2 | 2 | [run](https://argusic.com/run/7800efc7-1535-47c4-a839-2e9744cd1414) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,10 @@ Attempt 1:
 - 1 min: `PHP runtime not found in container`
 - 1 min: `Composer not found`
 - 35 min: `4 test failures: CURLPROTO_ALL/CURLAUTH_ANY bitmask constants changed from negative to positive in PHP 8.5 curl`
+
+Attempt 2:
+
+- 5 min: `PHP not pre-installed in container (no apt install possible without root)`
+- 70 min: `Test suite has 264 tests but ~145 fail on full run due to PHP built-in dev server dying under sustained 15-minute load in this container environment`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

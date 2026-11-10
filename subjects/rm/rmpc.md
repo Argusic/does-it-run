@@ -1,6 +1,6 @@
 # rmpc
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/mierak/rmpc, licensed BSD-3-Clause, written in Rust.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/rmpc
 - Test commit: `f677f677101ba95e6c0ace0617924608fd82a973`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 18.5 to 18.5 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 4 to 18.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rmpc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 15 | 18.5 | 0 | 0 | [run](https://argusic.com/run/20a7cd2a-c003-48fb-ad9f-be7602124728) |
+| 2 | pass | 100 | 2.5 | 4 | 0 | 0 | [run](https://argusic.com/run/bc10a071-a48f-4bbf-b606-b9a3775d1126) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tntsearch
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 21.2 to 21.2 minutes
+- Valid runs: 2; wall time 5.6 to 21.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tntsearch
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 21.2 | 2 | 2 | [run](https://argusic.com/run/7554714b-5e19-4004-a38a-70b4d099a16b) |
+| 2 | pass | 100 | 4 | 5.6 | 2 | 2 | [run](https://argusic.com/run/22f68de4-8d3c-418e-8ed7-769a37d2d92f) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 5 min: `TNTGeoSearchTest::testFindNearestAtExactIndexedLocationIsReturned failed: PDO returned doc_id as string but assertContains uses strict identity`
 - 8 min: `6 TNTIndexerTest tests + 1 TNTSearchTest failed: RedisEngine connection refused (no Redis server in container)`
+
+Attempt 2:
+
+- 2 min: `PHP CLI not installed in container`
+- 1 min: `Redis not available - test config defaulted to RedisEngine`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

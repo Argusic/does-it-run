@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 93.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/LadybirdBrowser/ladybird, licensed BSD-2-Clause, written in C++.
+Project: https://github.com/LadybirdBrowser/ladybird, licensed BSD-2-Clause, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/ladybird
 

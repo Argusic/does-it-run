@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/neo
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.8 to 5.8 minutes
+- Valid runs: 2; wall time 5.5 to 5.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/neo
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 5.8 | 2 | 2 | [run](https://argusic.com/run/e58fcbfc-0993-4c20-98a3-a31207407dea) |
+| 2 | pass | 100 | 3 | 5.5 | 1 | 1 | [run](https://argusic.com/run/2fb7c3e5-1afb-45f8-b749-62fcce1b60f5) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1 min: `Container had Node.js v18.19.1 but project requires >=24.0.0`
 - `Engine warnings for cssnano/postcss sub-dependencies requiring node ^22.22.3 || ^24.15.0 , Node.js v24.0.0 is borderline`
+
+Attempt 2:
+
+- 1 min: `Node.js v18 installed, project requires >=24`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/cudatext
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.9 to 8.9 minutes
+- Valid runs: 2; wall time 8.3 to 8.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/cudatext
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 8.9 | 1 | 1 | [run](https://argusic.com/run/ebfcb766-1d34-434f-9daa-26282c3477c5) |
+| 2 | pass | 100 | 8 | 8.3 | 2 | 2 | [run](https://argusic.com/run/d5ea7c45-de57-4ad3-947e-bab4c3444d3f) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1 min: `Missing shared library libharfbuzz-gobject.so.0 required by the prebuilt binary`
+
+Attempt 2:
+
+- 2 min: `GTK2 build missing libgtk-x11-2.0.so.0/libgdk-x11-2.0.so.0 (GTK2 runtime not installed in container)`
+- 3 min: `GTK3 build missing libharfbuzz-gobject.so.0`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

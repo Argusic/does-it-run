@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/toapi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2 to 2 minutes
+- Valid runs: 2; wall time 1.6 to 2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/toapi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.25 | 2 | 0 | 0 | [run](https://argusic.com/run/b71ce919-6422-4e34-a92c-ac3eda731967) |
+| 2 | pass | 100 | 2 | 1.6 | 0 | 0 | [run](https://argusic.com/run/afd79797-2baa-4e83-b4a2-5428469f6786) |
 
 ## What was observed on a clean machine
 
