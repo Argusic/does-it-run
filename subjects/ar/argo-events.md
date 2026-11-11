@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/argo-events
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.7 to 11.7 minutes
+- Valid runs: 2; wall time 11.7 to 12.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/argo-events
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 11.7 | 1 | 1 | [run](https://argusic.com/run/b9bf52a8-dc47-4f01-9487-dfe8ab75d5d9) |
+| 2 | pass | 100 | 4 | 12.6 | 1 | 1 | [run](https://argusic.com/run/14a267d0-4de5-42ce-afc1-0ea95e8fe84f) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 3 min: `No Go compiler in container`
+
+Attempt 2:
+
+- 4 min: `Go 1.26.0 was not installed in the container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

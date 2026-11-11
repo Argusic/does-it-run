@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/gpa
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.3 to 10.3 minutes
+- Valid runs: 2; wall time 10.3 to 11.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gpa
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 10.3 | 3 | 3 | [run](https://argusic.com/run/e36229c3-f9a9-4ce4-b498-f545bbf58022) |
+| 2 | pass | 100 | 11 | 11.7 | 0 | 0 | [run](https://argusic.com/run/7038a66a-e502-4b30-a64c-17d47ba891fc) |
 
 ## What was observed on a clean machine
 

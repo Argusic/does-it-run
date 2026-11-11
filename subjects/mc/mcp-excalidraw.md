@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-excalidraw
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 27.2 to 27.2 minutes
+- Valid runs: 2; wall time 6.7 to 27.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-excalidraw
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 26 | 27.2 | 2 | 2 | [run](https://argusic.com/run/c98d4c3b-2986-494e-8089-066882f01d41) |
+| 2 | pass | 100 | 6.2 | 6.7 | 0 | 0 | [run](https://argusic.com/run/1df0e3de-06db-4d1f-b1ec-1d4f1d044a18) |
 
 ## What was observed on a clean machine
 

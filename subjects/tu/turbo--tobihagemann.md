@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/tobihagemann/turbo, licensed MIT, written in TypeScript.
+Project: https://github.com/tobihagemann/turbo, licensed MIT, written in Shell.
 
 Evidence and recordings: https://argusic.com/run/34461dfe-5af2-4979-98f8-aa5d646d48a9
 

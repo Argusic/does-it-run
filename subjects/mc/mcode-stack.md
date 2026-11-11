@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/MiniMax-AI/mcode-stack, licensed MIT, written in Python.
+Project: https://github.com/MiniMax-AI/mcode-stack, licensed MIT, written in HTML.
 
 Evidence and recordings: https://argusic.com/subject/mcode-stack
 

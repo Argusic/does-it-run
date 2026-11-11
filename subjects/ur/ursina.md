@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ursina
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.9 to 9.9 minutes
+- Valid runs: 2; wall time 3.9 to 9.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ursina
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 9 | 9.9 | 2 | 2 | [run](https://argusic.com/run/02263ecb-fafe-48c1-8f3b-bf24f88d6df3) |
+| 2 | pass | 100 | 10 | 3.9 | 0 | 0 | [run](https://argusic.com/run/e7ba34bf-4329-4215-9a80-59cb1cb582e9) |
 
 ## What was observed on a clean machine
 

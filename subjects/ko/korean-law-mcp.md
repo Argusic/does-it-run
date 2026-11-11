@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/korean-law-mcp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.6 to 2.6 minutes
+- Valid runs: 2; wall time 2.6 to 2.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/korean-law-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 2.6 | 0 | 0 | [run](https://argusic.com/run/76b01a92-b369-45f3-ba60-47f776acefb2) |
+| 2 | pass | 100 | 3 | 2.9 | 0 | 0 | [run](https://argusic.com/run/6bd835f5-94ed-4f5d-9456-b42acc277b7f) |
 
 ## What was observed on a clean machine
 

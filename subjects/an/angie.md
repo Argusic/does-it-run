@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/angie
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.3 to 16.3 minutes
+- Valid runs: 2; wall time 11.2 to 16.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/angie
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 16.3 | 5 | 5 | [run](https://argusic.com/run/a70f2b7e-2d5a-4f14-b60c-ad026c3f0cac) |
+| 2 | pass | 100 | 17 | 11.2 | 3 | 3 | [run](https://argusic.com/run/74a5a1ee-cd03-46a0-90d5-94e1344c9f5d) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,11 @@ Attempt 1:
 - 2 min: `Missing Perl modules Test::Deep and JSON`
 - `IPv6 loopback (::1) disabled in container; 36 tests skipped`
 - `server_cert_type_var.t: 7 of 15 tests fail with undef from $ssl_server_cert_type on OpenSSL 3.0`
+
+Attempt 2:
+
+- 5 min: `PCRE2 and zlib development headers not installed in container`
+- 2 min: `Perl module Test::Deep not installed`
+- 2 min: `Perl module JSON not installed, JSON-XS build fails due to missing Canary::Stability`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

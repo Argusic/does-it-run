@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/dekit
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 25.6 to 25.6 minutes
+- Valid runs: 2; wall time 3.7 to 25.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/dekit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 25.6 | 0 | 0 | [run](https://argusic.com/run/e8f3c992-ee8d-4a75-b709-90de4b3e5273) |
+| 2 | pass | 100 | 2 | 3.7 | 0 | 0 | [run](https://argusic.com/run/1d3301f1-72b8-4c21-bdd0-60a2c4b4e1e4) |
 
 ## What was observed on a clean machine
 

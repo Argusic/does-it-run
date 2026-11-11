@@ -1,6 +1,6 @@
 # wacrm
 
-**Verdict: runs with mocks.** Argusic Score 84 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ArnasDon/wacrm, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/wacrm
 - Test commit: `aee1b01f4b557870f1bbf9e7f566a2759e8f20f3`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 26.2 to 26.2 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 5 to 26.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/wacrm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 84 | 4.5 | 26.2 | 5 | 3 | [run](https://argusic.com/run/5626b65d-305f-4013-9887-ba6db8e1c725) |
+| 2 | pass | 100 | 5 | 5 | 4 | 4 | [run](https://argusic.com/run/87c57ccb-2fa0-4f01-8b83-08d35b66f751) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,12 @@ Attempt 1:
 - `Production next build OOM-killed (2 GB RAM, no swap)`
 - `middleware.ts convention deprecated in Next.js 16 , should use proxy.ts instead`
 - `Edge Runtime deprecated, middleware should use nodejs runtime`
+
+Attempt 2:
+
+- 1 min: `Node.js v18.19.1 required >=20.0.0`
+- 1 min: `Missing native binding @rolldown/binding-linux-x64-gnu`
+- 1 min: `vitest/config.cjs requires ES module std-env`
+- 1 min: `.env.local not present; build prerender failed on /forgot-password`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # web-maker
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/chinchang/web-maker, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/web-maker
 - Test commit: `b1cb6071eb99f28078f732b8bec3dfb47af5c241`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 20.1 to 20.1 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 15.6 to 20.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/web-maker
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 19 | 20.1 | 6 | 6 | [run](https://argusic.com/run/b72267ed-f5f9-4f89-8278-95724a230372) |
+| 2 | pass | 100 | 15 | 15.6 | 6 | 6 | [run](https://argusic.com/run/d0b5460c-3ceb-4fde-a639-c8106de6e792) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,14 @@ Attempt 1:
 - 2 min: `Cannot find module preact-render-spy for fileUtils.test.js`
 - 5 min: `layout-parameter.test.js failures from jsdom location.search navigation side effects`
 - 4 min: `Can't resolve monaco-editor/esm/vs/editor/editor.api.js - y-monaco cannot resolve due to monaco-editor@0.57.0 exports map`
+
+Attempt 2:
+
+- 3 min: `Node.js v18.19.1 was too old (requires >=20). npm install blocked by engine-strict=true in .npmrc.`
+- 4 min: `Missing preact-cli/babel module , preact-cli@4.0.0-next.6 npm package is missing its 'babel' directory despite listing it in package.json files field.`
+- 2 min: `Missing preact-render-spy dependency (fileUtils.test.js depends on it).`
+- 1 min: `Cypress test files ran under Jest and failed without Cypress runtime (cy is not defined).`
+- 2 min: `jsdom Location object intercepted window.location.search assignment, causing layout-parameter.test.js failures.`
+- 2 min: `Build failed: y-monaco imports 'monaco-editor/esm/vs/editor/editor.api.js' but monaco-editor@0.57.0 exports field doubled the path to '/esm/vs/esm/vs/'.`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

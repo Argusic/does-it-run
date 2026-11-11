@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sveltia-cms
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 26 to 26 minutes
+- Valid runs: 2; wall time 11.9 to 26 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sveltia-cms
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 26 | 0 | 0 | [run](https://argusic.com/run/d2256c18-953b-4d86-9ceb-a73303322deb) |
+| 2 | pass | 100 | 9.5 | 11.9 | 0 | 0 | [run](https://argusic.com/run/ad18bf0d-6163-4618-b2c7-8aeccbea47ab) |
 
 ## What was observed on a clean machine
 

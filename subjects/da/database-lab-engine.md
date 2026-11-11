@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/database-lab-engine
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9 to 9 minutes
+- Valid runs: 2; wall time 6.1 to 9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/database-lab-engine
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 9 | 0 | 0 | [run](https://argusic.com/run/93975489-e8e3-46e7-85c0-4d0c1a4ab0f6) |
+| 2 | pass | 100 | 6 | 6.1 | 0 | 0 | [run](https://argusic.com/run/cd55197c-efd4-45c6-8803-0dc9b1f0a508) |
 
 ## What was observed on a clean machine
 

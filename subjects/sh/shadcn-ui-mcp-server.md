@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/shadcn-ui-mcp-server
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.6 to 4.6 minutes
+- Valid runs: 2; wall time 4.6 to 5.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/shadcn-ui-mcp-server
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 4.6 | 0 | 0 | [run](https://argusic.com/run/d5142dd9-a883-4ae6-a864-3175d7fdcbb0) |
+| 2 | pass | 100 | 5 | 5.4 | 0 | 0 | [run](https://argusic.com/run/c9cfd304-ed29-4957-800d-90a3a7366b42) |
 
 ## What was observed on a clean machine
 

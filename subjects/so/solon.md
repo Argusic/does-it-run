@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/solon
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 26.7 to 26.7 minutes
+- Valid runs: 2; wall time 26.7 to 48.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/solon
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 26 | 26.7 | 3 | 3 | [run](https://argusic.com/run/a2361a76-befe-49d0-9e4b-8deeecdb5650) |
+| 2 | pass | 100 | 48 | 48.1 | 3 | 3 | [run](https://argusic.com/run/b16bfad5-6f19-4b31-8619-ab579e1ea1ec) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 3 min: `No Java or Maven pre-installed`
 - 2 min: `solon-config-yaml tests fail: PropAddLoadTest and PropUtilTest use assertions on Properties.toString() order which differs between JDK 8 and JDK 17`
 - `Full __test suite: 51/98 test classes fail (211/441 tests) due to test isolation issues: shared @SolonTest(App.class) state, HTTP server port conflicts, and JDK 17 incompatibilities`
+
+Attempt 2:
+
+- 5 min: `No Java or Maven installed`
+- 25 min: `Multiple Solon modules needed building (parent, core, ~141 SNAPSHOT jars)`
+- 15 min: `Test suite has shared app context issue - afterAll stops Solon.app() killing HTTP for subsequent test classes`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

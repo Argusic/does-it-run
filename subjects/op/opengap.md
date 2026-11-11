@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/opengap
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.2 to 5.2 minutes
+- Valid runs: 2; wall time 1.9 to 5.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/opengap
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.02 | 5.2 | 1 | 1 | [run](https://argusic.com/run/e421e32f-8225-41e9-ba19-e6b3860189f4) |
+| 2 | pass | 100 | 0.5 | 1.9 | 0 | 0 | [run](https://argusic.com/run/4c983cb8-7770-4686-8a51-22b79f576826) |
 
 ## What was observed on a clean machine
 

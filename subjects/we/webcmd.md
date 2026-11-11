@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/webcmd
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.9 to 4.9 minutes
+- Valid runs: 2; wall time 2.1 to 4.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/webcmd
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 4.9 | 2 | 2 | [run](https://argusic.com/run/f3f352f4-c03b-4a92-afc9-9c15f8db5764) |
+| 2 | pass | 100 | 1.5 | 2.1 | 0 | 0 | [run](https://argusic.com/run/b80b27b6-e519-4f47-9cd7-a65b5af06e93) |
 
 ## What was observed on a clean machine
 

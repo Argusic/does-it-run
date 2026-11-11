@@ -1,6 +1,6 @@
 # http
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/httprb/http, licensed MIT, written in Ruby.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/run/2de1db2b-aff7-4cae-8095-fe12593
 - Test commit: `a210c0adb724b340121cafcbceccd7424e7e25e4`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 21.3 to 21.3 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 3.2 to 21.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/2de1db2b-aff7-4cae-8095-fe12593
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 21.3 | 4 | 4 | [run](https://argusic.com/run/2de1db2b-aff7-4cae-8095-fe12593b1b41) |
+| 2 | fail | 20 | n/a | 3.2 | 0 | 0 | [run](https://argusic.com/run/d3c5d897-7ab8-46e6-851b-0b3a901ef9b9) |
 
 ## What was observed on a clean machine
 

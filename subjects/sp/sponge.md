@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sponge
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 23.9 to 23.9 minutes
+- Valid runs: 2; wall time 20.1 to 23.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sponge
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 23 | 23.9 | 2 | 2 | [run](https://argusic.com/run/2dc56ca9-12fd-45c9-a0af-1a142c10f3d0) |
+| 2 | pass | 100 | 20.4 | 20.1 | 0 | 0 | [run](https://argusic.com/run/a6e349a5-5a30-479f-9264-a69bebdc3eb7) |
 
 ## What was observed on a clean machine
 

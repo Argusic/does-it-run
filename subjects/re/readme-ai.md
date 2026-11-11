@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/readme-ai
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.4 to 5.4 minutes
+- Valid runs: 2; wall time 3.2 to 5.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/readme-ai
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 20 | 5.4 | 5 | 5 | [run](https://argusic.com/run/a75b5079-d648-42bc-b23b-ce263905188c) |
+| 2 | pass | 100 | 1.5 | 3.2 | 1 | 1 | [run](https://argusic.com/run/d3d64c04-f747-4343-bdc4-8d64047ad492) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,9 @@ Attempt 1:
 - 1 min: `poetry.core.masonry.api missing for editable install`
 - 3 min: `Missing click and other runtime deps (dependency resolver didn't install them due to version conflicts)`
 - 1 min: `Missing optional google-generativeai package`
+
+Attempt 2:
+
+- 1 min: `tiktoken 0.4.0 requires Rust compiler (rustc) to build from source and no prebuilt wheel is available for cp312`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.
