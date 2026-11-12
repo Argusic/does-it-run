@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/toolhive
 - Test commit: `88bb28433ae7968027a624f579050b62ce380972`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 55 to 55 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 55 to 87.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/toolhive
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 88 | 55 | 55 | 5 | 2 | [run](https://argusic.com/run/e338efea-f45d-41a1-a64c-cbd866c30872) |
+| 2 | timeout | none | n/a | 87.1 | 0 | 0 | [run](https://argusic.com/run/c5c3f453-b943-4de6-9a0a-7c37a3682d06) |
 
 ## What was observed on a clean machine
 

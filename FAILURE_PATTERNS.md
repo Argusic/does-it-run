@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 13281 observed error lines in 5824 valid runs of 3738 tested subjects (generated 2026-11-11).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 13440 observed error lines in 5920 valid runs of 3752 tested subjects (generated 2026-11-12).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 15 | 0.1% | 13 |
-| Permission denied | 124 | 0.9% | 112 |
-| Missing system library or header | 661 | 5.0% | 378 |
-| Tool, runtime or component not installed | 2191 | 16.5% | 1430 |
-| Version mismatch | 1380 | 10.4% | 984 |
-| Missing configuration or secret | 274 | 2.1% | 242 |
-| Source or download problem | 162 | 1.2% | 139 |
-| Network, timeout or service unreachable | 285 | 2.1% | 252 |
-| Dependency install or resolution failed | 1587 | 11.9% | 1119 |
-| Build or compile step failed | 549 | 4.1% | 440 |
-| The project's own tests failed | 1516 | 11.4% | 882 |
-| Expected file or data not present | 200 | 1.5% | 182 |
-| Error inside the project's code | 157 | 1.2% | 138 |
-| Other | 4180 | 31.5% | 1944 |
+| Permission denied | 125 | 0.9% | 113 |
+| Missing system library or header | 665 | 4.9% | 379 |
+| Tool, runtime or component not installed | 2217 | 16.5% | 1445 |
+| Version mismatch | 1397 | 10.4% | 993 |
+| Missing configuration or secret | 276 | 2.1% | 243 |
+| Source or download problem | 165 | 1.2% | 141 |
+| Network, timeout or service unreachable | 290 | 2.2% | 257 |
+| Dependency install or resolution failed | 1606 | 11.9% | 1127 |
+| Build or compile step failed | 555 | 4.1% | 444 |
+| The project's own tests failed | 1538 | 11.4% | 894 |
+| Expected file or data not present | 204 | 1.5% | 186 |
+| Error inside the project's code | 160 | 1.2% | 140 |
+| Other | 4227 | 31.5% | 1967 |
 
 ## Port already in use
 

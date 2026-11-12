@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/doit
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.7 to 1.7 minutes
+- Valid runs: 2; wall time 1.5 to 1.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/doit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.3 | 1.7 | 0 | 0 | [run](https://argusic.com/run/872da63e-6a55-4e41-81f8-df34db6b6acb) |
+| 2 | pass | 100 | 0.5 | 1.5 | 0 | 0 | [run](https://argusic.com/run/a5616dfc-87c6-4e16-96d1-ae2ac3a8029a) |
 
 ## What was observed on a clean machine
 

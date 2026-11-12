@@ -1,6 +1,6 @@
 # rom
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/rom-rb/rom, licensed MIT, written in Ruby.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/run/12f257b5-2a5d-4e2f-b845-791e472
 - Test commit: `7bee6fe337f689674fca1e260787176b17fc885d`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 26.6 to 26.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.2 to 26.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/12f257b5-2a5d-4e2f-b845-791e472
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 27 | 26.6 | 7 | 7 | [run](https://argusic.com/run/12f257b5-2a5d-4e2f-b845-791e4728fd5e) |
+| 2 | fail | 20 | n/a | 0.2 | 0 | 0 | [run](https://argusic.com/run/afeb4484-6266-45c6-8895-a4011751ea81) |
 
 ## What was observed on a clean machine
 

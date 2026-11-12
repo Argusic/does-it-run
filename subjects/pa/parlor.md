@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/parlor
 - Test commit: `da1ddf1f3e1a7ea04f69df24e98541ab5c402ccf`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 76.8 to 76.8 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 76.8 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/parlor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 22 | 76.8 | 5 | 5 | [run](https://argusic.com/run/6cfbcde9-eb24-4ccc-b8cd-0e6fc8479fac) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/a172d53f-99e5-4b0e-85d0-f8367b3da450) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/open-cowork
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 63 to 63 minutes
+- Valid runs: 2; wall time 11.6 to 63 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/open-cowork
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 63 | 3 | 3 | [run](https://argusic.com/run/68fcb19b-bdbe-485a-9a70-5eedee5d27a1) |
+| 2 | pass | 100 | 11 | 11.6 | 3 | 3 | [run](https://argusic.com/run/a6b90724-3d99-411c-a321-742c6aebaecc) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 2 min: `Node.js <22 in container (18.19.1), project requires >=22`
 - 0.5 min: `better-sqlite3 native module ABI mismatch after node upgrade`
 - 2 min: `MCP protocol tests timeout because dist-mcp bundle not built`
+
+Attempt 2:
+
+- 1 min: `Node.js v18 in container (project requires >=22)`
+- 0.5 min: `better-sqlite3 compiled for wrong Node ABI for vitest`
+- 0.5 min: `better-sqlite3 compiled for wrong Electron ABI for app launch`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

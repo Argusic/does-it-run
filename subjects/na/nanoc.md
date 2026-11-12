@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/nanoc
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 44.2 to 44.2 minutes
+- Valid runs: 2; wall time 21.4 to 44.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/nanoc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 41 | 44.2 | 9 | 9 | [run](https://argusic.com/run/35768f9a-8a9a-4483-bde5-c18b229da5a4) |
+| 2 | pass | 100 | 16 | 21.4 | 4 | 4 | [run](https://argusic.com/run/b7eb5437-f942-4e28-9357-e5fcfa69bc8a) |
 
 ## What was observed on a clean machine
 
@@ -35,5 +36,12 @@ Attempt 1:
 - 1 min: `zeitwerk eager_load fails because Date/Time not yet loaded`
 - 10 min: `Several plugin native extensions fail to compile (psych, eventmachine, mini_racer)`
 - 3 min: `Bundle install with full Gemfile fails on native ext compilation`
+
+Attempt 2:
+
+- 5 min: `Ruby not found in container: no ruby, gem, or bundler available`
+- 2 min: `psych gem native extension failed: libyaml-dev headers missing`
+- 5 min: `GH-1572 regression test: permission bits lost when copying binary files`
+- `nanoc-cli NO_COLOR test expected true but NO_COLOR=1 was set in container env`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

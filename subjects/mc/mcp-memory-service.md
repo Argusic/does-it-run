@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-memory-service
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 19.9 to 19.9 minutes
+- Valid runs: 2; wall time 13.5 to 19.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-memory-service
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 19.9 | 2 | 2 | [run](https://argusic.com/run/ccee5182-9475-42fd-9555-9dae6f5606e1) |
+| 2 | pass | 100 | 2.1 | 13.5 | 3 | 3 | [run](https://argusic.com/run/a720bd95-1bbd-43c4-8ef4-0a0bd44939c5) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 5 min: `test_stop_refuses_to_kill_foreign_listener_without_force failed: '_find_process_on_port' uses 'lsof' which is not installed in this container, so it returns None and the foreign listener is never detected`
 - `test_retrieve_exact_query_finds_something (benchmark) fails: hash-embedding fallback mode cannot perform accurate semantic search without ONNX/transformers dependencies`
+
+Attempt 2:
+
+- 1 min: `uv command not found on PATH for CLI integration tests`
+- 1 min: `REST API returned 401 Unauthorized (authorization_required) on first launch`
+- `3 pre-existing flaky test failures in tests/unit/test_cli_lifecycle.py (test_stop_refuses_to_kill_foreign_listener_without_force, test_stop_kills_untracked_memory_server_listener, test_stop_force_kills_foreign_listener) , subprocess socket`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/panwatch
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.8 to 7.8 minutes
+- Valid runs: 2; wall time 6.8 to 7.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/panwatch
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6.3 | 7.8 | 2 | 2 | [run](https://argusic.com/run/8f096899-ad65-4d52-a052-dddd5bef77ce) |
+| 2 | pass | 100 | 6 | 6.8 | 1 | 1 | [run](https://argusic.com/run/7664f04d-02ee-4c90-918e-c42764a25578) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1.5 min: `pnpm not installed globally, needed for frontend builds`
 - 2.5 min: `No CJK fonts on system; WeasyPrint PDF tests failed asserting Chinese text in PDF text layer`
+
+Attempt 2:
+
+- 1 min: `Missing CJK font for WeasyPrint PDF rendering (Chinese characters rendered as tofu)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

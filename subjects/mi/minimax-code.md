@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/minimax-code
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 27.3 to 27.3 minutes
+- Valid runs: 2; wall time 8.5 to 27.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/minimax-code
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.5 | 27.3 | 2 | 2 | [run](https://argusic.com/run/e0efb1ac-df75-4cdf-9f9e-942410bd1c85) |
+| 2 | pass | 100 | 10 | 8.5 | 0 | 0 | [run](https://argusic.com/run/1ac96108-0a98-40a6-9e87-df168ff6934f) |
 
 ## What was observed on a clean machine
 

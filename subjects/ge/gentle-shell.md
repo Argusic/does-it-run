@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/gentle-shell
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 42.2 to 42.2 minutes
+- Valid runs: 2; wall time 29.2 to 42.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gentle-shell
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 42.2 | 3 | 3 | [run](https://argusic.com/run/c59f7a2c-0bb8-4fea-93c2-139fe94be9b2) |
+| 2 | pass | 100 | 7 | 29.2 | 4 | 4 | [run](https://argusic.com/run/057eac01-ade6-45f2-a815-8a114eccf425) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,12 @@ Attempt 1:
 - 2 min: `Node.js v18 is too old for pnpm 11 (needs >=22.13)`
 - 1 min: `pnpm not globally installed`
 - 30 min: `AbortSignal.timeout() in Node 22 emits process.exit which node:test treats as a process exit (cancelledByParent)`
+
+Attempt 2:
+
+- 2 min: `node 18.19.1 does not support --experimental-strip-types flag required by the project`
+- 2 min: `pnpm not in default PATH in spawned child processes`
+- 1 min: `@earendil-works/pi-ai dependency uses import attributes with {type:"json"} syntax requiring Node 20+`
+- 1 min: `@earendil-works/pi-tui uses /v regex flag requiring Node 20+`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

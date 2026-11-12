@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/trickster
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.6 to 12.6 minutes
+- Valid runs: 2; wall time 12.6 to 32.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/trickster
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 13 | 12.6 | 2 | 2 | [run](https://argusic.com/run/6018b831-433b-4d81-8b94-fe8e19b635b7) |
+| 2 | pass | 100 | 11 | 32.6 | 1 | 1 | [run](https://argusic.com/run/bc14ce35-9d38-4361-a9d5-464974a9e449) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 2 min: `Go 1.27+ not installed in container`
 - 1 min: `Initial config used frontends/origins (wrong YAML structure)`
+
+Attempt 2:
+
+- 2 min: `Go 1.27+ not installed on system (only go1.22 from distro repos)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

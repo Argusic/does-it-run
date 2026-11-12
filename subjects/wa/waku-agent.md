@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/waku-agent
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.1 to 7.1 minutes
+- Valid runs: 2; wall time 5.8 to 7.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/waku-agent
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 7.1 | 1 | 1 | [run](https://argusic.com/run/5c1ffcd1-128a-49ac-8b3a-eecf4c93e1dd) |
+| 2 | pass | 100 | 18 | 5.8 | 2 | 2 | [run](https://argusic.com/run/6fad75e6-f36d-49d8-b1cc-c28de33d4a28) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1 min: `hosted extra dependency jwt (PyJWT) not installed, causing 4 collection errors in evals/deterministic/hosted/*.py`
+
+Attempt 2:
+
+- 0.5 min: `ModuleNotFoundError: No module named 'aiohttp' in hosted gatewaylib.py (import aiohttp)`
+- 0.5 min: `ModuleNotFoundError: No module named 'cryptography' in hosted gatewaylib.py (from cryptography.hazmat...)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

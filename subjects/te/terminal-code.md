@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/terminal-code
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.8 to 6.8 minutes
+- Valid runs: 2; wall time 2.5 to 6.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/terminal-code
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 6.8 | 2 | 2 | [run](https://argusic.com/run/072c6732-adeb-4888-b41e-afad36f20384) |
+| 2 | pass | 100 | 3 | 2.5 | 2 | 2 | [run](https://argusic.com/run/1a1522fb-cc94-4b6c-8fbb-bf3dfff966f5) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 2 min: `Node.js v18.19.1 is too old , vite@8.2.1 requires ^20.19.0 || >=22.12.0`
 - 1 min: `unzip not installed; pixel postinstall cannot extract patched electron binary`
+
+Attempt 2:
+
+- 1 min: `npm install failed with Node 18 , @zenbu-labs/pixel postinstall script errored: ERR_INVALID_ARG_TYPE`
+- 1 min: `pixel postinstall failed , unzip binary not found on system`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

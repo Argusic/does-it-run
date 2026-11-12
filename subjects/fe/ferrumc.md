@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ferrumc
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 19.1 to 19.1 minutes
+- Valid runs: 2; wall time 19.1 to 25.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ferrumc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.5 | 19.1 | 0 | 0 | [run](https://argusic.com/run/655db161-ce7f-4a65-afd0-029fb5ed6c99) |
+| 2 | pass | 100 | 28 | 25.9 | 0 | 0 | [run](https://argusic.com/run/14db4ab5-9a70-4c70-8604-4244747f64e3) |
 
 ## What was observed on a clean machine
 

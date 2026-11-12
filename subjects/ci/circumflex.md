@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/circumflex
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6 to 6 minutes
+- Valid runs: 2; wall time 5.2 to 6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/circumflex
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 6 | 1 | 1 | [run](https://argusic.com/run/30ee5cb6-d654-4597-8135-1dc76e548c92) |
+| 2 | pass | 100 | 1 | 5.2 | 0 | 0 | [run](https://argusic.com/run/6269954c-5677-4340-95c0-c7ba15b96f3b) |
 
 ## What was observed on a clean machine
 

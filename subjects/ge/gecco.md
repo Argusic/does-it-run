@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/gecco
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.8 to 4.8 minutes
+- Valid runs: 2; wall time 3.9 to 4.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gecco
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4.7 | 4.8 | 2 | 2 | [run](https://argusic.com/run/9aba238c-ef80-4148-a04b-732c45cfd2aa) |
+| 2 | pass | 100 | 4 | 3.9 | 0 | 0 | [run](https://argusic.com/run/bd64d74a-04b7-4c43-b3b4-05afe54659be) |
 
 ## What was observed on a clean machine
 

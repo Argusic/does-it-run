@@ -1,6 +1,6 @@
 # DevDocs
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/cyberagiinc/DevDocs, licensed Apache-2.0, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/devdocs
 - Test commit: `f8fa9de505c96bcc8c76561196a75d39b52847b6`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 22.8 to 22.8 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 0.2 to 22.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/devdocs
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 5 | 22.8 | 3 | 3 | [run](https://argusic.com/run/1364c1ed-c440-4d77-9a85-79bf26f1694d) |
+| 2 | fail | 20 | n/a | 0.2 | 0 | 0 | [run](https://argusic.com/run/13f0aba7-dacc-4fcf-b731-05993a71417c) |
 
 ## What was observed on a clean machine
 

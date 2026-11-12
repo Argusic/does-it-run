@@ -1,6 +1,6 @@
 # yovoice
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/leemysw/yovoice, licensed Apache-2.0, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/yovoice
 - Test commit: `b065b665267969cb51dab6af8c2a35f1923caeab`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 9.9 to 9.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 9.9 to 27.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/yovoice
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 9 | 9.9 | 3 | 3 | [run](https://argusic.com/run/284d3401-539f-4825-96c2-fe51931b2d01) |
+| 2 | fail | 20 | n/a | 27.6 | 0 | 0 | [run](https://argusic.com/run/62e4b2dd-7b48-4b53-bc60-ac9b4dc51eea) |
 
 ## What was observed on a clean machine
 

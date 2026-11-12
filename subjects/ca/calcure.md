@@ -1,6 +1,6 @@
 # calcure
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/anufrievroman/calcure, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/calcure
 - Test commit: `c529fe27c5901c219576a7a51464947d30150b87`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 4.8 to 4.8 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 4.8 to 5.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/calcure
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 3 | 4.8 | 1 | 1 | [run](https://argusic.com/run/ef41bcd4-d160-4fbf-8361-aaa00e08e2aa) |
+| 2 | pass | 100 | 1 | 5.5 | 0 | 0 | [run](https://argusic.com/run/d15f01f0-fa25-48d4-89dc-0d95a5cb26a8) |
 
 ## What was observed on a clean machine
 

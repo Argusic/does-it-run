@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/wasmi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 22.3 to 22.3 minutes
+- Valid runs: 2; wall time 22.3 to 25.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/wasmi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 42 | 22.3 | 2 | 2 | [run](https://argusic.com/run/6f52bacd-9ea9-4f8a-aa95-40dcc75bcba2) |
+| 2 | pass | 100 | 5 | 25.6 | 0 | 0 | [run](https://argusic.com/run/59b238b8-0fc4-4d18-a3eb-c76e880bcee1) |
 
 ## What was observed on a clean machine
 

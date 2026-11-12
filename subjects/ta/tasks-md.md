@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tasks-md
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10 to 10 minutes
+- Valid runs: 2; wall time 6 to 10 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,14 @@ Evidence and recordings: https://argusic.com/subject/tasks-md
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 10 | 0 | 0 | [run](https://argusic.com/run/78f0d44d-65aa-4dc2-9723-e6892c83966a) |
+| 2 | pass | 100 | 12 | 6 | 3 | 3 | [run](https://argusic.com/run/f0627e8d-b27a-42c0-bddc-3cdc5c3c0cf2) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 2 min: `Frontend npm install failed: missing git submodule Stacks-Editor (file: frontend/src/components/Stacks-Editor/package.json)`
+- 3 min: `stacks-editor file dependency had no dist/ , npm install copied the submodule before it was built`
+- 1 min: `Express Koa body-parser bug: The POST to /_api/resource/Backlog (existing directory) threw 500 Internal Server Error (mkdir on existing dir)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.
