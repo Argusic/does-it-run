@@ -1,6 +1,6 @@
 # solidworks-automation-skill
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/wzyn20051216/solidworks-automation-skill, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/solidworks-automation-skill
 - Test commit: `2719ed8a7a653d5c4c28ef30c0af0bffbdd44962`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 23.2 to 23.2 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 11.5 to 23.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/solidworks-automation-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 23.2 | 4 | 4 | [run](https://argusic.com/run/ad3d89bd-02dc-4c66-a05e-b9793274e4ea) |
+| 2 | pass with mocks | 92 | 2 | 11.5 | 3 | 3 | [run](https://argusic.com/run/59c18777-9aa3-4dc3-a7cc-e9f18a55d6f8) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 1 min: `acad_dotnet_preflight.py uses Path().name which cannot parse Windows backslash paths on Linux`
 - 2 min: `cad_installation.py resolve_shortcut_target and _common_candidates mishandle Windows paths on Linux`
 - 1 min: `Desktop app fails on xcb platform because libxcb-cursor0 system library is missing`
+
+Attempt 2:
+
+- 2 min: `pywin32 and comtypes are Windows-only COM dependencies; cannot install on Linux`
+- 4 min: `scripts/__init__.py eagerly imports sw_connect which tries import_com_dependencies() at module level, blocking test collection on non-Windows`
+- `13 tests fail , all COM/AutoCAD/SolidWorks-specific tests that need real CAD installations on Windows`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 13440 observed error lines in 5920 valid runs of 3752 tested subjects (generated 2026-11-12).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 13654 observed error lines in 6016 valid runs of 3768 tested subjects (generated 2026-11-13).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 15 | 0.1% | 13 |
-| Permission denied | 125 | 0.9% | 113 |
-| Missing system library or header | 665 | 4.9% | 379 |
-| Tool, runtime or component not installed | 2217 | 16.5% | 1445 |
-| Version mismatch | 1397 | 10.4% | 993 |
-| Missing configuration or secret | 276 | 2.1% | 243 |
-| Source or download problem | 165 | 1.2% | 141 |
-| Network, timeout or service unreachable | 290 | 2.2% | 257 |
-| Dependency install or resolution failed | 1606 | 11.9% | 1127 |
-| Build or compile step failed | 555 | 4.1% | 444 |
-| The project's own tests failed | 1538 | 11.4% | 894 |
-| Expected file or data not present | 204 | 1.5% | 186 |
-| Error inside the project's code | 160 | 1.2% | 140 |
-| Other | 4227 | 31.5% | 1967 |
+| Permission denied | 127 | 0.9% | 115 |
+| Missing system library or header | 685 | 5.0% | 385 |
+| Tool, runtime or component not installed | 2255 | 16.5% | 1468 |
+| Version mismatch | 1420 | 10.4% | 1010 |
+| Missing configuration or secret | 282 | 2.1% | 246 |
+| Source or download problem | 168 | 1.2% | 143 |
+| Network, timeout or service unreachable | 291 | 2.1% | 258 |
+| Dependency install or resolution failed | 1635 | 12.0% | 1137 |
+| Build or compile step failed | 566 | 4.1% | 450 |
+| The project's own tests failed | 1564 | 11.5% | 907 |
+| Expected file or data not present | 206 | 1.5% | 187 |
+| Error inside the project's code | 162 | 1.2% | 142 |
+| Other | 4278 | 31.3% | 1984 |
 
 ## Port already in use
 
@@ -148,8 +148,8 @@ The project itself raised an error while running.
 Example runs:
 
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
+- agenticsecurity, attempt 2: https://argusic.com/run/457ea4f0-16a9-4752-bb25-1312da3ccfa5
 - agentset, attempt 2: https://argusic.com/run/0891f4ce-3494-4a09-bce4-0f6d666394fd
-- agentsilex, attempt 2: https://argusic.com/run/e49bed62-78c5-4635-8bbd-cf188ec27213
 
 ## Other
 

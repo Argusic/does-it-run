@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/goplantuml
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.9 to 3.9 minutes
+- Valid runs: 2; wall time 1.6 to 3.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/goplantuml
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 3.9 | 1 | 1 | [run](https://argusic.com/run/1b5b7729-f8ca-480d-a325-fcbd62b9cae9) |
+| 2 | pass | 100 | 1 | 1.6 | 0 | 0 | [run](https://argusic.com/run/0b7d259b-b29a-43c8-860d-ac42bada1848) |
 
 ## What was observed on a clean machine
 

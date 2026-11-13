@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/resterm
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 21.2 to 21.2 minutes
+- Valid runs: 2; wall time 10.3 to 21.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/resterm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 21.2 | 2 | 2 | [run](https://argusic.com/run/472a6cca-a9f4-4c22-a9db-52d3be89e9c3) |
+| 2 | pass | 100 | 10 | 10.3 | 0 | 0 | [run](https://argusic.com/run/752b58c5-641b-4872-85c6-f95072e3a8d3) |
 
 ## What was observed on a clean machine
 

@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Warzone2100/warzone2100, licensed GPL-2.0, written in C++.
+Project: https://github.com/Warzone2100/warzone2100, licensed GPL-3.0, written in C++.
 
 Evidence and recordings: https://argusic.com/subject/warzone2100
 

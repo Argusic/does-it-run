@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/orcarouter-lite
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7 to 7 minutes
+- Valid runs: 2; wall time 2.8 to 7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/orcarouter-lite
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 7 | 0 | 0 | [run](https://argusic.com/run/b4507b47-479a-4af3-9391-504d55fe001b) |
+| 2 | pass | 100 | 3 | 2.8 | 0 | 0 | [run](https://argusic.com/run/09125357-0fe4-4778-9024-2a16b5908224) |
 
 ## What was observed on a clean machine
 

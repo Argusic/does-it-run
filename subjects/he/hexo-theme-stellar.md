@@ -1,6 +1,6 @@
 # hexo-theme-stellar
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/xaoxuu/hexo-theme-stellar, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/hexo-theme-stellar
 - Test commit: `402e9586be07bf0c4e4d3d87f9cb9b735e630f5c`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 7.2 to 7.2 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 3.7 to 7.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hexo-theme-stellar
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 7.2 | 2 | 2 | [run](https://argusic.com/run/07c3fc9d-5446-4bde-b4db-b0b1a75d226b) |
+| 2 | fail | 20 | n/a | 3.7 | 0 | 0 | [run](https://argusic.com/run/f5237d98-d334-48bb-99f7-a707b2352d85) |
 
 ## What was observed on a clean machine
 

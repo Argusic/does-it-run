@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agentic-security
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.8 to 18.8 minutes
+- Valid runs: 2; wall time 6 to 18.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agentic-security
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 18.8 | 7 | 7 | [run](https://argusic.com/run/607f882e-60d0-40c2-a308-be2918abfc75) |
+| 2 | pass | 100 | 6 | 6 | 6 | 6 | [run](https://argusic.com/run/457ea4f0-16a9-4752-bb25-1312da3ccfa5) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,14 @@ Attempt 1:
 - 1 min: `Missing test packages: inline-snapshot, huggingface-hub, pytest-mock, pytest-asyncio`
 - 0.5 min: `System test used raw uvicorn command not in PATH`
 - 1 min: `scikit-learn 1.9.1 broke OneClassSVM predict via missing _effective_probability`
+
+Attempt 2:
+
+- 1 min: `pyproject.toml requires Python >=3.14 but container has 3.12 only`
+- 2 min: `Forward type annotations (e.g. -> Scan, -> AttackRuleSeverity) fail on Python <3.14`
+- 0.5 min: `except json.JSONDecodeError, TypeError: needs parentheses in Python 3.12`
+- 1 min: `Missing test deps inline-snapshot and pytest-mock`
+- 1.5 min: `sklearn OneClassSVM model pickled with old version lacks _effective_probability attr`
+- `System test subprocess Popen('uvicorn') fails because uvicorn not on PATH`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

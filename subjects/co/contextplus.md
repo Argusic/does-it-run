@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/contextplus
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.2 to 1.2 minutes
+- Valid runs: 2; wall time 1.2 to 2.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/contextplus
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 1.2 | 0 | 0 | [run](https://argusic.com/run/8e8d7e05-953b-4cf4-96d0-2d82da3bb4bb) |
+| 2 | pass | 100 | 0.15 | 2.2 | 0 | 0 | [run](https://argusic.com/run/a975e21b-a7af-42a2-8608-8bc751c09f28) |
 
 ## What was observed on a clean machine
 

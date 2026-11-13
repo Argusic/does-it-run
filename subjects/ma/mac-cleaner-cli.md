@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mac-cleaner-cli
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.1 to 6.1 minutes
+- Valid runs: 2; wall time 5.1 to 6.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mac-cleaner-cli
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 6.1 | 6 | 6 | [run](https://argusic.com/run/d805e583-7e01-4e95-9e5c-fb01b0f93695) |
+| 2 | pass | 100 | 7 | 5.1 | 4 | 4 | [run](https://argusic.com/run/d783606e-2790-4070-9cb4-a67b85e1c1c6) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,12 @@ Attempt 1:
 - 1 min: `Node 20 styleText API doesn't accept array of style names (needed Node 22+)`
 - 0.5 min: `@inquirer/core not found at runtime (transitive dep not linked into pnpm store root by default)`
 - 0.5 min: `Test execSync calls 'bun src/index.ts' but bun unavailable`
+
+Attempt 2:
+
+- 1 min: `bun not available in container`
+- 2 min: `Node 18.19 is below vitest v4 engine requirement (>=20)`
+- 1 min: `tsdown/rolldown requires node:util styleText (Node 21+), used bun as runtime instead`
+- 1 min: `vitest SyntaxError: Unexpected token 'with' from JSON import assertions on Node 18`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

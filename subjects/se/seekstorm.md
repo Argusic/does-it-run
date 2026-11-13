@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/seekstorm
 - Test commit: `50cb0ddffe1e45eb574f927079d1bcffecf8980b`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 62.6 to 62.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 62.6 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/seekstorm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 14 | 62.6 | 2 | 2 | [run](https://argusic.com/run/25345b20-ee1e-462c-ac5a-460775bb3827) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/933a4b36-5abc-4647-92fc-99c16096d3da) |
 
 ## What was observed on a clean machine
 

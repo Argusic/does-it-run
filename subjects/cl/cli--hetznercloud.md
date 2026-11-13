@@ -1,6 +1,6 @@
 # cli
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/hetznercloud/cli, licensed MIT, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/run/3253488b-fb5b-4a93-9126-3df817a
 - Test commit: `88350084112192df1317e3cc101419ddcb85c689`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 5.3 to 5.3 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 4.5 to 5.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/3253488b-fb5b-4a93-9126-3df817a
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 5 | 5.3 | 1 | 1 | [run](https://argusic.com/run/3253488b-fb5b-4a93-9126-3df817a706a3) |
+| 2 | pass | 100 | 2 | 4.5 | 0 | 0 | [run](https://argusic.com/run/2369cf4f-03db-4765-a799-4c64eab0d2c4) |
 
 ## What was observed on a clean machine
 

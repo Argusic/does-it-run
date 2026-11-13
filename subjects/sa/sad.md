@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sad
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.1 to 2.1 minutes
+- Valid runs: 2; wall time 2 to 2.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sad
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.6 | 2.1 | 0 | 0 | [run](https://argusic.com/run/da6f5309-f958-423a-b8c0-49f1fa470a3b) |
+| 2 | pass | 100 | 12 | 2 | 0 | 0 | [run](https://argusic.com/run/0617f96f-6e02-4138-8bb1-4d12829f1d5e) |
 
 ## What was observed on a clean machine
 

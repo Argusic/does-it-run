@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/kibi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.8 to 2.8 minutes
+- Valid runs: 2; wall time 1.7 to 2.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/kibi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 2.8 | 0 | 0 | [run](https://argusic.com/run/828be016-601f-4a16-89b6-1ad3ebe0913b) |
+| 2 | pass | 100 | 2.5 | 1.7 | 0 | 0 | [run](https://argusic.com/run/01c05960-cdfa-45c7-aec5-2d79cf385ed8) |
 
 ## What was observed on a clean machine
 

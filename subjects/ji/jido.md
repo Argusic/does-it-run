@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jido
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.9 to 15.9 minutes
+- Valid runs: 2; wall time 10.9 to 15.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jido
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 15.9 | 2 | 2 | [run](https://argusic.com/run/4831bb3a-b43a-4f21-b5b3-6029db00a6b9) |
+| 2 | pass | 100 | 4.2 | 10.9 | 1 | 1 | [run](https://argusic.com/run/4c13a6e8-faac-4357-b278-4a4c29a26467) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 2 min: `No Erlang/OTP or Elixir runtime installed in container; apt packages too old and no sudo`
 - 1 min: `mix deps.compile poolboy failed because rebar3 calls erl with hardcoded /usr/lib/erlang path`
+
+Attempt 2:
+
+- 4.2 min: `Ubuntu 24.04 noble repos only contain OTP 25 and Elixir 1.14, below the project's requirement of OTP 27+ and Elixir ~> 1.18`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

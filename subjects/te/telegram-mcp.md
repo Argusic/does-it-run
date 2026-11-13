@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/telegram-mcp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 3.8 to 3.8 minutes
+- Valid runs: 2; wall time 1.8 to 3.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/telegram-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2 | 3.8 | 0 | 0 | [run](https://argusic.com/run/6c35d1a6-32d1-44be-974f-7b977a963f93) |
+| 2 | pass with mocks | 92 | 1 | 1.8 | 0 | 0 | [run](https://argusic.com/run/7c10ad84-0dd7-4d1c-bd39-d93164cbc6ed) |
 
 ## What was observed on a clean machine
 

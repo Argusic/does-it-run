@@ -1,6 +1,6 @@
 # ovis
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/devswha/ovis, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/ovis
 - Test commit: `5253f3bf17fbc96da01e89184afcc47a28b689f6`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 4.1 to 4.1 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 4.1 to 7.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ovis
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3.5 | 4.1 | 3 | 3 | [run](https://argusic.com/run/5d17e711-05e5-4f80-9778-e1a792dcc5a7) |
+| 2 | fail | 20 | n/a | 7.4 | 0 | 0 | [run](https://argusic.com/run/930edaf3-f08b-4609-9e5c-a95743412d77) |
 
 ## What was observed on a clean machine
 

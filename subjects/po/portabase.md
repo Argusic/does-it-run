@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/portabase
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 28.8 to 28.8 minutes
+- Valid runs: 2; wall time 28.8 to 38.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/portabase
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 28.8 | 7 | 7 | [run](https://argusic.com/run/992892e6-65e1-49d5-b1bd-131d3794d386) |
+| 2 | pass | 100 | 37.5 | 38.5 | 7 | 7 | [run](https://argusic.com/run/eebd72b6-82e2-4772-b556-946a554a3ae4) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,15 @@ Attempt 1:
 - 8 min: `PostgreSQL not available in container`
 - 2 min: `Database migrations not applied , tables missing`
 - 2 min: `Corrupted CSS cache from earlier failed build caused 500 on page render`
+
+Attempt 2:
+
+- 2 min: `Node.js 18.19.1 is too old (Next.js 16 requires >=20.9.0)`
+- 1 min: `pnpm not available in PATH, corepack missing`
+- 5 min: `@tailwindcss/oxide native addon not found (optional dep not auto-installed by pnpm in this env)`
+- 4 min: `No PostgreSQL database available on the system`
+- 1 min: `Missing environment configuration (PROJECT_SECRET, DATABASE_URL)`
+- 1 min: `Database schema not present - no migrations applied`
+- 3 min: `Production build crashed with SIGABRT during page data collection, second attempt OOM killed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

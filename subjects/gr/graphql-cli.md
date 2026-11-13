@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/graphql-cli
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15 to 15 minutes
+- Valid runs: 2; wall time 7.3 to 15 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/graphql-cli
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 16 | 15 | 4 | 4 | [run](https://argusic.com/run/c265282d-8b6d-4d1d-a328-2d11990d4f26) |
+| 2 | pass | 100 | 18 | 7.3 | 2 | 2 | [run](https://argusic.com/run/09e1cb2e-d9b9-49c1-8ae0-51c17b27a7a3) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,10 @@ Attempt 1:
 - 4 min: `UrlLoader type mismatch: DocumentLoader.load() returns Promise<Source> but Loader expects Promise<Source[]>`
 - 7 min: `@graphql-cli/common type error: root @graphql-tools/utils v8 Loader incompatible with @graphql-tools/load's nested v7 loader types`
 - 2 min: `website build failed: ERR_OSSL_EVP_UNSUPPORTED on Node 18 with webpack`
+
+Attempt 2:
+
+- 2 min: `Build failed: tsc cannot find module 'yargs' in @graphql-cli/common - @types/yargs was missing`
+- 5 min: `GraphQL config missing 'graphback' extension for generate command`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ferrite
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 48.7 to 48.7 minutes
+- Valid runs: 2; wall time 39.6 to 48.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ferrite
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12.5 | 48.7 | 3 | 3 | [run](https://argusic.com/run/c7032a4e-9df7-4458-9026-2ad466144099) |
+| 2 | pass | 100 | 12.5 | 39.6 | 2 | 2 | [run](https://argusic.com/run/98bf1cb6-fdc9-499f-8ed6-f935eca76f87) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,10 @@ Attempt 1:
 - 2 min: `Rust toolchain not installed`
 - 1.5 min: `fontconfig.pc not found (libfontconfig-dev missing, cannot install without root)`
 - 8 min: `42 test compilation errors: missing imports and missing method to_markdown`
+
+Attempt 2:
+
+- 1 min: `fontconfig.pc not found - libfontconfig1-dev not installed (no root)`
+- 15 min: `42 test compilation errors: missing TextBuffer import, flowchart module private, missing CHECK/X imports, missing expand_rect import, missing to_markdown method, float precision issue`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

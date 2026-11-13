@@ -1,6 +1,6 @@
 # ezEngine
 
-**Verdict: runs.** Argusic Score 98 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 99 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ezEngine/ezEngine, licensed MIT, written in C++.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ezengine
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 62.1 to 62.1 minutes
+- Valid runs: 2; wall time 15 to 62.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ezengine
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 98 | 60 | 62.1 | 10 | 9 | [run](https://argusic.com/run/45065d08-0ef4-43b8-8a25-cbf4af7adc01) |
+| 2 | pass | 100 | 28 | 15 | 4 | 4 | [run](https://argusic.com/run/3c06e3d6-eaed-46c7-82d7-2f2b2ba62b16) |
 
 ## What was observed on a clean machine
 
@@ -36,5 +37,12 @@ Attempt 1:
 - 2 min: `Pre-existing include ordering bug: ResourceLock.h uses ezResourceManager without including it`
 - 5 min: `Pre-existing Vulkan 1.3.275 API incompatibility (VK_KHR_ -> VK_EXT_ rename, swapchain maintenance features)`
 - 5 min: `No root access - system packages cannot be installed, used .deb extraction workaround`
+
+Attempt 2:
+
+- 5 min: `uuid/uuid.h header not found (uuid-dev package missing from container). Foundation CMakeLists.txt called FATAL_ERROR.`
+- 3 min: `Screen_Linux.cpp unconditionally includes GLFW/glfw3.h header, but glfw requires X11 development headers not present in container.`
+- 5 min: `WindowDecl_Platform.h on Linux hits '#error Linux has no native window support' when GLFW is disabled.`
+- 4 min: `Various third-party dependencies missing (freetype, Vulkan SDK, zlib, fmod submodule, assimp submodule).`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

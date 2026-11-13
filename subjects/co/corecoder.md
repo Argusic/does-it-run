@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/corecoder
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 0.9 to 0.9 minutes
+- Valid runs: 2; wall time 0.9 to 1.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/corecoder
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 0.9 | 0 | 0 | [run](https://argusic.com/run/6b0f8a7a-332e-499f-ad64-7cea416a19f6) |
+| 2 | pass | 100 | 1 | 1.5 | 0 | 0 | [run](https://argusic.com/run/278264bd-f3ef-416b-b1f1-a70478e6f92b) |
 
 ## What was observed on a clean machine
 

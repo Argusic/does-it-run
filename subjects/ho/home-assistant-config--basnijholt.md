@@ -1,6 +1,6 @@
 # home-assistant-config
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/basnijholt/home-assistant-config, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/run/328d440f-d7a4-4c39-84e2-76bc536
 - Test commit: `3b7b439761c4be7b854278b6e6d094a668712595`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 17.8 to 17.8 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 17.8 to 47 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/328d440f-d7a4-4c39-84e2-76bc536
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 17.8 | 8 | 8 | [run](https://argusic.com/run/328d440f-d7a4-4c39-84e2-76bc5367aa5b) |
+| 2 | fail | 20 | n/a | 47 | 0 | 0 | [run](https://argusic.com/run/7367b6b2-3785-4dd4-b8d0-07d2f92340f1) |
 
 ## What was observed on a clean machine
 
