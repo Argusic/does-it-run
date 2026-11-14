@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/imguicolortextedit
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.2 to 10.2 minutes
+- Valid runs: 2; wall time 2.9 to 10.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/imguicolortextedit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 10.2 | 1 | 1 | [run](https://argusic.com/run/00fd04ac-006e-4075-a5d6-dcdad522136c) |
+| 2 | pass | 100 | 2 | 2.9 | 0 | 0 | [run](https://argusic.com/run/f6b53b96-bcd7-4f17-9e11-5ab2bfe48e06) |
 
 ## What was observed on a clean machine
 

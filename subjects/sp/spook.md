@@ -1,6 +1,6 @@
 # spook
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/frenck/spook, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/spook
 - Test commit: `532d371c18bfc1f602d5d3064ba60c388e27df5a`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 2.9 to 2.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.4 to 2.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/spook
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 2.9 | 0 | 0 | [run](https://argusic.com/run/04b1c4eb-2fc4-4c50-99d3-5f67f3c2da55) |
+| 2 | fail | 20 | n/a | 0.4 | 0 | 0 | [run](https://argusic.com/run/f11fb649-2fac-4f54-96cc-13d6ca97077d) |
 
 ## What was observed on a clean machine
 

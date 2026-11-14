@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sshs
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.5 to 3.5 minutes
+- Valid runs: 2; wall time 2.2 to 3.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sshs
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.2 | 3.5 | 0 | 0 | [run](https://argusic.com/run/9b9f217d-9d93-44b7-9496-084b5024ba9d) |
+| 2 | pass | 100 | 1 | 2.2 | 0 | 0 | [run](https://argusic.com/run/da13aebe-ff6f-4476-ae79-f42e65626974) |
 
 ## What was observed on a clean machine
 

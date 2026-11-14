@@ -1,6 +1,6 @@
 # open-edit
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/veedstudio/open-edit, licensed Apache-2.0, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/open-edit
 - Test commit: `dd7913b0bb12c19c5196332df5aff1f55799b291`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 6.6 to 6.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 6.6 to 16.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/open-edit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 6.6 | 3 | 3 | [run](https://argusic.com/run/e7b04b50-96c1-40a9-bb92-e546cb1d4f28) |
+| 2 | fail | 20 | n/a | 16.6 | 0 | 0 | [run](https://argusic.com/run/26323d9c-0d36-4aaf-98f2-3e9b9696e71d) |
 
 ## What was observed on a clean machine
 

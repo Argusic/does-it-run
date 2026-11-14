@@ -1,6 +1,6 @@
 # n8n-as-code
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/EtienneLescot/n8n-as-code, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/n8n-as-code
 - Test commit: `cc7f42e8781c39feeb458f87338d6c622f05414d`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 18.7 to 18.7 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 18.7 to 29.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/n8n-as-code
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 20 | 18.7 | 5 | 5 | [run](https://argusic.com/run/5f353f7f-4221-4c12-83af-e047be8243e7) |
+| 2 | fail | 20 | n/a | 29.9 | 0 | 0 | [run](https://argusic.com/run/bafbe518-9ccb-42b3-97e3-5392e1ba747c) |
 
 ## What was observed on a clean machine
 

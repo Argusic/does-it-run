@@ -1,6 +1,6 @@
 # wiredoor
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/wiredoor/wiredoor, licensed Apache-2.0, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/wiredoor
 - Test commit: `bd01563510987ce85b263bfc71617cb8abdb801c`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 8.5 to 8.5 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 0.5 to 8.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/wiredoor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2 | 8.5 | 2 | 2 | [run](https://argusic.com/run/c513f1ff-0f88-4f76-b17c-4a03a83f3097) |
+| 2 | fail | 20 | n/a | 0.5 | 0 | 0 | [run](https://argusic.com/run/92d93b26-4021-4a3b-aad3-66106572f3e0) |
 
 ## What was observed on a clean machine
 

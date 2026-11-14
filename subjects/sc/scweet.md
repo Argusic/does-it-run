@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/scweet
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 9 to 9 minutes
+- Valid runs: 2; wall time 9 to 11.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/scweet
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.5 | 9 | 0 | 0 | [run](https://argusic.com/run/5fc1dadc-43ca-4087-90c3-41e9122266fe) |
+| 2 | pass with mocks | 92 | 0.25 | 11.7 | 0 | 0 | [run](https://argusic.com/run/e9745050-f190-4979-ae2b-c1271897854a) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/video-podcast-maker
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7 to 7 minutes
+- Valid runs: 2; wall time 4.1 to 7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/video-podcast-maker
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 7 | 2 | 2 | [run](https://argusic.com/run/c23d0d83-5933-4c98-b9a9-331cd19e840c) |
+| 2 | pass | 100 | 12 | 4.1 | 0 | 0 | [run](https://argusic.com/run/3e3c76d4-75e2-4497-8787-26800e57e172) |
 
 ## What was observed on a clean machine
 

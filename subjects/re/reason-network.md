@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/reason-network
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.2 to 10.2 minutes
+- Valid runs: 2; wall time 5.4 to 10.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/reason-network
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 10.2 | 0 | 0 | [run](https://argusic.com/run/2a4de425-4ea6-4d70-a6c4-b9a637e04a58) |
+| 2 | pass | 100 | 1 | 5.4 | 0 | 0 | [run](https://argusic.com/run/81b6e547-fec6-4f3e-958e-a55f00111f38) |
 
 ## What was observed on a clean machine
 

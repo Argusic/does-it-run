@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agently
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 45.4 to 45.4 minutes
+- Valid runs: 2; wall time 15.7 to 45.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agently
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 45.4 | 4 | 4 | [run](https://argusic.com/run/dd7e9def-fd89-402c-adee-d404edea1209) |
+| 2 | pass | 100 | 2 | 15.7 | 4 | 4 | [run](https://argusic.com/run/256ad96e-b530-4ab1-bc64-a6e3164e9bf2) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 2 min: `No python binary on PATH , only python3 available, but code adapters and providers hardcoded python as argv[0]`
 - `9 characterization tests fail due to baseline snapshot drift (event paths and prompt content differ across package versions)`
 - `test_gvisor_direct_docker_run_emits_one_fixed_runtime_argv fails , Docker daemon not available in container and monkeypatch does not cover inspect_availability()`
+
+Attempt 2:
+
+- 0.5 min: `Missing python-dotenv dependency for .env file loading`
+- 2 min: `PythonCodeRuntimeAdapter used 'python' as subprocess argv but only 'python3' exists on this Debian system`
+- 3 min: `TrustedLocalExecutionResourceProvider used shutil.which('python') which found nothing`
+- 1 min: `gVisor test didn't mock is_binary_available, Docker not available`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

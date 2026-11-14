@@ -1,6 +1,6 @@
 # APIPark
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/APIParkLab/APIPark, licensed Apache-2.0, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/apipark
 - Test commit: `b6b58db20bfb8903a5bd623a0272dda16388dbb5`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 56.8 to 56.8 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 20.3 to 56.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/apipark
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 14.5 | 56.8 | 6 | 6 | [run](https://argusic.com/run/4d97bdd7-58f8-409d-b65d-777a7c789d62) |
+| 2 | fail | 20 | n/a | 20.3 | 0 | 0 | [run](https://argusic.com/run/3c564b47-3711-400a-94da-b397e545421e) |
 
 ## What was observed on a clean machine
 

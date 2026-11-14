@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/actionbook
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 13.4 to 13.4 minutes
+- Valid runs: 2; wall time 8.9 to 13.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/actionbook
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 12 | 13.4 | 4 | 4 | [run](https://argusic.com/run/57d3d662-a209-4f9d-8eed-9a8c1ec6adcb) |
+| 2 | pass with mocks | 92 | 8 | 8.9 | 4 | 4 | [run](https://argusic.com/run/e9ecc899-0ed5-430f-be1d-a57c619732ea) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 3 min: `Rust toolchain not installed (needed for packages/cli)`
 - 2 min: `tools-ai-sdk tests failed , mock exported 'getActionByIdDescription'/'getActionByIdSchema' but code imports 'getActionByAreaIdDescription'/'getActionByAreaIdSchema'`
 - `CLI Rust lib test 'diagnose_port_holder_returns_pid_for_occupied' fails , depends on 'lsof' (not installed in container)`
+
+Attempt 2:
+
+- 1 min: `pnpm not on PATH after npm install to --prefix`
+- 1 min: `tools-ai-sdk test mock used getActionByIdDescription/getActionByIdSchema but get-action-by-id.ts imports getActionByAreaIdDescription/getActionByAreaIdSchema`
+- 2 min: `Rust CLI test diagnose_port_holder_returns_pid_for_occupied panics because lsof is not in the container`
+- `dify-plugin test requires 'uv' (Python package manager) which is not installed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

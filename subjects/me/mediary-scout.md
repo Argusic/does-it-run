@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mediary-scout
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 37.8 to 37.8 minutes
+- Valid runs: 2; wall time 7.6 to 37.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mediary-scout
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 41 | 37.8 | 3 | 3 | [run](https://argusic.com/run/06c4ba50-94d2-403d-808a-9fe2ada6ff44) |
+| 2 | pass | 100 | 8 | 7.6 | 0 | 0 | [run](https://argusic.com/run/a815f534-11b9-4d87-a800-beeb5c744f08) |
 
 ## What was observed on a clean machine
 

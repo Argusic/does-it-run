@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/homeassistant-powercalc
 - Test commit: `80c16afc0f7fc0b75e4e1fa781709de4e4ad84a3`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 4.1 to 4.1 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 4.1 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/homeassistant-powercalc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 4.1 | 1 | 1 | [run](https://argusic.com/run/61bbb386-cad4-4cf3-a513-ad7aa294c5ec) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/8fdaff30-e393-48f5-a715-a1c1e19234fa) |
 
 ## What was observed on a clean machine
 

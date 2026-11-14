@@ -1,6 +1,6 @@
 # apinto
 
-**Verdict: runs.** Argusic Score 82.9 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 91.4 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/eolinker/apinto, licensed Apache-2.0, written in Go.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/apinto
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 14.2 to 14.2 minutes
+- Valid runs: 2; wall time 14.2 to 17.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/apinto
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 82.86 | 14 | 14.2 | 7 | 1 | [run](https://argusic.com/run/8ce71ec5-a50a-474a-a6c0-6ea7b87d8e9d) |
+| 2 | pass | 100 | 13 | 17.1 | 4 | 4 | [run](https://argusic.com/run/f4cd80f8-a319-4c04-861e-c6edb5b4b1ac) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,12 @@ Attempt 1:
 - `drivers/service/send_test.go: ':invalid balance' - depends on external discovery service`
 - `drivers/output/syslog/output_test.go: connection refused on tcp 127.0.0.1:514`
 - `node/fasthttp-client/client_test.go: ProxyTimeout test fails connecting to 127.0.0.1:8099`
+
+Attempt 2:
+
+- 2 min: `Go compiler not installed in environment`
+- 0.4 min: `go build ./... failed with missing go.sum entries`
+- 2 min: `router/http-router/append_test.go: undefined CheckJson`
+- 1 min: `utils/json_test.go: non-constant format string in t.Logf`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

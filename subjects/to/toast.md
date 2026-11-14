@@ -1,6 +1,6 @@
 # toast
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/stepchowfun/toast, licensed MIT, written in Rust.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/toast
 - Test commit: `a6d5791eb652230533515d39bb4ac9da8677f3d7`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 3.2 to 3.2 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 0.2 to 3.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/toast
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 3 | 3.2 | 2 | 2 | [run](https://argusic.com/run/82032f48-5d46-47ad-b3cb-3710155a9cad) |
+| 2 | fail | 20 | n/a | 0.2 | 0 | 0 | [run](https://argusic.com/run/fa81b9c3-aa07-4304-b4c8-0b7be1718241) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/env-cmd
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.7 to 6.7 minutes
+- Valid runs: 2; wall time 5 to 6.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,18 @@ Evidence and recordings: https://argusic.com/subject/env-cmd
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.95 | 6.7 | 1 | 1 | [run](https://argusic.com/run/b137761e-ce3b-4a0e-a8c8-869d02834dc4) |
+| 2 | pass | 100 | 15 | 5 | 3 | 3 | [run](https://argusic.com/run/42555e04-977b-416c-9299-5c79955a7f26) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.2 min: `Pre-built dist/parse-args.js uses Node 21+ import assertion syntax 'with { type: json }', failing on Node 18`
+
+Attempt 2:
+
+- 3 min: `Node.js 18 does not support import ... with { type: 'json' } syntax in parse-args.ts`
+- 3 min: `Node.js 18 does not support { with: { type: 'json' } } as import attribute in dynamic import; requires { assert: { type: 'json' } }`
+- 2 min: `TypeScript build error in node_modules/@types/sinon: Namespace has no exported member 'FakeTimerInstallOpts'`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

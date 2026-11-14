@@ -1,6 +1,6 @@
 # oak
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/oakmound/oak, licensed Apache-2.0, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/oak
 - Test commit: `ae327857d9b97c90bf0e133db5b91616baae9527`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 23.3 to 23.3 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 9.5 to 23.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/oak
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 23.3 | 3 | 3 | [run](https://argusic.com/run/b3ae0092-9d0d-45b1-b841-b7bbeca371b6) |
+| 2 | fail | 20 | n/a | 9.5 | 0 | 0 | [run](https://argusic.com/run/5a51995d-6804-4a67-86f8-8737e053d938) |
 
 ## What was observed on a clean machine
 

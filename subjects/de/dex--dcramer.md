@@ -4,7 +4,7 @@
 
 Project: https://github.com/dcramer/dex, licensed MIT, written in TypeScript.
 
-Evidence and recordings: https://argusic.com/subject/dex
+Evidence and recordings: https://argusic.com/run/bb165576-c656-4f0e-82e2-ed9f75e3e5ac
 
 ## Pinned environment
 

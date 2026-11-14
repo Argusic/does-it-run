@@ -1,6 +1,6 @@
 # engo
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/EngoEngine/engo, licensed MIT, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/engo
 - Test commit: `4d9de92353879edf4d7597d6070f4994cf307c41`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 17.1 to 17.1 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.3 to 17.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/engo
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 16 | 17.1 | 9 | 9 | [run](https://argusic.com/run/7dcfd298-f8fc-42f6-bb61-b5bcf6ed7bf5) |
+| 2 | fail | 20 | n/a | 0.3 | 0 | 0 | [run](https://argusic.com/run/e40281bb-2691-4b7b-b8aa-c69c8bfc807e) |
 
 ## What was observed on a clean machine
 

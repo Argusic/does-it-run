@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/openlore
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.3 to 7.3 minutes
+- Valid runs: 2; wall time 6 to 7.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/openlore
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 7.3 | 2 | 2 | [run](https://argusic.com/run/36e392ac-8970-4f66-944f-86bfd248d32f) |
+| 2 | pass | 100 | 2.5 | 6 | 1 | 1 | [run](https://argusic.com/run/272ace1e-f248-4310-b48e-8ba77a507848) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1 min: `Go compiler not found in container`
 - 1 min: `Server failed to start: missing ./config/lore.json auth config`
+
+Attempt 2:
+
+- 1.5 min: `Go (golang) not installed in container - needed to build the project`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

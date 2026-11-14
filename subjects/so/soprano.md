@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/soprano
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.4 to 15.4 minutes
+- Valid runs: 2; wall time 5 to 15.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/soprano
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 15.4 | 1 | 1 | [run](https://argusic.com/run/d21c3100-eba2-431f-8be0-ac56a26142db) |
+| 2 | pass | 100 | 2 | 5 | 0 | 0 | [run](https://argusic.com/run/48fed309-6a3e-45b5-9902-11b4bef1dfa3) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # pi-mcp-adapter
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/nicobailon/pi-mcp-adapter, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/pi-mcp-adapter
 - Test commit: `7bf2332932b652416ea717e154352baed7420b66`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 8.6 to 8.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.3 to 8.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pi-mcp-adapter
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 8.6 | 1 | 1 | [run](https://argusic.com/run/266bd84f-ed6b-4fc4-83ef-ae6700089f5e) |
+| 2 | fail | 20 | n/a | 0.3 | 0 | 0 | [run](https://argusic.com/run/2ab7ec93-116f-4f2a-aa06-d390202e0963) |
 
 ## What was observed on a clean machine
 

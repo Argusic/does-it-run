@@ -1,6 +1,6 @@
 # TalkingHead
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/met4citizen/TalkingHead, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/talkinghead
 - Test commit: `b3e277b3b46f88e557bf28a2c5612a5b04e075c3`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 13.8 to 13.8 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 0.7 to 13.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/talkinghead
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 12 | 13.8 | 4 | 4 | [run](https://argusic.com/run/4d5be63d-53d6-4765-96b1-10e025e5c9b6) |
+| 2 | fail | 20 | n/a | 0.7 | 0 | 0 | [run](https://argusic.com/run/89aac994-f717-466e-8c57-28f98681ee00) |
 
 ## What was observed on a clean machine
 

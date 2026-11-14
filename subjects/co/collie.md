@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/collie
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.3 to 12.3 minutes
+- Valid runs: 2; wall time 9 to 12.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/collie
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 12.3 | 2 | 2 | [run](https://argusic.com/run/590e432f-e9ba-4964-ae41-e5272e326a02) |
+| 2 | pass | 100 | 10 | 9 | 6 | 6 | [run](https://argusic.com/run/263020bf-21fa-40b6-9182-fa99458cadd5) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,13 @@ Attempt 1:
 
 - 1 min: `Bun not found in container`
 - 2 min: `Node.js 18 too old for Vite 8.x (needs 20.19+)`
+
+Attempt 2:
+
+- 1 min: `Bun not found in environment`
+- 1 min: `Node.js 18.19.1 too old for Vite 8.x (needs 20.19+)`
+- `Vitest 4.x uses 'styleText' from node:util (Node 21+) not available in Node 18`
+- 1 min: `No multiplexer installed (tmux/herdr/zellij missing)`
+- `Bridge couldn't find tmux binary automatically`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

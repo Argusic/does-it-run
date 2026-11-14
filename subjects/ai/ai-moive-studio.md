@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ai-moive-studio
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 21.9 to 21.9 minutes
+- Valid runs: 2; wall time 15.2 to 21.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ai-moive-studio
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.8 | 21.9 | 5 | 5 | [run](https://argusic.com/run/3b920d5a-07fe-4be4-b8bd-ac56965ab347) |
+| 2 | pass with mocks | 92 | 63 | 15.2 | 3 | 3 | [run](https://argusic.com/run/cdbfdb84-4d6d-4cac-9703-32f997390497) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,11 @@ Attempt 1:
 - 5 min: `Stale test imports: src.api.upload, src.api.files, src.api.projects, src.core.auth0_auth`
 - 0.5 min: `Stale test import: src.tasks.task (module is src.tasks.project)`
 - `No PostgreSQL/Redis/MinIO (no Docker) - API register fails`
+
+Attempt 2:
+
+- 5 min: `libmagic.so.1 not found on system - python-magic dependency requires it`
+- 1 min: `pytest.ini used [tool:pytest] header which is invalid in pytest.ini files, causing asyncio_mode to be ignored`
+- 15 min: `68/86 unit tests pass; 18 fail due to pre-existing test code issues (wrong module paths, sync/async mismatches in test code itself)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

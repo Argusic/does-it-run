@@ -1,6 +1,6 @@
 # eva.js
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/eva-engine/eva.js, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/eva-js
 - Test commit: `792ede99108c5af56ff724c2e136747406895d02`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 24.8 to 24.8 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 11.3 to 24.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/eva-js
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.37 | 24.8 | 6 | 6 | [run](https://argusic.com/run/cdd68e7a-81a3-4478-be9a-1671c080650d) |
+| 2 | fail | 20 | n/a | 11.3 | 0 | 0 | [run](https://argusic.com/run/41d29c9f-d23e-45a0-bd50-a4bd76371237) |
 
 ## What was observed on a clean machine
 

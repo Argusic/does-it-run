@@ -1,6 +1,6 @@
 # Dive
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/OpenAgentPlatform/Dive, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/dive
 - Test commit: `5fb62b91b55c4b781af71e43750574a2a1642416`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 26.5 to 26.5 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 0.4 to 26.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/dive
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 31 | 26.5 | 6 | 6 | [run](https://argusic.com/run/d66076a6-5295-494d-8006-34aeb382c4a1) |
+| 2 | fail | 20 | n/a | 0.4 | 0 | 0 | [run](https://argusic.com/run/62ff4044-396e-4fc4-8ce2-bc4752e78132) |
 
 ## What was observed on a clean machine
 
