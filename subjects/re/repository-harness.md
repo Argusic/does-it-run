@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/repository-harness
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 46 to 46 minutes
+- Valid runs: 2; wall time 5.2 to 46 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/repository-harness
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4.5 | 46 | 2 | 2 | [run](https://argusic.com/run/e4d017cd-6d95-4ec3-8a38-9be3bac3b2d4) |
+| 2 | pass | 100 | 2.5 | 5.2 | 0 | 0 | [run](https://argusic.com/run/c30317d2-f20a-4d9d-a4eb-2b8da0ec9f8e) |
 
 ## What was observed on a clean machine
 

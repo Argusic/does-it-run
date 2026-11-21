@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/churn-php
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 41.4 to 41.4 minutes
+- Valid runs: 2; wall time 2.9 to 41.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/churn-php
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 41 | 41.4 | 7 | 7 | [run](https://argusic.com/run/e93c7ff2-3d51-4e18-ab50-af7cbb962a11) |
+| 2 | pass | 100 | 18 | 2.9 | 2 | 2 | [run](https://argusic.com/run/fc54c836-7c23-4d65-bcfe-3bdd08ab1552) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,10 @@ Attempt 1:
 - 2 min: `PHP DOM extension required for phar-io/manifest`
 - 2 min: `PHP mbstring extension required for phpunit install`
 - `5 pre-existing test failures in FileHelperTest for Windows path handling on Linux`
+
+Attempt 2:
+
+- 4 min: `PHP and Composer not installed in container`
+- 2 min: `5 test failures in FileHelperTest: Windows path data providers ran on Linux and produced wrong results`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

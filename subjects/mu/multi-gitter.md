@@ -1,6 +1,6 @@
 # multi-gitter
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/lindell/multi-gitter, licensed Apache-2.0, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/multi-gitter
 - Test commit: `b57d63b3c513078f26dad5c1b341e9505e9cad23`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 40.1 to 40.1 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 4.2 to 40.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/multi-gitter
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2 | 40.1 | 5 | 5 | [run](https://argusic.com/run/f851c71b-ce77-49f1-8b0f-d0d5e7cea79d) |
+| 2 | pass | 100 | 1.6 | 4.2 | 1 | 1 | [run](https://argusic.com/run/3313f237-bc33-4ed2-97ff-79fd20679d70) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,9 @@ Attempt 1:
 - 42 min: `mock Gerrit smart-HTTP git endpoints and refs/for handling not wire-compatible with real git clients`
 - 4 min: `first e2e run pushed but found no change (mock change row not created)`
 - 2 min: `misread an earlier pre-fix failure as the final run's outcome`
+
+Attempt 2:
+
+- 1.6 min: `Go 1.26 SDK not installed in container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

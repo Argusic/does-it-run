@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ide
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.4 to 6.4 minutes
+- Valid runs: 2; wall time 6.4 to 12.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ide
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 6.4 | 2 | 2 | [run](https://argusic.com/run/86e671b3-63ec-4d34-b63e-346f05c9b622) |
+| 2 | pass | 100 | 0.25 | 12.7 | 4 | 4 | [run](https://argusic.com/run/1dbd0f4f-c7bc-4fce-8156-dd357069c1f9) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,12 @@ Attempt 1:
 
 - 2 min: `npx puppeteer browsers install chrome failed with SyntaxError: Invalid regular expression flags (Node v18 lacks /v regex support required by puppeteer's cliui/string-width deps)`
 - 1 min: `python3 -m http.server in background terminated shortly after launch`
+
+Attempt 2:
+
+- 22 min: `Chrome in this container cannot reach localhost (network namespace restriction), file:// protocol must be used instead`
+- `Favicon paths use absolute file paths (/favicons/...) that fail from file:// protocol`
+- `ServiceWorker registration fails on file:// protocol (expected browser limitation)`
+- `Puter.js warns about missing HTTP origin when served via file://`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

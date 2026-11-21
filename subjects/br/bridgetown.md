@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/bridgetown
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.5 to 16.5 minutes
+- Valid runs: 2; wall time 16.5 to 19 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/bridgetown
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15.05 | 16.5 | 4 | 4 | [run](https://argusic.com/run/f474d86f-1d7a-4e7c-9a28-449bdfadf123) |
+| 2 | pass | 100 | 22 | 19 | 4 | 4 | [run](https://argusic.com/run/f63088a7-10c6-4b53-a8b2-c167e453b4da) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - `zlib extension missing in ruby build (libz dev headers not installed)`
 - `psych extension missing (libyaml not available)`
 - `bundle install failed because psych 5.2.6 gem native extension build failed`
+
+Attempt 2:
+
+- 12 min: `Ruby not found in container`
+- 3 min: `Missing libyaml-dev and libffi-dev development headers for Ruby compilation`
+- 2 min: `Ruby zlib extension not compiled (no zlib.h during Ruby build)`
+- `test_apply_command.rb: assertion failure: expected 'add bridgetown.automation.rb' in output`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

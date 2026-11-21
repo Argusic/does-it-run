@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/scrapyrt
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.2 to 5.2 minutes
+- Valid runs: 2; wall time 5.2 to 9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,18 @@ Evidence and recordings: https://argusic.com/subject/scrapyrt
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 5.2 | 1 | 1 | [run](https://argusic.com/run/428e255f-96d4-41db-8813-4a63996360c4) |
+| 2 | pass | 100 | 23 | 9 | 3 | 3 | [run](https://argusic.com/run/33fbf1aa-8e57-4b4e-b411-dab4a0a13815) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `flask command not found on PATH when running integration tests (Flask installed only in venv)`
+
+Attempt 2:
+
+- 1 min: `ModuleNotFoundError: No module named 'port_for'`
+- 3 min: `FileNotFoundError: 'flask' not found for mock test server subprocess`
+- 1 min: `AssertionError: req.url 'http://localhost/' != 'http://localhost' in test_crawl_manager.py`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

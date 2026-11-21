@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/langsmith-sdk
 - Test commit: `c51e722026138478b728884d9a3b504ef2ba8ea0`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 44.9 to 44.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 44.9 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/langsmith-sdk
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 40 | 44.9 | 5 | 5 | [run](https://argusic.com/run/486fbb50-1cd6-45fe-a484-1e710835203f) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/f23947d5-186c-4697-a937-d4bace902eaf) |
 
 ## What was observed on a clean machine
 

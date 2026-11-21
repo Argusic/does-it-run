@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/apiark
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13 to 13 minutes
+- Valid runs: 2; wall time 4.8 to 13 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/apiark
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 13 | 13 | 7 | 7 | [run](https://argusic.com/run/08b6d16a-b616-4af9-a74c-1363ef02b047) |
+| 2 | pass | 100 | 5 | 4.8 | 6 | 6 | [run](https://argusic.com/run/c8a11672-b872-451c-9155-d955f653ccfe) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,14 @@ Attempt 1:
 - 3 min: `glib-2.0.pc missing (Tauri dep)`
 - 3 min: `gobject-2.0/gio-2.0 .pc files chain`
 - 1 min: `gdk-sys (GTK3 dev) not buildable`
+
+Attempt 2:
+
+- 2 min: `Node.js v18 too old (requires >=22)`
+- 1 min: `pnpm not installed`
+- 2 min: `Rust not installed`
+- 1 min: `pnpm install blocked on esbuild/sharp build scripts`
+- 0.5 min: `CLI collection missing .apiark/apiark.yaml config`
+- 0.5 min: `CLI config version field type mismatch (string vs u32)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

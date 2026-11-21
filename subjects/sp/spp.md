@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/spp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.1 to 4.1 minutes
+- Valid runs: 2; wall time 4.1 to 9.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/spp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 4.1 | 0 | 0 | [run](https://argusic.com/run/a0c6c4db-fbd1-47da-a019-c45015fdb135) |
+| 2 | pass | 100 | 10 | 9.6 | 0 | 0 | [run](https://argusic.com/run/01662fca-35f2-402f-b18f-cba7ec90bec2) |
 
 ## What was observed on a clean machine
 

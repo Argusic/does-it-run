@@ -4,7 +4,7 @@
 
 Project: https://github.com/HiThink-Tech/Financial-API, licensed MIT, written in TypeScript.
 
-Evidence and recordings: https://argusic.com/subject/financial-api
+Evidence and recordings: https://argusic.com/run/6a86130f-c3c3-402e-894d-40280615c41a
 
 ## Pinned environment
 

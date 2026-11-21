@@ -1,6 +1,6 @@
 # HomeKey-ESP32
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 95 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/rednblkx/HomeKey-ESP32, licensed MIT, written in C++.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/homekey-esp32
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 19.9 to 19.9 minutes
+- Valid runs: 2; wall time 18.3 to 19.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/homekey-esp32
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 20 | 19.9 | 4 | 4 | [run](https://argusic.com/run/e726e4d7-5f28-42aa-85c9-a6327dc1bc0c) |
+| 2 | pass | 90 | 18 | 18.3 | 2 | 1 | [run](https://argusic.com/run/bc0b5806-0424-4ed1-91c2-eba75b380a60) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,10 @@ Attempt 1:
 - 2 min: `bun not found on PATH (needed for web UI build)`
 - 2 min: `Node.js v18 too old for Vite 8 (requires 20.19+)`
 - 1 min: `Dependency cache error for lan86xx_common component`
+
+Attempt 2:
+
+- 2 min: `Build required bun for web UI bundling but bun was not available (no unzip binary in container)`
+- `11/12 DDK host-side tests passed; 1 pre-existing failure in aliro_ble_flow_test (2 assertions about time_sync_count and status byte)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

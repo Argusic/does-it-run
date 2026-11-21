@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/adobe-premiere-pro-mcp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 13.9 to 13.9 minutes
+- Valid runs: 2; wall time 13.9 to 23.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/adobe-premiere-pro-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 5 | 13.9 | 1 | 1 | [run](https://argusic.com/run/1fb4ddb0-64ee-4d56-b8a9-0f5f466708cb) |
+| 2 | pass with mocks | 92 | 8 | 23.4 | 2 | 2 | [run](https://argusic.com/run/738489fb-cee5-4cdd-bae7-2bf5dd14867a) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `CLI --version flag uses Node 20-only import assertion (import ... with { type: 'json' })`
+
+Attempt 2:
+
+- 1 min: `build_motion_graphics_demo test timed out at 30s in the full suite`
+- 2 min: `--version flag crashed with JSON import assertion error on Node 18`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

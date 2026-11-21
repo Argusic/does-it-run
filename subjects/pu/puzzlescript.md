@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/puzzlescript
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.6 to 11.6 minutes
+- Valid runs: 2; wall time 11.6 to 14.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/puzzlescript
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 25 | 11.6 | 2 | 2 | [run](https://argusic.com/run/d6223642-af8a-409e-afb8-4c5364ab28d8) |
+| 2 | pass | 100 | 2 | 14.8 | 1 | 1 | [run](https://argusic.com/run/4bdb5e43-a0a3-4620-b118-c7d02f8d4c83) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 2 min: `gifsicle@7 is ESM-only, cannot require() it from CJS compile.js`
 - 3 min: `compress-images internally require('gifsicle') also fails with ESM error`
+
+Attempt 2:
+
+- 2 min: `gifsicle@^7.0.1 is ESM-only, compile.js and compress-images use require()`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

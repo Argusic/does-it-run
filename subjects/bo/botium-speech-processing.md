@@ -1,6 +1,6 @@
 # botium-speech-processing
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/codeforequity-at/botium-speech-processing, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/botium-speech-processing
 - Test commit: `33db7c08d24daa4087649975422cd73700bc5ffc`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 5.9 to 5.9 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 4.9 to 5.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/botium-speech-processing
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 35 | 5.9 | 5 | 5 | [run](https://argusic.com/run/2642be0c-0b2b-4052-98d1-f43f9b6a2ad2) |
+| 2 | fail | 20 | n/a | 4.9 | 0 | 0 | [run](https://argusic.com/run/43277492-83d4-4659-add2-96f2633816fc) |
 
 ## What was observed on a clean machine
 

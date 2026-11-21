@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/homeassistant-espscreen
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 84 to 84 minutes
+- Valid runs: 2; wall time 24.4 to 84 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/homeassistant-espscreen
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 64 | 84 | 6 | 6 | [run](https://argusic.com/run/bd4b8016-c087-48af-b758-85233f2baeda) |
+| 2 | pass | 100 | 48 | 24.4 | 4 | 4 | [run](https://argusic.com/run/eabc4c21-613c-4fc3-a819-22b81a9fe5d7) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,12 @@ Attempt 1:
 - 5 min: `Editor tests/build fail: crypto.hash not available in Node 18`
 - 5 min: `Python server tests fail: /assets/ directory missing`
 - `3 editor tests flaky timeout at 5000ms in resource-constrained environment`
+
+Attempt 2:
+
+- 3 min: `Static assets directory missing from git working tree (git checkout -- failed during editor build's rm -rf)`
+- 5 min: `Node 18 too old for web editor (requires >=22.12)`
+- 2 min: `C++ test test_alert_overlay.cpp: g++ -Werror=parentheses on && within ||`
+- 1 min: `C++ test test_settings_screen.cpp: g++ -Wdangling-reference false positives on const Row& from row_named()`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # minima
 
-**Verdict: runs with mocks.** Argusic Score 87 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 89.5 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Minima-AI-Inc/minima, licensed MPL-2.0, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/minima
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 36.8 to 36.8 minutes
+- Valid runs: 2; wall time 19.6 to 36.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/minima
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 87 | 37 | 36.8 | 8 | 6 | [run](https://argusic.com/run/cf99fbf0-fc95-4392-91b6-e22d8fa2fecf) |
+| 2 | pass with mocks | 92 | 33 | 19.6 | 7 | 7 | [run](https://argusic.com/run/40169394-3f6d-4dcd-847a-78274184ab69) |
 
 ## What was observed on a clean machine
 
@@ -34,5 +35,15 @@ Attempt 1:
 - 5 min: `Indexer search via API returns empty with in-memory Qdrant`
 - 1 min: `Docker not available - Qdrant, Ollama containers cannot run`
 - 1 min: `Firebase credentials required for linker service`
+
+Attempt 2:
+
+- 5 min: `Docker not available in container (required by run.sh and all docker-compose workflows)`
+- 2 min: `pip externally-managed-environment error prevents system-wide install`
+- 3 min: `starlette version conflict: mcp-server pins starlette>=0.49.1 but fastapi 0.111.0 requires <0.38.0`
+- 2 min: `MCP server import error: McpError renamed to MCPError in installed mcp 2.3.0`
+- 1 min: `Chat UI App.test.js fails - pre-existing template test expects nonexistent 'learn react' link`
+- 1 min: `Electron SUID sandbox helper requires root; chrome-sandbox not setup in container`
+- 1 min: `Qdrant local mode warns payload indexes have no effect (cosmetic, non-functional)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

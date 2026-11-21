@@ -1,6 +1,6 @@
 # Filtmall-Shopping-Skill
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/filtalgo/Filtmall-Shopping-Skill, licensed Apache-2.0, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/filtmall-shopping-skill
 - Test commit: `9904c8df53c97cb0feb17f2915451a319e8eef83`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 17.8 to 17.8 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 10.6 to 17.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/filtmall-shopping-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0 | 17.8 | 0 | 0 | [run](https://argusic.com/run/ca3e7772-52ac-4561-936c-8b23fbcbce5f) |
+| 2 | fail | 20 | n/a | 10.6 | 0 | 0 | [run](https://argusic.com/run/c098f7f2-26f9-4c57-bafb-23722ca50d5b) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # WA-AKG
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/mrifqidaffaaditya/WA-AKG, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/wa-akg
 - Test commit: `c7dd01a04339e4363b549beb3a41fe02cf131acb`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 12.2 to 12.2 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 7.4 to 12.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/wa-akg
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 12.2 | 6 | 6 | [run](https://argusic.com/run/705c00e2-e89f-4944-9dff-600afb165059) |
+| 2 | fail | 80 | 7 | 7.4 | 3 | 3 | [run](https://argusic.com/run/530effac-6f7b-4fb9-a4f3-dd0053c74a22) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,11 @@ Attempt 1:
 - 1 min: `Initial app launch logged Prisma errors (DB unreachable / table missing) because the earlier MySQL server had crashed`
 - 1 min: `No automated test suite exists: no npm test script, no test runner in package.json`
 - 1 min: `login page (auth route) requires a CSRF token for the NextAuth credentials callback`
+
+Attempt 2:
+
+- 2 min: `Baileys engine-requirements.js blocks Node <20 at install time`
+- 3 min: `Prisma MySQL schema incompatible with SQLite (enums, @db.Text, Json types)`
+- 1 min: `npm cache corruption caused ENOENT on install`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

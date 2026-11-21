@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/seecode
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.1 to 5.1 minutes
+- Valid runs: 2; wall time 1.6 to 5.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/seecode
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4.5 | 5.1 | 1 | 1 | [run](https://argusic.com/run/8d886e28-d3b3-47fb-8ebb-de59bcd67788) |
+| 2 | pass | 100 | 3.5 | 1.6 | 2 | 2 | [run](https://argusic.com/run/181b1746-b7f1-4b7c-a31a-99471f980205) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1.5 min: `Node.js v18.19.1 installed but project requires >=20`
+
+Attempt 2:
+
+- 2.5 min: `Node.js 18.19.1 installed but project requires >= 20`
+- `No Chrome/Chromium/Edge browser found for PNG/JPEG/GIF export`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

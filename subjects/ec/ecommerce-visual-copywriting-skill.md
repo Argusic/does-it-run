@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ecommerce-visual-copywritin
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.7 to 10.7 minutes
+- Valid runs: 2; wall time 1.6 to 10.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ecommerce-visual-copywritin
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 10.7 | 2 | 2 | [run](https://argusic.com/run/747d0821-6e03-4111-8910-25970e0ccfd7) |
+| 2 | pass | 100 | 4 | 1.6 | 1 | 1 | [run](https://argusic.com/run/a1d4b544-7fe3-4440-8bdd-b9b93cba74e4) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 5 min: `README install 'npx skills add feichanggege/ecommerce-visual-copywriting-skill' crashed on Node v18: skills@1.7.2 requires node >=22.20 and failed on node:util/styleText`
 - 3 min: `tools/verify-skill.py FAIL: SKILL.en.md missing expected text: Evidence ledger`
+
+Attempt 2:
+
+- 1 min: `SKILL.en.md missing expected text: Evidence ledger`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

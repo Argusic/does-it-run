@@ -1,6 +1,6 @@
 # app-platform
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ModelEngine-Group/app-platform, licensed MIT, written in Java.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/app-platform
 - Test commit: `dd242b21cb136c871b1658b9594616a29a2f8246`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 64.9 to 64.9 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 14.6 to 64.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/app-platform
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 64 | 64.9 | 5 | 5 | [run](https://argusic.com/run/9adec033-afed-42fb-881c-8b12270aba02) |
+| 2 | fail | 20 | n/a | 14.6 | 0 | 0 | [run](https://argusic.com/run/fb8de0a8-ce7e-4cf1-8dfd-7047b8ee2c55) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rxrust
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.3 to 1.3 minutes
+- Valid runs: 2; wall time 1.3 to 2.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rxrust
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 1.3 | 0 | 0 | [run](https://argusic.com/run/c4f5c39f-aff6-4378-a8f7-2db211beb542) |
+| 2 | pass | 100 | 4 | 2.1 | 0 | 0 | [run](https://argusic.com/run/fe1b1dbe-4fa9-417f-91b2-8cd6c39adb47) |
 
 ## What was observed on a clean machine
 

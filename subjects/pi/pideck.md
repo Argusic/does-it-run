@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pideck
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.9 to 15.9 minutes
+- Valid runs: 2; wall time 10.4 to 15.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pideck
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 16 | 15.9 | 3 | 3 | [run](https://argusic.com/run/a34fe5e6-523d-44d7-9a6d-c7bee3e42531) |
+| 2 | pass | 100 | 12 | 10.4 | 1 | 1 | [run](https://argusic.com/run/50c51e92-8c63-4116-9af3-47a465d828d8) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 3 min: `System Node 18.19.1 / npm 9.2.0 too old (needs Node >=20.17 and npm ^11.6.2)`
 - `5 pre-existing test failures in extensionManager.test.mjs (TypeScript compilation error in loadTsCommonJs helper, 'Unexpected token :')`
 - `2 pre-existing test failures in docsSharedImages.test.mjs and markdownPathTailTruncation.test.mjs (ErrUnknownFileExtension for .ts imports)`
+
+Attempt 2:
+
+- 4 min: `Node.js v18.19.1 / npm 9.2.0 below project requirement (npm ^11.6.2)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sdk-go
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 29.1 to 29.1 minutes
+- Valid runs: 2; wall time 19.3 to 29.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sdk-go
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 29.1 | 3 | 3 | [run](https://argusic.com/run/5785534b-2a41-426d-b90b-d592258a5828) |
+| 2 | pass | 100 | 13 | 19.3 | 0 | 0 | [run](https://argusic.com/run/532588a6-f278-4fd8-8c15-b59ed3815a5b) |
 
 ## What was observed on a clean machine
 

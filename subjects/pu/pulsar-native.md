@@ -2,7 +2,7 @@
 
 **Verdict: not yet verified.** Argusic Score 20 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Far-Beyond-Pulsar/Pulsar-Native, licensed MIT, written in Rust.
+Project: https://github.com/Far-Beyond-Pulsar/Pulsar-Native, licensed MPL-2.0, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/pulsar-native
 

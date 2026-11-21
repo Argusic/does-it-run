@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/world-intel-mcp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.2 to 3.2 minutes
+- Valid runs: 2; wall time 3.1 to 3.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/world-intel-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5.1 | 3.2 | 0 | 0 | [run](https://argusic.com/run/7395f775-2c72-4593-9c53-2e7bec283673) |
+| 2 | pass | 100 | 0.23 | 3.1 | 0 | 0 | [run](https://argusic.com/run/aecc4c4a-7b7b-4b88-ab02-b625c866eb4b) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # agents-universe
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/agents-universe/agents-universe, licensed Apache-2.0, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/agents-universe
 - Test commit: `c73e89e7bff73e073def5adfa9eb61fdadfa6762`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 36.6 to 36.6 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 5.7 to 36.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agents-universe
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 55 | 36.6 | 3 | 3 | [run](https://argusic.com/run/57845659-6dff-4f84-9779-a8f490ddfeef) |
+| 2 | fail | 20 | n/a | 5.7 | 0 | 0 | [run](https://argusic.com/run/f3518bc9-efa4-4f6d-b565-2802455a4fea) |
 
 ## What was observed on a clean machine
 

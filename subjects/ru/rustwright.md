@@ -1,6 +1,6 @@
 # rustwright
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 95 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Skyvern-AI/rustwright, licensed MIT, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rustwright
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 68 to 68 minutes
+- Valid runs: 2; wall time 17 to 68 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rustwright
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 20 | 68 | 6 | 6 | [run](https://argusic.com/run/2eb4c106-bd8f-4557-8352-9ccbde01614d) |
+| 2 | pass | 90 | 3 | 17 | 2 | 1 | [run](https://argusic.com/run/521275b2-4b52-4567-8b76-3c4294dc6c82) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,10 @@ Attempt 1:
 - 6 min: `Node build failed on Node v18.19.1: '@inquirer/core' requires node:util.styleText (Node >=20.13)`
 - 45 min: `30 tests in tests/test_rustwright_sync_api.py fail against real Chromium: connect_over_cdp remote-cookie sync (empty cookie set), page.requests() window (20 kept, expected 100), HAR route_fulfill FileNotFoundError leak, navigation-mid-wait`
 - 10 min: `Full test_rustwright_sync_api.py run (1639 tests) hangs ~45% in batch mode (flaky Chromium race tests)`
+
+Attempt 2:
+
+- 1 min: `Chromium crashpad handler missing execute permission`
+- 2 min: `cargo test --lib fails: missing libpython3.12.so for linking`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

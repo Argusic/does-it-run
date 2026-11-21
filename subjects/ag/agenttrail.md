@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agenttrail
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3 to 3 minutes
+- Valid runs: 2; wall time 2.9 to 3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/agenttrail
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 3 | 1 | 1 | [run](https://argusic.com/run/ceaac274-e065-4461-b4c1-c900bcdb6467) |
+| 2 | pass | 100 | 5 | 2.9 | 1 | 1 | [run](https://argusic.com/run/e5bbdb93-d4ec-439e-ac77-9c77edfd2d2d) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1 min: `System Node.js v18.19.1 < required >=20`
+
+Attempt 2:
+
+- 2 min: `System Node.js is v18.19.1 but the project requires >=20 (engines in package.json)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

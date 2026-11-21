@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/badaso
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 22.7 to 22.7 minutes
+- Valid runs: 2; wall time 22.7 to 24 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/badaso
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 9 | 22.7 | 5 | 5 | [run](https://argusic.com/run/13f15925-c0ae-4a27-bc47-c6caeff75809) |
+| 2 | pass | 100 | 23 | 24 | 6 | 6 | [run](https://argusic.com/run/40751c0a-0d84-44db-bfcb-3163e6962201) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,14 @@ Attempt 1:
 - `Composer security advisories blocking package installs for league/flysystem, laravel/framework, firebase/php-jwt, unisharp/laravel-filemanager`
 - 3 min: `Migration 2022_03_08_090850 fails with Call to undefined method Doctrine\DBAL\Connection::createSchemaManager() because doctrine/dbal 2.13.9 is pinned but Laravel 10 requires DBAL 3.x schema API`
 - `BadasoApiCrudManagementTest hangs/times out creating tables with SQLite on static PHP build and Schema::hasTable() triggers Doctrine DBAL`
+
+Attempt 2:
+
+- 3 min: `PHP runtime not found in container`
+- 1 min: `Composer not found`
+- 2 min: `Packages blocked by Composer security advisories`
+- 5 min: `doctrine/dbal 2.13.9 has no createSchemaManager() method needed by Laravel SQLite migrations`
+- 1 min: `NPM dependency resolution failure (peer dep conflicts)`
+- 2 min: `ESLint reported 93 formatting errors`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

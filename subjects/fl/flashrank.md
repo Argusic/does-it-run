@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/flashrank
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.7 to 1.7 minutes
+- Valid runs: 2; wall time 1.5 to 1.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/flashrank
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 1.7 | 3 | 3 | [run](https://argusic.com/run/13ef3d5c-fe6e-4b57-ae4e-ca7310007504) |
+| 2 | pass | 100 | 2.5 | 1.5 | 1 | 1 | [run](https://argusic.com/run/51847412-7d6c-414c-8658-d4f6e7ee0f2b) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 1 min: `pip install refused because system Python 3.12 is externally managed (PEP 668, externally-managed-environment)`
 - 3 min: `onnxruntime 1.31.0 repeatedly logs 'pthread_setaffinity_np failed ... error code: 22 Invalid argument' in this container during session creation`
 - 1 min: `The library downloads its reranker model from HuggingFace (prithivida/flashrank) at first use; a motivated user must be online to fetch the ~4.8MB zip`
+
+Attempt 2:
+
+- `onnxruntime pthread_setaffinity_np failed with EINVAL for multiple threads in a containerized environment; 120+ repeated warnings`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

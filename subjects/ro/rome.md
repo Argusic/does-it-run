@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rome
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 53.9 to 53.9 minutes
+- Valid runs: 2; wall time 13.8 to 53.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rome
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 53.9 | 3 | 3 | [run](https://argusic.com/run/f9a5ebf1-062c-411f-a7cd-0685d9b7ab3f) |
+| 2 | pass | 100 | 13 | 13.8 | 2 | 2 | [run](https://argusic.com/run/021c8eb8-eee4-4a01-80b1-abbb16a566dc) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,10 @@ Attempt 1:
 - 3 min: `Node on PATH was v18 with no pnpm; repo requires Node>=24 + pnpm 11.6, so pnpm install could not start`
 - 13 min: `pnpm test:unit failed once with a single order-dependent failure in packages/web channels-settings-page.test.tsx (debounced PATCH missing routing/session fields)`
 - 5 min: `OTLP metrics exporter retries getaddrinfo EAI_AGAIN rome-obs; boot warns 'failed to schedule sentinel_review'; no Docker so dev stack (pnpm dev:all / dashboard on 3000) unavailable`
+
+Attempt 2:
+
+- 2 min: `Node.js v18.19.1 too old (requires >=24). Container had no Node version manager, no Nix, and no corepack.`
+- `pnpm start fails without packed first-party app artifacts`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

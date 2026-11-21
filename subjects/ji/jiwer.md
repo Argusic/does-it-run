@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jiwer
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 0.8 to 0.8 minutes
+- Valid runs: 2; wall time 0.8 to 1.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,14 @@ Evidence and recordings: https://argusic.com/subject/jiwer
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.05 | 0.8 | 0 | 0 | [run](https://argusic.com/run/88498005-0e35-4e2c-ab42-cd3cb9c24a6a) |
+| 2 | pass | 100 | 0.5 | 1.2 | 3 | 3 | [run](https://argusic.com/run/56692e89-78cb-49b7-aa09-8cbfba6294bf) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 0.2 min: `Externally-managed Python environment (Debian/Ubuntu) prevented system-wide pip install`
+- 0.1 min: `dev dependency group uses uv-specific pyproject.toml format [dependency-groups] not recognized by pip, so pytest, ruff, pytest-benchmark not installed`
+- 0.1 min: `test_speed.py uses pytest-benchmark fixture but it wasn't installed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

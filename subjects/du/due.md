@@ -1,6 +1,6 @@
 # due
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 93.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/dobyte/due, licensed MIT, written in Go.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/due
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.1 to 10.1 minutes
+- Valid runs: 2; wall time 10.1 to 23.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/due
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 10.1 | 6 | 6 | [run](https://argusic.com/run/463fbb50-060c-4627-89ba-546c3ceecacd) |
+| 2 | pass | 86.67 | 25 | 23.8 | 3 | 1 | [run](https://argusic.com/run/8ffb2252-8d5e-4d74-b017-b1d625a87c4c) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,11 @@ Attempt 1:
 - 1 min: `lock_test.go: nil pointer dereference because no Maker was set`
 - 1 min: `internal/transporter/gate/builder_test.go: dial tcp 127.0.0.1:49899: connection refused`
 - 1 min: `internal/transporter/node/builder_test.go: dial tcp 127.0.0.1:49898: connection refused`
+
+Attempt 2:
+
+- 5 min: `config/file tests failed due to relative path ./etc and ./config not found (tests run from temp build dir)`
+- `internal/transporter/gate/builder_test.go TestBuilder fails: dial tcp 127.0.0.1:49899 connection refused - requires running cluster gateway service`
+- `internal/transporter/node/builder_test.go TestBuilder fails: dial tcp 127.0.0.1:49898 connection refused - requires running cluster node service`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/chromem-go
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.8 to 3.8 minutes
+- Valid runs: 2; wall time 2.9 to 3.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/chromem-go
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 3.8 | 0 | 0 | [run](https://argusic.com/run/aaf24609-d9ce-404e-bd4b-2409f06da48b) |
+| 2 | pass | 100 | 4 | 2.9 | 0 | 0 | [run](https://argusic.com/run/482919c6-ad69-4807-aae8-ea665ebcb537) |
 
 ## What was observed on a clean machine
 

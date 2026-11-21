@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/arcade-mcp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 17.4 to 17.4 minutes
+- Valid runs: 2; wall time 4.6 to 17.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/arcade-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 17.4 | 3 | 3 | [run](https://argusic.com/run/f3b077d0-c773-412f-bcf4-24f832ba2352) |
+| 2 | pass | 100 | 6 | 4.6 | 0 | 0 | [run](https://argusic.com/run/81d48d00-79d8-4952-86fb-c96589dd83ab) |
 
 ## What was observed on a clean machine
 

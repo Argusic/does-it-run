@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/hyprwhspr
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 16.7 to 16.7 minutes
+- Valid runs: 2; wall time 3.4 to 16.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hyprwhspr
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 9 | 16.7 | 3 | 3 | [run](https://argusic.com/run/b41342eb-e9e9-4adc-9c4f-8c6b2a9dc77a) |
+| 2 | pass with mocks | 92 | 4 | 3.4 | 0 | 0 | [run](https://argusic.com/run/72d38ed7-3ec8-48bf-8a8e-e2cc4b6b1bd3) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/best-claude-hud
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.5 to 3.5 minutes
+- Valid runs: 2; wall time 3.5 to 4.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/best-claude-hud
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 3.5 | 2 | 2 | [run](https://argusic.com/run/bc1eb873-5638-4d82-ae62-ab665982c47a) |
+| 2 | pass | 100 | 0 | 4.1 | 0 | 0 | [run](https://argusic.com/run/a3f09b09-4341-401f-8b6c-f35a7666993a) |
 
 ## What was observed on a clean machine
 

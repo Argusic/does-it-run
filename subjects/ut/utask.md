@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/utask
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.8 to 15.8 minutes
+- Valid runs: 2; wall time 4 to 15.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/utask
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 16 | 15.8 | 3 | 3 | [run](https://argusic.com/run/dccc18c7-9e57-45b4-8054-7e4643f9d585) |
+| 2 | pass | 100 | 10 | 4 | 4 | 4 | [run](https://argusic.com/run/da59876e-3653-4f34-ad8d-ae7364b841b7) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,12 @@ Attempt 1:
 - 2 min: `No Go compiler in container`
 - 3 min: `No PostgreSQL in container`
 - 5 min: `Test pollution: running all tests together fails because templates/functions persist across packages in shared DB`
+
+Attempt 2:
+
+- 2 min: `Go compiler not installed in container`
+- 3 min: `PostgreSQL server not installed`
+- 1 min: `Missing libpq.so.5 shared library for Postgres binaries`
+- 1 min: `Postgres init failed: could not create lock file /var/run/postgresql/`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # autoprompt-skill
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 88.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Spielewoy/autoprompt-skill, licensed MIT, written in JavaScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/autoprompt-skill
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 31 to 31 minutes
+- Valid runs: 2; wall time 15.6 to 31 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/autoprompt-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 5 | 31 | 4 | 4 | [run](https://argusic.com/run/09fbec39-3c69-4edc-8bf4-3193f79a3adb) |
+| 2 | pass with mocks | 84.5 | 36 | 15.6 | 8 | 5 | [run](https://argusic.com/run/f031e7fd-157a-416c-ba79-3246ed354066) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,15 @@ Attempt 1:
 - 1 min: `PyYAML not found in system site-packages; per-user install skipped by test HOME override`
 - 1 min: `python command not on PATH (only python3 exists)`
 - 1 min: `test 109: packed global package configure command failed because subprocess with overridden HOME could not find PyYAML`
+
+Attempt 2:
+
+- 6 min: `Node.js 18 found but project requires 20+`
+- 2 min: `Missing bundled dependencies @iarna/toml and yaml`
+- 3 min: `Python PyYAML not installed`
+- 2 min: `Python jsonschema not installed (needed by benchmark tests)`
+- 3 min: `Tests call 'python' but only python3 available`
+- `Grok sandbox tests fail: bwrap not available`
+- `Grok MCP test fails: controlled tools timing issue`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

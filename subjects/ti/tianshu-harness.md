@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tianshu-harness
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 19 to 19 minutes
+- Valid runs: 2; wall time 18.7 to 19 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tianshu-harness
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 20 | 19 | 3 | 3 | [run](https://argusic.com/run/26316b87-a0e3-4232-8911-2075700eb4ff) |
+| 2 | pass with mocks | 92 | 7 | 18.7 | 2 | 2 | [run](https://argusic.com/run/f4224ccf-55e9-408d-a38f-c2ce0aa49f0c) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,10 @@ Attempt 1:
 - 3 min: `System Node v18.19.1 too old; project requires Node >=24 (engine-strict)`
 - 6 min: `Headless run failed 'Cannot read properties of undefined (reading id)': registering provider with --api-key-env created a provider-keys.json key pool with no models, and contractModels reads that key pool (not top-level models) so model poo`
 - 4 min: `Mock returned plain JSON completion; app correctly rejected 'content-type is application/json (not SSE stream)'`
+
+Attempt 2:
+
+- 0.5 min: `Node.js v18 found, requires >=24`
+- 2 min: `1 test failed: scoped-git-commit 'retries through transient index.lock contention' (timing flake, passes in isolation)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

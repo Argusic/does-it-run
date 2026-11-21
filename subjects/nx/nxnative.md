@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/seedds/nxnative, licensed MIT, written in Python.
+Project: https://github.com/seedds/nxnative, licensed MIT, written in Objective-C.
 
 Evidence and recordings: https://argusic.com/subject/nxnative
 

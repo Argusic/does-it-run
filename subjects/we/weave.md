@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/weave
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.5 to 12.5 minutes
+- Valid runs: 2; wall time 12.5 to 13.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/weave
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5.5 | 12.5 | 0 | 0 | [run](https://argusic.com/run/5ff15897-b8c3-4ad0-bc81-fc3190d5b511) |
+| 2 | pass | 100 | 14 | 13.3 | 0 | 0 | [run](https://argusic.com/run/1b936e69-0efa-4049-91e2-e3b47dcf93bc) |
 
 ## What was observed on a clean machine
 

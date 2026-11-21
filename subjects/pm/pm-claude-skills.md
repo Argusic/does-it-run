@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pm-claude-skills
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.4 to 3.4 minutes
+- Valid runs: 2; wall time 3.4 to 3.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pm-claude-skills
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 3.4 | 3 | 3 | [run](https://argusic.com/run/3d1e9205-97f5-4b0e-85b0-e02cd0dd8457) |
+| 2 | pass | 100 | 0.1 | 3.6 | 2 | 2 | [run](https://argusic.com/run/c9e871e3-6586-4be3-8c06-3d504454f616) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,10 @@ Attempt 1:
 - 3 min: `web/skills.json not found after fresh checkout , generated file missing`
 - 5 min: `exports/ dirs not found , generated files missing after fresh checkout`
 - 1 min: `Playwright not installed for browser tests (web-smoke.mjs, xss-fuzz.mjs)`
+
+Attempt 2:
+
+- `web-smoke.mjs needed playwright (not installed)`
+- `xss-fuzz.mjs needed playwright (not installed)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

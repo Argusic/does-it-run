@@ -1,6 +1,6 @@
 # codex-slides
 
-**Verdict: runs.** Argusic Score 95 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 97.5 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/nexu-io/codex-slides, licensed MIT, written in TypeScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/codex-slides
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.6 to 7.6 minutes
+- Valid runs: 2; wall time 7.6 to 9.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/codex-slides
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 95 | 12 | 7.6 | 4 | 3 | [run](https://argusic.com/run/981a7e4f-4a6e-482d-82f2-4c8d16a75ac3) |
+| 2 | pass | 100 | 21 | 9.7 | 4 | 4 | [run](https://argusic.com/run/aa5f69e0-5119-4223-bef7-fe683ef217c3) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 3 min: `Corepack shim failed to download pnpm (MODULE_NOT_FOUND) and mutated package.json with a packageManager field`
 - 2 min: `TS-importing tests failed under Node 20 (ERR_UNKNOWN_FILE_EXTENSION for .ts)`
 - 2 min: `Electron desktop cannot start in this rootless container: chrome-sandbox needs root-owned mode 4755; launcher offers no --no-sandbox path`
+
+Attempt 2:
+
+- 3 min: `Node.js 18 installed but project requires >=20`
+- 2 min: `pnpm not installed`
+- 5 min: `Test suite failed: all .test.mjs files importing .ts modules get ERR_UNKNOWN_FILE_EXTENSION`
+- `check:browser-first fails with version assertion (plugin v0.1.0 vs package v0.2.1)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

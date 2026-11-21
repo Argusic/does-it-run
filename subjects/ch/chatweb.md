@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/chatweb
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 15.1 to 15.1 minutes
+- Valid runs: 2; wall time 8.9 to 15.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/chatweb
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 20 | 15.1 | 5 | 5 | [run](https://argusic.com/run/ff5cee78-3058-4480-8466-955acd82bf92) |
+| 2 | pass with mocks | 92 | 5 | 8.9 | 8 | 8 | [run](https://argusic.com/run/601372dd-d2e9-4faf-9995-254677f7693a) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,14 @@ Attempt 1:
 - 1 min: `psycopg2 fails to build: pg_config not found`
 - 2 min: `xxhash.xxh3_128_hexdigest() TypeError: xxhash v4 requires bytes not strings`
 - 1 min: `demo.launch(show_api=False) TypeError: Gradio 6.x removed show_api parameter`
+
+Attempt 2:
+
+- 2 min: `System pip blocked by externally-managed-environment (PEP 668)`
+- 1 min: `psycopg2 fails to build from source (no libpq/pg_config)`
+- 4 min: `xxhash v4 requires bytes input for xxh3_128_hexdigest (str→TypeError)`
+- 3 min: `FastAPI /answer declared as GET with Pydantic body (runtime 422/500)`
+- 1 min: `generate_summary crashes on empty storage (IndexError on embeddings[0])`
+- 1 min: `Gradio 6.x Blocks.launch() rejects unknown kwarg show_api=False`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/gpt-rag
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 6.3 to 6.3 minutes
+- Valid runs: 2; wall time 3.2 to 6.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gpt-rag
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 18 | 6.3 | 3 | 3 | [run](https://argusic.com/run/587e8582-a0e6-4078-afe5-6516c5d7fe44) |
+| 2 | pass with mocks | 92 | 8 | 3.2 | 1 | 1 | [run](https://argusic.com/run/bb61ac09-d37c-4051-8a8a-0d0049621dbf) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 4 min: `util/requirements.txt and config/requirements.txt pin conflicting azure-identity versions (1.23.0 vs 1.25.3), and pip-re Installing both files fails with ResolutionImpossible`
 - 3 min: `scripts/postProvision.sh and scripts/preDeploy.sh report syntax errors under 'sh -n'`
 - 4 min: `PowerShell 7 (pwsh) and Azure CLI (az)/azd are not installed in the container; hook tests for pwsh are skipped and live azd provisioning cannot run (no root to install)`
+
+Attempt 2:
+
+- 2 min: `pip install of config/requirements.txt and util/requirements.txt together fails due to conflicting azure-identity versions (1.25.3 vs 1.23.0)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # HomeAssistant-OctopusEnergy
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/homeassistant-octopusenergy
 - Test commit: `e52c185003a4b599274b8efdad2183ebd298217c`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 13.7 to 13.7 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 12.8 to 13.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/homeassistant-octopusenergy
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 13.7 | 6 | 6 | [run](https://argusic.com/run/0a26e9d7-4559-45e2-bbc5-1cf1036da1d3) |
+| 2 | pass with mocks | 92 | 3 | 12.8 | 3 | 3 | [run](https://argusic.com/run/fe8b1954-e218-4727-9ce0-ef7056b325dc) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,11 @@ Attempt 1:
 - 2 min: `async_entity_id_to_device not found in homeassistant.helpers.device (renamed to async_entity_id_to_device_id)`
 - `Integration tests require real Octopus Energy API credentials (API_KEY, ACCOUNT_ID, etc.)`
 - `Local integration tests require HOME_PRO_API_KEY and HOME_PRO_BASE_URL env vars`
+
+Attempt 2:
+
+- 1 min: `Missing homeassistant.helpers.helper_integration module`
+- 2 min: `Missing StatisticMeanType and mean_type/unit_class fields on StatisticMetaData`
+- 1 min: `Missing async_entity_id_to_device in homeassistant.helpers.device`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

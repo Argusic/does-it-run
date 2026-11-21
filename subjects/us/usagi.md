@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/usagi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 37.8 to 37.8 minutes
+- Valid runs: 2; wall time 14.5 to 37.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/usagi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 36 | 37.8 | 7 | 7 | [run](https://argusic.com/run/1ba83d86-1ecf-4936-a894-d06eafbe9de8) |
+| 2 | pass | 100 | 30 | 14.5 | 4 | 4 | [run](https://argusic.com/run/030f7e29-d479-4533-9fbe-e8f45d5cca13) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,12 @@ Attempt 1:
 - 3 min: `RUSTFLAGS were cleared when building the usagi test binary, so -lGLESv2/-lGLdispatch/-lX11 could not be found by rust-lld`
 - 6 min: `Xvfb: rendered game window xwd reads came back all-black (black ground) and XTest fake-key events were initially ignored before focus was set`
 - `gif crate (weezl 0.1.12) writes LZW min-code-size 2 with first code 7 instead of clearing (see I: parser, decoder, and ImageMagick all read the stream as 'code 7 >= next 6'), ffmpeg logs 1 'LZW decode failed' per known-buggy frame stream, a`
+
+Attempt 2:
+
+- 2 min: `zlib.h not found: freetype-sys build of bundled libpng needed zlib headers`
+- 3 min: `X11 headers not found: raylib's GLFW cmake finds X11 via FindX11 module which needs dev headers`
+- 3 min: `libclang not found: sola-raylib-sys build.rs uses bindgen which needs libclang`
+- 8 min: `rust-lld can't find -lX11 at link time: lld with -nodefaultlibs doesn't search /usr/lib/x86_64-linux-gnu and only libX11.so.6 (no .so symlink) is present`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

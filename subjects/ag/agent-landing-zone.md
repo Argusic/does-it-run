@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agent-landing-zone
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 5.1 to 5.1 minutes
+- Valid runs: 2; wall time 2.9 to 5.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agent-landing-zone
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 22 | 5.1 | 4 | 4 | [run](https://argusic.com/run/8c255909-4f2c-4fae-aaa3-bb0bf1b2f330) |
+| 2 | pass with mocks | 92 | 2 | 2.9 | 0 | 0 | [run](https://argusic.com/run/ffc3b237-9809-4a5e-b486-d8af4c4c619f) |
 
 ## What was observed on a clean machine
 

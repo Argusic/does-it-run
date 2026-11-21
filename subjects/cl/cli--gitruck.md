@@ -1,6 +1,6 @@
 # cli
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Gitruck/cli, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/run/e2cc45de-9190-4942-a30c-b890e98
 - Test commit: `13d484fbebb45a8382169eef17c5cf163715d2d3`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 7.5 to 7.5 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 0.3 to 7.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/e2cc45de-9190-4942-a30c-b890e98
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 12 | 7.5 | 4 | 4 | [run](https://argusic.com/run/e2cc45de-9190-4942-a30c-b890e9882fca) |
+| 2 | fail | 20 | n/a | 0.3 | 0 | 0 | [run](https://argusic.com/run/069b08ff-c332-47b1-88ae-3a45059e14b2) |
 
 ## What was observed on a clean machine
 

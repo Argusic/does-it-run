@@ -1,6 +1,6 @@
 # python-office
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/CoderWanFeng/python-office, licensed Apache-2.0, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/python-office
 - Test commit: `dd6fe566f2125e3d09fb72e118d2840e74919034`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 26 to 26 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 15.3 to 26 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/python-office
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 6 | 26 | 12 | 12 | [run](https://argusic.com/run/246b8867-ff2b-4576-9f56-e0a07ff37a4b) |
+| 2 | pass | 100 | 35 | 15.3 | 6 | 6 | [run](https://argusic.com/run/7b715607-4948-4a08-b319-df43f5d6a403) |
 
 ## What was observed on a clean machine
 
@@ -38,5 +39,14 @@ Attempt 1:
 - 1 min: `poexcel fake2excel with column 'phone' errors: faker has no 'phone' provider`
 - 2 min: `GUI Qt xcb plugin fails (libxcb-xinerama.so.0 missing; system packages cannot be installed, no root)`
 - 1 min: `popdf.pdf2imgs TypeError: office/api/pdf.py passes keyword output_path which popdf's pdf2imgs does not accept (uses output_file)`
+
+Attempt 2:
+
+- 1 min: `System Python is externally managed; cannot install packages globally`
+- 3 min: `Tests referenced test data files that didn't exist (test_files/pdf/, images/, etc.)`
+- 2 min: `pospider v0.0.1 has no url.url2ebook; loader raised ImportError but test expected ModuleNotFoundError`
+- 3 min: `search_by_content was not exported from office.api.file`
+- 2 min: `poimage requires msyh.ttc Chinese font which is not available on Linux`
+- 2 min: `pdf2imgs wrapper passed output_file as output_path but popdf expects output_file`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

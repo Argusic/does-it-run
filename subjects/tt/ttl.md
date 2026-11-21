@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ttl
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 12.4 to 12.4 minutes
+- Valid runs: 2; wall time 12.4 to 45.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ttl
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2.1 | 12.4 | 3 | 3 | [run](https://argusic.com/run/e79b8f38-761c-4a91-9f4d-1ff9d565e2ad) |
+| 2 | pass with mocks | 92 | 45 | 45.9 | 0 | 0 | [run](https://argusic.com/run/c3834304-cb23-433a-9e60-6eef13e97a72) |
 
 ## What was observed on a clean machine
 

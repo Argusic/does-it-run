@@ -1,6 +1,6 @@
 # gpt-promo-scanner
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/JUk1-GH/gpt-promo-scanner, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/gpt-promo-scanner
 - Test commit: `be528fef2d59d2fc6d6d1abbd32a611df2c6fd86`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 43.2 to 43.2 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 11.9 to 43.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gpt-promo-scanner
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 43 | 43.2 | 2 | 2 | [run](https://argusic.com/run/486fd97c-6f90-4c15-9eeb-cfe932307b12) |
+| 2 | fail | 20 | n/a | 11.9 | 0 | 0 | [run](https://argusic.com/run/f1f30fbf-12f7-468a-b487-f19fb70ee4fe) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/camera-ui
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13.1 to 13.1 minutes
+- Valid runs: 2; wall time 13.1 to 15.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/camera-ui
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 45 | 13.1 | 3 | 3 | [run](https://argusic.com/run/1b9dcc9b-4ec8-46b7-b150-9b3bd09dc15b) |
+| 2 | pass | 100 | 15.2 | 15.7 | 5 | 5 | [run](https://argusic.com/run/ad6387d2-703b-470c-b88c-bcfa274b441a) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,13 @@ Attempt 1:
 - 3 min: `Node.js v18.19.1 too old (requires >=22.18.0)`
 - 2 min: `UI build OOM during vue-tsc type-check (max-old-space-size default too low)`
 - 1 min: `Missing config directory on first server launch`
+
+Attempt 2:
+
+- 0.5 min: `Node.js v18.19.1 < required >=22.18.0; npm ERR EBADENGINE on many packages`
+- 6 min: `@camera.ui/nvr@0.0.138 not in npm registry (404)`
+- 2 min: `vue-tsc --build OOM (heap out of memory in 773MB container)`
+- 4 min: `vite build failed with MISSING_EXPORT errors from @camera.ui/nvr stub`
+- 0.1 min: `Server config write failed: ENOENT volume subdirectory`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

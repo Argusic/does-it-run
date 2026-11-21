@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/x-reader
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.8 to 9.8 minutes
+- Valid runs: 2; wall time 2.3 to 9.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/x-reader
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 9.8 | 3 | 3 | [run](https://argusic.com/run/6be5b2f9-6cfa-4100-af0a-13521c11d7d5) |
+| 2 | pass | 100 | 1.5 | 2.3 | 0 | 0 | [run](https://argusic.com/run/8cbc0cfb-4d77-491a-ac86-f03d0cce6cba) |
 
 ## What was observed on a clean machine
 

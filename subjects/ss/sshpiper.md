@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sshpiper
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.6 to 5.6 minutes
+- Valid runs: 2; wall time 2.8 to 5.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sshpiper
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 5.6 | 1 | 1 | [run](https://argusic.com/run/28d518ff-8aa0-483f-bac1-fb2339b0d3dd) |
+| 2 | pass | 100 | 2.5 | 2.8 | 0 | 0 | [run](https://argusic.com/run/37674b67-66fe-4f82-a807-6a22b90b34bf) |
 
 ## What was observed on a clean machine
 

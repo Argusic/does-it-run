@@ -1,6 +1,6 @@
 # free-claude-code
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Rishurajgautam24/free-claude-code, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/free-claude-code
 - Test commit: `4647fbbd4fa203cc2f53aabf45d49e9831503267`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 4.7 to 4.7 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 1.7 to 4.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/free-claude-code
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.1 | 4.7 | 0 | 0 | [run](https://argusic.com/run/5e49f743-1027-4b7b-b4bf-475ec37dad93) |
+| 2 | pass with mocks | 92 | 1.5 | 1.7 | 0 | 0 | [run](https://argusic.com/run/020dc06c-8400-431a-b802-2f3ae990082d) |
 
 ## What was observed on a clean machine
 

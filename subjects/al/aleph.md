@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aleph
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2 to 2 minutes
+- Valid runs: 2; wall time 1.9 to 2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aleph
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 2 | 0 | 0 | [run](https://argusic.com/run/8bc32384-bf48-4a47-b6b9-1e4f4ea3939f) |
+| 2 | pass | 100 | 0.2 | 1.9 | 0 | 0 | [run](https://argusic.com/run/ac7c1120-53d2-4b6a-a1f4-3ce3a0b9b841) |
 
 ## What was observed on a clean machine
 

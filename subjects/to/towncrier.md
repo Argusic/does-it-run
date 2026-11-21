@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/towncrier
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.8 to 1.8 minutes
+- Valid runs: 2; wall time 1.5 to 1.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/towncrier
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.3 | 1.8 | 0 | 0 | [run](https://argusic.com/run/27aa3292-a138-45be-9f3a-468ada18d1c9) |
+| 2 | pass | 100 | 1 | 1.5 | 0 | 0 | [run](https://argusic.com/run/3af8d22f-4689-4b01-8e80-d84d691f36f1) |
 
 ## What was observed on a clean machine
 

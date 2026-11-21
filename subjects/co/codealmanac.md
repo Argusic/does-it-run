@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/codealmanac
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.3 to 8.3 minutes
+- Valid runs: 2; wall time 1.4 to 8.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/codealmanac
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 8.3 | 0 | 0 | [run](https://argusic.com/run/0efe4609-c932-4152-9453-ebb1403dc904) |
+| 2 | pass | 100 | 2.32 | 1.4 | 0 | 0 | [run](https://argusic.com/run/d2262fd7-b6d9-4ae7-ba12-925e0d9e5a58) |
 
 ## What was observed on a clean machine
 

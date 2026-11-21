@@ -1,6 +1,6 @@
 # odmantic
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/art049/odmantic, licensed ISC, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/odmantic
 - Test commit: `26e45046cfd780b0616abea25f0672de25a4a7dc`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 12.5 to 12.5 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 0.4 to 12.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/odmantic
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 7 | 12.5 | 5 | 5 | [run](https://argusic.com/run/a0ca31a1-564d-473a-83b3-eeae254ad279) |
+| 2 | fail | 20 | n/a | 0.4 | 0 | 0 | [run](https://argusic.com/run/27fd8caf-e242-420c-8a7a-909c7fc3a089) |
 
 ## What was observed on a clean machine
 

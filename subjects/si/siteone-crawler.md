@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/siteone-crawler
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.4 to 16.4 minutes
+- Valid runs: 2; wall time 4.1 to 16.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/siteone-crawler
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 13 | 16.4 | 2 | 2 | [run](https://argusic.com/run/3a79b588-562d-4e77-bdaf-018c4cc42c30) |
+| 2 | pass | 100 | 3 | 4.1 | 0 | 0 | [run](https://argusic.com/run/b311f77c-e0cf-4b3a-a514-dd00d304b6d1) |
 
 ## What was observed on a clean machine
 

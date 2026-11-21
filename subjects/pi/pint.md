@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pint
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.4 to 4.4 minutes
+- Valid runs: 2; wall time 4.4 to 9.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pint
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 4.4 | 0 | 0 | [run](https://argusic.com/run/c296e43e-46b7-4997-b9da-e9e67a3b00c8) |
+| 2 | pass | 100 | 0.5 | 9.8 | 0 | 0 | [run](https://argusic.com/run/796e6c7c-82c7-4e03-b064-2c87fed344fb) |
 
 ## What was observed on a clean machine
 

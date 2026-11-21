@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jwt-cli
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.9 to 3.9 minutes
+- Valid runs: 2; wall time 1.6 to 3.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jwt-cli
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 3.9 | 0 | 0 | [run](https://argusic.com/run/3b7c12a4-53f5-4bc3-9f87-38632ca636ac) |
+| 2 | pass | 100 | 0.36 | 1.6 | 0 | 0 | [run](https://argusic.com/run/9afae50d-aee8-40b0-9432-da18003befc5) |
 
 ## What was observed on a clean machine
 

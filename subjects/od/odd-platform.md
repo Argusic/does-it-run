@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/odd-platform
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 23.9 to 23.9 minutes
+- Valid runs: 2; wall time 8.3 to 23.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/odd-platform
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 23 | 23.9 | 8 | 8 | [run](https://argusic.com/run/25bc748b-151f-407d-a65f-92ec96f9e203) |
+| 2 | pass | 100 | 8 | 8.3 | 0 | 0 | [run](https://argusic.com/run/edfd66f7-26b3-4d80-9ae3-4834bdfb398d) |
 
 ## What was observed on a clean machine
 

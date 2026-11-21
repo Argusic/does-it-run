@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/deja
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.7 to 4.7 minutes
+- Valid runs: 2; wall time 4.7 to 4.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/deja
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 4.7 | 1 | 1 | [run](https://argusic.com/run/570a14a8-27e5-4870-854f-60c17ea103ae) |
+| 2 | pass | 100 | 5 | 4.7 | 0 | 0 | [run](https://argusic.com/run/c904b4c9-991b-4fab-8277-aec59a138141) |
 
 ## What was observed on a clean machine
 

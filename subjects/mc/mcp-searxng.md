@@ -1,6 +1,6 @@
 # mcp-searxng
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ihor-sokoliuk/mcp-searxng, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/mcp-searxng
 - Test commit: `46d6c277c5be7f5f78ef3a75ca978ae65064d61a`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 3.1 to 3.1 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 3.1 to 3.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-searxng
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 3.1 | 0 | 0 | [run](https://argusic.com/run/ab92d566-54b5-401a-b302-ebbf1e480c5d) |
+| 2 | fail | 20 | n/a | 3.3 | 0 | 0 | [run](https://argusic.com/run/87f91cb8-5aec-4786-b245-5d73cdad4198) |
 
 ## What was observed on a clean machine
 

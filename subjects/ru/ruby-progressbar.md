@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ruby-progressbar
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.7 to 11.7 minutes
+- Valid runs: 2; wall time 11.7 to 16.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ruby-progressbar
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 11.7 | 3 | 3 | [run](https://argusic.com/run/259bbe90-676b-42ce-ae51-f34f735eba7f) |
+| 2 | pass | 100 | 60 | 16.2 | 3 | 3 | [run](https://argusic.com/run/8a81fd04-f5c5-42bb-9f2c-8e284b469070) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 12 min: `Ruby 3.4.8 not installed in container`
 - 3 min: `zlib development headers missing (needed by Ruby's zlib extension)`
 - 3 min: `libyaml development headers missing (needed by Ruby's psych extension)`
+
+Attempt 2:
+
+- 30 min: `Ruby interpreter not found in container`
+- 25 min: `Ruby build failed , zlib1g-dev, libffi-dev, libyaml-dev not installed (no root access)`
+- `bundle install failed with LoadError: cannot load such file -- zlib`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

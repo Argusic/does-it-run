@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/figwright
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.6 to 5.6 minutes
+- Valid runs: 2; wall time 5.6 to 8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/figwright
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 5.6 | 1 | 1 | [run](https://argusic.com/run/e256a832-8793-472f-9746-00b74ae61b3b) |
+| 2 | pass | 100 | 8 | 8 | 0 | 0 | [run](https://argusic.com/run/cf7460f9-517a-4739-87da-10891ca64573) |
 
 ## What was observed on a clean machine
 

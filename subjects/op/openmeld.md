@@ -1,6 +1,6 @@
 # openmeld
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 92.9 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/amplifthq/openmeld, licensed MIT, written in TypeScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/openmeld
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 49.5 to 49.5 minutes
+- Valid runs: 2; wall time 49.5 to 59.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/openmeld
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 49.5 | 5 | 5 | [run](https://argusic.com/run/49304d25-8694-4a24-9df3-91c8502980be) |
+| 2 | pass | 85.71 | 12 | 59.2 | 7 | 2 | [run](https://argusic.com/run/9460609a-7fc1-4066-b227-38507bd78afc) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,15 @@ Attempt 1:
 - 15 min: `pnpm build hangs, local-resources memory admission denies heavy build in container with 8GiB constrained memory and 1.6GiB available`
 - 1 min: `openmeld-web build fails: cannot resolve origin/main (shallow clone)`
 - `25 of 3535 CLI test failures and 4 of 1765 schemas test failures are pre-existing repo-internal test/source drift`
+
+Attempt 2:
+
+- 3 min: `openmeld-web build requires git origin/main for CLI skill validation`
+- 2 min: `@openmeld/db test requires PostgreSQL 18`
+- `4 pre-existing test failures in @openmeld/schemas (organization-usage overview)`
+- `2 pre-existing test failures in @openmeld/space-mesh (agent failure reason copy)`
+- `1 pre-existing test failure in @openmeld/product-catalog (Grok Bot vs Grok Build)`
+- `1 pre-existing test failure in @openmeld/agent-runtime`
+- `5 pre-existing test failures in @openmeld/ui (sidebar nav tests)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

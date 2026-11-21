@@ -1,6 +1,6 @@
 # sensu-go
 
-**Verdict: runs.** Argusic Score 93.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/sensu/sensu-go, licensed MIT, written in Go.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sensu-go
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 17.7 to 17.7 minutes
+- Valid runs: 2; wall time 7.2 to 17.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sensu-go
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 93.33 | 17 | 17.7 | 3 | 2 | [run](https://argusic.com/run/c78b1893-9d5a-4d2d-a761-1a3b371462c0) |
+| 2 | pass | 100 | 3 | 7.2 | 0 | 0 | [run](https://argusic.com/run/50f94e3f-a996-46d1-83a4-a58169858122) |
 
 ## What was observed on a clean machine
 

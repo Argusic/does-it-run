@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/onetun
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 6.7 to 6.7 minutes
+- Valid runs: 2; wall time 4.8 to 6.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/onetun
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 6 | 6.7 | 1 | 1 | [run](https://argusic.com/run/cc9cb174-8f01-4e67-a105-e693e89c6a0e) |
+| 2 | pass with mocks | 92 | 6 | 4.8 | 0 | 0 | [run](https://argusic.com/run/209aeeee-ca04-4aab-a113-ba2891090296) |
 
 ## What was observed on a clean machine
 

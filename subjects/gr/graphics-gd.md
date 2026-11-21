@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/graphics-gd
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13.3 to 13.3 minutes
+- Valid runs: 2; wall time 13.3 to 66.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/graphics-gd
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 13.3 | 0 | 0 | [run](https://argusic.com/run/7ff7a0fb-2769-40bd-83bc-c3e9cdc8bbe7) |
+| 2 | pass | 100 | 2 | 66.4 | 0 | 0 | [run](https://argusic.com/run/0ba4690e-5307-45f8-9c93-ac4e31f4f795) |
 
 ## What was observed on a clean machine
 

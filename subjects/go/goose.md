@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/goose
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 17.1 to 17.1 minutes
+- Valid runs: 2; wall time 17.1 to 18 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/goose
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.2 | 17.1 | 0 | 0 | [run](https://argusic.com/run/e41be3a7-d768-4c8c-9917-7c04d64c9044) |
+| 2 | pass | 100 | 18 | 18 | 0 | 0 | [run](https://argusic.com/run/70ebb2b4-e30c-41bf-ae50-e5deee9500df) |
 
 ## What was observed on a clean machine
 

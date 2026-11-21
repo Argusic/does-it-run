@@ -1,6 +1,6 @@
 # openserp
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/karust/openserp, licensed MIT, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/openserp
 - Test commit: `98e48e6a8300fe2b5753d7de5f855afe951583f8`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 8.3 to 8.3 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 5.7 to 8.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/openserp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 5 | 8.3 | 0 | 0 | [run](https://argusic.com/run/92361b11-85f2-4550-bf98-b290f2cfb0ed) |
+| 2 | pass | 100 | 0.5 | 5.7 | 0 | 0 | [run](https://argusic.com/run/fc5f9cd8-f1d5-4d2a-bc14-a1fd0684e3ac) |
 
 ## What was observed on a clean machine
 

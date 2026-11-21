@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/herdr-reviewr
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.3 to 10.3 minutes
+- Valid runs: 2; wall time 10.3 to 12.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/herdr-reviewr
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 10.3 | 0 | 0 | [run](https://argusic.com/run/460848b3-c179-4141-b7e3-9c56462e76a7) |
+| 2 | pass | 100 | 14.9 | 12.7 | 0 | 0 | [run](https://argusic.com/run/36cc5ab5-2c19-4988-8a11-303cbe347f0c) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # Home-Assistant-Mail-And-Packages
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/moralmunky/Home-Assistant-Mail-And-Packages, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/home-assistant-mail-and-pac
 - Test commit: `f2a8ecfedb5627a8e7a1871ce7948e50c77e1142`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 56.1 to 56.1 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 37 to 56.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/home-assistant-mail-and-pac
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 15 | 56.1 | 6 | 6 | [run](https://argusic.com/run/ea2fd88f-e398-4e68-b608-560700f133e3) |
+| 2 | fail | 20 | n/a | 37 | 0 | 0 | [run](https://argusic.com/run/06b5056d-b8cc-4fdf-a10e-40a95c7cb67e) |
 
 ## What was observed on a clean machine
 

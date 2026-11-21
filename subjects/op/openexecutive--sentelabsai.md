@@ -4,7 +4,7 @@
 
 Project: https://github.com/SenteLabsAI/OpenExecutive, licensed Apache-2.0, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/openexecutive
+Evidence and recordings: https://argusic.com/run/ec2e1638-f041-4f75-9a00-ac4441bcfef9
 
 ## Pinned environment
 

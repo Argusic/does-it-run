@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ai-agent-skills
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13.8 to 13.8 minutes
+- Valid runs: 2; wall time 13.8 to 19.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ai-agent-skills
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 13.8 | 3 | 3 | [run](https://argusic.com/run/a710de88-fae9-4927-a72f-dd9f84fc04cd) |
+| 2 | pass | 100 | 20 | 19.9 | 3 | 3 | [run](https://argusic.com/run/23a8a920-3118-4edf-978d-31e367af1b59) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 2 min: `mktg collection count outdated (expected 53, actual 76)`
 - 3 min: `No release notes for package version 4.3.2`
 - 3 min: `README 'What's New' section and CHANGELOG missing 4.3.2 entry`
+
+Attempt 2:
+
+- 3 min: `Test expected 53 mktg skills but catalog had 76 , collection definition in skills.json was stale`
+- 3 min: `No release notes file for 4.3.2, no CHANGELOG entry, no 'What's New' section in README`
+- 1 min: `README generated sections (stats/shelves/collections/sources) out of sync with skills.json`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

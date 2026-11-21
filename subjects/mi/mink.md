@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mink
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.5 to 11.5 minutes
+- Valid runs: 2; wall time 5.3 to 11.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mink
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 11.5 | 5 | 5 | [run](https://argusic.com/run/34c83609-ee98-41f6-a83c-2253c4aab82a) |
+| 2 | pass | 100 | 6 | 5.3 | 3 | 3 | [run](https://argusic.com/run/887620b0-8de8-4bdb-9321-9d6294d41c68) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,11 @@ Attempt 1:
 - 4 min: `Composer could not extract zip dist packages: no unzip/7z binary and PHP zip extension unloadable (libzip.so.4 missing)`
 - 1 min: `PHPStan crashed with 128M default memory limit`
 - `PHP zip extension could not load (libzip.so.4 shared library absent; no root to install libzip)`
+
+Attempt 2:
+
+- 2 min: `No PHP interpreter in container`
+- 1 min: `PHAR and ICONV extensions missing preventing Composer install`
+- 2 min: `Composer install failed: ext-dom, ext-xml, ext-xmlwriter, ext-tokenizer required`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

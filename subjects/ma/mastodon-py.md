@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mastodon-py
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 11 to 11 minutes
+- Valid runs: 2; wall time 7.3 to 11 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mastodon-py
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 1 | 11 | 2 | 2 | [run](https://argusic.com/run/29ea093b-753b-4ae5-84db-f2a0eb9ca5bb) |
+| 2 | pass with mocks | 92 | 0.3 | 7.3 | 0 | 0 | [run](https://argusic.com/run/ad6aa69c-6364-4068-926d-f53e7f200baa) |
 
 ## What was observed on a clean machine
 

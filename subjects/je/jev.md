@@ -1,6 +1,6 @@
 # jev
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/feder-cr/jev, licensed MIT, written in C++.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/jev
 - Test commit: `eb74cf78e5377e85fcaa76f6ebc9f82e8b517250`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 6.5 to 6.5 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.8 to 6.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jev
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 19 | 6.5 | 2 | 2 | [run](https://argusic.com/run/d77612b0-cc66-4264-abca-48e941dfe038) |
+| 2 | fail | 20 | n/a | 0.8 | 0 | 0 | [run](https://argusic.com/run/1edee41e-d1ab-482e-87db-8c46ccced21a) |
 
 ## What was observed on a clean machine
 

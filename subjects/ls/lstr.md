@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/lstr
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.8 to 3.8 minutes
+- Valid runs: 2; wall time 3.3 to 3.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/lstr
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 3.8 | 0 | 0 | [run](https://argusic.com/run/bebe33ad-8468-45c3-8cff-bd30ccebf208) |
+| 2 | pass | 100 | 0.68 | 3.3 | 0 | 0 | [run](https://argusic.com/run/3acd49f3-6f6d-461a-a02d-c7d5e1dd7c4a) |
 
 ## What was observed on a clean machine
 

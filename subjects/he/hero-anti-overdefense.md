@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/hero-anti-overdefense
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 1.3 to 1.3 minutes
+- Valid runs: 2; wall time 1 to 1.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hero-anti-overdefense
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2 | 1.3 | 0 | 0 | [run](https://argusic.com/run/aaa33206-9715-4b76-98f5-6eb87fbce9d6) |
+| 2 | pass with mocks | 92 | 0.1 | 1 | 0 | 0 | [run](https://argusic.com/run/2c545a4f-fd17-4459-a7ad-547c57a3adf9) |
 
 ## What was observed on a clean machine
 

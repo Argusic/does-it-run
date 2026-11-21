@@ -1,6 +1,6 @@
 # wombat
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/felipecsl/wombat, licensed MIT, written in Ruby.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/wombat
 - Test commit: `bd021b25c58735ffb94c1ce15623202215ed45a8`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 12.2 to 12.2 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 10.4 to 12.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/wombat
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 12.2 | 3 | 3 | [run](https://argusic.com/run/978f1f6c-4491-48a0-bf8f-2821208d6ffd) |
+| 2 | pass with mocks | 92 | 10 | 10.4 | 4 | 4 | [run](https://argusic.com/run/81851442-7525-41fc-b6bc-d05d3cd00f4d) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,12 @@ Attempt 1:
 - 2 min: `No Ruby runtime in container (ruby/gem/bundle not found)`
 - 1 min: `libyaml-0.so.2 missing -> psych native extension and RubyGems failed to load`
 - 2 min: `psych 5.3.1 native build failed: yaml.h header and libyaml.so symlink not found`
+
+Attempt 2:
+
+- 3 min: `Ruby interpreter not installed in container (required ruby 3.4.7)`
+- 2 min: `zlib C extension not compiled (gem install fails without it)`
+- 2 min: `psych C extension not compiled (needs libyaml for YAML parsing)`
+- 1 min: `juwelier gem missing for Rakefile loading`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

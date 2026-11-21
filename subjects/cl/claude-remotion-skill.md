@@ -1,6 +1,6 @@
 # claude-remotion-skill
 
-**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 95 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/haidrrrry/claude-remotion-skill, licensed MIT, written in TypeScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/claude-remotion-skill
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.2 to 4.2 minutes
+- Valid runs: 2; wall time 3 to 4.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/claude-remotion-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 90 | 1 | 4.2 | 2 | 1 | [run](https://argusic.com/run/a7632f64-6405-47d0-91e6-808c476fa6fc) |
+| 2 | pass | 100 | 0.15 | 3 | 0 | 0 | [run](https://argusic.com/run/ca3fc500-a1a4-48c2-a85d-0938e4772614) |
 
 ## What was observed on a clean machine
 

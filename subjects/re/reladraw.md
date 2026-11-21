@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/reladraw
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.1 to 3.1 minutes
+- Valid runs: 2; wall time 1 to 3.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/reladraw
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 3.1 | 0 | 0 | [run](https://argusic.com/run/37784a98-377d-4c68-8aa3-09a227a963c6) |
+| 2 | pass | 100 | 0.3 | 1 | 0 | 0 | [run](https://argusic.com/run/39db139a-a9b9-4d49-98d2-82b23ffeedf5) |
 
 ## What was observed on a clean machine
 

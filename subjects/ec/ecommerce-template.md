@@ -2,7 +2,7 @@
 
 **Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/MarcosCamara01/ecommerce-template, licensed MIT, written in JavaScript.
+Project: https://github.com/MarcosCamara01/ecommerce-template, licensed MIT, written in TypeScript.
 
 Evidence and recordings: https://argusic.com/subject/ecommerce-template
 

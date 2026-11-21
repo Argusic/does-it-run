@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/projectmem
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.2 to 2.2 minutes
+- Valid runs: 2; wall time 1.3 to 2.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/projectmem
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 2.2 | 0 | 0 | [run](https://argusic.com/run/ef93a4f2-6b33-4aa9-8a86-b264fce84f06) |
+| 2 | pass | 100 | 16 | 1.3 | 0 | 0 | [run](https://argusic.com/run/33472387-a7bc-428f-be82-99f705b4405c) |
 
 ## What was observed on a clean machine
 

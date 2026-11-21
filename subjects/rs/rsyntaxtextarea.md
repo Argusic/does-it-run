@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rsyntaxtextarea
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.4 to 5.4 minutes
+- Valid runs: 2; wall time 3.5 to 5.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rsyntaxtextarea
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 5.4 | 0 | 0 | [run](https://argusic.com/run/3228402b-fc8b-4bba-8b98-e6b53f57c8eb) |
+| 2 | pass | 100 | 4.5 | 3.5 | 0 | 0 | [run](https://argusic.com/run/cb1450ed-c27d-4d21-8a8f-730bddf4fa2f) |
 
 ## What was observed on a clean machine
 

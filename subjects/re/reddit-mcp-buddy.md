@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/reddit-mcp-buddy
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 21.8 to 21.8 minutes
+- Valid runs: 2; wall time 13.1 to 21.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/reddit-mcp-buddy
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 16 | 21.8 | 3 | 3 | [run](https://argusic.com/run/c21d7a98-5f0e-4b99-9c7b-d1aa6112738c) |
+| 2 | pass with mocks | 92 | 13 | 13.1 | 0 | 0 | [run](https://argusic.com/run/4c6b2235-dd93-44d7-93d6-aca87ce67ed9) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # mongo-c-driver
 
-**Verdict: runs.** Argusic Score 93.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 56.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/mongodb/mongo-c-driver, licensed Apache-2.0, written in C.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/mongo-c-driver
 - Test commit: `4ce399222e21a08cfdb57eeef92edd6f2fd2f32c`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 22.8 to 22.8 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 21.1 to 22.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mongo-c-driver
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 93.33 | 15 | 22.8 | 3 | 2 | [run](https://argusic.com/run/24bb47aa-e758-42ad-969b-467d2fdc065d) |
+| 2 | fail | 20 | n/a | 21.1 | 0 | 0 | [run](https://argusic.com/run/527d3d0f-1033-4d30-9326-c65970f426ec) |
 
 ## What was observed on a clean machine
 

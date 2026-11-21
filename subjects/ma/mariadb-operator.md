@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mariadb-operator
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 38.6 to 38.6 minutes
+- Valid runs: 2; wall time 6.4 to 38.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mariadb-operator
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 25 | 38.6 | 4 | 4 | [run](https://argusic.com/run/c01715d9-ed58-4820-8db3-d05d7e6ad713) |
+| 2 | pass | 100 | 4 | 6.4 | 3 | 3 | [run](https://argusic.com/run/3c964c04-ed0a-420d-b67d-2e52ab6a006c) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 3 min: `Helm not found (needed by helm chart unit tests)`
 - 2 min: `make test-api + test-pkg + test-helm partly failed initially because helm chart dependencies were missing`
 - 12 min: `make test-webhook fails with 'too many open files' (0x18) on BeforeSuite when a prior webhook test run's etcd process is left alive`
+
+Attempt 2:
+
+- 2 min: `Go toolchain not installed`
+- 1 min: `Helm not installed`
+- 1 min: `Helm chart dependency not built`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

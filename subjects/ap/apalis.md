@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/apalis
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.6 to 7.6 minutes
+- Valid runs: 2; wall time 7.6 to 9.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/apalis
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.5 | 7.6 | 0 | 0 | [run](https://argusic.com/run/ab9037ad-3d89-4c83-8e3f-d9ac8b94bbc8) |
+| 2 | pass | 100 | 3.1 | 9.5 | 0 | 0 | [run](https://argusic.com/run/13d67844-847f-4d4c-8292-229f0915caba) |
 
 ## What was observed on a clean machine
 

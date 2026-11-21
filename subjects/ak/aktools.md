@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aktools
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.3 to 1.3 minutes
+- Valid runs: 2; wall time 1.3 to 2.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aktools
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.3 | 1.3 | 0 | 0 | [run](https://argusic.com/run/94a9683c-2f36-4b20-b683-6b02fcc6ebb8) |
+| 2 | pass | 100 | 0.5 | 2.3 | 0 | 0 | [run](https://argusic.com/run/0e27f4dd-4ffd-45c7-8694-447f68845c6b) |
 
 ## What was observed on a clean machine
 

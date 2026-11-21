@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/gomodel
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 8.3 to 8.3 minutes
+- Valid runs: 2; wall time 8.3 to 10.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gomodel
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 8 | 8.3 | 3 | 3 | [run](https://argusic.com/run/f25d3c23-5c40-4c58-993b-e82c8582cda6) |
+| 2 | pass with mocks | 92 | 5 | 10.2 | 1 | 1 | [run](https://argusic.com/run/2327a1ba-cc6b-4a06-b973-49f6b2a46d91) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 2 min: `Go 1.27.1 not installed`
 - 1 min: `Frontend static/dist missing for Go embed compilation`
 - 2 min: `TestResolveProviders_NoProvidersNoEnvVars failed: OPENROUTER_API_KEY leaked from container env into applyProviderEnvVars`
+
+Attempt 2:
+
+- 3 min: `TestResolveProviders_NoProvidersNoEnvVars failed because OPENROUTER_API_KEY env var was set by the runtime environment`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

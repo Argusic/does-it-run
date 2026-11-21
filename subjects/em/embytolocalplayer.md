@@ -1,6 +1,6 @@
 # embyToLocalPlayer
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/kjtsune/embyToLocalPlayer, licensed Apache-2.0, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/embytolocalplayer
 - Test commit: `b4f9527519774ea6e9d91ebbe04ca892f41cb98b`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 7.2 to 7.2 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 7.2 to 11.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/embytolocalplayer
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 8 | 7.2 | 3 | 3 | [run](https://argusic.com/run/16ac0d63-668b-4029-8298-ba6210076b15) |
+| 2 | fail | 20 | n/a | 11.2 | 0 | 0 | [run](https://argusic.com/run/2a871c85-a75d-4758-a62f-00304c7d1d7f) |
 
 ## What was observed on a clean machine
 

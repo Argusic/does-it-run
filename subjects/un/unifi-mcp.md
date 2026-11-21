@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/unifi-mcp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 18.2 to 18.2 minutes
+- Valid runs: 2; wall time 18.2 to 23.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/unifi-mcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 26 | 18.2 | 5 | 5 | [run](https://argusic.com/run/33f5d4f5-b797-4c58-9b68-dd13554cd7da) |
+| 2 | pass with mocks | 92 | 2 | 23.5 | 2 | 2 | [run](https://argusic.com/run/54753c67-a24a-4bc3-81a5-f0df3315fd4b) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,10 @@ Attempt 1:
 - 5 min: `Worker prerequisite test failed: Node 18 < required 22`
 - 2 min: `After checkout change, uv env had no ruff/tests`
 - 3 min: `API server failed startup on fresh DB (no such table: controllers)`
+
+Attempt 2:
+
+- 1 min: `ruff binary not installed despite being configured in pyproject.toml`
+- 5 min: `network version test fails in shallow checkout without git tags`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

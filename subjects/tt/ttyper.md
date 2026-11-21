@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ttyper
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.9 to 2.9 minutes
+- Valid runs: 2; wall time 2.8 to 2.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ttyper
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 2.9 | 0 | 0 | [run](https://argusic.com/run/ae984dda-397a-4d80-a8ff-d39dadbf4596) |
+| 2 | pass | 100 | 1.5 | 2.8 | 0 | 0 | [run](https://argusic.com/run/255cd2dd-dd79-451f-b1ec-45ec75e9953e) |
 
 ## What was observed on a clean machine
 

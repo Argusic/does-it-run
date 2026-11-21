@@ -1,6 +1,6 @@
 # word-GPT-Plus
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 86 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Kuingsmile/word-GPT-Plus, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/word-gpt-plus
 - Test commit: `065e25ebd2a0e50c409d33d8f0d5ff8f04712b5b`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 31 to 31 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 4.2 to 31 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/word-gpt-plus
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 3 | 31 | 4 | 4 | [run](https://argusic.com/run/847afb25-253e-411d-b5d8-5113a3658539) |
+| 2 | fail | 80 | 3 | 4.2 | 3 | 3 | [run](https://argusic.com/run/1e8d41d5-b9bc-4864-bffd-50fa90dbbe01) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 5 min: `Backgrounded mock HTTP servers (nohup & subshell) were reaped by the exec harness after the parent shell exited, causing ECONNREFUSED on 127.0.0.1:11434`
 - 2 min: `Harness-only bug: my in-memory checkpoint saver encoded bytes as JSON strings, breaking the real JsonPlusSerializer loadsTyped during agent putWrites`
 - 1 min: `Temporary probe artifacts made 'pnpm format:check' report style issues`
+
+Attempt 2:
+
+- 1 min: `Node.js 18 system version does not satisfy project requirement of Node 24`
+- 1 min: `pnpm engine-strict check and preinstall script blocked install on Node 18`
+- 1 min: `rolldown native binding missing after first install pass`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

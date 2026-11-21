@@ -1,6 +1,6 @@
 # monolingual
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/reader-dict/monolingual, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/monolingual
 - Test commit: `145d71595f3e62a0ad0445444e2c15e3a74cd5f4`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 70.9 to 70.9 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 1.9 to 70.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/monolingual
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 60 | 70.9 | 10 | 10 | [run](https://argusic.com/run/7abf4bd8-ec75-4a21-8118-1ef9aad904b3) |
+| 2 | fail | 20 | n/a | 1.9 | 0 | 0 | [run](https://argusic.com/run/942085ae-85f7-47a4-9a45-aca9ec7ba879) |
 
 ## What was observed on a clean machine
 

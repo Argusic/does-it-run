@@ -1,6 +1,6 @@
 # SeaGOAT
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/kantord/SeaGOAT, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/seagoat
 - Test commit: `dda7778020f4006b2a91e6f2bb7be922d45eb507`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 29.9 to 29.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 29.9 to 86.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/seagoat
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 29.9 | 1 | 1 | [run](https://argusic.com/run/c04ac6a9-c1db-410d-9716-0d9e566b641d) |
+| 2 | fail | 20 | n/a | 86.5 | 0 | 0 | [run](https://argusic.com/run/2a16968a-5a3c-4393-9ea5-a4ce39542941) |
 
 ## What was observed on a clean machine
 

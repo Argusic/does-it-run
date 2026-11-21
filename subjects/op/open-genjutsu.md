@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/open-genjutsu
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 17.7 to 17.7 minutes
+- Valid runs: 2; wall time 5.5 to 17.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/open-genjutsu
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.1 | 17.7 | 1 | 1 | [run](https://argusic.com/run/b49acc9b-64b7-4649-a978-1d51612400eb) |
+| 2 | pass with mocks | 92 | 5 | 5.5 | 2 | 2 | [run](https://argusic.com/run/953e1ab1-fab9-46fe-b29a-3db18c089324) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `Self-signed SSL certificate CN mismatch with 127.0.0.1 when connecting to mock API`
+
+Attempt 2:
+
+- 1 min: `API_BASE hardcoded preventing mock testing`
+- 1 min: `_validate_result_url rejects non-HTTPS`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

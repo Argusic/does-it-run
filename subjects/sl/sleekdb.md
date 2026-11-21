@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sleekdb
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.5 to 3.5 minutes
+- Valid runs: 2; wall time 1.6 to 3.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sleekdb
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 3.5 | 2 | 2 | [run](https://argusic.com/run/d6b28e0b-50a1-4c58-97bd-e640297bbe79) |
+| 2 | pass | 100 | 3.5 | 1.6 | 0 | 0 | [run](https://argusic.com/run/c7dddf03-ab42-4596-9dfd-f602e86f3c3c) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/neonplan3d
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.6 to 6.6 minutes
+- Valid runs: 2; wall time 6.6 to 10.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/neonplan3d
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3.2 | 6.6 | 1 | 1 | [run](https://argusic.com/run/119c8094-d584-4c1a-9b0f-e1349422e4be) |
+| 2 | pass | 100 | 2.5 | 10.8 | 2 | 2 | [run](https://argusic.com/run/9734aa82-e490-40c9-b16e-cd69acd27602) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1.5 min: `async_unload_entry in __init__.py raised KeyError: 'frontend_extra_module_url' during test teardown when frontend component is mocked`
+
+Attempt 2:
+
+- 0.5 min: `19 tests errored with 'Lingering timer' / KeyError: 'frontend_extra_module_url' during async_unload_entry in test teardown`
+- `1 remaining ERROR in test_backup_round_trip teardown: AssertionError from lingering aiohttp _run_safe_shutdown_loop thread`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/unifi-api-browser
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 7.5 to 7.5 minutes
+- Valid runs: 2; wall time 7.5 to 10.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/unifi-api-browser
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 8 | 7.5 | 3 | 3 | [run](https://argusic.com/run/7a6929d1-2300-46c7-9a80-57a238d6fdfa) |
+| 2 | pass with mocks | 92 | 10 | 10.7 | 3 | 3 | [run](https://argusic.com/run/a928f069-34bd-4a05-ad09-5180fd6759cd) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 3 min: `PHP CLI not installed - needed to run the application`
 - 2 min: `PHP curl extension not loaded - required by the UniFi-API-client`
 - 1 min: `PHP session save_path (/var/lib/php/sessions) not writable`
+
+Attempt 2:
+
+- 3 min: `PHP 8.1+ not installed in container`
+- 1 min: `config/users.php had template content with empty user entries blocking auth`
+- 1 min: `config/config.php still pointed to demo.ui.com instead of local mock`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/libtmux
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.3 to 7.3 minutes
+- Valid runs: 2; wall time 6.2 to 7.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/libtmux
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 7.3 | 3 | 3 | [run](https://argusic.com/run/b2337803-8197-4a89-93c6-50d560be7aed) |
+| 2 | pass | 100 | 5 | 6.2 | 3 | 3 | [run](https://argusic.com/run/586c7cff-a164-4841-9f1a-45ab9d568764) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 6 min: `tmux binary not available in container (required by libtmux)`
 - 1 min: `conftest.py references doctest_namespace fixture from pytest's doctest plugin, but project config disables doctest plugin via -p no:doctest, causing fixture resolution error`
 - 1 min: `test_control_mode_stdout_preserves_non_ascii_output fails under LC_CTYPE=C (pre-existing locale bug with control-mode output of non-ASCII chars)`
+
+Attempt 2:
+
+- 2 min: `tmux binary not found in container`
+- 1 min: `PEP 668 externally-managed-environment blocks system pip`
+- 1 min: `.[testing] extra not defined in pyproject.toml`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

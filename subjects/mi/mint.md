@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mint
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.5 to 12.5 minutes
+- Valid runs: 2; wall time 9.5 to 12.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mint
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 12.5 | 4 | 4 | [run](https://argusic.com/run/2ca0b1a6-b78d-4c57-a36b-cfbb1feec91e) |
+| 2 | pass | 100 | 20 | 9.5 | 4 | 4 | [run](https://argusic.com/run/c7881c70-b17c-4c0c-9dba-f6ddd158d11b) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 2 min: `Elixir not installed (Ubuntu version 1.14 but project requires ~> 1.15)`
 - 1 min: `Test suite failed to start: could not find application file: tools.app`
 - 1 min: `Test suite failed to start: could not find application file: xmerl.app`
+
+Attempt 2:
+
+- 8 min: `No Erlang/OTP or Elixir installed in container - apt debs required root so had to extract manually`
+- 3 min: `Elixir 1.14 from apt too old - mint requires ~> 1.15`
+- 2 min: `Missing parsetools include files (leexinc.hrl, yeccpre.hrl) needed by earmark_parser dependency`
+- `3 IPv6 test failures (test/transport/tcp_test.exs and ssl_test.exs)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

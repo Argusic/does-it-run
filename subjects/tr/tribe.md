@@ -1,6 +1,6 @@
 # tribe
 
-**Verdict: runs.** Argusic Score 95.6 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 93.8 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/StreetLamb/tribe, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/tribe
 - Test commit: `e1c2020a7dd7377d1ec14292f113c53ddf50d917`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 21 to 21 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 21 to 21.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tribe
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 95.56 | 25 | 21 | 9 | 7 | [run](https://argusic.com/run/9cf8abfd-203c-408f-81b9-08fde34c5d9b) |
+| 2 | pass with mocks | 92 | 19 | 21.3 | 6 | 6 | [run](https://argusic.com/run/8c2a4b90-b6ca-4d6d-84fc-658908ae7fc2) |
 
 ## What was observed on a clean machine
 
@@ -35,5 +36,14 @@ Attempt 1:
 - 1 min: `test_delete_upload returned 500 (Redis down)`
 - 2 min: `test_create_upload FileNotFoundError '/app/upload-data/...' hardcoded Docker path; /app not creatable without root`
 - 1 min: `app/tests/scripts/test_backend_pre_start.py and test_test_pre_start.py fail: 'called_once_with' is an invalid Mock assertion (upstream test bug, should be assert_called_once_with)`
+
+Attempt 2:
+
+- 2 min: `pystemmer 2.2.0.1 fails to build from source (no Python.h / python3-dev installed)`
+- 3 min: `psycopg2 build fails because pg_config is missing (no libpq-dev)`
+- 3 min: `No PostgreSQL database server available in container, preventing any DB operations`
+- 1 min: `Upload route uses hardcoded /app/upload-data/ path which doesn't exist`
+- 3 min: `Celery tasks block indefinitely connecting to Redis (no Redis server available)`
+- 2 min: `Two test files call session_mock.exec.called_once_with() which is not a real mock method`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

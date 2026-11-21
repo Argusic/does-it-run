@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/openswarm
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 47.8 to 47.8 minutes
+- Valid runs: 2; wall time 26.9 to 47.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/openswarm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 48 | 47.8 | 7 | 7 | [run](https://argusic.com/run/60595e08-ce2a-489e-8712-fbc7a95442d8) |
+| 2 | pass | 100 | 42 | 26.9 | 4 | 4 | [run](https://argusic.com/run/078c1353-b7a5-4587-90ba-72a4e3f33e22) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,12 @@ Attempt 1:
 - 2 min: `tsc not found on PATH when diagnosticsTool tests create temp directories`
 - 15 min: `bubblewrap (bwrap) not installed, sandbox verification fails closed`
 - 1 min: `git-lfs not installed`
+
+Attempt 2:
+
+- 4 min: `Node.js v18.19.1 below required >=22`
+- 1 min: `@rolldown/binding-linux-x64-gnu optional dep not installed`
+- 2 min: `diagnosticsTool tests fail without tsc in temp dirs`
+- 10 min: `Full vitest suite hangs with 475+ files together`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

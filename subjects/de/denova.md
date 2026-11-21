@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/denova
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.5 to 9.5 minutes
+- Valid runs: 2; wall time 7.9 to 9.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/denova
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 9.2 | 9.5 | 0 | 0 | [run](https://argusic.com/run/ba35c21d-c762-4ba7-9c4e-1a234ae92c87) |
+| 2 | pass | 100 | 7.5 | 7.9 | 0 | 0 | [run](https://argusic.com/run/35569764-f2cc-4c58-bf61-d24da5792f3c) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # better-chatbot
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/keinsaasforever/better-chatbot, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/better-chatbot
 - Test commit: `9c9ed86fd54d910ed22d0ad33576e1e6fbd1f43d`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 11.3 to 11.3 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 11.3 to 15.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/better-chatbot
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 11 | 11.3 | 4 | 4 | [run](https://argusic.com/run/80a5e144-6b62-41cc-8ecb-40fe01506158) |
+| 2 | fail | 20 | n/a | 15.7 | 0 | 0 | [run](https://argusic.com/run/cba93103-8c21-44ca-af5d-902601af08d1) |
 
 ## What was observed on a clean machine
 

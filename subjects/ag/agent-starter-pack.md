@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/GoogleCloudPlatform/agent-starter-pack, licensed Apache-2.0, written in Python.
+Project: https://github.com/GoogleCloudPlatform/agent-starter-pack, licensed Apache-2.0.
 
 Evidence and recordings: https://argusic.com/subject/agent-starter-pack
 

@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/dimastbk/python-calamine, licensed MIT, written in Rust.
+Project: https://github.com/dimastbk/python-calamine, licensed MIT, written in Python.
 
 Evidence and recordings: https://argusic.com/subject/python-calamine
 

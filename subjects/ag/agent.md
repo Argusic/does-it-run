@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agent
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 23 to 23 minutes
+- Valid runs: 2; wall time 12.2 to 23 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agent
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 22 | 23 | 3 | 3 | [run](https://argusic.com/run/ab4671f4-5376-4518-9723-3f6131fed3f0) |
+| 2 | pass | 100 | 7 | 12.2 | 4 | 4 | [run](https://argusic.com/run/f296bc31-7b45-46d2-aa8b-6f02e382cf68) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,12 @@ Attempt 1:
 - 2 min: `Go 1.26.5 not installed on PATH`
 - 5 min: `TestPolyglotScriptHooksCanBeRun: ruby not found in $PATH`
 - 2 min: `TestResolvingGitHostAliasesWithFlagSupport: ssh binary not found and /etc/ssh/ssh_config.d/ not writable`
+
+Attempt 2:
+
+- 3 min: `Go 1.26.5 not installed; container has no Go toolchain`
+- 2 min: `Ruby not installed; TestPolyglotScriptHooksCanBeRun requires ruby on PATH`
+- 1 min: `openssh-client (ssh binary) not installed; TestResolvingGitHostAliasesWithFlagSupport requires ssh -G`
+- `/etc/ssh/ssh_config.d/ missing; ssh -G has no alias config`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

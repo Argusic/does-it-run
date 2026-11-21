@@ -1,6 +1,6 @@
 # AWorld
 
-**Verdict: runs with mocks.** Argusic Score 77 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 84.5 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/inclusionAI/AWorld, licensed MIT, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aworld
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 22.7 to 22.7 minutes
+- Valid runs: 2; wall time 22.7 to 50.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aworld
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 77 | 17 | 22.7 | 4 | 1 | [run](https://argusic.com/run/495f5134-ecf1-4222-869e-6c5e0eaefe64) |
+| 2 | pass with mocks | 92 | 2 | 50.6 | 4 | 4 | [run](https://argusic.com/run/6485587d-c981-46bc-8515-7cbc4b784bda) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 2 min: `aworld/cmd/web/api_server.py missing logger import - NameError: name logger is not defined`
 - `test_forced_skill_runtime KeyError: llm_base_url - AgentConfig without LLM fails`
 - `test_command_bridge tasks command - background_task_manager property checks executor not runtime`
+
+Attempt 2:
+
+- 2 min: `ACP test_acp_self_test_reports_required_phase1_case_ids fails: subprocess returns exit code 1 because aworld_cli module not installed`
+- 5 min: `ACP test_acp_stdio_harness_can_launch_local_server_and_initialize fails: runs without AWORLD_ACP_SELF_TEST_BRIDGE, still hits memory init crash`
+- 10 min: `Test test_validate_stdio_host_command_accepts_topology_template fails: template command uses 'python' but only 'python3' exists on system`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

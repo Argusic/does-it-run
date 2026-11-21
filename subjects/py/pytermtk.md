@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pytermtk
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.6 to 1.6 minutes
+- Valid runs: 2; wall time 1.6 to 2.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pytermtk
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 1.6 | 1 | 1 | [run](https://argusic.com/run/edc6f772-b4e8-4951-9ef9-5f87506855f9) |
+| 2 | pass | 100 | 2 | 2.7 | 0 | 0 | [run](https://argusic.com/run/f3e265b5-0ca7-4c40-8601-1e6175d372cb) |
 
 ## What was observed on a clean machine
 

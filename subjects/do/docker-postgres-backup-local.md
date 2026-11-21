@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/docker-postgres-backup-loca
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.2 to 6.2 minutes
+- Valid runs: 2; wall time 4 to 6.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,13 @@ Evidence and recordings: https://argusic.com/subject/docker-postgres-backup-loca
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 6.2 | 0 | 0 | [run](https://argusic.com/run/caedb719-4fc6-43a0-afae-a2646685ec8a) |
+| 2 | pass | 100 | 4 | 4 | 2 | 2 | [run](https://argusic.com/run/26a8f9dd-a568-4dc6-a2cc-cbb4df7b5a0a) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 0.5 min: `PostgreSQL failed to start: could not create lock file /var/run/postgresql/.s.PGSQL.5432.lock`
+- 0.5 min: `pg_dumpall failed: permission denied for table pg_authid (user is not superuser)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

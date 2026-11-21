@@ -1,6 +1,6 @@
 # skywalking-java
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/apache/skywalking-java, licensed Apache-2.0, written in Java.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/skywalking-java
 - Test commit: `7f681f72148e138365b80c05dbb7d14d3c93ba84`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 42.7 to 42.7 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 42.7 to 45.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/skywalking-java
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 48 | 42.7 | 4 | 4 | [run](https://argusic.com/run/d27e7afa-c7e3-4370-a28e-0af424e6bfb2) |
+| 2 | pass | 100 | 14 | 45.2 | 3 | 3 | [run](https://argusic.com/run/acfb4150-3b5d-4a17-9617-eb437e951c03) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 1 min: `Proto submodule not initialized at clone`
 - 3 min: `mvnw test -pl apm-sniffer/apm-agent-core failed resolving sibling SNAPSHOTs`
 - 10 min: `Mock collector harness missing grpc-netty/perfmark/failureaccess on ad-hoc classpath`
+
+Attempt 2:
+
+- 2 min: `No JDK found in environment`
+- 1 min: `Maven enforcer rule requires Java 1.8 but build needs JDK 17 for newer class files`
+- 1 min: `Git submodule not initialized (protobuf definitions missing)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

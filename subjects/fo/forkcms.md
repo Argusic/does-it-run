@@ -1,6 +1,6 @@
 # forkcms
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/forkcms/forkcms, licensed MIT, written in PHP.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/forkcms
 - Test commit: `0545b76bc67e0c6f53e057c4b2f64d218374a057`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 23.1 to 23.1 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.8 to 23.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/forkcms
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 23 | 23.1 | 5 | 5 | [run](https://argusic.com/run/e62a5c7c-25fb-4101-b17a-46d4129b6f68) |
+| 2 | fail | 20 | n/a | 0.8 | 0 | 0 | [run](https://argusic.com/run/70431e63-5603-4e4c-abde-19acc92f8b7b) |
 
 ## What was observed on a clean machine
 

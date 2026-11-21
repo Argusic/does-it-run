@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/whale
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 3 to 3 minutes
+- Valid runs: 2; wall time 2.6 to 3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/whale
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 3 | 3 | 1 | 1 | [run](https://argusic.com/run/228d7ab2-a48e-47c1-9f5b-9376aa286fa9) |
+| 2 | pass with mocks | 92 | 10 | 2.6 | 0 | 0 | [run](https://argusic.com/run/44bc634a-edcd-48ac-b1be-5dc124aad2bc) |
 
 ## What was observed on a clean machine
 

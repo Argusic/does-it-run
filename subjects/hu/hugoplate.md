@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/hugoplate
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6 to 6 minutes
+- Valid runs: 2; wall time 3.1 to 6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hugoplate
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 6 | 5 | 5 | [run](https://argusic.com/run/df98d822-372c-4208-88ee-b49e6d7af102) |
+| 2 | pass | 100 | 8 | 3.1 | 0 | 0 | [run](https://argusic.com/run/ec0e654b-0a4c-4765-bc7f-3c5d2b503183) |
 
 ## What was observed on a clean machine
 

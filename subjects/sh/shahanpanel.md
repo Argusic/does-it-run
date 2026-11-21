@@ -2,7 +2,7 @@
 
 **Verdict: runs with mocks.** Argusic Score 52.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/HamedAp/ShahanPanel, licensed MIT, written in PHP.
+Project: https://github.com/HamedAp/ShahanPanel, licensed MIT, written in Shell.
 
 Evidence and recordings: https://argusic.com/subject/shahanpanel
 

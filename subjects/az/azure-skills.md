@@ -2,7 +2,7 @@
 
 **Verdict: could not verify.** Argusic Score 80 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/microsoft/azure-skills, licensed MIT, written in Shell.
+Project: https://github.com/microsoft/azure-skills, licensed MIT, written in JavaScript.
 
 Evidence and recordings: https://argusic.com/subject/azure-skills
 

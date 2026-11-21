@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/easy-agent
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6 to 6 minutes
+- Valid runs: 2; wall time 6 to 8.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/easy-agent
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 6 | 1 | 1 | [run](https://argusic.com/run/3e557cd1-8bd1-4ddb-aabf-a022be96355f) |
+| 2 | pass | 100 | 32 | 8.5 | 2 | 2 | [run](https://argusic.com/run/e708af20-c696-4cdf-a6dc-a49d343bab98) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 5 min: `Node.js v18 was installed but project requires >=22`
+
+Attempt 2:
+
+- 3 min: `Node.js v18.19.1 installed but project requires >=22; package engine warnings and typecheck/build would fail`
+- 1 min: `Global npm install -g eagent failed with EACCES to /usr/local/lib/node_modules`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

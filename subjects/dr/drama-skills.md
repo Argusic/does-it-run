@@ -1,27 +1,26 @@
-# building-a-coding-agent-from-scratch-course
+# drama-skills
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course, licensed Apache-2.0, written in Python.
+Project: https://github.com/zenstory-ai/drama-skills, licensed MIT, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/building-a-coding-agent-from-scratch-course
+Evidence and recordings: https://argusic.com/subject/drama-skills
 
 ## Pinned environment
 
-- Project commit: `798a1e7ad07cc9341b20e0b14ed92ecec6cc0b1b`
-- Test commit: `798a1e7ad07cc9341b20e0b14ed92ecec6cc0b1b`
+- Project commit: `8cf7404981b7095b498e061832bb3c9ffd6a42be`
+- Test commit: `8cf7404981b7095b498e061832bb3c9ffd6a42be`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 2; wall time 4.6 to 6.8 minutes
+- Valid runs: 1; wall time 14.8 to 14.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
 
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
-| 1 | pass | 100 | 0.25 | 6.8 | 0 | 0 | [run](https://argusic.com/run/fd2031fa-d787-4d57-81c3-4fc2eedec547) |
-| 2 | pass | 100 | 4.5 | 4.6 | 0 | 0 | [run](https://argusic.com/run/f95d1b14-d82b-43c7-a2b2-5e7ddfb6dc24) |
+| 1 | pass | 100 | 0 | 14.8 | 0 | 0 | [run](https://argusic.com/run/5c849e6b-db8e-4136-bdb0-d6dd61547b68) |
 
 ## What was observed on a clean machine
 

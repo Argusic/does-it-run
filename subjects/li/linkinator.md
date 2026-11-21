@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/linkinator
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.2 to 2.2 minutes
+- Valid runs: 2; wall time 1.8 to 2.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/linkinator
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 35 | 2.2 | 1 | 1 | [run](https://argusic.com/run/79304e1f-4f1e-47a8-ba3e-6b71f7abfb3a) |
+| 2 | pass | 100 | 5 | 1.8 | 0 | 0 | [run](https://argusic.com/run/2ec08d15-90a1-45c6-a8b1-4def2d7514fc) |
 
 ## What was observed on a clean machine
 

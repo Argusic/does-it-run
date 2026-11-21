@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/wavedrom-github-io
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 25.6 to 25.6 minutes
+- Valid runs: 2; wall time 4.3 to 25.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/wavedrom-github-io
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 26 | 25.6 | 2 | 2 | [run](https://argusic.com/run/37370c9c-20ce-44cf-a69c-6ffb437ac2e1) |
+| 2 | pass | 100 | 1 | 4.3 | 0 | 0 | [run](https://argusic.com/run/9c6021dc-3a8a-4481-b48e-10449e9f3df1) |
 
 ## What was observed on a clean machine
 

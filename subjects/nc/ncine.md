@@ -1,6 +1,6 @@
 # nCine
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/nCine/nCine, licensed MIT, written in C++.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/ncine
 - Test commit: `e9a2342262e193d2343e69989b6f73cb8ba2cf10`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 11.7 to 11.7 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.9 to 11.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ncine
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 11.7 | 5 | 5 | [run](https://argusic.com/run/4d2c2643-51a2-47ff-922a-fe62aa3a6717) |
+| 2 | fail | 20 | n/a | 0.9 | 0 | 0 | [run](https://argusic.com/run/2f349c25-e1ca-42a9-aaef-f699bdb5b728) |
 
 ## What was observed on a clean machine
 

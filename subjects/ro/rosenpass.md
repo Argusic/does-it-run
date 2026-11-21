@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rosenpass
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.9 to 9.9 minutes
+- Valid runs: 2; wall time 9.9 to 10.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rosenpass
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 25 | 9.9 | 3 | 3 | [run](https://argusic.com/run/cb03ab36-c3eb-46d7-a689-cc64ce7d70a0) |
+| 2 | pass | 100 | 9 | 10.7 | 4 | 4 | [run](https://argusic.com/run/3c97d83e-ab51-4d86-bfeb-f269beceeb33) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,12 @@ Attempt 1:
 - 2 min: `rustc/cargo not found in container`
 - 8 min: `libclang not found for bindgen in oqs-sys build`
 - 2 min: `clang resource headers missing from libclang-20-dev package`
+
+Attempt 2:
+
+- 1 min: `rustc not installed`
+- 2 min: `libclang not found (libclang.so missing, needed by oqs-sys/bindgen)`
+- 1 min: `libtinfo.so.5 not found (required by LLVM 18's libclang)`
+- 1 min: `bindgen could not find limits.h (missing include paths)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

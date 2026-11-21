@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/gitmal
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.4 to 5.4 minutes
+- Valid runs: 2; wall time 5.4 to 9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gitmal
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 5.4 | 2 | 2 | [run](https://argusic.com/run/45662648-6811-4be5-b4ce-ef40429cba91) |
+| 2 | pass | 100 | 5 | 9 | 1 | 1 | [run](https://argusic.com/run/6aeec04d-456a-465a-afd2-373032a0ddc1) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 2 min: `Go 1.24.0 not installed in container`
 - 1 min: `Repo checked out in detached HEAD with no local branches - gitmal requires local refs/heads/`
+
+Attempt 2:
+
+- 5 min: `Go compiler not found and stdlib sources missing`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

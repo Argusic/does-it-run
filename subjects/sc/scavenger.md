@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/scavenger
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 5 to 5 minutes
+- Valid runs: 2; wall time 5 to 5.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/scavenger
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.5 | 5 | 2 | 2 | [run](https://argusic.com/run/9cdff813-5f74-44c5-9b82-d8caf5ee40d4) |
+| 2 | pass with mocks | 92 | 8 | 5.1 | 0 | 0 | [run](https://argusic.com/run/e10e8b72-0283-4676-a888-39f6ce08e569) |
 
 ## What was observed on a clean machine
 

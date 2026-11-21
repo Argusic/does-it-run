@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/opsli-boot
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.6 to 18.6 minutes
+- Valid runs: 2; wall time 18.6 to 34.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/opsli-boot
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 18.6 | 5 | 5 | [run](https://argusic.com/run/406270a6-cf5e-4a6d-b078-6490cb207929) |
+| 2 | pass | 100 | 33 | 34.6 | 3 | 3 | [run](https://argusic.com/run/6dd9dd98-965b-400e-a535-7fd2e6528d3c) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,11 @@ Attempt 1:
 - 1 min: `Placeholder resolution error for springdoc.swagger-ui.enabled in local profile`
 - 3 min: `MySQL 8.0 missing shared libraries (libevent, libaio, libprotobuf)`
 - 2 min: `Redis 7.0 missing shared libraries (liblzf, libjemalloc)`
+
+Attempt 2:
+
+- 5 min: `Lombok @Slf4j/@Data annotations not processed , maven-compiler-plugin lacks annotationProcessorPaths`
+- 3 min: `Redis port mismatch (cfg 6677, actual 6379) and missing allowPublicKeyRetrieval in dev profile`
+- 25 min: `No JDK 22 or Maven in container; MySQL & Redis not installed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

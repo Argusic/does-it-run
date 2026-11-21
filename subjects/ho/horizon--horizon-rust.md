@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 75 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/horizon-rust/horizon, licensed MIT, written in Rust.
+Project: https://github.com/horizon-rust/horizon, licensed LGPL-3.0, written in Rust.
 
 Evidence and recordings: https://argusic.com/run/a4c4ca18-1583-4a89-bc45-99f6bb9eff69
 

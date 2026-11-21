@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/intelli-shell
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7 to 7 minutes
+- Valid runs: 2; wall time 7 to 8.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/intelli-shell
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 13 | 7 | 3 | 3 | [run](https://argusic.com/run/66605059-fb1a-40b7-885b-f4f695737d4c) |
+| 2 | pass | 100 | 6.1 | 8.6 | 0 | 0 | [run](https://argusic.com/run/14518ff9-4773-4cc7-bb3a-7f9b2be95abc) |
 
 ## What was observed on a clean machine
 

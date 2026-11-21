@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/01040721-439c-487d-8421-bd83bcf
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.1 to 15.1 minutes
+- Valid runs: 2; wall time 9.9 to 15.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/01040721-439c-487d-8421-bd83bcf
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 28 | 15.1 | 5 | 5 | [run](https://argusic.com/run/01040721-439c-487d-8421-bd83bcfb7671) |
+| 2 | pass | 100 | 30 | 9.9 | 5 | 5 | [run](https://argusic.com/run/657072da-3428-4d3a-9822-5e08f9a7241f) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,13 @@ Attempt 1:
 - 5 min: `PostgreSQL not available on system`
 - `jsdom test environment fails on Node 18/20: @exodus/bytes ESM require issue in html-encoding-sniffer dependency`
 - `Startup warning: no redis-server binary found for rate limiter`
+
+Attempt 2:
+
+- 4 min: `Node.js 18 detected, project requires >=20`
+- 1 min: `pnpm not found`
+- 12 min: `PostgreSQL 16 not installed (no root for apt)`
+- 2 min: `createdb/psql not available in extracted postgresql-16 bin`
+- `Undici DecompressionStream TypeError (unhandled errors during tests)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

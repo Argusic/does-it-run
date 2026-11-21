@@ -1,6 +1,6 @@
 # axe
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/jrswab/axe, licensed Apache-2.0, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/axe
 - Test commit: `937b509f1ff28e3610586c8891140ee15d87ad57`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 17.4 to 17.4 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 4.4 to 17.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/axe
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 25 | 17.4 | 2 | 2 | [run](https://argusic.com/run/ff75c9e2-56fa-45eb-9b5b-9b52c92b9a0f) |
+| 2 | pass | 100 | 10 | 4.4 | 0 | 0 | [run](https://argusic.com/run/e16bbba2-cd17-47b3-972e-f62e1ac4b61d) |
 
 ## What was observed on a clean machine
 

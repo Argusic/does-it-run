@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/Ebony-Vinyl/dsh-our-free-model, licensed MIT, written in JavaScript.
+Project: https://github.com/Ebony-Vinyl/dsh-our-free-model, licensed NOASSERTION, written in JavaScript.
 
 Evidence and recordings: https://argusic.com/subject/dsh-our-free-model
 

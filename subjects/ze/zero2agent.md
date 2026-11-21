@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/zero2agent
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.5 to 6.5 minutes
+- Valid runs: 2; wall time 1.1 to 6.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/zero2agent
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 6 | 6.5 | 5 | 0 | [run](https://argusic.com/run/1e9ba9ab-2f98-4844-bbab-1820f5bf2ee7) |
+| 2 | pass | 80 | 0.1 | 1.1 | 1 | 0 | [run](https://argusic.com/run/817f124c-eac6-40dc-a57e-43ac5526bbe9) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,9 @@ Attempt 1:
 - `pandoc and xelatex not installed; PDF rebuild not possible`
 - `mmdc (mermaid CLI) not installed; mermaid syntax validation skipped`
 - `5 pre-existing test failures in classify-interview-questions/ (semantic recall mappings out of sync with question-index data)`
+
+Attempt 2:
+
+- 0.1 min: `Jekyll build skipped: Ruby not installed in container and no root access to install it`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

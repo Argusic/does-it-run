@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ttyplot
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 17.2 to 17.2 minutes
+- Valid runs: 2; wall time 4.1 to 17.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ttyplot
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 17.2 | 4 | 4 | [run](https://argusic.com/run/5f231590-85cd-424f-b138-eb8abcf7a9d2) |
+| 2 | pass | 100 | 2 | 4.1 | 1 | 1 | [run](https://argusic.com/run/0819d81c-063b-4d36-b33c-ae3c3f27dc83) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,9 @@ Attempt 1:
 - 0.5 min: `make: ncurses.h not found (header needed for compilation)`
 - 0.5 min: `make: VERSION_STR undeclared (not passed when bypassing pkg-config)`
 - 8 min: `Runtime crash: "corrupted size vs. prev_size" heap corruption when piping stdin`
+
+Attempt 2:
+
+- 2 min: `Missing libncurses-dev package (headers and pkg-config files)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/otterwiki
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4 to 4 minutes
+- Valid runs: 2; wall time 4 to 5.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/otterwiki
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2.5 | 4 | 0 | 0 | [run](https://argusic.com/run/37422bec-4993-4b83-b323-a23c5521de23) |
+| 2 | pass | 100 | 0.5 | 5.4 | 0 | 0 | [run](https://argusic.com/run/b16d8318-b3db-47df-a762-44fd3c235a91) |
 
 ## What was observed on a clean machine
 

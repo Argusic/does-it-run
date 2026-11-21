@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/respan-gateway
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 9.8 to 9.8 minutes
+- Valid runs: 2; wall time 2.3 to 9.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/respan-gateway
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 9.5 | 9.8 | 2 | 2 | [run](https://argusic.com/run/3f7229b3-fe94-499b-b232-8834215db94e) |
+| 2 | pass with mocks | 92 | 0.1 | 2.3 | 1 | 1 | [run](https://argusic.com/run/dc956809-b72b-45bb-ab3e-701ca8cccb55) |
 
 ## What was observed on a clean machine
 

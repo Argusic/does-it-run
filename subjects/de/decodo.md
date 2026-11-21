@@ -1,6 +1,6 @@
 # Decodo
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Decodo/Decodo, licensed MIT, written in Java.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/decodo
 - Test commit: `db49f3d26cd83831779993fb5e9a61fa353233f0`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 9.1 to 9.1 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 1.2 to 9.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/decodo
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0 | 9.1 | 0 | 0 | [run](https://argusic.com/run/535e3f47-230f-4d68-b7b6-f107e0c58004) |
+| 2 | fail | 20 | n/a | 1.2 | 0 | 0 | [run](https://argusic.com/run/a387c2af-1925-463a-bf64-afe5eb5a897e) |
 
 ## What was observed on a clean machine
 

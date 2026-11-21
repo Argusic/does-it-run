@@ -1,6 +1,6 @@
 # parse-video
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/wujunwei928/parse-video, licensed MIT, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/parse-video
 - Test commit: `57590df94b49aafc827eb98e85c845eaa1cb3daf`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 19.7 to 19.7 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 3.4 to 19.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/parse-video
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 58 | 19.7 | 3 | 3 | [run](https://argusic.com/run/e3713b40-8e64-405c-a972-0320f6ade356) |
+| 2 | pass | 100 | 5 | 3.4 | 0 | 0 | [run](https://argusic.com/run/bcead164-86dd-45fd-8c63-f4833fd98d9a) |
 
 ## What was observed on a clean machine
 

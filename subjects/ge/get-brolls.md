@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/engenheirodevideo/get-brolls, licensed MIT, written in Python.
+Project: https://github.com/engenheirodevideo/get-brolls, licensed NOASSERTION.
 
 Evidence and recordings: https://argusic.com/subject/get-brolls
 

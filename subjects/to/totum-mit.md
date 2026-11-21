@@ -1,6 +1,6 @@
 # totum-mit
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/totumonline/totum-mit, licensed MIT, written in PHP.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/totum-mit
 - Test commit: `45980e25653d06a23682ec51cd2100aa51a0850a`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 11.8 to 11.8 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 0.2 to 11.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/totum-mit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 11.8 | 6 | 6 | [run](https://argusic.com/run/a0516445-7129-4cd1-9795-59e550d99033) |
+| 2 | fail | 20 | n/a | 0.2 | 0 | 0 | [run](https://argusic.com/run/04323985-985e-4e3e-b388-3a47b8912277) |
 
 ## What was observed on a clean machine
 

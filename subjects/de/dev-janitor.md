@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/dev-janitor
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.2 to 3.2 minutes
+- Valid runs: 2; wall time 3.2 to 26.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,19 @@ Evidence and recordings: https://argusic.com/subject/dev-janitor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 3.2 | 1 | 1 | [run](https://argusic.com/run/422b3003-62a4-4fc6-8f3c-0dabe97f5710) |
+| 2 | pass | 100 | 17 | 26.9 | 4 | 4 | [run](https://argusic.com/run/b704d337-a1f6-433a-b621-14224aa519c6) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 10 min: `Desktop-feature Rust builds (cargo check / cargo test / tauri build) fail: glib-sys, gio-sys, webkit2gtk-sys system dev packages (glib-2.0.pc, gio-2.0.pc, webkit2gtk-4.1, etc.) are not installed and apt-get is unavailable (no root; plain 'r`
+
+Attempt 2:
+
+- 5 min: `Missing system -dev packages (glib, gtk, webkit2gtk, etc.) for Tauri desktop build`
+- 3 min: `Runtime shared libraries not found at link time (no .so symlinks)`
+- 4 min: `WebKit subprocess hardcodes /usr/lib/.../WebKitNetworkProcess path`
+- 2 min: `EGL_BAD_PARAMETER from prefix Mesa/EGL libs shadowing system ones`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

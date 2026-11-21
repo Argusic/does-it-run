@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/message-io
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.4 to 2.4 minutes
+- Valid runs: 2; wall time 2.4 to 6.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/message-io
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 2.4 | 0 | 0 | [run](https://argusic.com/run/59d8c407-35fc-448b-9e8a-0ab139f3c127) |
+| 2 | pass | 100 | 0.5 | 6.5 | 0 | 0 | [run](https://argusic.com/run/49ba032d-2266-43a3-a641-529d6f0346a7) |
 
 ## What was observed on a clean machine
 

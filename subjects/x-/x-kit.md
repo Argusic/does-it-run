@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/x-kit
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 6.2 to 6.2 minutes
+- Valid runs: 2; wall time 6.2 to 8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/x-kit
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 3 | 6.2 | 1 | 1 | [run](https://argusic.com/run/1a859531-6e36-4700-a84f-43400f47db27) |
+| 2 | pass with mocks | 92 | 0.1 | 8 | 0 | 0 | [run](https://argusic.com/run/9e2b2af4-e942-4f96-b3c2-438aebd538e3) |
 
 ## What was observed on a clean machine
 

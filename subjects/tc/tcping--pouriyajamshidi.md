@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/51b79239-4050-45c7-8061-9252b77
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.7 to 3.7 minutes
+- Valid runs: 2; wall time 2.2 to 3.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/51b79239-4050-45c7-8061-9252b77
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 3.7 | 1 | 1 | [run](https://argusic.com/run/51b79239-4050-45c7-8061-9252b77d2864) |
+| 2 | pass | 100 | 4 | 2.2 | 0 | 0 | [run](https://argusic.com/run/377376c6-6680-4315-8d32-015d08519bb7) |
 
 ## What was observed on a clean machine
 

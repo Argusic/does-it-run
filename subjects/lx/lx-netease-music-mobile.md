@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/lx-netease-music-mobile
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 19 to 19 minutes
+- Valid runs: 2; wall time 11.5 to 19 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/lx-netease-music-mobile
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 1 | 19 | 3 | 3 | [run](https://argusic.com/run/f8159b17-c23b-44e8-be55-789ef399504d) |
+| 2 | pass with mocks | 92 | 2 | 11.5 | 0 | 0 | [run](https://argusic.com/run/2cf86d16-d1af-4171-9f86-e9fd1cb07259) |
 
 ## What was observed on a clean machine
 

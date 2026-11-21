@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/shopper
 - Test commit: `86da81306a7f3b0f981ccd196182fb15481dea6c`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 59.6 to 59.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 59.6 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/shopper
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 59.6 | 9 | 9 | [run](https://argusic.com/run/8ed0bcb4-1068-4dc9-b217-7076693cd97c) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/966775be-3460-48ab-92eb-b33bc5e13bea) |
 
 ## What was observed on a clean machine
 

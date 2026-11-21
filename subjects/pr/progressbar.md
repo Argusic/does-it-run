@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/progressbar
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6 to 6 minutes
+- Valid runs: 2; wall time 5 to 6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/progressbar
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 6 | 0 | 0 | [run](https://argusic.com/run/abf8e15a-e018-4587-ab8b-a149d4648e1d) |
+| 2 | pass | 100 | 3 | 5 | 0 | 0 | [run](https://argusic.com/run/b7aff78d-5ca6-4a2f-9bd6-338b7100234c) |
 
 ## What was observed on a clean machine
 
