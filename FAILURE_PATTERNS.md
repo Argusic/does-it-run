@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 14949 observed error lines in 6698 valid runs of 3854 tested subjects (generated 2026-11-21).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 15049 observed error lines in 6757 valid runs of 3854 tested subjects (generated 2026-11-22).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
-| Port already in use | 15 | 0.1% | 13 |
+| Port already in use | 17 | 0.1% | 15 |
 | Permission denied | 137 | 0.9% | 125 |
-| Missing system library or header | 759 | 5.1% | 414 |
-| Tool, runtime or component not installed | 2506 | 16.8% | 1585 |
-| Version mismatch | 1537 | 10.3% | 1082 |
-| Missing configuration or secret | 303 | 2.0% | 263 |
+| Missing system library or header | 761 | 5.1% | 414 |
+| Tool, runtime or component not installed | 2527 | 16.8% | 1588 |
+| Version mismatch | 1547 | 10.3% | 1086 |
+| Missing configuration or secret | 305 | 2.0% | 264 |
 | Source or download problem | 184 | 1.2% | 155 |
-| Network, timeout or service unreachable | 313 | 2.1% | 272 |
-| Dependency install or resolution failed | 1784 | 11.9% | 1207 |
-| Build or compile step failed | 617 | 4.1% | 487 |
-| The project's own tests failed | 1699 | 11.4% | 972 |
-| Expected file or data not present | 224 | 1.5% | 204 |
-| Error inside the project's code | 175 | 1.2% | 149 |
-| Other | 4696 | 31.4% | 2099 |
+| Network, timeout or service unreachable | 316 | 2.1% | 275 |
+| Dependency install or resolution failed | 1798 | 11.9% | 1210 |
+| Build or compile step failed | 619 | 4.1% | 488 |
+| The project's own tests failed | 1708 | 11.3% | 978 |
+| Expected file or data not present | 229 | 1.5% | 209 |
+| Error inside the project's code | 176 | 1.2% | 150 |
+| Other | 4725 | 31.4% | 2107 |
 
 ## Port already in use
 
@@ -29,7 +29,7 @@ Example runs:
 
 - bramble, attempt 1: https://argusic.com/run/86fee78c-2eeb-46ef-b0ac-e79d42644964
 - CaddyProxyManager, attempt 1: https://argusic.com/run/05414b07-cac1-4717-a638-70535be860c3
-- express, attempt 2: https://argusic.com/run/4e43cf30-bc87-4838-8e48-9bc64db2f542
+- deco, attempt 2: https://argusic.com/run/4ba3f551-dc8d-445b-b4ce-2ea9a6521ddf
 
 ## Permission denied
 

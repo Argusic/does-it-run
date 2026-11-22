@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/context-attachment-manager
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 3.4 to 3.4 minutes
+- Valid runs: 2; wall time 3.4 to 6.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/context-attachment-manager
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 13 | 3.4 | 1 | 1 | [run](https://argusic.com/run/590f43e5-68f3-4077-a451-0f4c7c390951) |
+| 2 | pass with mocks | 92 | 9 | 6.4 | 1 | 1 | [run](https://argusic.com/run/322e7fe2-a739-4384-8239-ebb77ef1b5fe) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 3 min: `Node 18 is too old (project requires Node 24+)`
+
+Attempt 2:
+
+- 3 min: `No Node 24+ available (system has Node 18.19.1)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

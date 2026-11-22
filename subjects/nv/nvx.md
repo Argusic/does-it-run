@@ -1,6 +1,6 @@
 # nvx
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 86 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/microsoft/nvx, licensed MIT, written in Rust.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/nvx
 - Test commit: `5b37b4f159ad006e6b78278a27477fa93a7b4e80`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 77.6 to 77.6 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 6.8 to 77.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/nvx
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 70 | 77.6 | 7 | 7 | [run](https://argusic.com/run/7d2aa450-b1ee-4a7c-acb0-9fa7191f6015) |
+| 2 | fail | 80 | 0.17 | 6.8 | 0 | 0 | [run](https://argusic.com/run/c47f365c-813a-43e7-9f22-ecf01bc781e9) |
 
 ## What was observed on a clean machine
 

@@ -1,6 +1,6 @@
 # fae
 
-**Verdict: runs.** Argusic Score 97.1 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 58.6 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/wearefine/fae, licensed MIT, written in Ruby.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/fae
 - Test commit: `b3416fbc44543bc80b83c61a4ff5c5e12771879a`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 59 to 59 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 22.3 to 59 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/fae
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 97.14 | 92 | 59 | 7 | 6 | [run](https://argusic.com/run/17028dd7-740f-4802-9064-91e536741c86) |
+| 2 | fail | 20 | n/a | 22.3 | 0 | 0 | [run](https://argusic.com/run/a494a961-def2-4f70-b2bc-c020009e9687) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/nestjs-otel
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.5 to 4.5 minutes
+- Valid runs: 2; wall time 1.6 to 4.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/nestjs-otel
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 4.5 | 1 | 1 | [run](https://argusic.com/run/d56e2eb5-c9e3-4574-b4b6-b512d13b250e) |
+| 2 | pass | 100 | 0.2 | 1.6 | 0 | 0 | [run](https://argusic.com/run/779bd1a0-24dc-4b69-823a-774974fe84a1) |
 
 ## What was observed on a clean machine
 

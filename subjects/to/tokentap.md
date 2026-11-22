@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tokentap
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.4 to 2.4 minutes
+- Valid runs: 2; wall time 2.4 to 2.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tokentap
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 2.4 | 1 | 1 | [run](https://argusic.com/run/c7425f58-1be7-4295-8262-09946a4d5285) |
+| 2 | pass | 100 | 2 | 2.6 | 0 | 0 | [run](https://argusic.com/run/bd9ab053-c2b1-43e1-a673-cc7e4536e3a7) |
 
 ## What was observed on a clean machine
 

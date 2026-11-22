@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/whiteboard
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.4 to 11.4 minutes
+- Valid runs: 2; wall time 4.6 to 11.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/whiteboard
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.75 | 11.4 | 5 | 5 | [run](https://argusic.com/run/3e8dd2a8-b33e-418a-a1e3-8033d4ce6afc) |
+| 2 | pass | 100 | 8.5 | 4.6 | 6 | 6 | [run](https://argusic.com/run/a90427ff-8416-42b1-b3ee-d7706a387283) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,14 @@ Attempt 1:
 - 0.05 min: `crypto global not exposed in Jest's EVM sandbox, uuid package fails at runtime`
 - 0.35 min: `jsdom@30.0.1 requires Node >=22 (Node 18 in container), html-encoding-sniffer requires() ESM @exodus/bytes`
 - 0.1 min: `Production server loadwhiteboard/getReadOnlyWid fail with globalThis.crypto undefined in Node 18 EVM`
+
+Attempt 2:
+
+- 2 min: `Node 18 does not support JSON imports with 'with { type: "json" }' syntax`
+- 1 min: `jsdom@30 requires Node >=22, not available with Node 18`
+- 1.5 min: `uuid@14 references bare 'crypto' global as a bare identifier in ESM dist, which fails in Jest VM context`
+- 1 min: `copy-webpack-plugin@14 uses Array.toSorted() requiring Node 20+`
+- 2 min: `@babel/core@8 is ESM-only and babel-jest tries to require() it`
+- 0.5 min: `webpack-cli@7 requires Node 20+`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

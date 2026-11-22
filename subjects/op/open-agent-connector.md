@@ -1,6 +1,6 @@
 # open-agent-connector
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Anil-matcha/open-agent-connector, licensed Apache-2.0, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/open-agent-connector
 - Test commit: `41d306722688bb979bceaa83e27a984c390f2a81`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 9.4 to 9.4 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 8.9 to 9.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/open-agent-connector
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 12 | 9.4 | 4 | 4 | [run](https://argusic.com/run/65664daf-627a-42e3-b0d4-d20a8f8fac2e) |
+| 2 | pass | 100 | 2 | 8.9 | 0 | 0 | [run](https://argusic.com/run/1eb66020-bee8-476d-8631-f0c21867c5ee) |
 
 ## What was observed on a clean machine
 

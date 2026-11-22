@@ -1,6 +1,6 @@
 # scira-mcp-chat
 
-**Verdict: runs.** Argusic Score 97.1 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 94.6 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/zaidmukaddam/scira-mcp-chat, licensed Apache-2.0, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/scira-mcp-chat
 - Test commit: `c9467dc212fc3574fd813fb18dcdb0a044d095c2`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 37.5 to 37.5 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 3.9 to 37.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/scira-mcp-chat
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 97.14 | 30 | 37.5 | 7 | 6 | [run](https://argusic.com/run/5e1843b2-6b0c-4fed-80d7-06946c296b72) |
+| 2 | pass with mocks | 92 | 2 | 3.9 | 1 | 1 | [run](https://argusic.com/run/09f0b657-6ca8-4941-a6df-455cb4de0d1c) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,9 @@ Attempt 1:
 - 6 min: `DB endpoints returned 500: @neondatabase/serverless driver is WebSocket-only and cannot reach a local Postgres`
 - 6 min: `Build failed Can't resolve 'tls'/'net'/'fs': client component chat.tsx imported DB code via lib/chat-store`
 - 1 min: `/api/chat chat-streaming returns 500: request is gated by Vercel BotId OIDC (x-vercel-oidc-token + external bot-protection API) before any AI provider key is used`
+
+Attempt 2:
+
+- 1 min: `pnpm 12 no longer reads 'pnpm.onlyBuiltDependencies' from package.json; needs 'allowBuilds' in pnpm-workspace.yaml`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/search-cop
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.2 to 7.2 minutes
+- Valid runs: 2; wall time 7.2 to 8.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/search-cop
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 24 | 7.2 | 5 | 5 | [run](https://argusic.com/run/89c6d079-8f49-4e19-9070-d57e2ace3c08) |
+| 2 | pass | 100 | 8 | 8.3 | 5 | 5 | [run](https://argusic.com/run/6989a68a-1218-406f-b9d2-c0d8cf7a4cda) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,13 @@ Attempt 1:
 - 2 min: `gem build of mysql2 extension failed: static libz.a linked into a shared object (relocation error for z_errmsg)`
 - 2 min: `DATABASE=postgres suite failed at enable_extension citext (non-superuser search_cop role)`
 - 1 min: `Local PostgreSQL trial listened on port 55432 while test/database.yml hardcodes 127.0.0.1:5432 (Connection refused)`
+
+Attempt 2:
+
+- 3 min: `No Ruby runtime in container`
+- 2 min: `Missing zlib extension for Ruby`
+- 2 min: `Missing psych (YAML) extension for Ruby`
+- 1 min: `Missing fiddle extension for Ruby`
+- 1 min: `mysql2 gem requires libmysqlclient-dev (not available without root)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

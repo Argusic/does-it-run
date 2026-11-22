@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/rtm
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.6 to 3.6 minutes
+- Valid runs: 2; wall time 3.2 to 3.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/rtm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 3.6 | 0 | 0 | [run](https://argusic.com/run/89686160-4e8d-4307-a789-8fd47992f7b4) |
+| 2 | pass | 100 | 2.5 | 3.2 | 0 | 0 | [run](https://argusic.com/run/4eee7e30-c4cc-4eca-bd39-5ad1434001ed) |
 
 ## What was observed on a clean machine
 

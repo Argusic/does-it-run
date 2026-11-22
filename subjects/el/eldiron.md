@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/eldiron
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 66.3 to 66.3 minutes
+- Valid runs: 2; wall time 22.7 to 66.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/eldiron
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 66 | 66.3 | 11 | 11 | [run](https://argusic.com/run/7d45057f-987b-4715-8b74-7270d658cddb) |
+| 2 | pass | 100 | 22 | 22.7 | 4 | 4 | [run](https://argusic.com/run/63b08655-5d53-49b0-9700-f38e0e4abba5) |
 
 ## What was observed on a clean machine
 
@@ -37,5 +38,12 @@ Attempt 1:
 - 2 min: `cargo test rusterix: PartyProbe missing 'say' method from WorldServices trait`
 - 3 min: `GUI creator panics with AdapterNotFound (no Vulkan driver)`
 - 2 min: `GUI creator panics at thedraw2d.rs:1828: index out of bounds during icon scaling`
+
+Attempt 2:
+
+- 1 min: `Missing Rust toolchain`
+- 2 min: `Missing system dev libraries: fontconfig, wayland-client, alsa .pc files and .so symlinks`
+- 1 min: `Test compilation: PartyProbe mock missing say() method`
+- 2 min: `d2builder.rs uses Widget unconditionally outside graphics feature gate`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

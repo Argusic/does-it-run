@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/keifu
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.1 to 6.1 minutes
+- Valid runs: 2; wall time 6.1 to 9.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/keifu
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 6.1 | 0 | 0 | [run](https://argusic.com/run/6fe797be-f4cc-4b60-99f1-1350a7edeefe) |
+| 2 | pass | 100 | 9 | 9.5 | 0 | 0 | [run](https://argusic.com/run/3b4e168a-6e80-4069-bfb4-ca4f43437eea) |
 
 ## What was observed on a clean machine
 

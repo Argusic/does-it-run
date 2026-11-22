@@ -1,6 +1,6 @@
 # jenkins-library
 
-**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 95 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/SAP/jenkins-library, licensed Apache-2.0, written in Go.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jenkins-library
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 14.4 to 14.4 minutes
+- Valid runs: 2; wall time 7.6 to 14.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jenkins-library
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 90 | 10 | 14.4 | 2 | 1 | [run](https://argusic.com/run/806b8313-d610-4f94-ab45-a8239117b0ff) |
+| 2 | pass | 100 | 2.5 | 7.6 | 0 | 0 | [run](https://argusic.com/run/a496ea10-d584-43c6-9968-5c15fe0290f5) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/blinkpy
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 19 to 19 minutes
+- Valid runs: 2; wall time 2.2 to 19 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/blinkpy
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.3 | 19 | 0 | 0 | [run](https://argusic.com/run/343b4b7b-c6cc-4fcd-b2a0-c174615866ed) |
+| 2 | pass with mocks | 92 | 2 | 2.2 | 0 | 0 | [run](https://argusic.com/run/117946e1-09d9-4447-a155-648d7e992ab0) |
 
 ## What was observed on a clean machine
 

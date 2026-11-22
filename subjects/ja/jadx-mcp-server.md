@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jadx-mcp-server
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 7.3 to 7.3 minutes
+- Valid runs: 2; wall time 2.9 to 7.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jadx-mcp-server
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.5 | 7.3 | 0 | 0 | [run](https://argusic.com/run/5ec451ce-9c25-4f92-9c94-551b51196937) |
+| 2 | pass with mocks | 92 | 1 | 2.9 | 0 | 0 | [run](https://argusic.com/run/0d9b0601-2526-42a6-aa1c-edaf38e2a98b) |
 
 ## What was observed on a clean machine
 

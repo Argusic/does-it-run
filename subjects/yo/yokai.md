@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/yokai
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 39.5 to 39.5 minutes
+- Valid runs: 2; wall time 6.9 to 39.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/yokai
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 27 | 39.5 | 5 | 5 | [run](https://argusic.com/run/14f56e0c-6e69-459f-8cf7-068b76430226) |
+| 2 | pass | 100 | 12 | 6.9 | 0 | 0 | [run](https://argusic.com/run/45273128-5290-40e3-aa80-457a757f1496) |
 
 ## What was observed on a clean machine
 

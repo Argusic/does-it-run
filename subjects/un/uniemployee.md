@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/uniemployee
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 38 to 38 minutes
+- Valid runs: 2; wall time 14.7 to 38 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/uniemployee
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 38 | 6 | 6 | [run](https://argusic.com/run/b1448939-d36c-4882-8fc3-a30f80519ef7) |
+| 2 | pass | 100 | 1.5 | 14.7 | 2 | 2 | [run](https://argusic.com/run/1ed794aa-df61-44ae-bef1-5b99dbfc5966) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,9 @@ Attempt 1:
 - 5 min: `Port 8787 occupied by argusic proxy that auto-restarts on kill; cannot bind uvicorn there`
 - 3 min: `Playwright browser tests require frontend/dist/ which is not built and Node.js 18 cannot build it (needs 20+)`
 - 2 min: `Additional dependencies (duckdb, sqlglot, openpyxl, jieba, rank-bm25, SQLAlchemy, opensandbox, langchain-sandbox-opensandbox) not in lock file but required by requirements.txt`
+
+Attempt 2:
+
+- 5 min: `Playwright browser tests fail because Node.js 18.19.1 is too old for @playwright/mcp (needs >=20)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

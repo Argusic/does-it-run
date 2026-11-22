@@ -1,6 +1,6 @@
 # sharp
 
-**Verdict: runs.** Argusic Score 98 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 99 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/code16/sharp, licensed MIT, written in PHP.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sharp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 29.5 to 29.5 minutes
+- Valid runs: 2; wall time 5.2 to 29.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sharp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 98 | 25 | 29.5 | 10 | 9 | [run](https://argusic.com/run/cc86e63a-631c-48ee-bbef-407ca9e6fb71) |
+| 2 | pass | 100 | 4 | 5.2 | 1 | 1 | [run](https://argusic.com/run/c4bba3f1-c221-40d8-ab2e-b8eba80e4621) |
 
 ## What was observed on a clean machine
 
@@ -36,5 +37,9 @@ Attempt 1:
 - 1 min: `Rolldown native binding missing for Vite build`
 - 2 min: `php artisan serve subprocess clears PHPRC and LD_LIBRARY_PATH`
 - `npm test references jest which is not a dependency`
+
+Attempt 2:
+
+- 0.5 min: `Composer security advisory blocking enshrined/svg-sanitize 0.22.0`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.
