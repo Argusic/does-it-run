@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pywikibot
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.5 to 9.5 minutes
+- Valid runs: 2; wall time 4.7 to 9.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pywikibot
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 9.5 | 3 | 3 | [run](https://argusic.com/run/7480be3f-f9ee-4884-858b-6f5f4547dc9a) |
+| 2 | pass | 100 | 2 | 4.7 | 1 | 1 | [run](https://argusic.com/run/a167ffae-c127-4ddf-b232-802fbbfacfca) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 2 min: `pip install -r requirements.txt failed: externally-managed-environment (PEP 668 blocks system pip)`
 - 1 min: `3 setup_tests failures: ModuleNotFoundError: No module named 'setuptools' in venv (setup.py get_packages)`
 - 3 min: `5 doctest failures (Category.subcategories, BasePage.stable_revision, User.renamed_target, APISite.page_from_repository, TimeStripper) caused by live en.wikipedia.org HTTP 429 rate limiting and transient output lines`
+
+Attempt 2:
+
+- 1 min: `setuptools not installed in venv, causing 3 test failures in tests/setup_tests.py::TestSetup (test_get_pywikibot_packages, test_get_scripts_packages, test_get_tests_packages)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

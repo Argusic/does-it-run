@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/codanna
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 27.1 to 27.1 minutes
+- Valid runs: 2; wall time 22.4 to 27.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/codanna
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5.2 | 27.1 | 1 | 1 | [run](https://argusic.com/run/82c9e24c-12e4-4db8-a739-f0105f7dcd49) |
+| 2 | pass | 100 | 27 | 22.4 | 0 | 0 | [run](https://argusic.com/run/a01c1ada-5135-437b-8855-741c52e7e2d5) |
 
 ## What was observed on a clean machine
 

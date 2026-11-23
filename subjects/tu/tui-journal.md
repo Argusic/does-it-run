@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tui-journal
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.4 to 3.4 minutes
+- Valid runs: 2; wall time 3.4 to 8.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tui-journal
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 3.4 | 0 | 0 | [run](https://argusic.com/run/a07ed59c-cc40-4c5f-8105-9adfde4e54d6) |
+| 2 | pass | 100 | 20 | 8.6 | 0 | 0 | [run](https://argusic.com/run/bd94cbee-a30c-4a2d-be49-e396cbd3baae) |
 
 ## What was observed on a clean machine
 

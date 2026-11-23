@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/claude-chat-exporter
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 24 to 24 minutes
+- Valid runs: 2; wall time 7.2 to 24 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/claude-chat-exporter
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 1 | 24 | 3 | 3 | [run](https://argusic.com/run/2e099f50-41f0-4399-b8e9-a6d520596cb7) |
+| 2 | pass with mocks | 92 | 0.1 | 7.2 | 0 | 0 | [run](https://argusic.com/run/bd712f8b-364a-4464-9204-72e4da3508ef) |
 
 ## What was observed on a clean machine
 

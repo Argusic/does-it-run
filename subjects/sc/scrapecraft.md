@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/scrapecraft
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13.9 to 13.9 minutes
+- Valid runs: 2; wall time 5.5 to 13.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/scrapecraft
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4.2 | 13.9 | 1 | 1 | [run](https://argusic.com/run/59c42c80-54eb-44dd-8036-c92f03e4808b) |
+| 2 | pass | 100 | 5 | 5.5 | 2 | 2 | [run](https://argusic.com/run/839feace-3cd3-45e4-8cea-8d440eeb6c2a) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.5 min: `bcrypt 5.0.0 incompatible with passlib 1.7.4 bcrypt hash initialization`
+
+Attempt 2:
+
+- 1 min: `PipelineCreate.urls uses List[HttpUrl] but Pipeline.urls expects List[str] , causes 500 on POST /api/pipelines/`
+- 1 min: `bcrypt 5.0.0 removed __about__ attribute breaking passlib bcrypt handler`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # pi-extensions
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/narumiruna/pi-extensions, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/pi-extensions
 - Test commit: `aefbcc4702a2bfe2ade793d57f216773ab4f6b88`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 50.2 to 50.2 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 30.3 to 50.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pi-extensions
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 50.2 | 4 | 4 | [run](https://argusic.com/run/641b7954-b205-4883-bd49-facbcebe2347) |
+| 2 | pass with mocks | 92 | 0.5 | 30.3 | 0 | 0 | [run](https://argusic.com/run/cccaf0b0-e61a-4a3d-ab5e-c56b4b038157) |
 
 ## What was observed on a clean machine
 

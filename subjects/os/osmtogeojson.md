@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/osmtogeojson
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.1 to 1.1 minutes
+- Valid runs: 2; wall time 0.9 to 1.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/osmtogeojson
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 1.1 | 0 | 0 | [run](https://argusic.com/run/7c0ef4d6-7d84-41f8-9a44-30ea1c2d2e92) |
+| 2 | pass | 100 | 0.15 | 0.9 | 0 | 0 | [run](https://argusic.com/run/efb3b50d-2c82-4941-a4e9-6ef42e47f5a1) |
 
 ## What was observed on a clean machine
 

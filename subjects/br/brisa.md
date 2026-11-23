@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/brisa
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 73.6 to 73.6 minutes
+- Valid runs: 2; wall time 34.5 to 73.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/brisa
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 74 | 73.6 | 4 | 4 | [run](https://argusic.com/run/95b07b0a-1ecf-4033-bb65-cb23ff4bd0f9) |
+| 2 | pass | 100 | 33 | 34.5 | 4 | 4 | [run](https://argusic.com/run/3db8dd0c-2861-4c93-b45a-9c1dd9244238) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 38 min: `bun 1.4.3 build fails: 'Bun.build cannot be called from within a macro during bundling' (bundler deadlock restriction)`
 - 20 min: `bun 1.3.0 build is flaky: recurring bun segfaults/SIGABRT ('panic: Segmentation fault', bun bug, random steps)`
 - 12 min: `Full test suite hangs on pinned bun 1.3.0 (bun test-runner deadlock on certain files, e.g. cli/build.test.ts, compile-all) and ~10 pre-existing failures are identical on pristine code`
+
+Attempt 2:
+
+- 3 min: `Bun 1.4.5 build failed: Bun.build() cannot be called inside macros, causing deadlock`
+- 5 min: `8 test failures (1331 pass, 13 todo, 8 fail across 85 files)`
+- 10 min: `5-9 test files hang due to Bun.build() inside macro deadlock on bun 1.3.0 (process-i18n, pre-entrypoint-analysis, generate-entrypoint-code, get-client-build-details, client-build integration). CONTRIBUTING.md confirms ~9/3000 tests have Bun`
+- `create-brisa tests failed: rm -rf permission denied and Bun.$ with rm not allowed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

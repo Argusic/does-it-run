@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ssl-proxy
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2 to 2 minutes
+- Valid runs: 2; wall time 2 to 2.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ssl-proxy
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 2 | 1 | 1 | [run](https://argusic.com/run/53b54038-392b-4a17-b75e-f2299be62c5f) |
+| 2 | pass | 100 | 8 | 2.1 | 0 | 0 | [run](https://argusic.com/run/f0ff44f5-f932-4d5f-b316-9651adf34f75) |
 
 ## What was observed on a clean machine
 

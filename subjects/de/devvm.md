@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/devvm
 - Test commit: `eaa170696605e1b02844d1de7bf785869877a8f0`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 35.1 to 35.1 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 35.1 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/devvm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 72 | 3 | 35.1 | 5 | 0 | [run](https://argusic.com/run/50d856e8-c6bb-4c45-b6ac-856319bfee8d) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/315dbccd-66db-4edf-95af-cf72013f360c) |
 
 ## What was observed on a clean machine
 

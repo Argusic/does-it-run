@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/resgate
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.7 to 3.7 minutes
+- Valid runs: 2; wall time 3.7 to 5.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/resgate
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 3.7 | 4 | 4 | [run](https://argusic.com/run/f6112e1b-0657-4515-b75e-85e51cdd3355) |
+| 2 | pass | 100 | 4 | 5.2 | 0 | 0 | [run](https://argusic.com/run/ae267867-d3bf-4be6-aa23-a0fad35dd012) |
 
 ## What was observed on a clean machine
 

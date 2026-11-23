@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/aislop
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.7 to 12.7 minutes
+- Valid runs: 2; wall time 2.3 to 12.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/aislop
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 9 | 12.7 | 5 | 5 | [run](https://argusic.com/run/c359d330-9e66-4830-921f-36fd2606c839) |
+| 2 | pass | 100 | 6 | 2.3 | 2 | 2 | [run](https://argusic.com/run/6fdf2ef1-97f9-4f5b-8875-3459e2566806) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,10 @@ Attempt 1:
 - 3 min: `Rolldown native binding @rolldown/binding-linux-x64-gnu missing (optional dep)`
 - 2 min: `unrun peer dependency of tsdown not installed`
 - 1 min: `Node 20 styleText API incompatibility with rolldown`
+
+Attempt 2:
+
+- 4 min: `Node.js v18 installed but project requires >=20`
+- 1 min: `pnpm not available after nvm version switch`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

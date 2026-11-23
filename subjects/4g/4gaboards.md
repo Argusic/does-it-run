@@ -1,6 +1,6 @@
 # 4gaBoards
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/RARgames/4gaBoards, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/4gaboards
 - Test commit: `82875e7687f65c8de22f9f34320ce7f934fa3291`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 12.3 to 12.3 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 12.3 to 19.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/4gaboards
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 12.3 | 5 | 5 | [run](https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645) |
+| 2 | pass with mocks | 92 | 1.5 | 19.6 | 6 | 6 | [run](https://argusic.com/run/af7261ef-5680-4df7-ab4a-e9415ed44763) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,14 @@ Attempt 1:
 - 4 min: `PostgreSQL not available in container`
 - 1 min: `.npmrc engine-strict=true blocked pnpm on Node 18`
 - `camelcase ES module require() fails in jest fileTransform with Node 18`
+
+Attempt 2:
+
+- 2 min: `Node.js v18.19.1 installed but project requires ^24.11`
+- 1 min: `pnpm not found initially`
+- 10 min: `No PostgreSQL available (no root, no Docker, no apt)`
+- 3 min: `Server test lifecycle hangs after completion (sails.lower never finishes with sails-disk)`
+- 2 min: `Cron notification batching hook fails with sails-disk datastore error during test`
+- 1 min: `Missing server/views/index.ejs causes route binding warning`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

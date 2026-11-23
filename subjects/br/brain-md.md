@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/brain-md
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.5 to 3.5 minutes
+- Valid runs: 2; wall time 2 to 3.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/brain-md
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 3.5 | 0 | 0 | [run](https://argusic.com/run/4967c962-5eb3-46aa-aa94-d590a9510578) |
+| 2 | pass | 100 | 0.3 | 2 | 0 | 0 | [run](https://argusic.com/run/1d6c03e8-8f79-40b2-87ee-97198b135608) |
 
 ## What was observed on a clean machine
 

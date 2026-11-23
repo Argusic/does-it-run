@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/movary
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 36.7 to 36.7 minutes
+- Valid runs: 2; wall time 2.7 to 36.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/movary
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 18 | 36.7 | 3 | 3 | [run](https://argusic.com/run/6711761a-b859-4fe1-b7ac-552f3f3558a7) |
+| 2 | pass | 100 | 3 | 2.7 | 0 | 0 | [run](https://argusic.com/run/f7036cee-d4f4-452b-b307-ca5892d754fd) |
 
 ## What was observed on a clean machine
 

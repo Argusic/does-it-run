@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tiny-voca
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.4 to 5.4 minutes
+- Valid runs: 2; wall time 3.6 to 5.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tiny-voca
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 5.4 | 3 | 3 | [run](https://argusic.com/run/718d50a8-0d4e-43f0-b4bf-7fab47afafb4) |
+| 2 | pass | 100 | 1.5 | 3.6 | 0 | 0 | [run](https://argusic.com/run/5d4bdc42-9e1a-4b71-858d-cf83605d8f2a) |
 
 ## What was observed on a clean machine
 

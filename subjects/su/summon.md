@@ -1,6 +1,6 @@
 # summon
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/cyberark/summon, licensed MIT, written in Go.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/summon
 - Test commit: `d42f0517dd7ef31e6cbbadb6e1963394d6aab90b`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 4.8 to 4.8 minutes
+- Test depth: real run, run with mocked services
+- Valid runs: 2; wall time 2 to 4.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/summon
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 4.8 | 2 | 2 | [run](https://argusic.com/run/964beb47-23cf-4d54-b5e2-1e76b284a23b) |
+| 2 | pass with mocks | 92 | 3 | 2 | 0 | 0 | [run](https://argusic.com/run/8f17dab0-06cd-4ce9-91c9-e09388556dac) |
 
 ## What was observed on a clean machine
 

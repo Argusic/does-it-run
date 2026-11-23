@@ -1,6 +1,6 @@
 # xxl-crawler
 
-**Verdict: runs.** Argusic Score 91.4 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 95.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/xuxueli/xxl-crawler, licensed Apache-2.0, written in Java.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/xxl-crawler
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.6 to 12.6 minutes
+- Valid runs: 2; wall time 7.6 to 12.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/xxl-crawler
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 91.43 | 12 | 12.6 | 7 | 4 | [run](https://argusic.com/run/6c0c5d2e-3fbf-4d55-ab9d-e8a9b872c829) |
+| 2 | pass | 100 | 16 | 7.6 | 2 | 2 | [run](https://argusic.com/run/755d611e-fc6c-4e39-91d3-399c7edbb8f4) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,10 @@ Attempt 1:
 - `XxlCrawlerTest05 (Selenium+ChromeDriver) needs chromedriver binary not in container`
 - `XxlCrawlerTest06 (proxy) needs real proxy IPs not available`
 - `XxlCrawlerTest07 (Redis/RunUrlPool) needs Redis running and throws XxlCrawlerException as design`
+
+Attempt 2:
+
+- 3 min: `No Java or Maven installed in container`
+- 1 min: `CrawlerUtilTest failed with AccessDenied on /Users path`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

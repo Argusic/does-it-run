@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/9fcac26b-c7ea-4113-bfb0-96ed906
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 35.2 to 35.2 minutes
+- Valid runs: 2; wall time 22 to 35.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/9fcac26b-c7ea-4113-bfb0-96ed906
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 23.6 | 35.2 | 9 | 9 | [run](https://argusic.com/run/9fcac26b-c7ea-4113-bfb0-96ed906a9b1a) |
+| 2 | pass | 100 | 15 | 22 | 4 | 4 | [run](https://argusic.com/run/45372979-c1d5-482d-b64a-161a0e5d5d34) |
 
 ## What was observed on a clean machine
 
@@ -35,5 +36,12 @@ Attempt 1:
 - 2 min: `OTel collector port collisions (zpages/pprof/health ports shared between controller and agent)`
 - 1 min: `Prometheus remote-write endpoint returning 404`
 - 1 min: `Operator tests require kubebuilder envtest binaries (etcd and kube-apiserver) which need GCS access (401 Unauthorized)`
+
+Attempt 2:
+
+- 2 min: `Go not installed in container`
+- 1 min: `parallel command not found (in go_build.sh)`
+- 5 min: `Flaky test: pkg/otelcollector/metricsprocessor/internal - 'Sets global cache dimensions' fails ~30% due to non-deterministic Go map iteration order producing HIT/MISS in either order, and the test expected a hardcoded order`
+- 3 min: `Operator tests: missing envtest K8s binaries at /usr/local/kubebuilder/bin/etcd`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

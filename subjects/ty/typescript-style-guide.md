@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/typescript-style-guide
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4 to 4 minutes
+- Valid runs: 2; wall time 4 to 4.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/typescript-style-guide
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 4 | 1 | 1 | [run](https://argusic.com/run/61d82725-098c-4169-901a-051c57f9fb35) |
+| 2 | pass | 100 | 3 | 4.1 | 2 | 2 | [run](https://argusic.com/run/dd18ba3e-8c34-4150-9d57-276cde5f9ba9) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1 min: `Node.js v18.19.1 did not satisfy the minimum requirement (project requires >=20.0, Docusaurus needs >=20.0, engines field requests >=26.8.1)`
+
+Attempt 2:
+
+- 2 min: `Node.js v18.19.1 too old; project requires >=26.8.1`
+- 0.1 min: `Optional native binary @tailwindcss/oxide-linux-x64-gnu missing after npm install`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

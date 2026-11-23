@@ -1,6 +1,6 @@
 # ovine
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/ovineio/ovine, licensed Apache-2.0, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/ovine
 - Test commit: `cb2d4f98946509cc0e0ca8ce4db97e524f9583b6`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 15.7 to 15.7 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 15.7 to 34.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ovine
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 15.7 | 3 | 3 | [run](https://argusic.com/run/ee67bc89-c291-4195-b97f-f1d10c7db048) |
+| 2 | fail | 20 | n/a | 34.1 | 0 | 0 | [run](https://argusic.com/run/82a14134-cd9a-4f2a-aaa3-ae3f27b6f424) |
 
 ## What was observed on a clean machine
 

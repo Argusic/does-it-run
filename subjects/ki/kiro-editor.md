@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/kiro-editor
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.7 to 1.7 minutes
+- Valid runs: 2; wall time 1.7 to 2.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/kiro-editor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.7 | 1.7 | 0 | 0 | [run](https://argusic.com/run/7ee8f185-097d-4d66-ac78-ef7154260d29) |
+| 2 | pass | 100 | 8 | 2.7 | 0 | 0 | [run](https://argusic.com/run/680c2f98-e81e-4ad1-bff0-d11a5044849b) |
 
 ## What was observed on a clean machine
 

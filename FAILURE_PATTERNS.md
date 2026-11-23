@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 15049 observed error lines in 6757 valid runs of 3854 tested subjects (generated 2026-11-22).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 15248 observed error lines in 6853 valid runs of 3867 tested subjects (generated 2026-11-23).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 17 | 0.1% | 15 |
-| Permission denied | 137 | 0.9% | 125 |
-| Missing system library or header | 761 | 5.1% | 414 |
-| Tool, runtime or component not installed | 2527 | 16.8% | 1588 |
-| Version mismatch | 1547 | 10.3% | 1086 |
-| Missing configuration or secret | 305 | 2.0% | 264 |
-| Source or download problem | 184 | 1.2% | 155 |
-| Network, timeout or service unreachable | 316 | 2.1% | 275 |
-| Dependency install or resolution failed | 1798 | 11.9% | 1210 |
-| Build or compile step failed | 619 | 4.1% | 488 |
-| The project's own tests failed | 1708 | 11.3% | 978 |
-| Expected file or data not present | 229 | 1.5% | 209 |
-| Error inside the project's code | 176 | 1.2% | 150 |
-| Other | 4725 | 31.4% | 2107 |
+| Permission denied | 139 | 0.9% | 126 |
+| Missing system library or header | 771 | 5.1% | 416 |
+| Tool, runtime or component not installed | 2565 | 16.8% | 1602 |
+| Version mismatch | 1574 | 10.3% | 1100 |
+| Missing configuration or secret | 308 | 2.0% | 266 |
+| Source or download problem | 186 | 1.2% | 157 |
+| Network, timeout or service unreachable | 318 | 2.1% | 276 |
+| Dependency install or resolution failed | 1814 | 11.9% | 1219 |
+| Build or compile step failed | 627 | 4.1% | 493 |
+| The project's own tests failed | 1735 | 11.4% | 992 |
+| Expected file or data not present | 234 | 1.5% | 214 |
+| Error inside the project's code | 179 | 1.2% | 153 |
+| Other | 4781 | 31.4% | 2127 |
 
 ## Port already in use
 
@@ -127,9 +127,9 @@ The project's test suite stopped with failures on the clean machine.
 
 Example runs:
 
+- 4gaBoards, attempt 2: https://argusic.com/run/af7261ef-5680-4df7-ab4a-e9415ed44763
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
 - Acode, attempt 1: https://argusic.com/run/f12291ec-ba07-4e6f-9bd1-af099631ebd1
-- act, attempt 1: https://argusic.com/run/b2232403-8fee-4f2d-98b0-11a4e1aa752b
 
 ## Expected file or data not present
 
@@ -137,9 +137,9 @@ A file, build output or data set the instructions rely on was not there.
 
 Example runs:
 
+- 4gaBoards, attempt 2: https://argusic.com/run/af7261ef-5680-4df7-ab4a-e9415ed44763
 - abacusai-bot, attempt 1: https://argusic.com/run/601a96e2-e87a-4c90-b994-fef9b8f8ec8e
-- agent-purge, attempt 1: https://argusic.com/run/b2372950-4bb7-4d1e-8c1a-9ea339b5fced
-- agent-toolkit-for-aws, attempt 1: https://argusic.com/run/273a9e50-3438-4fbc-89f0-ccea6890f0ee
+- aeon, attempt 2: https://argusic.com/run/bb5c0819-15a4-4abc-a213-a758d0f600b3
 
 ## Error inside the project's code
 

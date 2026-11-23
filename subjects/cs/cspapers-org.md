@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/swkim101/cspapers.org, licensed MIT, written in JavaScript.
+Project: https://github.com/swkim101/cspapers.org, licensed MIT, written in Go.
 
 Evidence and recordings: https://argusic.com/subject/cspapers-org
 

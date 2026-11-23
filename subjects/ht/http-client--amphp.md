@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/28af23a3-6215-466c-b1c4-f4b4ede
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.3 to 8.3 minutes
+- Valid runs: 2; wall time 4 to 8.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/28af23a3-6215-466c-b1c4-f4b4ede
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 9 | 8.3 | 3 | 3 | [run](https://argusic.com/run/28af23a3-6215-466c-b1c4-f4b4ede9b1f2) |
+| 2 | pass | 100 | 3.5 | 4 | 3 | 3 | [run](https://argusic.com/run/d7b6bf69-102d-4fcf-8a4b-1733e505536b) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 1 min: `No PHP interpreter in container`
 - 1 min: `No Composer in container`
 - 2 min: `testHttp2UpgradeResponse fails: nghttp2.org returns 502 Bad Gateway`
+
+Attempt 2:
+
+- 1.5 min: `PHP 8 not installed`
+- 0.5 min: `composer not installed`
+- 1 min: `Static PHP binary has no default CA cert path, causing TLS certificate verify failures`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.
