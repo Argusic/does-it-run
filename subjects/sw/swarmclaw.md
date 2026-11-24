@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/swarmclaw
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.1 to 9.1 minutes
+- Valid runs: 2; wall time 9.1 to 14.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/swarmclaw
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 43 | 9.1 | 3 | 3 | [run](https://argusic.com/run/446981ee-11a2-41e2-bb6a-eacb837c4798) |
+| 2 | pass | 100 | 10.6 | 14.7 | 3 | 3 | [run](https://argusic.com/run/1d80f60e-d2d6-48f5-a875-d555e4642740) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 7 min: `System Node was v18.19.1 but the project requires Node >=22.6, and setup.hard-fails on older Node`
 - 8 min: `127.0.0.1 loopback refused connections inside the container (container-level network namespace allows only the container IP)`
 - 5 min: `Electron main process launches but tried to load http://127.0.0.1:3456 and initially hit ERR_CONNECTION_REFUSED`
+
+Attempt 2:
+
+- 2 min: `Node.js v18.19.1 found but project requires >=22.6.0`
+- 1.5 min: `onnxruntime-node postinstall failed: 404 downloading CUDA binaries from GitHub`
+- 0.5 min: `unrs-resolver napi-postinstall: Permission denied`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

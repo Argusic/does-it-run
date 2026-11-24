@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/klog
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.2 to 2.2 minutes
+- Valid runs: 2; wall time 2.2 to 2.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/klog
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3.4 | 2.2 | 0 | 0 | [run](https://argusic.com/run/2c3d1eba-cb13-43c3-a06c-061437d55623) |
+| 2 | pass | 100 | 2 | 2.5 | 0 | 0 | [run](https://argusic.com/run/5df5458c-0a1e-4317-9a24-2ec685693010) |
 
 ## What was observed on a clean machine
 

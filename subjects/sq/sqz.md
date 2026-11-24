@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sqz
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 13.1 to 13.1 minutes
+- Valid runs: 2; wall time 13.1 to 27.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sqz
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 14 | 13.1 | 2 | 2 | [run](https://argusic.com/run/6503e567-081b-4f4c-b4f3-b523f0c5d00a) |
+| 2 | pass | 100 | 12 | 27.4 | 0 | 0 | [run](https://argusic.com/run/6d67cba0-a1d9-442a-b9b7-9d1c6b884e07) |
 
 ## What was observed on a clean machine
 

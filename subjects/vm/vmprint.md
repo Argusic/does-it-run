@@ -1,6 +1,6 @@
 # vmprint
 
-**Verdict: runs.** Argusic Score 80 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/cosmiciron/vmprint, licensed Apache-2.0, written in TypeScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/vmprint
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 18.1 to 18.1 minutes
+- Valid runs: 2; wall time 5.9 to 18.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/vmprint
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 3 | 18.1 | 4 | 0 | [run](https://argusic.com/run/7be44515-abee-44db-b31e-3a7d2c79943b) |
+| 2 | pass | 100 | 0.8 | 5.9 | 0 | 0 | [run](https://argusic.com/run/c3496889-7620-4d2b-a8a9-0d7a22f2ade6) |
 
 ## What was observed on a clean machine
 

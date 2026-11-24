@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ghapi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 6.6 to 6.6 minutes
+- Valid runs: 2; wall time 3.5 to 6.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ghapi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 6.6 | 4 | 4 | [run](https://argusic.com/run/b7e342dc-11ba-4ba5-8096-8c6773bca894) |
+| 2 | pass | 100 | 0 | 3.5 | 3 | 3 | [run](https://argusic.com/run/d58f5203-6e44-4571-82f9-1e23951368bd) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 1 min: `fastgit not installed initially, needed by skill module`
 - 1 min: `pyskills not installed initially, needed by skill module`
 - 1 min: `pytest not available for test execution`
+
+Attempt 2:
+
+- `Could not import GhAuth from ghapi.auth (no such class)`
+- `GhApi(sync=True) has no 'sync' attribute`
+- `GraphQL module requires GITHUB_TOKEN`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

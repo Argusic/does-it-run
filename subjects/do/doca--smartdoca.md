@@ -1,6 +1,6 @@
 # doca
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/smartdoca/doca, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/run/8573f35e-c0a2-4226-905f-6824357
 - Test commit: `091efcd458482348205ed5856b46355725fa6d27`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 31.2 to 31.2 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 31.2 to 49.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/8573f35e-c0a2-4226-905f-6824357
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 31 | 31.2 | 7 | 7 | [run](https://argusic.com/run/8573f35e-c0a2-4226-905f-68243572ef96) |
+| 2 | fail | 20 | n/a | 49.8 | 0 | 0 | [run](https://argusic.com/run/634166ee-bff6-4e7a-af53-2c93f11bbb1a) |
 
 ## What was observed on a clean machine
 

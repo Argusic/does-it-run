@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/openlrc
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 26.5 to 26.5 minutes
+- Valid runs: 2; wall time 12.4 to 26.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/openlrc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 6 | 26.5 | 1 | 1 | [run](https://argusic.com/run/42204317-b753-4c34-bec9-af63c877c106) |
+| 2 | pass with mocks | 92 | 2 | 12.4 | 1 | 1 | [run](https://argusic.com/run/ec86f426-954e-460f-acef-05ada4f33745) |
 
 ## What was observed on a clean machine
 

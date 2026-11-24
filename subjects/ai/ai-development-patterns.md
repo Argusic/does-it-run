@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ai-development-patterns
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.4 to 7.4 minutes
+- Valid runs: 2; wall time 2.9 to 7.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ai-development-patterns
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 7.4 | 5 | 5 | [run](https://argusic.com/run/3e17abe0-ad2a-41b6-9321-e698f409a22a) |
+| 2 | pass | 100 | 2 | 2.9 | 1 | 1 | [run](https://argusic.com/run/377a3119-d2d0-4bca-b029-9ee25dd41544) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,9 @@ Attempt 1:
 - `test_complete_evidence_quotes_still_present failed: 4 URLs had content drift (redirects or missing quotes)`
 - 1 min: `test_status_view_in_sync failed: verification/STATUS.md was stale`
 - `git push failed: no credentials configured for https://github.com`
+
+Attempt 2:
+
+- 1 min: `test_status_view_in_sync failed: verification/STATUS.md was out of date`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

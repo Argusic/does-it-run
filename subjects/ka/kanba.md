@@ -1,6 +1,6 @@
 # kanba
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 86 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Kanba-co/kanba, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/kanba
 - Test commit: `d5dfe822a503dcf87e14e687e4a13a0baffc9fe3`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 27.7 to 27.7 minutes
+- Test depth: run with mocked services, no run possible
+- Valid runs: 2; wall time 7.5 to 27.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/kanba
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 55 | 27.7 | 8 | 8 | [run](https://argusic.com/run/c183d2e0-93c0-4831-bc1a-73911b21d253) |
+| 2 | fail | 80 | 1.5 | 7.5 | 0 | 0 | [run](https://argusic.com/run/8896d68c-71c1-411e-8a16-1769006a7dda) |
 
 ## What was observed on a clean machine
 

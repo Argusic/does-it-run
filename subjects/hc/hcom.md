@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/hcom
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.5 to 3.5 minutes
+- Valid runs: 2; wall time 3.5 to 11.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hcom
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 3.5 | 1 | 1 | [run](https://argusic.com/run/914fd5a9-425f-4923-9208-9bcd1fd8b669) |
+| 2 | pass | 100 | 8 | 11.9 | 0 | 0 | [run](https://argusic.com/run/d0b440c7-e89f-4c7a-a0a9-599b235fb2db) |
 
 ## What was observed on a clean machine
 

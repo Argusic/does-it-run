@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/restic-automatic-backup-sch
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.3 to 4.3 minutes
+- Valid runs: 2; wall time 4.3 to 4.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,9 +21,13 @@ Evidence and recordings: https://argusic.com/subject/restic-automatic-backup-sch
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 8 | 4.3 | 0 | 0 | [run](https://argusic.com/run/78501951-d240-4132-b69b-7d99473c6781) |
+| 2 | pass | 100 | 3.5 | 4.4 | 2 | 2 | [run](https://argusic.com/run/3ce1b97e-791c-422a-90ed-a8df4eeddb47) |
 
 ## What was observed on a clean machine
 
-No error was recorded during the valid runs.
+Attempt 2:
+
+- 0.5 min: `restic binary not found in container; installed separately`
+- 0.3 min: `B2_ARG initialized as empty string causing spurious empty argument to restic check when B2_CONNECTIONS unset`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

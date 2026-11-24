@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ngx-scanner
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.1 to 10.1 minutes
+- Valid runs: 2; wall time 9.2 to 10.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ngx-scanner
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 10.1 | 6 | 6 | [run](https://argusic.com/run/f0f876a3-b692-4045-958a-4020aaf03454) |
+| 2 | pass | 100 | 7.5 | 9.2 | 5 | 5 | [run](https://argusic.com/run/04ce5ed1-4802-4d77-a9b6-081319dbb205) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,13 @@ Attempt 1:
 - 1 min: `Chrome crashpad_handler binary not executable (rw-rw-r--)`
 - 1 min: `Chrome sandbox unusable (no user namespaces in container)`
 - 1 min: `npm install failed with peer dependency conflict on @angular/animations`
+
+Attempt 2:
+
+- 1 min: `Node.js v18.19.1 too old; Angular CLI 22 requires v22.22.3+`
+- 0.5 min: `npm peer dependency conflict between @angular/core@22.0.2 and @angular/compiler-cli@22.3.0`
+- 0.2 min: `Angular CLI refused to run because yarn.lock present but yarn not installed`
+- 4.5 min: `Chrome/Chromium not installed in container`
+- 0.5 min: `Chrome sandbox unsupported in container (no unprivileged user namespaces)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

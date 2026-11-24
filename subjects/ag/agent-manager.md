@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agent-manager
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 15.1 to 15.1 minutes
+- Valid runs: 2; wall time 6 to 15.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agent-manager
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 15.1 | 2 | 2 | [run](https://argusic.com/run/71c7fd50-ba34-48d2-9245-9af8b3909a18) |
+| 2 | pass | 100 | 13 | 6 | 2 | 2 | [run](https://argusic.com/run/37976014-4797-4b68-a23f-c58d4f675f1c) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 3 min: `Go compiler not installed in container`
 - 4 min: `tmux not installed in container`
+
+Attempt 2:
+
+- 1 min: `Go (go1.27.1) not installed in container`
+- 1 min: `tmux not installed in container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

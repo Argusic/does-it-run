@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ominis-osint
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.3 to 10.3 minutes
+- Valid runs: 2; wall time 5.8 to 10.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/ominis-osint
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 10.3 | 1 | 1 | [run](https://argusic.com/run/28b59c26-34b6-4985-9e1c-dc65dbd40ec2) |
+| 2 | pass | 100 | 12 | 5.8 | 2 | 2 | [run](https://argusic.com/run/0180d901-bf3a-4258-872f-2f01196550d1) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `ominis.py line 124 hardcoded absolute Python path /home/ant/.local/share/pipx/venvs/ominis-osint/bin/python which does not exist in container environment`
+
+Attempt 2:
+
+- 2 min: `ominis.py hardcoded path /home/ant/.local/share/pipx/venvs/ominis-osint/bin/python does not exist in this environment`
+- 1 min: `httpx[http2] missing h2 package causing http2 errors in search`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

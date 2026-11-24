@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tplay
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 26.3 to 26.3 minutes
+- Valid runs: 2; wall time 24.1 to 26.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tplay
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 26 | 26.3 | 5 | 5 | [run](https://argusic.com/run/0b491d7e-3669-443b-ae4f-9613854f8e59) |
+| 2 | pass | 100 | 14 | 24.1 | 7 | 7 | [run](https://argusic.com/run/a0676590-58ce-466c-bec9-7137d25ff9b9) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,15 @@ Attempt 1:
 - 6 min: `ld picked broken static archives; undefined MFX/OpenCL symbols`
 - 4 min: `binary failed at runtime: libdvdnav/libmujs/liblua5.2/libsixel/libXpresent/libva-wayland missing`
 - 1 min: `yt-dlp Debian wrapper needs its dist-packages`
+
+Attempt 2:
+
+- 2 min: `Rust not installed`
+- 3 min: `Missing FFmpeg -dev packages (no root)`
+- 1 min: `Missing libwebp-dev headers (no root)`
+- 1 min: `Missing libpostproc-dev (ffmpeg dep)`
+- 3 min: `Missing libclang for bindgen`
+- 1 min: `Missing .so symlinks for ffmpeg runtime libs (no root at /usr/lib)`
+- 2 min: `libmpv runtime missing shared library deps (libdvdnav, libmujs, liblua5.2, libsixel, libxpresent, libva-wayland, libdvdread)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

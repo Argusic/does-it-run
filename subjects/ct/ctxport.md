@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/ctxport
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 8.5 to 8.5 minutes
+- Valid runs: 2; wall time 3 to 8.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ctxport
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 21 | 8.5 | 2 | 2 | [run](https://argusic.com/run/518570f8-449a-4c7a-a1a4-7063c040ccc8) |
+| 2 | pass | 100 | 2.5 | 3 | 3 | 3 | [run](https://argusic.com/run/f9ab4ebc-62a8-4a6b-bf83-5e6a32496aa3) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 5 min: `system Node was v18 and pnpm was absent, below both pnpm/npm engine requirements (node>=22, pnpm>=10)`
 - 8 min: `core-markdown test failure: serializeConversation returned estimatedTokens=47 instead of 0 for an empty conversation (frontmatter was tokenized)`
+
+Attempt 2:
+
+- 0.5 min: `Node.js version too old (v18) - need >=22`
+- 0.1 min: `pnpm not available`
+- 0.3 min: `core-markdown test 'empty nodes' expects estimatedTokens to be 0 but frontmatter includes metadata text tokenized by tokenx to 47`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

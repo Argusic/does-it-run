@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/algoliasearch-client-php
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 8.8 to 8.8 minutes
+- Valid runs: 2; wall time 6.3 to 8.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/algoliasearch-client-php
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 35 | 8.8 | 4 | 4 | [run](https://argusic.com/run/1874fd62-a843-4a0b-b93c-17cf18ca98d7) |
+| 2 | pass with mocks | 92 | 5.2 | 6.3 | 3 | 3 | [run](https://argusic.com/run/9b23fcee-846d-4f24-a1e4-a5c2ae431cb3) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,11 @@ Attempt 1:
 - 3 min: `Composer install failed: zip extension and unzip/7z both missing`
 - `composer test not defined (no scripts in composer.json); phpunit.xml.dist points at missing generated CTS dir ../../tests/output/php/src/ so vendor/bin/phpunit cannot run any tests`
 - 2 min: `phpstan level max reported 13033 findings (mostly type-doc on generated code); first run crashed on 128M memory limit`
+
+Attempt 2:
+
+- 1.5 min: `PHP not installed in container`
+- 0.5 min: `Composer not installed in container`
+- 2 min: `No CTS tests found in this repo (they live in api-clients-automation repo)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

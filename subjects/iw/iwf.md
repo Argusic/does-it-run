@@ -1,6 +1,6 @@
 # iwf
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 87 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/indeedeng/iwf, licensed MIT, written in Go.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/iwf
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 16.3 to 16.3 minutes
+- Valid runs: 2; wall time 16.3 to 33.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/iwf
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 16 | 16.3 | 6 | 6 | [run](https://argusic.com/run/dabd25a2-8506-4f33-b06f-9fee6cea7b28) |
+| 2 | pass with mocks | 82 | 8 | 33.5 | 6 | 3 | [run](https://argusic.com/run/c45d2b61-22bc-4ded-a6cd-aff5eb766e82) |
 
 ## What was observed on a clean machine
 
@@ -32,5 +33,14 @@ Attempt 1:
 - 1 min: `iWF could not reach Temporal after session exit`
 - 1 min: `iWF could not connect to Temporal due to IPv6 resolution of localhost`
 - 1 min: `Workflow start returned 500 due to missing search attributes`
+
+Attempt 2:
+
+- 2 min: `Go missing`
+- 3 min: `No Temporal; connection refused`
+- 3 min: `MinIO 410 Gone`
+- `4 S3 count tests fail (moto mock fidelity)`
+- `3 search tests fail (CustomKeywordArrayField SA missing)`
+- `4 memo/encryption+headers tests fail (500/408/TMPRL1100,420)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/oc
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.7 to 2.7 minutes
+- Valid runs: 2; wall time 2.7 to 5.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/oc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 2.7 | 1 | 1 | [run](https://argusic.com/run/9615b3cf-98d0-4289-a56d-3b1dd8f513ab) |
+| 2 | pass | 100 | 0.03 | 5.6 | 1 | 1 | [run](https://argusic.com/run/3b37d411-b382-49af-a33e-23a0d03e1415) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - `IPv6 EADDRNOTAVAIL in fetch.test.js:524 , container lacks IPv6 loopback (::1)`
+
+Attempt 2:
+
+- 2 min: `IPv6 literal tunnel test failed with EADDRNOTAVAIL because container has no IPv6 stack`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

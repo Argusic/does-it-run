@@ -1,6 +1,6 @@
 # svg-diagram
 
-**Verdict: runs.** Argusic Score 93.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/bybit-exchange/svg-diagram, licensed MIT, written in JavaScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/svg-diagram
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.5 to 5.5 minutes
+- Valid runs: 2; wall time 1.1 to 5.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/svg-diagram
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 93.33 | 12 | 5.5 | 3 | 2 | [run](https://argusic.com/run/56f14f28-2a1c-4e2d-a2be-ded89d592cff) |
+| 2 | pass | 100 | 0 | 1.1 | 0 | 0 | [run](https://argusic.com/run/ed307f19-0366-47ae-8edd-e95eb701a14b) |
 
 ## What was observed on a clean machine
 

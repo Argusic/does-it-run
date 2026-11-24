@@ -1,6 +1,6 @@
 # ghost-editor
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/kurbaitaev/ghost-editor, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/ghost-editor
 - Test commit: `ce172726c36293722b08eb57b5b307d4f06389e8`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 29.7 to 29.7 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 12.1 to 29.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/ghost-editor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 55 | 29.7 | 5 | 5 | [run](https://argusic.com/run/e095e266-570f-4526-973b-54e88ddcc56e) |
+| 2 | pass | 100 | 28 | 12.1 | 5 | 5 | [run](https://argusic.com/run/362015fe-5f0e-4255-9373-7f26fbf43466) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,12 @@ Attempt 1:
 - 12 min: `python3 scripts/library_restore.py --sfx-only --music-only silently skipped both sections (flags are mutually exclusive in the script)`
 - 14 min: `tests/test_cutout_fx.py assertion: last --release frame differs from source by 20.68 gray levels (test requires <1.5)`
 - 8 min: `GEMINI_API_KEY required by doctor and QA scripts (real service)`
+
+Attempt 2:
+
+- 5 min: `Node.js v18 too old for HyperFrames (needs >=22)`
+- 3 min: `Python pip blocked by PEP 668 externally-managed-environment`
+- 1 min: `Whisper not on PATH from system install`
+- `test_cutout_fx.py release frame assertion fails on x86_64 (gray diff 20.68 vs expected <1.5)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

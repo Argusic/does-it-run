@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/gemini-web-to-api
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 18 to 18 minutes
+- Valid runs: 2; wall time 2.9 to 18 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gemini-web-to-api
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2 | 18 | 0 | 0 | [run](https://argusic.com/run/bcd2e9ad-dbcd-4fc3-a3e1-e9a80364413b) |
+| 2 | pass with mocks | 92 | 3 | 2.9 | 0 | 0 | [run](https://argusic.com/run/6f6da852-c662-45f8-9e50-b9c19e4b1efa) |
 
 ## What was observed on a clean machine
 

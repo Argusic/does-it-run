@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/biomcp
 - Test commit: `9e960ee32102f638e4a95e69e70b88264b496f07`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 54.7 to 54.7 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 54.7 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/biomcp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 94.29 | 54 | 54.7 | 7 | 5 | [run](https://argusic.com/run/3ba3b749-8ecd-4232-842d-01f31c503ab6) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/f11886d4-1892-4735-bfaf-034beeb47d38) |
 
 ## What was observed on a clean machine
 

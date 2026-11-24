@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/memory-cpp
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.6 to 4.6 minutes
+- Valid runs: 2; wall time 2.6 to 4.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/memory-cpp
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 4.6 | 0 | 0 | [run](https://argusic.com/run/122619c8-96d4-49c7-82f2-1f27f5b64f93) |
+| 2 | pass | 100 | 2 | 2.6 | 0 | 0 | [run](https://argusic.com/run/a514d7ae-6b91-4dce-92db-968237ad91b1) |
 
 ## What was observed on a clean machine
 

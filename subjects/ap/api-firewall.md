@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/api-firewall
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 14.3 to 14.3 minutes
+- Valid runs: 2; wall time 11.1 to 14.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/api-firewall
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 16 | 14.3 | 3 | 3 | [run](https://argusic.com/run/bdfeeafd-583b-44c9-8c68-36800ce7c730) |
+| 2 | pass | 100 | 11 | 11.1 | 0 | 0 | [run](https://argusic.com/run/f7f6127b-2fc2-4837-ab53-7d15916125c0) |
 
 ## What was observed on a clean machine
 

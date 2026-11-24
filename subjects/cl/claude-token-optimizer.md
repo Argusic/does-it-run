@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/claude-token-optimizer
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.7 to 7.7 minutes
+- Valid runs: 2; wall time 7 to 7.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/claude-token-optimizer
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 7.7 | 3 | 3 | [run](https://argusic.com/run/b502153d-f01b-43f2-989b-66094f011897) |
+| 2 | pass | 100 | 1.2 | 7 | 1 | 1 | [run](https://argusic.com/run/feb63186-d385-4e33-8fa0-4994ef51039a) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 2 min: `Node 18 installed but project requires Node 20+`
 - `chalk@6.0.0 and commander@15.0.0 require Node >=22, only Node 20 available; EBADENGINE warnings but packages work`
 - 3 min: `bc not available in container; 5 hook scripts silently fell back to 0/? token estimates, causing 1 test failure`
+
+Attempt 2:
+
+- 1.8 min: `bc command not found in container , 5 hook scripts used 'bc' for token estimation arithmetic`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

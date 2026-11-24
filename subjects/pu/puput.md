@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/puput
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 11.1 to 11.1 minutes
+- Valid runs: 2; wall time 1.5 to 11.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/puput
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 11.1 | 3 | 3 | [run](https://argusic.com/run/792ab2de-06ab-46db-b1ac-d3f50b4da914) |
+| 2 | pass | 100 | 0.4 | 1.5 | 0 | 0 | [run](https://argusic.com/run/97152bc8-cc94-4f29-bb41-bad70973da70) |
 
 ## What was observed on a clean machine
 
