@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/semantic-anchors
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 9.7 to 9.7 minutes
+- Valid runs: 2; wall time 3.1 to 9.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/semantic-anchors
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 9.7 | 5 | 5 | [run](https://argusic.com/run/26c2b958-00c2-4d78-9f25-872c7e6ef653) |
+| 2 | pass | 100 | 5 | 3.1 | 3 | 3 | [run](https://argusic.com/run/ad8d9da9-75d8-4b7b-97d6-f384f658e6c3) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,11 @@ Attempt 1:
 - 5 min: `html-encoding-sniffer uses CJS require() on ESM-only @exodus/bytes package causing ERR_REQUIRE_ESM in vitest fork workers`
 - 1 min: `whatwg-url also uses CJS require() on @exodus/bytes ESM modules causing fork worker failures`
 - 1 min: `scripts/ tests fail: rolldown native binding for linux-x64-gnu not installed as optional dependency`
+
+Attempt 2:
+
+- 2 min: `System Node.js is v18.19.1 but project requires >=20 (Vite 7.x, TailwindCSS 4.x, Vitest 4.x)`
+- 1 min: `Root-level npm dependencies not installed; render-docs.js failed with MODULE_NOT_FOUND for @asciidoctor/core`
+- 1 min: `website/node_modules built under Node 18 caused Vite engine incompatibility`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

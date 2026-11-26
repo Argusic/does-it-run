@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/deerflow-book
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.1 to 2.1 minutes
+- Valid runs: 2; wall time 2.1 to 2.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/deerflow-book
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.33 | 2.1 | 0 | 0 | [run](https://argusic.com/run/59b75f17-5fa1-438c-ae88-4cb37b9ff7ae) |
+| 2 | pass | 100 | 10 | 2.8 | 0 | 0 | [run](https://argusic.com/run/8d8d0099-0bac-499b-9a09-5b750c084882) |
 
 ## What was observed on a clean machine
 

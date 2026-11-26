@@ -1,6 +1,6 @@
 # Home-Assistant_Config
 
-**Verdict: runs.** Argusic Score 95 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 97.5 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/BeardedTinker/Home-Assistant_Config, licensed MIT, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/707365d1-e615-402d-9a8c-f70ce43
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.5 to 7.5 minutes
+- Valid runs: 2; wall time 7.5 to 11.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/707365d1-e615-402d-9a8c-f70ce43
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 95 | 7 | 7.5 | 4 | 3 | [run](https://argusic.com/run/707365d1-e615-402d-9a8c-f70ce43bb100) |
+| 2 | pass | 100 | 10 | 11.5 | 4 | 4 | [run](https://argusic.com/run/153e03e2-863b-4f84-a23f-c45dc712bc22) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 1 min: `service_account_ga.json missing, google_assistant.yaml load fails`
 - 1 min: `secrets.yaml allow_dir: /github/workspace/tmp is inaccessible (no root)`
 - `Python.h (python3-dev) missing; netifaces and pyspeex-noise wheels fail to build`
+
+Attempt 2:
+
+- 3 min: `pip install of homeassistant==2025.12.4 (specified in .HA_VERSION) failed , requires Python >= 3.13.2 but system has Python 3.12.3`
+- `several packages (netifaces, pyspeex-noise) failed to build from source because python3-dev is not installed (no root)`
+- `libturbojpeg not found , camera snapshot performance warning only`
+- `secrets.yaml had allow_dir pointing to /github/workspace/tmp which doesn't exist in this container`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

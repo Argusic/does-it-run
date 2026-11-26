@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/728ae98e-8995-4c46-841c-4f8d570
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 64.2 to 64.2 minutes
+- Valid runs: 2; wall time 5.3 to 64.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/728ae98e-8995-4c46-841c-4f8d570
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 63 | 64.2 | 5 | 5 | [run](https://argusic.com/run/728ae98e-8995-4c46-841c-4f8d570e489b) |
+| 2 | pass with mocks | 92 | 5 | 5.3 | 1 | 1 | [run](https://argusic.com/run/b512813d-1a73-4421-8d64-ea202c96d947) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,9 @@ Attempt 1:
 - 6 min: `Four Next.js/Tailwind installs missed the platform binary @tailwindcss/oxide-linux-x64-gnu (pnpm skipped platform optional deps), causing build failure`
 - 12 min: `SDK/example code always targets api.elevenlabs.io because examples had no base-URL override; local verification of the real example code paths was impossible without one`
 - 12 min: `First mock iteration used a GET-only audio handler that 401'd key validation; TTS example then hit real api.elevenlabs.io`
+
+Attempt 2:
+
+- `Next.js examples require Node.js >=20.9.0, container has 18.19.1`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

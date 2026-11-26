@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/renamer
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.2 to 4.2 minutes
+- Valid runs: 2; wall time 1.9 to 4.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/renamer
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 4.2 | 2 | 2 | [run](https://argusic.com/run/fa40ff54-785d-4674-b068-e2e73f5a5afb) |
+| 2 | pass | 100 | 1 | 1.9 | 1 | 1 | [run](https://argusic.com/run/caf2fbee-c917-409c-9d0a-5e1dd16d047f) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1 min: `Test runner @75lb/nature missing`
 - 1 min: `Test expects ANSI codes but chalk disables them in non-TTY`
+
+Attempt 2:
+
+- 1 min: `npm install -g @75lb/nature failed with EACCES (no root in container)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -1,6 +1,6 @@
 # patent
 
-**Verdict: runs.** Argusic Score 93.3 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96.7 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/r14dd/patent, licensed Apache-2.0, written in Rust.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/patent
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.4 to 16.4 minutes
+- Valid runs: 2; wall time 11.5 to 16.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/patent
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 93.33 | 10 | 16.4 | 3 | 2 | [run](https://argusic.com/run/774c3133-ac6a-488d-b6ea-4ade3d5f8009) |
+| 2 | pass | 100 | 1.5 | 11.5 | 0 | 0 | [run](https://argusic.com/run/a2c9a49b-c927-4a2f-8b0d-b194bd3bf9b9) |
 
 ## What was observed on a clean machine
 

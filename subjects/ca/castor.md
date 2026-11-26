@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/castor
 - Test commit: `56cd0342f2d1f0339bf5937a5ea315d5d1b313a8`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 54.9 to 54.9 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 54.9 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/castor
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 88.89 | 35 | 54.9 | 9 | 4 | [run](https://argusic.com/run/c051443a-1d87-401f-bae0-c2e5b1951fb8) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/666663a7-4364-46b6-ab85-de57a8140cfb) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/onchain-dex-cli
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 8.9 to 8.9 minutes
+- Valid runs: 2; wall time 8.9 to 9.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/onchain-dex-cli
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 7 | 8.9 | 2 | 2 | [run](https://argusic.com/run/dded64ab-e45e-448a-87f7-215ab2ecf856) |
+| 2 | pass with mocks | 92 | 1 | 9.4 | 0 | 0 | [run](https://argusic.com/run/2f35f215-c29a-4b22-8b40-667d09528006) |
 
 ## What was observed on a clean machine
 

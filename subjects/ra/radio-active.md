@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/radio-active
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.9 to 2.9 minutes
+- Valid runs: 2; wall time 1.4 to 2.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/radio-active
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 2.9 | 3 | 3 | [run](https://argusic.com/run/7f523bbd-6c00-4f71-bb79-ac67035dcbed) |
+| 2 | pass | 100 | 2.5 | 1.4 | 0 | 0 | [run](https://argusic.com/run/77dc517a-c6b1-46d8-a9af-6fedbc07827c) |
 
 ## What was observed on a clean machine
 

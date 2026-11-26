@@ -1,6 +1,6 @@
 # markdowndb
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/flowershow/markdowndb, licensed MIT, written in TypeScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/markdowndb
 - Test commit: `f53cfef49ffcd267fc200d2dc451ed6f37b4523a`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: run with mocked services
-- Valid runs: 1; wall time 74.7 to 74.7 minutes
+- Test depth: run with mocked services, real run
+- Valid runs: 2; wall time 1.3 to 74.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/markdowndb
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 15 | 74.7 | 4 | 4 | [run](https://argusic.com/run/547b359f-a131-4d99-a22f-10e779971a9c) |
+| 2 | pass | 100 | 1 | 1.3 | 0 | 0 | [run](https://argusic.com/run/5110b291-a582-416a-aa02-0d81c5e740a7) |
 
 ## What was observed on a clean machine
 

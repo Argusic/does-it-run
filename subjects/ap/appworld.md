@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/appworld
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 37.4 to 37.4 minutes
+- Valid runs: 2; wall time 33.8 to 37.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/appworld
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 35 | 37.4 | 5 | 5 | [run](https://argusic.com/run/d0f68967-d8cb-4435-986b-44cf3338df1c) |
+| 2 | pass | 100 | 31 | 33.8 | 5 | 5 | [run](https://argusic.com/run/31965cb4-60d8-4c05-9edb-512edcec8b3d) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,13 @@ Attempt 1:
 - 3 min: `Bundle files (.bundle) were Git LFS pointers (193 bytes) not actual content`
 - 2 min: `OrderItem model datetimes used SQLModel default UTCDateTime requiring tz-aware values, but AppWorld uses naive PendulumDateTimes`
 - 1 min: `Missing openapi_spec_validator package for test_prepare_api_docs`
+
+Attempt 2:
+
+- 3 min: `FastAPI 0.107+ removed 'embed' from 'Path()'; 'Path(..., embed=True)' in apps/__init__.py caused TypeError`
+- 5 min: `SQLModel 0.0.50 + Pydantic v2 rejects naive pendulum datetimes in UTCDateTime process_bind_param`
+- 2 min: `Test used literal "python" binary not in PATH`
+- 2 min: `Test passed priority=None but type is Literal['high','medium','low'] without None`
+- 2 min: `openapi-spec-validator missing: test_prepare_api_docs_openapi failed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/geo-golang
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 3.7 to 3.7 minutes
+- Valid runs: 2; wall time 3.7 to 3.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/geo-golang
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 4 | 3.7 | 0 | 0 | [run](https://argusic.com/run/cdf7057a-9a25-4aa6-91d2-cb991ff976ae) |
+| 2 | pass with mocks | 92 | 2 | 3.7 | 0 | 0 | [run](https://argusic.com/run/ffca8e5b-eb04-4f69-933a-4e4ea0ef89ae) |
 
 ## What was observed on a clean machine
 

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/f-flow
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12.7 to 12.7 minutes
+- Valid runs: 2; wall time 4.9 to 12.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/f-flow
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 12.7 | 2 | 2 | [run](https://argusic.com/run/2adb661f-d620-4c13-8226-fc99b8b48394) |
+| 2 | pass | 100 | 7.5 | 4.9 | 3 | 3 | [run](https://argusic.com/run/84042307-f5f0-49c7-b678-4e7b1a960893) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,11 @@ Attempt 1:
 
 - 1 min: `Node.js v18.19.1 too old for Angular CLI (needs v20.19+)`
 - 1 min: `Chrome crashes with 'No usable sandbox' on Ubuntu 24.04`
+
+Attempt 2:
+
+- 3 min: `ora 8.x ESM-only package cannot be require()d from Angular devkit spinner on Node 18`
+- 3 min: `ChromeHeadless binary not found on system (no apt-installable browser, only snap wrappers)`
+- 1 min: `Chrome sandbox failure in container (no user namespaces)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

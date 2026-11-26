@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 15450 observed error lines in 6953 valid runs of 3882 tested subjects (generated 2026-11-24).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 15892 observed error lines in 7172 valid runs of 3910 tested subjects (generated 2026-11-26).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 17 | 0.1% | 15 |
-| Permission denied | 140 | 0.9% | 127 |
-| Missing system library or header | 785 | 5.1% | 418 |
-| Tool, runtime or component not installed | 2605 | 16.9% | 1620 |
-| Version mismatch | 1591 | 10.3% | 1109 |
-| Missing configuration or secret | 311 | 2.0% | 266 |
-| Source or download problem | 186 | 1.2% | 157 |
-| Network, timeout or service unreachable | 324 | 2.1% | 281 |
-| Dependency install or resolution failed | 1837 | 11.9% | 1230 |
-| Build or compile step failed | 636 | 4.1% | 499 |
-| The project's own tests failed | 1765 | 11.4% | 1002 |
-| Expected file or data not present | 237 | 1.5% | 216 |
-| Error inside the project's code | 181 | 1.2% | 155 |
-| Other | 4835 | 31.3% | 2141 |
+| Permission denied | 143 | 0.9% | 129 |
+| Missing system library or header | 808 | 5.1% | 426 |
+| Tool, runtime or component not installed | 2669 | 16.8% | 1653 |
+| Version mismatch | 1644 | 10.3% | 1139 |
+| Missing configuration or secret | 322 | 2.0% | 272 |
+| Source or download problem | 189 | 1.2% | 159 |
+| Network, timeout or service unreachable | 330 | 2.1% | 285 |
+| Dependency install or resolution failed | 1894 | 11.9% | 1254 |
+| Build or compile step failed | 655 | 4.1% | 514 |
+| The project's own tests failed | 1816 | 11.4% | 1026 |
+| Expected file or data not present | 245 | 1.5% | 222 |
+| Error inside the project's code | 188 | 1.2% | 159 |
+| Other | 4972 | 31.3% | 2167 |
 
 ## Port already in use
 
@@ -99,7 +99,7 @@ Example runs:
 
 - 10xProductivity, attempt 1: https://argusic.com/run/c40f7bbe-deed-4d3a-8fbc-1f980835bd12
 - a-stock-data, attempt 1: https://argusic.com/run/d7dc86f0-383f-42e0-bf4e-8d8dbc1a38fd
-- Acode, attempt 1: https://argusic.com/run/f12291ec-ba07-4e6f-9bd1-af099631ebd1
+- abacusai-bot, attempt 2: https://argusic.com/run/dc831f30-2ea0-4383-96e1-a2f3041eb570
 
 ## Dependency install or resolution failed
 
@@ -157,6 +157,6 @@ Error lines that fit none of the groups above.
 
 Example runs:
 
-- 0ad, attempt 2: https://argusic.com/run/a3f8b8d5-9983-4188-9476-ad481c6956eb
+- 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
 - 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
 - 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645

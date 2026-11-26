@@ -1,6 +1,6 @@
 # gezhi-sheets
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/beiwocaishijia/gezhi-sheets, licensed MIT, written in JavaScript.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/gezhi-sheets
 - Test commit: `3aff8e416c823f9e6f3eeb25ca83e4b5677e1435`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 5.6 to 5.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 2.9 to 5.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/gezhi-sheets
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 6 | 5.6 | 2 | 2 | [run](https://argusic.com/run/520dfd28-319d-41db-9018-0f36e9275113) |
+| 2 | fail | 20 | n/a | 2.9 | 0 | 0 | [run](https://argusic.com/run/f771b54f-f314-45e1-a7a0-04fb34d43c90) |
 
 ## What was observed on a clean machine
 

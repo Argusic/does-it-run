@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pi-llm-wiki
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.9 to 2.9 minutes
+- Valid runs: 2; wall time 2.9 to 3.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pi-llm-wiki
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 2.9 | 1 | 1 | [run](https://argusic.com/run/9ed468f8-523e-49f6-bd5c-2308245722b9) |
+| 2 | pass | 100 | 0.5 | 3.1 | 0 | 0 | [run](https://argusic.com/run/57a31295-7a03-4ce7-9583-11b917dca7cb) |
 
 ## What was observed on a clean machine
 

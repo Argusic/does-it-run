@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/hostc
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.5 to 7.5 minutes
+- Valid runs: 2; wall time 2.4 to 7.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/hostc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5.2 | 7.5 | 2 | 2 | [run](https://argusic.com/run/e6737d36-3a88-4051-9b4a-d9ab9b6ea589) |
+| 2 | pass | 100 | 4 | 2.4 | 0 | 0 | [run](https://argusic.com/run/a4148d2e-2861-4592-a731-93014b316817) |
 
 ## What was observed on a clean machine
 

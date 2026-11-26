@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mesh
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 34.5 to 34.5 minutes
+- Valid runs: 2; wall time 21.9 to 34.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mesh
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 12 | 34.5 | 4 | 4 | [run](https://argusic.com/run/52523b57-15fe-41ca-b99e-62fbc7fb775b) |
+| 2 | pass with mocks | 92 | 13.7 | 21.9 | 5 | 5 | [run](https://argusic.com/run/a4acbcd6-511c-41f9-acab-902e360141fe) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,13 @@ Attempt 1:
 - 1 min: `Gentics Nexus repos (repo.gentics.com) return 401 Unauthorized; parent POM com.gentics:maven-parent:5.1.1 reference blocked`
 - `Server requires database connector module (HSQLDB/MariaDB) on classpath via ServiceLoader; standalone JAR fails with 'Could not instantiate a database connector'`
 - `Performance tests (7) error with NoMeshTestContextProvider , need running Mesh instance; index query counting tests (9) fail without Elasticsearch`
+
+Attempt 2:
+
+- 2.5 min: `Java and Maven not pre-installed in container`
+- 0.5 min: `Maven parent POM com.gentics:maven-parent:5.1.1 not in local cache`
+- 1 min: `test-scanner-maven-plugin:3.3.1-SNAPSHOT not in any remote repo`
+- 3 min: `Keystore file config/keystore.jceks not found by JWTAuthProvider on subsequent runs`
+- 1 min: `HSQLDB database connector not bundled in the server fat JAR`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

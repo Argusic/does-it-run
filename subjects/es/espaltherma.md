@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/espaltherma
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.3 to 2.3 minutes
+- Valid runs: 2; wall time 2 to 2.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/espaltherma
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 2.3 | 2 | 2 | [run](https://argusic.com/run/77d1a202-e692-46d9-8caf-f6257857a4e2) |
+| 2 | pass | 100 | 1.04 | 2 | 0 | 0 | [run](https://argusic.com/run/b0319a03-643c-42c4-a273-b02d47e8bbf8) |
 
 ## What was observed on a clean machine
 

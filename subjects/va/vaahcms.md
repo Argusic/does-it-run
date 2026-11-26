@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/vaahcms
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 20.8 to 20.8 minutes
+- Valid runs: 2; wall time 5.6 to 20.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/vaahcms
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 20 | 20.8 | 5 | 5 | [run](https://argusic.com/run/7b24a89f-5e2c-46c7-ac27-5f616844c7dd) |
+| 2 | pass | 100 | 6 | 5.6 | 4 | 4 | [run](https://argusic.com/run/51f4af19-a5b4-495e-9a9e-d5d8d164f73f) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,12 @@ Attempt 1:
 - 1 min: `Missing composer dependency intervention/image`
 - 3 min: `User/UserBase models hardcode mysql connection, causing boot crash with SQLite`
 - 2 min: `npx vaah cms:install CLI failed (Observable polyfill missing + interactive prompts)`
+
+Attempt 2:
+
+- 1 min: `PHP and Composer not pre-installed in container`
+- 1 min: `Missing composer dependencies: zanysoft/laravel-zip and intervention/image not listed in package's composer.json but required by VaahCmsServiceProvider`
+- 2 min: `CrudWithUuidObserver constructor called Auth::check() during model boot, creating circular dependency`
+- 2 min: `Models hardcode $connection='mysql', but MySQL unavailable; artisan command failed with connection refused`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

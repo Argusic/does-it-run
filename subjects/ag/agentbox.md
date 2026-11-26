@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/agentbox
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 19.1 to 19.1 minutes
+- Valid runs: 2; wall time 10.7 to 19.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/agentbox
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 19.1 | 3 | 3 | [run](https://argusic.com/run/6b8976fb-9508-4814-b4cc-c4e164cfac21) |
+| 2 | pass | 100 | 10 | 10.7 | 3 | 3 | [run](https://argusic.com/run/db1280b7-8a61-404c-917c-44464d6122f7) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 1 min: `Node.js v18.19.1 does not satisfy engines.node >=20.10`
 - 1 min: `pnpm binary not found on PATH`
 - 3 min: `rsync binary not found, causing 9 test failures in sandbox-core`
+
+Attempt 2:
+
+- 2 min: `Node.js version was 18.19.1 but project requires >=20.10 (hub requires >=22.5)`
+- 1 min: `No pnpm installed`
+- 3 min: `rsync not installed on system, causing 6 sandbox-core tests to fail`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

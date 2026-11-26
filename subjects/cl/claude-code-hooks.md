@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/claude-code-hooks
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.3 to 4.3 minutes
+- Valid runs: 2; wall time 4.3 to 5.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/claude-code-hooks
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 4.3 | 2 | 2 | [run](https://argusic.com/run/41ac9ef1-277f-4d7f-9494-d0c8641e0367) |
+| 2 | pass | 100 | 1.5 | 5.9 | 1 | 1 | [run](https://argusic.com/run/ddf44459-8502-4b1d-9a35-4adb8405dfdd) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - 1 min: `ruff not installed, causing 4 format-code test failures`
 - 1 min: `uv not on PATH, npx prettier unavailable via npm -g, format-code tests would need prettier`
+
+Attempt 2:
+
+- 5 min: `format-code tests failed because uv and ruff were not on PATH`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

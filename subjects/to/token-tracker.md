@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/token-tracker
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1.2 to 1.2 minutes
+- Valid runs: 2; wall time 1.2 to 1.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/token-tracker
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.1 | 1.2 | 0 | 0 | [run](https://argusic.com/run/62d0da5a-80b3-4362-ad44-0b0e6a926122) |
+| 2 | pass | 100 | 2 | 1.9 | 0 | 0 | [run](https://argusic.com/run/064a56d9-c604-4534-a3ab-b00f2f8ea932) |
 
 ## What was observed on a clean machine
 

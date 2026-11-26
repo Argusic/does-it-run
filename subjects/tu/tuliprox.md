@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/tuliprox
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 19.9 to 19.9 minutes
+- Valid runs: 2; wall time 19.7 to 19.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/tuliprox
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 20 | 19.9 | 5 | 5 | [run](https://argusic.com/run/c4d5b006-f7ba-45a4-a5b2-5a9d106ea2bd) |
+| 2 | pass | 100 | 9 | 19.7 | 1 | 1 | [run](https://argusic.com/run/32cecb5c-934d-4e88-9fe1-a6f7473e5429) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,9 @@ Attempt 1:
 - 1 min: `TULIPROX_PROXY_REWRITE_SECRET env var not set in sample config`
 - 1 min: `Scan directories /media/movies and /media/tvshows in sample config did not exist`
 - 1 min: `Web root directory did not exist for server mode`
+
+Attempt 2:
+
+- 2 min: `Sample config.yml had unknown fields 'path' and 'tmdb' under library.metadata`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

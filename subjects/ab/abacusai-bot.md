@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/abacusai-bot
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.7 to 3.7 minutes
+- Valid runs: 2; wall time 3.7 to 24.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/abacusai-bot
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 3.7 | 2 | 2 | [run](https://argusic.com/run/601a96e2-e87a-4c90-b994-fef9b8f8ec8e) |
+| 2 | pass | 100 | 2 | 24.3 | 5 | 5 | [run](https://argusic.com/run/dc831f30-2ea0-4383-96e1-a2f3041eb570) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,13 @@ Attempt 1:
 
 - 2 min: `Node.js was v18, project requires v22`
 - 2 min: `Electron binary not downloaded at install time, missing LICENSES.chromium.html`
+
+Attempt 2:
+
+- 2 min: `System Node.js v18 too old for project (needs Node 22+)`
+- 1 min: `corepack not available with system Node.js`
+- 1 min: `@rolldown/binding-linux-x64-gnu native binding missing (optional dependency not installed by pnpm)`
+- 1 min: `Electron binary not installed (missing Chromium notices for build)`
+- `7 web renderer tests timed out (likely due to slower container)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

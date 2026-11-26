@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/harness-score
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1 to 1 minutes
+- Valid runs: 2; wall time 1 to 1.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/harness-score
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.2 | 1 | 0 | 0 | [run](https://argusic.com/run/67a9eb43-e5d3-4939-9069-4354138c2fe1) |
+| 2 | pass | 100 | 0.08 | 1.2 | 0 | 0 | [run](https://argusic.com/run/2ae1abeb-da3c-4d42-9e68-621814225ec2) |
 
 ## What was observed on a clean machine
 

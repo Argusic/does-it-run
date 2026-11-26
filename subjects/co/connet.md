@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/connet
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.3 to 4.3 minutes
+- Valid runs: 2; wall time 2.8 to 4.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/connet
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 4.3 | 0 | 0 | [run](https://argusic.com/run/379dbedf-1abc-4858-89b2-b57f8e4a1368) |
+| 2 | pass | 100 | 7 | 2.8 | 0 | 0 | [run](https://argusic.com/run/f3a7a63e-4d62-4fa9-bd37-7cc7db9c827d) |
 
 ## What was observed on a clean machine
 

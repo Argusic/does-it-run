@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mac-software
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.7 to 3.7 minutes
+- Valid runs: 2; wall time 2.7 to 3.7 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mac-software
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 4 | 3.7 | 2 | 2 | [run](https://argusic.com/run/833bae40-fa53-4ce7-8ec3-1e74dbe99ff0) |
+| 2 | pass | 100 | 3 | 2.7 | 2 | 2 | [run](https://argusic.com/run/e3f9a4cb-5bc5-49ac-a966-ace330aa2598) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - `install.sh expects wget, not installed; used curl instead`
 - `systemctl/systemd not available without root; install.sh's systemd service setup cannot run`
+
+Attempt 2:
+
+- 1 min: `Install script uses wget but wget is not installed in the container`
+- 1 min: `Install script uses systemctl to set up as a system service, but container has no systemd root access`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

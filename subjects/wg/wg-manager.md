@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/wg-manager
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.5 to 16.5 minutes
+- Valid runs: 2; wall time 5.3 to 16.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/wg-manager
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 16.5 | 9 | 9 | [run](https://argusic.com/run/e65797ea-62cc-4ccc-8019-4289740193bd) |
+| 2 | pass | 100 | 5 | 5.3 | 5 | 5 | [run](https://argusic.com/run/da4c5765-0acb-4a81-839e-02ac12bd685c) |
 
 ## What was observed on a clean machine
 
@@ -35,5 +36,13 @@ Attempt 1:
 - 3 min: `angular build failed on Node 18 (ERR_OSSL_EVP_UNSUPPORTED) and npm peer conflict`
 - 5 min: `wg endpoints return 500 (FileNotFoundError: 'wg'); wireguard-tools not installed in container and no root to apt install`
 - 1 min: `npm peer conflict angular-material-dynamic-themes requires old @angular/material`
+
+Attempt 2:
+
+- 1 min: `Pydantic v2 incompatible with codebase (pydantic.typing.List, orm_mode)`
+- 1 min: `pkg_resources not found in setuptools≥70`
+- 0.5 min: `database/__init__.py empty - test import fails`
+- 1 min: `Starlette 0.13.6 has asyncio bug on Python 3.12`
+- 1 min: `Tests used wrong route prefix (/api/ instead of /api/v1/) and JSON body instead of form data`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

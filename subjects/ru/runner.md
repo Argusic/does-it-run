@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/runner
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 16.1 to 16.1 minutes
+- Valid runs: 2; wall time 13 to 16.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,17 @@ Evidence and recordings: https://argusic.com/subject/runner
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 13 | 16.1 | 1 | 1 | [run](https://argusic.com/run/bdee6f35-9d96-4a7c-aed2-e8a76f955bd7) |
+| 2 | pass | 100 | 14 | 13 | 2 | 2 | [run](https://argusic.com/run/de5d34be-7d8a-4d36-b240-076e20f131d0) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 2 min: `test stop_reaps_descendants_the_agent_left_behind failed because /bin/zsh is not installed in the container`
+
+Attempt 2:
+
+- `runner-app (GPUI desktop) does not compile on Linux: gpui crate is macOS/Windows only (unresolved import)`
+- `runner-backend test: stop_reaps_descendants_the_agent_left_behind requires /bin/zsh which is not installed`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

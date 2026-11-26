@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/sveltepress
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 12 to 12 minutes
+- Valid runs: 2; wall time 5.9 to 12 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/sveltepress
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 12 | 3 | 3 | [run](https://argusic.com/run/c108229d-ed31-414a-aaa1-61ff523ea10a) |
+| 2 | pass | 100 | 5 | 5.9 | 3 | 3 | [run](https://argusic.com/run/c428cffe-8934-4de3-af5e-2a1d5b4e7062) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 1 min: `Node v18.19.1 is below project minimum (^20.19.0 or >=22.12.0)`
 - 1 min: `pnpm not found in environment`
 - `packages/vite prepare script (unbuild) hit V8 heap OOM (Reached heap limit Allocation failed - JavaScript heap out of memory)`
+
+Attempt 2:
+
+- 0.5 min: `pnpm not found (required v10.34.5)`
+- 1.5 min: `Node v18.19.1 incompatible , node:util lacks styleText export, needs ^20.19.0 or >=22.12.0`
+- 0.5 min: `pnpm prepare for vite package OOM (JS heap out of memory)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/catbus
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 2.7 to 2.7 minutes
+- Valid runs: 2; wall time 2.7 to 3.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/catbus
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2 | 2.7 | 1 | 1 | [run](https://argusic.com/run/a83f6edb-e983-4c59-b401-2ceb95666c5e) |
+| 2 | pass with mocks | 92 | 8 | 3.4 | 0 | 0 | [run](https://argusic.com/run/696bcfbc-687b-49bf-b41b-32536fcd9b4f) |
 
 ## What was observed on a clean machine
 

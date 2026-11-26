@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/pagible
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 43.3 to 43.3 minutes
+- Valid runs: 2; wall time 11.9 to 43.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/pagible
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 5 | 43.3 | 3 | 3 | [run](https://argusic.com/run/615882e0-1dab-4a1c-b35a-8bb0bacf3d43) |
+| 2 | pass | 100 | 4.5 | 11.9 | 3 | 3 | [run](https://argusic.com/run/b29d201c-e2c3-4a3a-a684-f24508818321) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,11 @@ Attempt 1:
 - 3 min: `PHP and Composer not available in container`
 - 1 min: `Path repo version mismatch: sub-packages had git-hash versions but root required dev-master`
 - 1 min: `Security advisories blocked enshrined/svg-sanitize package installation`
+
+Attempt 2:
+
+- 2 min: `PHP and Composer not pre-installed`
+- 1 min: `Composer path-repo version mismatch (dev-hash vs dev-master)`
+- 0.5 min: `Security advisories blocking enshrined/svg-sanitize`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

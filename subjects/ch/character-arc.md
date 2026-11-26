@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/character-arc
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.1 to 10.1 minutes
+- Valid runs: 2; wall time 8.4 to 10.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/character-arc
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 10 | 10.1 | 5 | 5 | [run](https://argusic.com/run/d6e6463a-a8f0-4c38-bca6-5756e57eeb68) |
+| 2 | pass | 100 | 2.3 | 8.4 | 2 | 2 | [run](https://argusic.com/run/508a177b-ae4f-4970-bc6d-8dad61f38d24) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,10 @@ Attempt 1:
 - 1 min: `Electron 37 SUID chrome-sandbox not configured (no root): 'The SUID sandbox helper binary was found, but is not configured correctly'`
 - 2 min: `pnpm run build failed with 'crypto.hash is not a function' in @vitejs/plugin-vue because system Node is 18.19.1 (Vite 7 requires Node >=20.19)`
 - 1 min: `npm script 'test' uses Windows-only 'set ELECTRON_RUN_AS_NODE=1&&' syntax, unusable on Linux/macOS shell`
+
+Attempt 2:
+
+- 0.5 min: `Node 18 lacks crypto.hash() used by @vitejs/plugin-vue@6 in renderer build`
+- 1 min: `electron --test resolves @shared aliases and bare relative imports (.ts extension required)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/node-red-contrib-home-assis
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.1 to 2.1 minutes
+- Valid runs: 2; wall time 1.8 to 2.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/node-red-contrib-home-assis
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 2.1 | 2 | 2 | [run](https://argusic.com/run/af362770-87d2-4aae-bb73-637e9a3fd6c0) |
+| 2 | pass | 100 | 5 | 1.8 | 0 | 0 | [run](https://argusic.com/run/d77d21ce-db9e-4658-8f26-f58e501384ef) |
 
 ## What was observed on a clean machine
 

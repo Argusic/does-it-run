@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mkdocs-awesome-nav
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 3.6 to 3.6 minutes
+- Valid runs: 2; wall time 1.5 to 3.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mkdocs-awesome-nav
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.2 | 3.6 | 0 | 0 | [run](https://argusic.com/run/c8c1eee5-f454-488c-ba81-db9f2996708a) |
+| 2 | pass | 100 | 0.25 | 1.5 | 0 | 0 | [run](https://argusic.com/run/5f8634b5-dc8b-4605-95fc-de68550b1592) |
 
 ## What was observed on a clean machine
 

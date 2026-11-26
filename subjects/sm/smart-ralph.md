@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/smart-ralph
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 22.9 to 22.9 minutes
+- Valid runs: 2; wall time 10.4 to 22.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/smart-ralph
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1 | 22.9 | 1 | 1 | [run](https://argusic.com/run/41474e4d-6bbb-4788-9859-5f78f1ad9cc0) |
+| 2 | pass | 100 | 0.5 | 10.4 | 1 | 1 | [run](https://argusic.com/run/e0287268-e822-43b9-b8cb-5e66296a00fa) |
 
 ## What was observed on a clean machine
 

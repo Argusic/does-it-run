@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/js-reverse-automation-skill
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 4.2 to 4.2 minutes
+- Valid runs: 2; wall time 2.3 to 4.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/js-reverse-automation-skill
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2.3 | 4.2 | 1 | 1 | [run](https://argusic.com/run/1fe17671-737b-4eff-804c-05b43f86c25e) |
+| 2 | pass with mocks | 92 | 5 | 2.3 | 1 | 1 | [run](https://argusic.com/run/ff74a97b-02d0-4500-b935-30b6c5b3441e) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1.5 min: `wrapped_headers referenced before assignment in generated Flask proxy`
+
+Attempt 2:
+
+- 1 min: `identify_crypto.py uses dump_json() without importing from common`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

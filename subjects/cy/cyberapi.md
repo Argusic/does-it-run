@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/cyberapi
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 66.6 to 66.6 minutes
+- Valid runs: 2; wall time 35.8 to 66.6 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/cyberapi
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 38 | 66.6 | 5 | 5 | [run](https://argusic.com/run/2be3f97c-6977-4812-b548-c187c7cf4e80) |
+| 2 | pass | 100 | 35 | 35.8 | 1 | 1 | [run](https://argusic.com/run/561cf372-0d13-4d8e-9cbf-ef3b9d946a8e) |
 
 ## What was observed on a clean machine
 
@@ -31,5 +32,9 @@ Attempt 1:
 - 3 min: `cargo test: this_build::tests::the_desktop_reads_files panicked on missing Downloads/XDG user dirs in container`
 - 14 min: `first launch showed startup-error window and wrote no DB: data dir parent absent and turso does not create it`
 - 8 min: `disk filled (40G) by two full build+test passes; sqlx bridge test build failed with No space left on device`
+
+Attempt 2:
+
+- 5 min: `Missing system packages: fontconfig-dev (libfontconfig1-dev), libxkbcommon-dev, libxkbcommon-x11-dev, libxcb-dev. No root access to install them.`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

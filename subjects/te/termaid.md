@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/termaid
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 1 to 1 minutes
+- Valid runs: 2; wall time 1 to 1.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/termaid
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.08 | 1 | 0 | 0 | [run](https://argusic.com/run/577c126a-de17-47a8-b039-16905e35d3f9) |
+| 2 | pass | 100 | 0.18 | 1.9 | 0 | 0 | [run](https://argusic.com/run/edfb37cd-5178-44d6-8430-7226f82d037e) |
 
 ## What was observed on a clean machine
 

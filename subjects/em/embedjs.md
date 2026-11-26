@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/embedjs
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 11 to 11 minutes
+- Valid runs: 2; wall time 8.1 to 11 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/embedjs
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 4 | 11 | 2 | 2 | [run](https://argusic.com/run/1d9cb6a8-d626-4ee1-a19b-c8714be39c51) |
+| 2 | pass with mocks | 92 | 2.5 | 8.1 | 0 | 0 | [run](https://argusic.com/run/9d2290c4-5b19-4277-97d7-c6d21d597032) |
 
 ## What was observed on a clean machine
 

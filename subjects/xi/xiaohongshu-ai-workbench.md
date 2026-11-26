@@ -1,6 +1,6 @@
 # xiaohongshu-ai-workbench
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 90 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/mengke-wang/xiaohongshu-ai-workbench, licensed MIT, written in Python.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/xiaohongshu-ai-workbench
 - Test commit: `7c1705d28a95bfc7c3b60f39b14b8041345541db`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 2.5 to 2.5 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 2 to 2.5 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/xiaohongshu-ai-workbench
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 1.5 | 2.5 | 0 | 0 | [run](https://argusic.com/run/3fc9f2ba-9a87-4444-9d72-d7525c43191a) |
+| 2 | fail | 80 | 0.5 | 2 | 0 | 0 | [run](https://argusic.com/run/b7312175-d301-45aa-bd9e-d335a83bdc4d) |
 
 ## What was observed on a clean machine
 

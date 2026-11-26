@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/c5a81a83-22fb-462a-907f-b023f6b
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.5 to 4.5 minutes
+- Valid runs: 2; wall time 4.5 to 19 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/run/c5a81a83-22fb-462a-907f-b023f6b
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 4.5 | 3 | 3 | [run](https://argusic.com/run/c5a81a83-22fb-462a-907f-b023f6b5b478) |
+| 2 | pass | 100 | 16 | 19 | 1 | 1 | [run](https://argusic.com/run/dcf9b4cf-ae51-4c92-9956-1f9fc210f002) |
 
 ## What was observed on a clean machine
 
@@ -29,5 +30,9 @@ Attempt 1:
 - 2 min: `pyproject marked externally managed; system pip refused install`
 - 4 min: `System Node 18 made npm install skip @tailwindcss/oxide native binding, so 'npm run build' failed with 'Cannot find native binding'`
 - 1 min: `Background autoclip serve via nohup was killed when the shell exited`
+
+Attempt 2:
+
+- 2 min: `Frontend build failed: @tailwindcss/oxide native binding for linux-x64-gnu not installed by npm (Node 18 vs 20 mismatch causes npm optional-dependency resolution bug)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

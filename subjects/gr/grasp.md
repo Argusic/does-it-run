@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/cocofhu/grasp, licensed MIT, written in TypeScript.
+Project: https://github.com/cocofhu/grasp, licensed MIT, written in Go.
 
 Evidence and recordings: https://argusic.com/subject/grasp
 

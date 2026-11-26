@@ -2,7 +2,7 @@
 
 **Verdict: runs with mocks.** Argusic Score 56 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/zenbu-labs/terminal-browser, licensed MIT, written in TypeScript.
+Project: https://github.com/zenbu-labs/terminal-browser, licensed MIT, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/terminal-browser
 

@@ -1,6 +1,6 @@
 # claude-ops
 
-**Verdict: runs.** Argusic Score 100 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs.** Argusic Score 60 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/Lifecycle-Innovations-Limited/claude-ops, licensed MIT, written in Shell.
 
@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/claude-ops
 - Test commit: `a1ff10f46dddf1bfc5c4881d5c94c939d05a21e4`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 50.3 to 50.3 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 7.2 to 50.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/claude-ops
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 0.02 | 50.3 | 4 | 4 | [run](https://argusic.com/run/eba20b95-89ec-4702-985d-4cdc8909b55b) |
+| 2 | fail | 20 | n/a | 7.2 | 0 | 0 | [run](https://argusic.com/run/236e4280-d092-4ed0-8654-43ff090eb141) |
 
 ## What was observed on a clean machine
 

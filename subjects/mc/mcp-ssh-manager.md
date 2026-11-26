@@ -1,6 +1,6 @@
 # mcp-ssh-manager
 
-**Verdict: runs with mocks.** Argusic Score 82 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 87 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/bvisible/mcp-ssh-manager, licensed MIT, written in JavaScript.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-ssh-manager
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 9 to 9 minutes
+- Valid runs: 2; wall time 1.9 to 9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/mcp-ssh-manager
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 82 | 12 | 9 | 2 | 1 | [run](https://argusic.com/run/42b53f75-c032-408a-84e0-29915db0d5f1) |
+| 2 | pass with mocks | 92 | 0.1 | 1.9 | 0 | 0 | [run](https://argusic.com/run/03417019-2af4-4db0-bbfc-0b505562bd0f) |
 
 ## What was observed on a clean machine
 

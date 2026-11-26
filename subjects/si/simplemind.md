@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/simplemind
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 19.1 to 19.1 minutes
+- Valid runs: 2; wall time 19.1 to 21.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/simplemind
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 2.5 | 19.1 | 5 | 5 | [run](https://argusic.com/run/6a56066c-c1d3-48b2-a5bf-a8704c5ed954) |
+| 2 | pass with mocks | 92 | 0.5 | 21.4 | 4 | 4 | [run](https://argusic.com/run/e2f148b8-9bd3-4821-80a0-f3cfff6223bd) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 1 min: `instructor v2 isinstance check failed against monkeypatched constructors`
 - 1.5 min: `Tool-calling tests required multi-round tool call simulation`
 - 0.5 min: `Pydantic Settings object rejected direct field assignment`
+
+Attempt 2:
+
+- 0.5 min: `System pip blocked by PEP 668 externally-managed-environment`
+- 10 min: `25 tests failed requiring API keys / network`
+- 2 min: `test_tool_decorator returned generic 'mock' name instead of parsing prompt`
+- 1 min: `test_multiple_tools only ran first tool mock, missed second tool result`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

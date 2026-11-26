@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/markdown-site
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 34.9 to 34.9 minutes
+- Valid runs: 2; wall time 13.3 to 34.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/markdown-site
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 15 | 34.9 | 7 | 7 | [run](https://argusic.com/run/0670f08b-91de-4853-ae4d-3afefdd3f473) |
+| 2 | pass | 100 | 12 | 13.3 | 6 | 6 | [run](https://argusic.com/run/53197d97-35d3-42ea-888d-8d6044e95511) |
 
 ## What was observed on a clean machine
 
@@ -33,5 +34,14 @@ Attempt 1:
 - 1 min: `auth.http.add renamed to auth.request.mount`
 - 2 min: `Auth client API changed: .state/.onChange replaced with getSnapshot()/subscribe()`
 - `3 pre-existing TS errors in convex/files.ts (convex-fs@0.2.0 types incompat with convex@1.47.0)`
+
+Attempt 2:
+
+- 3 min: `Node.js 18.19.1 system install incompatible with Vite 7 (needs Node 20+)`
+- 2 min: `@robelest/samlify@0.0.1-preview.2 removed from npm registry`
+- 5 min: `@robelest/convex-auth API changed: createAuth -> defineAuth, auth.http.add -> auth.request.mount, component API public.* removed`
+- 1 min: `Missing @opentelemetry/api dependency`
+- 1 min: `WORKOS_CLIENT_ID env var missing for legacy auth.config.ts`
+- `10 tsc type errors remain (convex-fs type incompatibility with newer convex, minor authAdmin/core compat)`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

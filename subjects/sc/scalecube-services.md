@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/scalecube-services
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 10.8 to 10.8 minutes
+- Valid runs: 2; wall time 10.8 to 20.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/scalecube-services
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 10.1 | 10.8 | 1 | 0 | [run](https://argusic.com/run/29e0a387-8c84-4774-b5f0-5566c7a4cc85) |
+| 2 | pass | 80 | 19 | 20.2 | 1 | 0 | [run](https://argusic.com/run/451e1ca1-aeb1-47ab-8a65-bc13392e8e7a) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 0.5 min: `services-security: ServiceTokenTests fails because Docker socket unavailable (Testcontainers Vault container)`
+
+Attempt 2:
+
+- `ServiceTokenTests requires Docker to run Vault container via Testcontainers`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

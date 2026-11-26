@@ -4,7 +4,7 @@
 
 Project: https://github.com/Giammarco-Ferranti/deja, licensed MIT, written in Go.
 
-Evidence and recordings: https://argusic.com/subject/deja
+Evidence and recordings: https://argusic.com/run/570a14a8-27e5-4870-854f-60c17ea103ae
 
 ## Pinned environment
 

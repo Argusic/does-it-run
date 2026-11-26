@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jump
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 35.4 to 35.4 minutes
+- Valid runs: 2; wall time 2.5 to 35.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jump
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 35 | 35.4 | 4 | 4 | [run](https://argusic.com/run/a008bf60-44e3-4a84-a823-4f2a00df073d) |
+| 2 | pass | 100 | 5 | 2.5 | 4 | 4 | [run](https://argusic.com/run/c6ec0e32-c2fc-4972-8f51-1b75bfbdb8bc) |
 
 ## What was observed on a clean machine
 
@@ -30,5 +31,12 @@ Attempt 1:
 - 12 min: `PHP 8.3 E_DEPRECATED from phlak/config and dynamic-property warnings corrupted raw HTTP bodies on direct output`
 - 8 min: `Background server processes were reaped between tool invocations in this sandbox`
 - 5 min: `/api/status requires a Nette CSRF session cookie matching the URL token`
+
+Attempt 2:
+
+- 1 min: `No PHP binary pre-installed`
+- 0.5 min: `No composer binary pre-installed`
+- 0.5 min: `Deprecation warnings from phlak/config library on PHP 8.2`
+- 1 min: `PHP built-in server outputs to stderr before script runs causing session header warnings`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

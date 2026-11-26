@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/codify
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.9 to 7.9 minutes
+- Valid runs: 2; wall time 6.7 to 7.9 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/codify
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 12 | 7.9 | 2 | 2 | [run](https://argusic.com/run/f944ce9d-a749-4ed7-a125-8a2e2e66f671) |
+| 2 | pass | 100 | 2 | 6.7 | 2 | 2 | [run](https://argusic.com/run/7f152dcc-2552-4507-a51b-c6771f3413a4) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,10 @@ Attempt 1:
 
 - 3 min: `libsqlite3-dev package not installed (only libsqlite3-0 runtime present)`
 - 1 min: `sqlite3 CLI binary not in PATH, causing 2 integration test failures`
+
+Attempt 2:
+
+- 1 min: `libsqlite3-dev not installed , missing sqlite3.h header`
+- 1 min: `sqlite3 CLI binary not installed , 2 integration tests required it for direct DB queries`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

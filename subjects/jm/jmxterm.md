@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/jmxterm
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 2.1 to 2.1 minutes
+- Valid runs: 2; wall time 2.1 to 3.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/jmxterm
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 3 | 2.1 | 1 | 1 | [run](https://argusic.com/run/c99773a3-b0e1-45a3-b0a3-de82d2a0d200) |
+| 2 | pass | 100 | 2 | 3.3 | 0 | 0 | [run](https://argusic.com/run/b1c9548d-ca1b-4c03-b052-35c5bd47a23c) |
 
 ## What was observed on a clean machine
 

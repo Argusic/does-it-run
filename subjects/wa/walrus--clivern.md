@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/run/645e8dac-2dfb-482c-87e1-bb31eb3
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 5.8 to 5.8 minutes
+- Valid runs: 2; wall time 5.8 to 6.4 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,18 @@ Evidence and recordings: https://argusic.com/run/645e8dac-2dfb-482c-87e1-bb31eb3
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 2 | 5.8 | 1 | 1 | [run](https://argusic.com/run/645e8dac-2dfb-482c-87e1-bb31eb3cbef0) |
+| 2 | pass | 100 | 8 | 6.4 | 3 | 3 | [run](https://argusic.com/run/8e0e49c3-f0b0-44f5-a017-1b596db0deb9) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 1 min: `Go (golang) compiler not installed in container`
+
+Attempt 2:
+
+- 1 min: `Go 1.20 not installed in container`
+- 1 min: `etcd v3.5.4 not installed`
+- 3 min: `Background processes (etcd, walrus) killed when parent shell exited`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/facadecode
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 31.8 to 31.8 minutes
+- Valid runs: 2; wall time 5.7 to 31.8 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/facadecode
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 3 | 31.8 | 3 | 3 | [run](https://argusic.com/run/26c8474c-88b7-4ba4-bac7-4fbd2189abe3) |
+| 2 | pass with mocks | 92 | 5 | 5.7 | 0 | 0 | [run](https://argusic.com/run/cf3749f3-82a6-4383-854c-0bfc777dff7f) |
 
 ## What was observed on a clean machine
 

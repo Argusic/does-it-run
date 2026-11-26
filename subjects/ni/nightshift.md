@@ -12,8 +12,8 @@ Evidence and recordings: https://argusic.com/subject/nightshift
 - Test commit: `8eb6fc1ef0ea598cf1a89196d6cdd90bdcbac06f`
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
-- Test depth: real run
-- Valid runs: 1; wall time 35.6 to 35.6 minutes
+- Test depth: real run, no run possible
+- Valid runs: 2; wall time 35.6 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/nightshift
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 80 | 0.15 | 35.6 | 3 | 0 | [run](https://argusic.com/run/2093fc08-c18a-4f94-b118-0d8b031c2f63) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/8d0709c6-1283-4537-8bb4-fa6b09517118) |
 
 ## What was observed on a clean machine
 

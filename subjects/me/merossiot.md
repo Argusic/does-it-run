@@ -1,6 +1,6 @@
 # MerossIot
 
-**Verdict: runs with mocks.** Argusic Score 92 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: runs with mocks.** Argusic Score 82 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/albertogeniola/MerossIot, licensed MIT, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/merossiot
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 19.3 to 19.3 minutes
+- Valid runs: 2; wall time 8.6 to 19.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/merossiot
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 0.25 | 19.3 | 2 | 2 | [run](https://argusic.com/run/bc496ae0-7c39-4a1d-b49d-e2f295a75d16) |
+| 2 | pass with mocks | 72 | 0.5 | 8.6 | 1 | 0 | [run](https://argusic.com/run/ff9078b7-54bd-4827-8766-6a6605933772) |
 
 ## What was observed on a clean machine
 
@@ -28,5 +29,9 @@ Attempt 1:
 
 - `All 24 test files require real Meross cloud credentials and real Meross IoT hardware , MEROSS_EMAIL, MEROSS_PASSWORD, and devices like smart plugs/bulbs must exist on the account`
 - `Tests use AioHTTPTestCase with @unittest_run_loop decorators that are deprecated in aiohttp 3.12+ (63 deprecation warnings)`
+
+Attempt 2:
+
+- 5 min: `test_bad_domain hardcodes iotx-ap.meross.com expecting a BadDomainException, but real API returns HttpApiError without valid credentials; requires account in the right region to trigger redirect`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

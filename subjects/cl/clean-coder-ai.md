@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/clean-coder-ai
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: run with mocked services
-- Valid runs: 1; wall time 3.8 to 3.8 minutes
+- Valid runs: 2; wall time 3.8 to 6.1 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,11 +21,16 @@ Evidence and recordings: https://argusic.com/subject/clean-coder-ai
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass with mocks | 92 | 8 | 3.8 | 1 | 1 | [run](https://argusic.com/run/fdc8d26d-984d-44a0-b965-08c541605b68) |
+| 2 | pass with mocks | 92 | 2 | 6.1 | 1 | 1 | [run](https://argusic.com/run/1c3ecf30-33f1-46ce-bfbf-809d769ffa13) |
 
 ## What was observed on a clean machine
 
 Attempt 1:
 
 - 5 min: `6 unit tests failed due to argument order mismatch: tests called run_script_in_env(script_name, work_dir) but the function signature is run_script_in_env(work_dir, execute_file_name). Also logs_from_running_script mock assertions had wrong`
+
+Attempt 2:
+
+- 3 min: `Unit test test_run_script_success and 5 others failed: argument ordering mismatch between tests and run_script_in_env signature. Tests called run_script_in_env(filename, work_dir) but function expects run_script_in_env(work_dir, filename).`
 
 These are observations of what the environment printed, not a statement about the project's quality. Full logs and the terminal recording of each run are on the run pages above.

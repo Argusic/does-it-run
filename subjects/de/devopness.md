@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/devopness
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 4.3 to 4.3 minutes
+- Valid runs: 2; wall time 2.1 to 4.3 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/devopness
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 11 | 4.3 | 3 | 3 | [run](https://argusic.com/run/b716b6ce-e7c6-44e7-8213-b40002ee0d42) |
+| 2 | pass | 100 | 0.25 | 2.1 | 0 | 0 | [run](https://argusic.com/run/e6a2812d-4f22-42a1-9e8d-8ccd497f1123) |
 
 ## What was observed on a clean machine
 

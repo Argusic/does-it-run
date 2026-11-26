@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/purrcrypt
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: real run
-- Valid runs: 1; wall time 7.2 to 7.2 minutes
+- Valid runs: 2; wall time 2.3 to 7.2 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/purrcrypt
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | pass | 100 | 7 | 7.2 | 1 | 1 | [run](https://argusic.com/run/77fddc2c-af6e-44d3-ae87-8ad232f0a2b9) |
+| 2 | pass | 100 | 0.48 | 2.3 | 0 | 0 | [run](https://argusic.com/run/cf4ed26c-619b-4d31-8a1c-dfa4d659fb12) |
 
 ## What was observed on a clean machine
 
