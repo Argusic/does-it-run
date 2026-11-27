@@ -4,7 +4,7 @@
 
 Project: https://github.com/neondatabase/electric-pglite, licensed Apache-2.0, written in TypeScript.
 
-Evidence and recordings: https://argusic.com/subject/electric-pglite
+Evidence and recordings: https://argusic.com/run/ee887458-e71a-4a06-925b-191ae4e51998
 
 ## Pinned environment
 

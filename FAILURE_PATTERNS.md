@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 15892 observed error lines in 7172 valid runs of 3910 tested subjects (generated 2026-11-26).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 16063 observed error lines in 7234 valid runs of 3966 tested subjects (generated 2026-11-27).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 17 | 0.1% | 15 |
-| Permission denied | 143 | 0.9% | 129 |
-| Missing system library or header | 808 | 5.1% | 426 |
-| Tool, runtime or component not installed | 2669 | 16.8% | 1653 |
-| Version mismatch | 1644 | 10.3% | 1139 |
+| Permission denied | 145 | 0.9% | 131 |
+| Missing system library or header | 818 | 5.1% | 433 |
+| Tool, runtime or component not installed | 2692 | 16.8% | 1673 |
+| Version mismatch | 1669 | 10.4% | 1158 |
 | Missing configuration or secret | 322 | 2.0% | 272 |
-| Source or download problem | 189 | 1.2% | 159 |
-| Network, timeout or service unreachable | 330 | 2.1% | 285 |
-| Dependency install or resolution failed | 1894 | 11.9% | 1254 |
-| Build or compile step failed | 655 | 4.1% | 514 |
-| The project's own tests failed | 1816 | 11.4% | 1026 |
-| Expected file or data not present | 245 | 1.5% | 222 |
-| Error inside the project's code | 188 | 1.2% | 159 |
-| Other | 4972 | 31.3% | 2167 |
+| Source or download problem | 195 | 1.2% | 164 |
+| Network, timeout or service unreachable | 332 | 2.1% | 287 |
+| Dependency install or resolution failed | 1910 | 11.9% | 1266 |
+| Build or compile step failed | 666 | 4.1% | 524 |
+| The project's own tests failed | 1837 | 11.4% | 1042 |
+| Expected file or data not present | 247 | 1.5% | 224 |
+| Error inside the project's code | 189 | 1.2% | 160 |
+| Other | 5024 | 31.3% | 2191 |
 
 ## Port already in use
 
@@ -59,7 +59,7 @@ Example runs:
 
 - 0ad, attempt 1: https://argusic.com/run/7c49b658-925d-4dc5-9752-5ad0a54e9d0b
 - 10x, attempt 1: https://argusic.com/run/b1dd685d-6833-46e9-a645-306bfa854f57
-- 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645
+- 33-js-concepts, attempt 1: https://argusic.com/run/e48e2ac6-2954-4ee0-8727-737d86014160
 
 ## Version mismatch
 
@@ -69,7 +69,7 @@ Example runs:
 
 - 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
 - 2fa, attempt 1: https://argusic.com/run/db3afea5-6210-4ddd-8230-a4cab1f62053
-- 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645
+- 33-js-concepts, attempt 1: https://argusic.com/run/e48e2ac6-2954-4ee0-8727-737d86014160
 
 ## Missing configuration or secret
 
@@ -127,9 +127,9 @@ The project's test suite stopped with failures on the clean machine.
 
 Example runs:
 
+- 33-js-concepts, attempt 1: https://argusic.com/run/e48e2ac6-2954-4ee0-8727-737d86014160
 - 4gaBoards, attempt 2: https://argusic.com/run/af7261ef-5680-4df7-ab4a-e9415ed44763
 - 500-AI-Agents-Projects, attempt 1: https://argusic.com/run/230540eb-50de-4c61-ba6a-419e3094649b
-- Acode, attempt 1: https://argusic.com/run/f12291ec-ba07-4e6f-9bd1-af099631ebd1
 
 ## Expected file or data not present
 
@@ -159,4 +159,4 @@ Example runs:
 
 - 0ad, attempt 2: https://argusic.com/run/19c34cdc-acd7-4d8f-ba3a-b6f02169729a
 - 1JPM, attempt 1: https://argusic.com/run/def113cd-8d61-4ecc-aeec-a9e8b915b0fa
-- 4gaBoards, attempt 1: https://argusic.com/run/0a378b5b-de92-4e0a-b039-d56d6bd9e645
+- 33-js-concepts, attempt 1: https://argusic.com/run/e48e2ac6-2954-4ee0-8727-737d86014160

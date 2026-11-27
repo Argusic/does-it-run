@@ -2,7 +2,7 @@
 
 **Verdict: runs.** Argusic Score 96 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/erkamyaman/rust-anything, licensed MIT, written in Rust.
+Project: https://github.com/erkamyaman/rust-anything, licensed Apache-2.0, written in Rust.
 
 Evidence and recordings: https://argusic.com/subject/rust-anything
 

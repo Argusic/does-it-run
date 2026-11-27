@@ -4,7 +4,7 @@
 
 Project: https://github.com/bradygaster/squad, licensed MIT.
 
-Evidence and recordings: https://argusic.com/subject/squad
+Evidence and recordings: https://argusic.com/run/58d4564c-2b81-4151-956d-8b30e67468cd
 
 ## Pinned environment
 
