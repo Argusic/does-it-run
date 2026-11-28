@@ -1,25 +1,25 @@
 # Failure patterns
 
-What the clean machine printed when a project was installed and run, grouped by kind. Computed from 16063 observed error lines in 7234 valid runs of 3966 tested subjects (generated 2026-11-27).
+What the clean machine printed when a project was installed and run, grouped by kind. Computed from 16249 observed error lines in 7318 valid runs of 4033 tested subjects (generated 2026-11-28).
 
 A line is placed in the first group below whose rule it matches, in the order shown; anything else is "Other". The percentages are shares of all observed error lines.
 
 | Pattern | Error lines | Share | Subjects affected |
 |---|---|---|---|
 | Port already in use | 17 | 0.1% | 15 |
-| Permission denied | 145 | 0.9% | 131 |
-| Missing system library or header | 818 | 5.1% | 433 |
-| Tool, runtime or component not installed | 2692 | 16.8% | 1673 |
-| Version mismatch | 1669 | 10.4% | 1158 |
-| Missing configuration or secret | 322 | 2.0% | 272 |
-| Source or download problem | 195 | 1.2% | 164 |
-| Network, timeout or service unreachable | 332 | 2.1% | 287 |
-| Dependency install or resolution failed | 1910 | 11.9% | 1266 |
-| Build or compile step failed | 666 | 4.1% | 524 |
-| The project's own tests failed | 1837 | 11.4% | 1042 |
-| Expected file or data not present | 247 | 1.5% | 224 |
+| Permission denied | 150 | 0.9% | 136 |
+| Missing system library or header | 834 | 5.1% | 440 |
+| Tool, runtime or component not installed | 2723 | 16.8% | 1694 |
+| Version mismatch | 1681 | 10.3% | 1169 |
+| Missing configuration or secret | 327 | 2.0% | 277 |
+| Source or download problem | 199 | 1.2% | 167 |
+| Network, timeout or service unreachable | 336 | 2.1% | 290 |
+| Dependency install or resolution failed | 1927 | 11.9% | 1278 |
+| Build or compile step failed | 673 | 4.1% | 531 |
+| The project's own tests failed | 1862 | 11.5% | 1059 |
+| Expected file or data not present | 256 | 1.6% | 232 |
 | Error inside the project's code | 189 | 1.2% | 160 |
-| Other | 5024 | 31.3% | 2191 |
+| Other | 5075 | 31.2% | 2220 |
 
 ## Port already in use
 

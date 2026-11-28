@@ -4,7 +4,7 @@
 
 Project: https://github.com/ImFeH2/fora, licensed Apache-2.0, written in Python.
 
-Evidence and recordings: https://argusic.com/subject/fora
+Evidence and recordings: https://argusic.com/run/a470c65a-d0d6-43e1-b365-8a3881d70a24
 
 ## Pinned environment
 

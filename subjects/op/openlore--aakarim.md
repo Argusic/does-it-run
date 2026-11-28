@@ -4,7 +4,7 @@
 
 Project: https://github.com/aakarim/OpenLore, licensed Apache-2.0, written in Go.
 
-Evidence and recordings: https://argusic.com/subject/openlore
+Evidence and recordings: https://argusic.com/run/36e392ac-8970-4f66-944f-86bfd248d32f
 
 ## Pinned environment
 

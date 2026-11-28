@@ -1,6 +1,6 @@
 # iai-personal-memory-engine
 
-**Verdict: not yet verified.** Argusic Score 20 of 100 (the mean of the recorded run scores; a timeout is not scored).
+**Verdict: could not verify.** Argusic Score 20 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
 Project: https://github.com/CodeAbra/iai-personal-memory-engine, licensed MIT, written in Python.
 
@@ -13,7 +13,7 @@ Evidence and recordings: https://argusic.com/subject/iai-personal-memory-engine
 - Worker image digest: `sha256:cdd920bce7839e4d5ee566bccfa91f8cd7e91a1ae507c6cbe94dffde7808dd1c`
 - Worker type: cpu
 - Test depth: no run possible
-- Valid runs: 1; wall time 9 to 9 minutes
+- Valid runs: 2; wall time 9 to 87 minutes
 - Methodology: version 1.4, https://argusic.com/methodology
 
 ## Runs
@@ -21,6 +21,7 @@ Evidence and recordings: https://argusic.com/subject/iai-personal-memory-engine
 | Attempt | Status | Score | Install (min) | Wall (min) | Errors observed | Errors resolved | Run page |
 |---|---|---|---|---|---|---|---|
 | 1 | fail | 20 | n/a | 9 | 0 | 0 | [run](https://argusic.com/run/01de705a-fa26-4dc8-a959-204c3a365786) |
+| 2 | timeout | none | n/a | 87 | 0 | 0 | [run](https://argusic.com/run/f3d674c0-e561-4dcb-890f-06a274286fe1) |
 
 ## What was observed on a clean machine
 

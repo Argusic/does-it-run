@@ -2,7 +2,7 @@
 
 **Verdict: runs with mocks.** Argusic Score 87 of 100 (the mean of the recorded run scores; a timeout is not scored).
 
-Project: https://github.com/HiThink-Tech/Financial-API, licensed MIT, written in TypeScript.
+Project: https://github.com/HiThink-Tech/Financial-API, licensed MIT, written in HTML.
 
 Evidence and recordings: https://argusic.com/run/6a86130f-c3c3-402e-894d-40280615c41a
 

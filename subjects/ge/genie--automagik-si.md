@@ -4,7 +4,7 @@
 
 Project: https://github.com/automagik-si/genie, licensed Apache-2.0, written in TypeScript.
 
-Evidence and recordings: https://argusic.com/subject/genie
+Evidence and recordings: https://argusic.com/run/46ae8659-f692-4630-ab12-d8cf21762f8d
 
 ## Pinned environment
 
